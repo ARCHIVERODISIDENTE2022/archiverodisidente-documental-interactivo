@@ -1,0 +1,98 @@
+{
+    "Turquesa":{
+        "participante": "Turquesa",
+        "ubicacion": {
+                "Region": "IV",
+                "Comuna": "Illapel, provincia ",
+                "Territorio": "Provincia del Choapa",
+                "Pais":"Chile"
+            },
+        "id": 0,
+        "mainImg": "https://www.thetrevorproject.org/wp-content/uploads/2021/11/TTP_YouthPortrait_YellowBackdrop_Elijah.jpg",
+        "categoria": {
+            "Familia":{
+                "imgObjeto": "link",
+                "videoObjeto":"link",
+                "cita1":"Abcde fghi jkl mn op qr",
+                "cita2":"Abcde fghi jkl mn op qr"
+            },
+            "Amor":{
+                "imgObjeto": "link",
+                "videoObjeto":"link",
+                "cita1":"Abcde fghi jkl mn op qr",
+                "cita2":"Abcde fghi jkl mn op qr"
+            },
+            "Cuerpo":{
+                "imgObjeto": "link",
+                "videoObjeto":"link",
+                "cita1":"Abcde fghi jkl mn op qr",
+                "cita2":"Abcde fghi jkl mn op qr"
+            },
+            "Miedo":{
+                "imgObjeto": "link",
+                "videoObjeto":"link",
+                "cita1":"Abcde fghi jkl mn op qr",
+                "cita2":"Abcde fghi jkl mn op qr"
+            },
+            "Actosentido":{
+                "imgObjeto": "link",
+                "videoObjeto":"link",
+                "cita1":"Abcde fghi jkl mn op qr",
+                "cita2":"Abcde fghi jkl mn op qr"
+            },
+            "Libertad":{
+                "imgObjeto": "link",
+                "videoObjeto":"link",
+                "cita1":"Abcde fghi jkl mn op qr",
+                "cita2":"Abcde fghi jkl mn op qr"
+            }
+        }
+    },
+    "participante": "Katherine",
+    "ubicacion": {
+        "Region": "V",
+        "Comuna": "Quillota",
+        "Territorio": "",
+        "Pais":"Chile" 
+    },
+        "id": 1,
+        "mainImg": "https://www.thetrevorproject.org/wp-content/uploads/2021/11/TTP_YouthPortrait_YellowBackdrop_Elijah.jpg",
+        "categoria": {
+            "familia":{
+                "imgObjeto": "link",
+                "videoObjeto":"link",
+                "cita1":"Abcde fghi jkl mn op qr",
+                "cita2":"Abcde fghi jkl mn op qr"
+            },
+            "amor":{
+                "imgObjeto": "link",
+                "videoObjeto":"link",
+                "cita1":"Abcde fghi jkl mn op qr",
+                "cita2":"Abcde fghi jkl mn op qr"
+            },
+            "cuerpo":{
+                "imgObjeto": "link",
+                "videoObjeto":"link",
+                "cita1":"Abcde fghi jkl mn op qr",
+                "cita2":"Abcde fghi jkl mn op qr"
+            },
+            "miedo":{
+                "imgObjeto": "link",
+                "videoObjeto":"link",
+                "cita1":"Abcde fghi jkl mn op qr",
+                "cita2":"Abcde fghi jkl mn op qr"
+            },
+            "actosentido":{
+                "imgObjeto": "link",
+                "videoObjeto":"link",
+                "cita1":"Abcde fghi jkl mn op qr",
+                "cita2":"Abcde fghi jkl mn op qr"
+            },
+            "libertad":{
+                "imgObjeto": "link",
+                "videoObjeto":"link",
+                "cita1":"Abcde fghi jkl mn op qr",
+                "cita2":"Abcde fghi jkl mn op qr"
+            }
+        }
+}
