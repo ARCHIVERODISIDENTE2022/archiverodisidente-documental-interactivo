@@ -5,32 +5,44 @@
   padding: 0;
   font-family: "Roboto Mono", monospace;
 }
+
 .whiteView {
   display: flex;
   flex-direction: column;
-  width: auto;
-  height: 1300px;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0;
 }
 
 .archiveroicono {
-  width: 864px;
-  height: 486px;
+  width: 20%;
+  height: 25%;
 }
 
 
 .blackView {
   display: flex;
   flex-direction: column;
-  width: auto;
-  height: 1300px;
+  width: 100vw;
+  height: 100vh;
   background-color: black;
   color: white;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0;
 }
 
 
-.arrow, .arrowwhite {
+.arrow,
+.arrowwhite {
+  display: flex;
   width: 50px;
   height: 50px;
+  position: absolute;
+  padding-top: 10%;
+  right: 2%;
 }
 
 /* .arrow:before {
@@ -59,4 +71,6 @@
   /* .arrow:before {
     width: 80px;
   } */
-} */
+}
+
+*/
