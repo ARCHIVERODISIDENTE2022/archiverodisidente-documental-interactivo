@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Cleytonleiva/Archivero/issues"
   },
-  "homepage": "https://github.com/Cleytonleiva/Archivero#readme"
+  "homepage": "https://github.com/Cleytonleiva/Archivero#readme",
+  "dependencies": {
+    "react-router-dom": "^6.4.4"
+  }
 }

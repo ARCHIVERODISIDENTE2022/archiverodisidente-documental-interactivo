@@ -16,7 +16,7 @@ const vistaCategorias = () => {
         </footer>
     </main>`;
     const vistaCategoriasContainer = document.createElement('div');
-    vistaCategoriasContainer.className = '-container';
+    vistaCategoriasContainer.className = 'container';
     vistaCategoriasContainer.innerHTML = templateVistaCategorias;
 }
 
