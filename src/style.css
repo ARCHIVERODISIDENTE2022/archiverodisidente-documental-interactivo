@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+
+.whiteView {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.archiveroicono {
+  width: 20%;
+  height: 25%;
+}
+
+
+.blackView {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0;
+}
+
+.arrow-first {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  padding-top: 10%;
+  right: 2%;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 0;
+  align-items: flex-end;
+}
+
+.arrow,
+.arrowwhite {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  padding-top: 15%;
+  right: 2%;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 0;
+  align-items: flex-end;
+}
+
+.arrowwhite {
+  color: white;
+}
+
+.arrowwhite2 {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  padding-top: 5%;
+  right: 2%;
+  text-decoration: none;
+  color: white;
+  align-items: flex-end;
+}
+/* .arrow:before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 1px;
+  background-color: #5a5351;
+  top: 50%;
+  transition: width 0.5s ease-out;
+}
+.arrow:after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #5a5351;
+  border-right: 1px solid #5a5351;
+  transform: rotate(45deg);
+  top: calc(50% - 5px);
+  position: absolute;
+  right: 1px;
+}
+.arrow:hover {
+  cursor: pointer;
+  /* .arrow:before {
+    width: 80px;
+  } */
+}
+
+*/
