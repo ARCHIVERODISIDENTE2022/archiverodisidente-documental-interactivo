@@ -1,20 +1,23 @@
 {
-  "name": "archivero",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "test0",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Cleytonleiva/Archivero.git"
+  "dependencies": {
+    "firebase": "^9.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Cleytonleiva/Archivero/issues"
-  },
-  "homepage": "https://github.com/Cleytonleiva/Archivero#readme"
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "vite": "^3.0.7"
+  }
 }
