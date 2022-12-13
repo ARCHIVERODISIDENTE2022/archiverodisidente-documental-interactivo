@@ -1,13 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./routes/Home";
 import VistaCategorias from "./routes/VistaCategorias";
-import VistaParticipantes from "./routes/VistaParticipantes";
+import VistaParticipantes  from "./routes/VistaParticipantes";
 import Categorias from "./routes/Categorias";
-import Participantes from "./routes/Participantes";
 import VistaVideo from "./components/VistaVideo";
 import ActoSentido from "./routes/ActoSentido";
 import Retribucion from "./routes/Retribucion";
-
+import { DataProvider } from "./context/DataProvider";
 
 // https://github.com/SvillarroelZ/test0.git
 // import { useContext } from "react";
@@ -35,7 +34,10 @@ const App = () => {
         <Route
           path="/vistaparticipantes"
           element={
-              <VistaParticipantes />
+                <DataProvider>
+                  < VistaParticipantes /> 
+                </DataProvider>
+                
           }
         ></Route>
 
@@ -43,13 +45,6 @@ const App = () => {
           path="/categorias"
           element={
               <Categorias />
-          }
-        ></Route>
-
-        <Route
-          path="/participantes"
-          element={
-              <Participantes />
           }
         ></Route>
 
