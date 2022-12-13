@@ -1,15 +1,28 @@
-import { Link } from "react-router-dom";
+import {React, useContext, useEffect, useState} from "react";
+import { ListaParticipantes } from "../components/ListaParticipantes";
+import { contextParticipantes } from "../context/DataProvider";
 
 const VistaParticipantes = () => {
+    const context = useContext(contextParticipantes);
+    const [participante, setParticipante] = useState([]);
 
-    return (
+    useEffect( () => {
+        const loadData = async () => {
+            setParticipante(true);
+            const result = await context.participantesData();
+            setParticipante(result.data);
+            console.log(response.data)
+    
+            loadData()
+        }
+    }, []);
+
+
+    return(
         <>
-            <div>
-                <h1>participantes</h1>
-                <Link to="/participantes"> Participantes </Link>
-            </div>
+                <ListaParticipantes participante = {participante} />
         </>
     )
-}
+};
 
 export default VistaParticipantes
