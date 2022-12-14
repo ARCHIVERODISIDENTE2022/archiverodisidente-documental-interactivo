@@ -6,28 +6,24 @@ import Categorias from "./routes/Categorias";
 import VistaVideo from "./components/VistaVideo";
 import ActoSentido from "./routes/ActoSentido";
 import Retribucion from "./routes/Retribucion";
-import { DataProvider } from "./context/DataProvider";
-
-// https://github.com/SvillarroelZ/test0.git
-// import { useContext } from "react";
-// import { UserContext } from "./context/UserProvider";
+import { DataProvider } from "./context/DataProvider";import Creditos from "./routes/Creditos";
 
 const App = () => {
 
   return (
     <>
       <Routes>
-        <Route 
-          path="/" 
+        <Route
+          path="/"
           element={
             <Home />
-            }
+          }
         ></Route>
 
         <Route
           path="/vistacategorias"
           element={
-              <VistaCategorias />
+            <VistaCategorias />
           }
         ></Route>
 
@@ -35,7 +31,7 @@ const App = () => {
           path="/vistaparticipantes"
           element={
                 <DataProvider>
-                  < VistaParticipantes /> 
+                < VistaParticipantes /> 
                 </DataProvider>
                 
           }
@@ -44,31 +40,44 @@ const App = () => {
         <Route
           path="/categorias"
           element={
-              <Categorias />
+            <Categorias />
+          }
+        ></Route>
+
+        <Route
+          path="/participantes"
+          element={
+            <Participantes />
           }
         ></Route>
 
         <Route
           path="/vistavideo"
           element={
-              <VistaVideo />
+            <VistaVideo />
           }
         ></Route>
 
         <Route
           path="/actosentido"
           element={
-              <ActoSentido />
+            <ActoSentido />
           }
         ></Route>
 
         <Route
           path="/retribucion"
           element={
-              <Retribucion />
+            <Retribucion />
           }
         ></Route>
 
+        <Route
+          path="/creditos"
+          element={
+            <Creditos />
+          }
+        ></Route>
 
       </Routes>
     </>
