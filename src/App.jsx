@@ -1,13 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./routes/Home";
 import VistaCategorias from "./routes/VistaCategorias";
-import VistaParticipantes from "./routes/VistaParticipantes";
+import VistaParticipantes  from "./routes/VistaParticipantes";
 import Categorias from "./routes/Categorias";
-import Participantes from "./routes/Participantes";
 import VistaVideo from "./components/VistaVideo";
 import ActoSentido from "./routes/ActoSentido";
 import Retribucion from "./routes/Retribucion";
-import Creditos from "./routes/Creditos";
+import { DataProvider } from "./context/DataProvider";import Creditos from "./routes/Creditos";
 
 const App = () => {
 
@@ -31,7 +30,10 @@ const App = () => {
         <Route
           path="/vistaparticipantes"
           element={
-            <VistaParticipantes />
+                <DataProvider>
+                < VistaParticipantes /> 
+                </DataProvider>
+                
           }
         ></Route>
 
