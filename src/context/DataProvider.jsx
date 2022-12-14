@@ -21,4 +21,3 @@ const contextParticipantes = createContext();
 
 export {contextParticipantes, DataProvider}
 
-
