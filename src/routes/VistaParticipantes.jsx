@@ -1,11 +1,12 @@
 import { React, useContext, useEffect, useState } from "react";
 import { ListaParticipantes } from "../components/ListaParticipantes";
+//import { contextParticipantes } from "../context/DataProvider";
 import axios from "axios";
 
 const url =
   "https://raw.githubusercontent.com/Cleytonleiva/archiverodata/main/archiveroMock.json";
 
-const VistaParticipantes = () => {
+export const VistaParticipantes = () => {
   //const context = useContext(contextParticipantes);
   const [participantes, setParticipantes] = useState(null);
 
@@ -35,7 +36,6 @@ const VistaParticipantes = () => {
   );
 };
 
-export default VistaParticipantes;
 // import { Link } from "react-router-dom";
 // import Footer from "../components/Footer";
 
