@@ -1,28 +1,38 @@
-import {React, useContext, useEffect, useState} from "react";
+import { React, useContext, useEffect, useState } from "react";
 import { ListaParticipantes } from "../components/ListaParticipantes";
-import { contextParticipantes } from "../context/DataProvider";
+import axios from "axios";
+
+const url =
+  "https://raw.githubusercontent.com/Cleytonleiva/archiverodata/main/archiveroMock.json";
 
 const VistaParticipantes = () => {
-    const context = useContext(contextParticipantes);
-    const [participante, setParticipante] = useState([]);
+  //const context = useContext(contextParticipantes);
+  const [participantes, setParticipantes] = useState(null);
 
-    useEffect( () => {
-        const loadData = async () => {
-            setParticipante(true);
-            const result = await context.participantesData();
-            setParticipante(result.data);
-            console.log(response.data)
-    
-            loadData()
-        }
-    }, []);
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const response = await axios.get(url);
+        setParticipantes(response.data.participantes);
+      } catch (error) {
+        // Manejar el error acá
+      }
+    }
 
+    fetchData();
+  }, []);
 
-    return(
-        <>
-                <ListaParticipantes participante = {participante} />
-        </>
-    )
+  if (participantes === null) {
+    return <div>Cargando...</div>;
+  }
+
+  return (
+    <div>
+      {participantes.map((participante) => {
+        return <ListaParticipantes participante={participante} />;
+      })}
+    </div>
+  );
 };
 
-export default VistaParticipantes
+export default VistaParticipantes;

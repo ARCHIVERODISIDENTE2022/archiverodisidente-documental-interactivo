@@ -34,9 +34,9 @@ const App = () => {
         <Route
           path="/vistaparticipantes"
           element={
-                <DataProvider>
+                
                   < VistaParticipantes /> 
-                </DataProvider>
+                
                 
           }
         ></Route>
