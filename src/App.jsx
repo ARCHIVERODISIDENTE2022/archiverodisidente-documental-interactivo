@@ -7,73 +7,75 @@ import Participantes from "./routes/Participantes";
 import VistaVideo from "./components/VistaVideo";
 import ActoSentido from "./routes/ActoSentido";
 import Retribucion from "./routes/Retribucion";
-
-
-// https://github.com/SvillarroelZ/test0.git
-// import { useContext } from "react";
-// import { UserContext } from "./context/UserProvider";
+import Creditos from "./routes/Creditos";
 
 const App = () => {
 
   return (
     <>
       <Routes>
-        <Route 
-          path="/" 
+        <Route
+          path="/"
           element={
             <Home />
-            }
+          }
         ></Route>
 
         <Route
           path="/vistacategorias"
           element={
-              <VistaCategorias />
+            <VistaCategorias />
           }
         ></Route>
 
         <Route
           path="/vistaparticipantes"
           element={
-              <VistaParticipantes />
+            <VistaParticipantes />
           }
         ></Route>
 
         <Route
           path="/categorias"
           element={
-              <Categorias />
+            <Categorias />
           }
         ></Route>
 
         <Route
           path="/participantes"
           element={
-              <Participantes />
+            <Participantes />
           }
         ></Route>
 
         <Route
           path="/vistavideo"
           element={
-              <VistaVideo />
+            <VistaVideo />
           }
         ></Route>
 
         <Route
           path="/actosentido"
           element={
-              <ActoSentido />
+            <ActoSentido />
           }
         ></Route>
 
         <Route
           path="/retribucion"
           element={
-              <Retribucion />
+            <Retribucion />
           }
         ></Route>
 
+        <Route
+          path="/creditos"
+          element={
+            <Creditos />
+          }
+        ></Route>
 
       </Routes>
     </>
