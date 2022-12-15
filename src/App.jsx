@@ -7,6 +7,7 @@ import VistaVideo from "./components/VistaVideo";
 import ActoSentido from "./routes/ActoSentido";
 import Retribucion from "./routes/Retribucion";
 import Creditos from "./routes/Creditos";
+import VistaPersona from "./routes/VistaPersona";
 
 const App = () => {
   return (
@@ -21,9 +22,11 @@ const App = () => {
           element={<VistaParticipantes />}
         ></Route>
 
-        <Route path="/categorias" element={<Categorias />}></Route>
+        <Route 
+        path="/categorias" element={<Categorias />}></Route>
 
-        {/* <Route path="/participantes" element={<Participantes />}></Route> */}
+        <Route 
+        path="/vistapersona" element={<VistaPersona />}></Route>
 
         <Route path="/vistavideo" element={<VistaVideo />}></Route>
 

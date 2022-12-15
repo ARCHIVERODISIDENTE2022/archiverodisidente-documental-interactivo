@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const ListaParticipantes = ({ participante }) => {
   return (
     <div>
-      <h1>participante {participante.nombreParticipante} </h1>
+      <Link to="/vistapersona">  
+      <img className="border-black border-4 border-solid m-2" src={participante.mainImg}/> </Link>
     </div>
   );
 };
