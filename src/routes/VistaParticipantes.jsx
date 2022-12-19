@@ -1,6 +1,5 @@
 import { React, useEffect, useState } from "react";
 import { ListaParticipantes } from "../components/ListaParticipantes";
-//import { contextParticipantes } from "../context/DataProvider";
 import axios from "axios";
 import Footer from "../components/Footer";
 
