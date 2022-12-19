@@ -1,25 +1,27 @@
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
+import "./VistaCategorias.css"
 
 const VistaCategorias = () => {
 
   return (
     <>
-    <a className="flex flex-row-reverse	" href="#choice">
+    <div className="containerVistaCategoria">
+    <a className="backArrow" href="#choice">
           <i className="flex  fa-solid fa-left-long fa-2x "></i>
         </a>
-      <div className="flex flex-col w-auto h-screen justify-center content-center mx-5 py-5 ">
         
-        <h1 className="font-black text-center text-5xl">CATEGORÍAS</h1>
-        <Link to="/vistavideo" className='flex justify-center mx-12 my-2 py-1 border-black border-4 border-solid text-2xl font-black'>FAMILIA</Link>
-        <Link to="/vistavideo" className='flex justify-center mx-12 my-2 py-1 border-black border-4 border-solid text-2xl font-black'>MIEDO</Link>
-        <Link to="/vistavideo" className='flex justify-center mx-12 my-2 py-1 border-black border-4 border-solid text-2xl font-black'>AMOR</Link>
-        <Link to="/vistavideo" className='flex justify-center mx-12 my-2 py-1 border-black border-4 border-solid text-2xl font-black'>ACTOSENTIDO</Link>
-        <Link to="/vistavideo" className='flex justify-center mx-12 my-2 py-1 border-black border-4 border-solid text-2xl font-black'>CUERPO</Link>
-        <Link to="/vistavideo" className='flex justify-center mx-12 my-2 py-1 border-black border-4 border-solid text-2xl font-black'>LIBERTAD</Link>
+        <h1 className="titleCategoria">CATEGORÍAS</h1>
+        <div className="categorias">
+        <Link to="/vistavideo" className='categoria'>FAMILIA</Link>
+        <Link to="/vistavideo" className='categoria'>MIEDO</Link>
+        <Link to="/vistavideo" className='categoria'>AMOR</Link>
+        <Link to="/vistavideo" className='categoria'>ACTOSENTIDO</Link>
+        <Link to="/vistavideo" className='categoria'>CUERPO</Link>
+        <Link to="/vistavideo" className='categoria'>LIBERTAD</Link>
       </div>
       <Footer/>
-
+      </div>
     </>
   );
 };
