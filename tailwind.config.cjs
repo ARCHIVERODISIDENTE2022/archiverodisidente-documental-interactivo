@@ -3,14 +3,14 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     screens: {
-      'sm': '576px',
-      // => @media (min-width: 576px) { ... }
+      'sm': {'min': '640px', 'max': '767px'},
+      // => @media (min-width: 640px and max-width: 767px) { ... }
 
-      'md': '960px',
-      // => @media (min-width: 960px) { ... }
+      'md': {'min': '768px', 'max': '1023px'},
+      // => @media (min-width: 768px and max-width: 1023px) { ... }
 
-      'lg': '1280px',
-      // => @media (min-width: 1440px) { ... }
+      'lg': {'min': '1024px', 'max': ' 1535px'},
+      // => @media (min-width: 1024px and max-width: 1279px) { ... }
     },
     fontFamily: {
         'mono': ['Roboto Mono', 'monospace',],

@@ -4,9 +4,17 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto Mono", monospace;
+  width: 100vw;
+  height: 100vh;
 }
 
-.whiteView {
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+/* .whiteView {
   display: flex;
   flex-direction: column;
   width: auto;
@@ -38,8 +46,7 @@
   width: 50px;
   height: 50px;
   position: absolute;
-  padding-top: 10%;
-  right: 2%;
+ 
   text-decoration: none;
   color: black;
   margin-bottom: 0;
@@ -74,4 +81,4 @@
   text-decoration: none;
   color: white;
   align-items: flex-end;
-} */
+}  */
