@@ -4,7 +4,7 @@ import axios from "axios";
 import Footer from "../components/Footer";
 
 const url =
-  "https://raw.githubusercontent.com/Cleytonleiva/archiverodata/main/archiveroMock.json";
+  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/Informacion-data-participante/main/archiveroMock.json?token=GHSAT0AAAAAAB3RT5TSAMFWOBI5SNEL2KASY5EN2DA";
 
 export const VistaParticipantes = () => {
   //const context = useContext(contextParticipantes);
