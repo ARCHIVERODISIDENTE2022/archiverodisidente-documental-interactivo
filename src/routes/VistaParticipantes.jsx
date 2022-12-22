@@ -10,6 +10,14 @@ export const VistaParticipantes = () => {
   //const context = useContext(contextParticipantes);
   const [participantes, setParticipantes] = useState(null);
 
+  const random = (a) => {
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  };
+
   useEffect(() => {
     async function fetchData() {
       try {
@@ -34,14 +42,8 @@ export const VistaParticipantes = () => {
         <h1> PARTICIPANTES </h1>
       </div>
       <div className="participantes">
-        {participantes.map((participante) => {
-          return (
-            <>
-              <div>
-                <ListaParticipantes participante={participante} />
-              </div>
-            </>
-          );
+        {random(Array.from(participantes)).map((participantes) => {
+          return <ListaParticipantes participante={participantes} />;
         })}
       </div>
 
@@ -49,6 +51,16 @@ export const VistaParticipantes = () => {
     </div>
   );
 };
+
+// {participantes.map((participante) => {
+//   return (
+//     <>
+//       <div>
+//         <ListaParticipantes participante={participante} />
+//       </div>
+//     </>
+//   );
+// })}
 
 // import { Link } from "react-router-dom";
 // import Footer from "../components/Footer";
