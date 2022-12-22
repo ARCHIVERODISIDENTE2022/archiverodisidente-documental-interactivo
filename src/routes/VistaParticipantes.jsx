@@ -2,6 +2,8 @@ import { React, useEffect, useState } from "react";
 import { ListaParticipantes } from "../components/ListaParticipantes";
 import axios from "axios";
 import Footer from "../components/Footer";
+import "./VistaParticipantes.css"
+import { AiOutlineArrowLeft } from 'react-icons/ai';
 
 const url =
   "https://raw.githubusercontent.com/Cleytonleiva/archiverodata/main/archiveroMock.json";
@@ -36,17 +38,18 @@ export const VistaParticipantes = () => {
   }
 
   return (
-    <div>
-      <a href="#choice" />
+    <div className="vistaParticipantes">
+      <a className="backArrow" href="#choice">
+      <AiOutlineArrowLeft/>
+                    </a>
       <div>
-        <h1> PARTICIPANTES </h1>
+        <h1 className="title"> PARTICIPANTES </h1>
       </div>
       <div className="participantes">
         {random(Array.from(participantes)).map((participantes) => {
           return <ListaParticipantes participante={participantes} />;
         })}
       </div>
-
       <Footer />
     </div>
   );
