@@ -1,9 +1,9 @@
 import { React, useContext, useEffect, useState } from "react";
 import { ListaParticipantes } from "../components/ListaParticipantes";
-//import { contextParticipantes } from "../context/DataProvider";
 import axios from "axios";
 import Footer from "../components/Footer";
 import "./VistaParticipantes.css"
+import { AiOutlineArrowLeft } from 'react-icons/ai';
 
 const url =
     "https://raw.githubusercontent.com/Cleytonleiva/archiverodata/main/archiveroMock.json";
@@ -31,7 +31,7 @@ export const VistaParticipantes = () => {
     return (
         <div className="vistaParticipantes">
                <a className="backArrow" href="#choice">
-                        <i className="fa-solid fa-left-long"></i>
+               <AiOutlineArrowLeft/>
                     </a>
                             <h1 className="title">PARTICIPANTES</h1>
             {participantes.map((participante) => {

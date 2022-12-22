@@ -2,18 +2,19 @@ import { React, useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import axios from "axios";
+import { AiOutlineArrowLeft } from 'react-icons/ai';
 
 const url =
     "https://raw.githubusercontent.com/Cleytonleiva/archiverodata/main/archiveroMock.json";
 
 
-const VistaPersona = () => {
-    const [persona, setPersona] = useState(null);
+const Vistaparticipante = () => {
+    const [participante, setparticipante] = useState(null);
     useEffect(() => {
         async function fetchData() {
             try {
                 const response = await axios.get(url);
-                setPersona(response.data.persona);
+                setparticipante(response.data.participante);
             } catch (error) {
             }
         }
@@ -21,29 +22,29 @@ const VistaPersona = () => {
         fetchData();
     }, []);
 
-    if (persona === null) {
+    if (participante === null) {
         return <div>Cargando...</div>;
     }
 
     return (
         <>
-            <div className="w-auto h-screen scroll-m-0">
+            <div className="personaContainer">
 
-                <div className="flex flex-col w-auto h-screen justify-center content-center mx-5 ">
-                <Link to="/vistaparticipantes" className="flex flex-row-reverse mr-1 lg:mr-3 lg:pr-2">
-                    <i className="flex fa-solid fa-left-long fa-2x"></i>
+                <div className="persona">
+                <Link to="/vistaparticipantes" className="backArrow">
+                    <AiOutlineArrowLeft/>
                 </Link>
-                    <h1 className="font-black text-center text-2xl border-black border-4 border-solid z-10 mx-12 mt-5">{participante.nombreParticipante}</h1>
-                    <img src={participante.mainImg} alt="" className="border-black border-4 border-solid z-50" />
-                    <h2 className="text-center m-2">“CREO EN OTRAS PALABRAS MÁS REGIAS, COMO LA REBELDÍA, EL DESACATO, LA INSURRECCIÓN. ESTAS PALABRAS QUE SIGNIFICAN UN QUIEBRE O UNA GRIETA”</h2>
-                    <div className="grid grid-cols-2">
+                <h2 className="quote">“CREO EN OTRAS PALABRAS MÁS REGIAS, COMO LA REBELDÍA, EL DESACATO, LA INSURRECCIÓN. ESTAS PALABRAS QUE SIGNIFICAN UN QUIEBRE O UNA GRIETA”</h2>
 
-                        <Link to="/vistavideo" className='flex justify-center m-2 py-1 border-black border-4 border-solid text-2xl font-black'>FAMILIA</Link>
-                        <Link to="/vistavideo" className='flex justify-center m-2 py-1 border-black border-4 border-solid text-2xl font-black'>MIEDO</Link>
-                        <Link to="/vistavideo" className='flex justify-center m-2 py-1 border-black border-4 border-solid text-2xl font-black'>AMOR</Link>
-                        <Link to="/vistavideo" className='flex justify-center m-2 py-1 border-black border-4 border-solid text-2xl font-black'>ACTOSENTIDO</Link>
-                        <Link to="/vistavideo" className='flex justify-center m-2 py-1 border-black border-4 border-solid text-2xl font-black'>CUERPO</Link>
-                        <Link to="/vistavideo" className='flex justify-center m-2 py-1 border-black border-4 border-solid text-2xl font-black'>LIBERTAD</Link>
+                    <h1 className="title">{participante.nombreparticipante}</h1>
+                    <img src={participante.mainImg} alt="" className="imgPersona" />
+                    <div className="categorias">
+                        <Link to="/vistavideo" className='categoria'>FAMILIA</Link>
+                        <Link to="/vistavideo" className='categoria'>MIEDO</Link>
+                        <Link to="/vistavideo" className='categoria'>AMOR</Link>
+                        <Link to="/vistavideo" className='categoria'>ACTOSENTIDO</Link>
+                        <Link to="/vistavideo" className='categoria'>CUERPO</Link>
+                        <Link to="/vistavideo" className='categoria'>LIBERTAD</Link>
                     </div>
                 </div>
                 <Footer />
@@ -52,4 +53,4 @@ const VistaPersona = () => {
     )
 };
 
-export default VistaPersona
+export default Vistaparticipante
