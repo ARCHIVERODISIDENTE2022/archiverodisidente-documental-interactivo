@@ -11,6 +11,7 @@ export const ListaParticipantes = ({ participante }) => {
           alt="profileImg"
           // onClick={this.myfunction}
         />
+        <h1>{participante.nombreParticipante}</h1>
       </button>
       {/* <Link to="/vistapersona">  
       <img className="participante" src={participante.mainImg}/> </Link> */}
