@@ -2,11 +2,11 @@ import { React, useEffect, useState } from "react";
 import { ListaParticipantes } from "../components/ListaParticipantes";
 import axios from "axios";
 import Footer from "../components/Footer";
-import "./VistaParticipantes.css"
-import { AiOutlineArrowLeft } from 'react-icons/ai';
+import "./VistaParticipantes.css";
+import { AiOutlineArrowLeft } from "react-icons/ai";
 
 const url =
-  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/Informacion-data-participante/main/archiveroMock.json?token=GHSAT0AAAAAAB3RT5TSAMFWOBI5SNEL2KASY5EN2DA";
+  "https://raw.githubusercontent.com/Cleytonleiva/archiverodata/main/archiveroMock.json";
 
 export const VistaParticipantes = () => {
   //const context = useContext(contextParticipantes);
@@ -40,8 +40,8 @@ export const VistaParticipantes = () => {
   return (
     <div className="vistaParticipantes">
       <a className="backArrow" href="#choice">
-      <AiOutlineArrowLeft/>
-                    </a>
+        <AiOutlineArrowLeft />
+      </a>
       <div>
         <h1 className="title"> PARTICIPANTES </h1>
       </div>
