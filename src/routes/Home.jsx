@@ -1,6 +1,9 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css"
+import logo from '../assets/gif/GIF-PRINCIPAL-.gif'
+import { AiOutlineArrowRight } from 'react-icons/ai';
+
 const Home = () => {
 
   return (
@@ -8,12 +11,14 @@ const Home = () => {
       <div className="App">
         <div className="first" id="first">
           <img className="logo"
-            src="/src/img/archiveroicono.png"
+            src={logo}
             alt="Archivero icono"
           />
-            <h1 className="welcome">BIENVENIDXS A ARCHIVERO DISIDENTE DIGITAL</h1>
+          <h1 className="welcome">REGISTROS 2021 - 2022
+<p>¿CÓMO IMAGINAS QUE SERÁ CONTADA TU HISTORIA EN EL FUTURO?</p></h1>
           <a className="firstArrow" href="#second">
-            <i className="fa-solid fa-right-long"></i></a>
+            < AiOutlineArrowRight />
+          </a>
 
         </div>
 
@@ -24,7 +29,8 @@ const Home = () => {
           </h1>
           <div>
             <a className="arrow" href="#third">
-              <i className="fa-solid fa-right-long"></i>   </a>
+            < AiOutlineArrowRight />
+   </a>
           </div>
         </div>
 
@@ -32,7 +38,8 @@ const Home = () => {
           <h1 className="thirdText">Nos muestran otros <span>paisajes y vivencias.</span> </h1>
           <div>
             <a className="arrow" href="#fourth">
-              <i className="fa-solid fa-right-long"></i>            </a>
+            < AiOutlineArrowRight />
+           </a>
           </div>
         </div>
 
@@ -40,7 +47,7 @@ const Home = () => {
           <h1 className="fourthText">Nos cambian_</h1>
           <div>
             <a className="arrowWhite" href="#fifth">
-              <i className="fa-solid fa-right-long"></i>
+            < AiOutlineArrowRight />
             </a>
           </div>
         </div>
@@ -49,7 +56,7 @@ const Home = () => {
           <h1 className="fifthText">Te invitamos a este viaje, en el cual <span>no estas solx.</span></h1>
           <div>
             <a className="arrow" href="#sixth">
-              <i className="fa-solid fa-right-long "></i>
+            < AiOutlineArrowRight />
             </a>
           </div>
         </div>
@@ -69,7 +76,7 @@ const Home = () => {
           <h1 className="person">TURQUESA LILA MENTOLADA, ILLAPEL, IV REGIÓN.</h1>
           <div>
             <a className="arrowSixth" href="#instructions">
-              <i className="fa-solid fa-right-long"></i>
+            < AiOutlineArrowRight />
             </a>
           </div>
         </div>
@@ -82,7 +89,7 @@ const Home = () => {
           />
           <h1 className="text-left font-black text-2xl pr-10 mr-10">INSTRUCCIONES</h1>
           <h2 className="instructionsText">
-            “Archivero Disidente es un <b><i>documental interactivo</i></b> que posee dos formas para navegar por los contenidos. Puedes comenzar por lxs <span className="boldItalic">participantes o por las categorías.</span> Recuerda que con las flechas puedes desplazarte hacia adelante o atrás. Y <span className="boldItalic">tranquilx,</span> siempre puedes guiarte por el <span className="boldItalic">menú que se encontrará en la parte inferior de la pantalla,</span> ahí también encontrarás distintas configuraciones para hacer de este <span className="boldItalic">viaje, un experiencia significativa”.</span>
+            “Archivero Disidente es un <b><i>documental interactivo</i></b> que narra acerca de los procesos identitarios de 14 personas de las disidencias sexuales en Chile; un registro participativo de su archivo en vida. Tienes dos formas de navegar por el contenido: <span className="boldItalic"> por participantes o por categorías.</span> Recuerda que puedes desplazarte hacia adelante o atrás con las flechas. Y <span className="boldItalic">tranquilx,</span> siempre puedes guiarte por el <span className="boldItalic">menú que se encontrará en la parte inferior de la pantalla.</span> 
           </h2>
 
           <div>
@@ -95,8 +102,8 @@ const Home = () => {
         <div className="choice" id="choice">
           <h1 className="choiceText">ELIGE LA FORMA EN LA QUE DESEAS NAVEGAR</h1>
           <div className="btnChoice">
-          <Link to="/vistaparticipantes" className="choiceParticipantes"> PARTICIPANTES </Link>
-          <Link to="/vistacategorias" className="choiceCategorias"> CATEGORÍAS </Link>
+            <Link to="/vistaparticipantes" className="choiceParticipantes"> PARTICIPANTES </Link>
+            <Link to="/vistacategorias" className="choiceCategorias"> CATEGORÍAS </Link>
           </div>
         </div>
       </div>

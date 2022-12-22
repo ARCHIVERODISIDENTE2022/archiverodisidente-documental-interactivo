@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import "./VistaCategorias.css"
+import { AiOutlineArrowLeft } from 'react-icons/ai';
 
 const VistaCategorias = () => {
 
   return (
     <>
-    <div className="containerVistaCategoria">
+
     <a className="backArrow" href="#choice">
-          <i className="flex  fa-solid fa-left-long fa-2x "></i>
+    <AiOutlineArrowLeft/>
         </a>
-        
+        <div className="containerVistaCategoria">
         <h1 className="titleCategoria">CATEGORÍAS</h1>
         <div className="categorias">
         <Link to="/vistavideo" className='categoria'>FAMILIA</Link>
