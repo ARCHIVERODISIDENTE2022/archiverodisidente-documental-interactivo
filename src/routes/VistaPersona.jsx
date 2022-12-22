@@ -5,8 +5,7 @@ import axios from "axios";
 import { AiOutlineArrowLeft } from 'react-icons/ai';
 
 const url =
-    "https://raw.githubusercontent.com/Cleytonleiva/archiverodata/main/archiveroMock.json";
-
+  "https://raw.githubusercontent.com/Cleytonleiva/archiverodata/main/archiveroMock.json";
 
 const Vistaparticipante = () => {
     const [participante, setparticipante] = useState(null);
@@ -54,3 +53,4 @@ const Vistaparticipante = () => {
 };
 
 export default Vistaparticipante
+
