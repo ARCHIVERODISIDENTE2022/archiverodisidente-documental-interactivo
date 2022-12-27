@@ -6,7 +6,7 @@ import "./VistaParticipantes.css";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 
 const url =
-  "https://github.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/blob/main/src/data/archiveroMock.json";
+  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
 
 export const VistaParticipantes = () => {
   //const context = useContext(contextParticipantes);

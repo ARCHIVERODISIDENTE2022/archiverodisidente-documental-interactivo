@@ -3,7 +3,7 @@
         {
             "id": 0,
             "nombreParticipante": "Turquesa",
-            "mainImg": "",
+            "mainImg": "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/imagenes-png/p00obj0.png",
             "ubicacion": {
                 "Region": "IV",
                 "Comuna": "Illapel, provincia ",
