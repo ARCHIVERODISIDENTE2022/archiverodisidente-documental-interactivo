@@ -3,7 +3,7 @@
         {
             "id": 0,
             "nombreParticipante": "Turquesa",
-            "mainImg": "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/imagenes-png/p00obj0.png",
+            "mainImg": "src/data/imagenes-png/p00obj0.png",
             "ubicacion": {
                 "Region": "IV",
                 "Comuna": "Illapel, provincia ",
@@ -13,7 +13,7 @@
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj1.jpeg",
+                    "imgObjeto": "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/imagenes-png/p00obj1.png",
                     "videoObjeto": "link",
                     "cita1": "Abcde fghi jkl mn op qr",
                     "cita2": "Abcde fghi jkl mn op qr"
@@ -58,7 +58,7 @@
         {
             "id": 1,
             "nombreParticipante": "Katherine",
-            "mainImg": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00.jpeg",
+            "mainImg": "src/data/imagenes-png/p01obj0.png",
             "ubicacion": {
                 "Region": "V",
                 "Comuna": "Quillota",
@@ -113,7 +113,7 @@
         {
             "id": 2,
             "nombreParticipante": "Orlando",
-            "mainImg": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00.jpeg",
+            "mainImg": "src/data/imagenes-png/p02obj0.png",
             "ubicacion": {
                 "Region": "IV",
                 "Comuna": "Illapel, provincia ",
@@ -168,7 +168,7 @@
         {
             "id": 3,
             "nombreParticipante": "Juan",
-            "mainImg": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00.jpeg",
+            "mainImg": "src/data/imagenes-png/p03obj0.png",
             "ubicacion": {
                 "Region": "IV",
                 "Comuna": "Illapel, provincia ",
@@ -223,7 +223,7 @@
         {
             "id": 4,
             "nombreParticipante": "Pepito",
-            "mainImg": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00.jpeg",
+            "mainImg": "src/data/imagenes-png/p04obj0.png",
             "ubicacion": {
                 "Region": "IV",
                 "Comuna": "Illapel, provincia ",
@@ -278,7 +278,7 @@
         {
             "id": 5,
             "nombreParticipante": "Turquesa",
-            "mainImg": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00.jpeg",
+            "mainImg": "src/data/imagenes-png/p05obj0.png",
             "ubicacion": {
                 "Region": "IV",
                 "Comuna": "Illapel, provincia ",
@@ -333,7 +333,7 @@
         {
             "id": 6,
             "nombreParticipante": "Lili",
-            "mainImg": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00.jpeg",
+            "mainImg": "src/data/imagenes-png/p06obj0.png",
             "ubicacion": {
                 "Region": "IV",
                 "Comuna": "Illapel, provincia ",
@@ -388,7 +388,7 @@
         {
             "id": 7,
             "nombreParticipante": "Ianka",
-            "mainImg": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00.jpeg",
+            "mainImg": "src/data/imagenes-png/p07obj0.png",
             "ubicacion": {
                 "Region": "IV",
                 "Comuna": "Illapel, provincia ",
@@ -443,7 +443,7 @@
         {
             "id": 8,
             "nombreParticipante": "Barby",
-            "mainImg": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00.jpeg",
+            "mainImg": "src/data/imagenes-png/p08obj0.png",
             "ubicacion": {
                 "Region": "IV",
                 "Comuna": "Illapel, provincia ",
@@ -498,7 +498,7 @@
         {
             "id": 9,
             "nombreParticipante": "Mariano",
-            "mainImg": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00.jpeg",
+            "mainImg": "src/data/imagenes-png/p09obj0.png",
             "ubicacion": {
                 "Region": "IV",
                 "Comuna": "Illapel, provincia ",
@@ -553,7 +553,7 @@
         {
             "id": 10,
             "nombreParticipante": "Koni",
-            "mainImg": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00.jpeg",
+            "mainImg": "src/data/imagenes-png/p10obj0.png",
             "ubicacion": {
                 "Region": "IV",
                 "Comuna": "Illapel, provincia ",
@@ -608,7 +608,7 @@
         {
             "id": 11,
             "nombreParticipante": "Xime",
-            "mainImg": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00.jpeg",
+            "mainImg": "src/data/imagenes-png/p11obj0.png",
             "ubicacion": {
                 "Region": "IV",
                 "Comuna": "Illapel, provincia ",
@@ -663,7 +663,7 @@
         {
             "id": 12,
             "nombreParticipante": "Amanda",
-            "mainImg": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00.jpeg",
+            "mainImg": "src/data/imagenes-png/p12obj0.png",
             "ubicacion": {
                 "Region": "IV",
                 "Comuna": "Illapel, provincia ",
@@ -718,7 +718,7 @@
         {
             "id": 13,
             "nombreParticipante": "Carolina",
-            "mainImg": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00.jpeg",
+            "mainImg": "src/data/imagenes-png/p13obj0.png",
             "ubicacion": {
                 "Region": "IV",
                 "Comuna": "Illapel, provincia ",
