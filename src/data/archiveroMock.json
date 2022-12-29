@@ -4,54 +4,45 @@
             "id": 0,
             "nombreParticipante": "Turquesa",
             "mainImg": "src/data/imagenes-png/p00obj0.png",
+            "fechaNacimiento": "5 de octubre 1996",
+            "edad": 25,
+            "cuña": "La vida no me tocó fácil tuve varias historias para llorar, simplemente me aburrí de seguir botando lagrimas por ellas",
             "ubicacion": {
-                "Region": "IV",
-                "Comuna": "Illapel, provincia ",
-                "Territorio": "Provincia del Choapa",
-                "Pais": "Chile"
+                "region": "IV",
+                "comuna": "Illapel, provincia ",
+                "territorio": "Provincia del Choapa",
+                "pais": "Chile"
             },
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/imagenes-png/p00obj1.png",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p00obj1.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj2.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p00obj2.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj3.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p00obj3.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj4.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p00obj4.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj5.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p00obj5.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj6.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p00obj6.png",
+                    "videoObjeto": "link"
                 }
             ]
         },
@@ -59,216 +50,192 @@
             "id": 1,
             "nombreParticipante": "Katherine",
             "mainImg": "src/data/imagenes-png/p01obj0.png",
+            "fechaNacimiento": "1 septiembre 1980",
+            "edad": 41,
+            "cuña": "Pero gracias a Dios yo cada vez que entro a una pista, dejo huella",
             "ubicacion": {
-                "Region": "V",
-                "Comuna": "Quillota",
-                "Territorio": "",
-                "Pais": "Chile"
+                "region": "V Valparaiso",
+                "comuna": "Quillota",
+                "territorio": "Valparaiso",
+                "pais": "Chile"
             },
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj1.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p01obj1.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj2.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p01obj2.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj3.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p01obj3.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj4.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p01obj4.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj5.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p01obj5.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj6.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p01obj6.png",
+                    "videoObjeto": "link"
                 }
             ]
         },
         {
             "id": 2,
-            "nombreParticipante": "Orlando",
+            "nombreParticipante": "Valentí",
             "mainImg": "src/data/imagenes-png/p02obj0.png",
+            "fechaNacimiento": "8 de febrero 1998",
+            "edad": 23,
+            "cuña": "Una de las formas de cambiar la soledad es encontrarte en otras personas, ver que otras personas existen y que eres parte de ese mundo",
             "ubicacion": {
-                "Region": "IV",
-                "Comuna": "Illapel, provincia ",
-                "Territorio": "Provincia del Choapa",
-                "Pais": "Chile"
+                "region": "X Región de los Lagos",
+                "comuna": "Niebla",
+                "territorio": "Purranque",
+                "pais": "Chile"
             },
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj1.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p02obj1.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj2.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p02obj2.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj3.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p02obj3.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj4.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p02obj4.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj5.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p02obj5.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj6.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p02obj6.png",
+                    "videoObjeto": "link"
                 }
             ]
         },
         {
             "id": 3,
-            "nombreParticipante": "Juan",
+            "nombreParticipante": "Orlando",
             "mainImg": "src/data/imagenes-png/p03obj0.png",
+            "fechaNacimiento": "8 de junio 1993",
+            "edad": 28,
+            "cuña": "La libertad como tal es un vector y la liberación son momentos; piedras donde uno se para y se siente firme",
             "ubicacion": {
-                "Region": "IV",
-                "Comuna": "Illapel, provincia ",
-                "Territorio": "Provincia del Choapa",
-                "Pais": "Chile"
+                "region": "XIV Región de los Ríos",
+                "comuna": "Niebla",
+                "territorio": "",
+                "pais": "Chile"
             },
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj1.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p03obj1.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj2.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p03obj2.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj3.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p03obj3.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj4.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p03obj4.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj5.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p03obj5.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj6.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p03obj6.png",
+                    "videoObjeto": "link"
                 }
             ]
         },
         {
             "id": 4,
-            "nombreParticipante": "Pepito",
+            "nombreParticipante": "Catalina López",
             "mainImg": "src/data/imagenes-png/p04obj0.png",
+            "fechaNacimiento": "18 de enero 1993",
+            "edad": 28,
+            "cuña": "Siempre que he estado atravesando procesos complejos de mi mente o de mis sentimientos, acudo al mar...",
             "ubicacion": {
-                "Region": "IV",
-                "Comuna": "Illapel, provincia ",
-                "Territorio": "Provincia del Choapa",
-                "Pais": "Chile"
+                "region": "V Valparaiso",
+                "comuna": "Valparaiso",
+                "territorio": "",
+                "pais": "Chile"
             },
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj1.jpeg",
+                    "imgObjeto": "src/data/imagenes-png/p04obj1.png",
                     "videoObjeto": "link",
                     "cita1": "Abcde fghi jkl mn op qr",
                     "cita2": "Abcde fghi jkl mn op qr"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj2.jpeg",
+                    "imgObjeto": "src/data/imagenes-png/p04obj2.png",
                     "videoObjeto": "link",
                     "cita1": "Abcde fghi jkl mn op qr",
                     "cita2": "Abcde fghi jkl mn op qr"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj3.jpeg",
+                    "imgObjeto": "src/data/imagenes-png/p04obj3.png",
                     "videoObjeto": "link",
                     "cita1": "Abcde fghi jkl mn op qr",
                     "cita2": "Abcde fghi jkl mn op qr"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj4.jpeg",
+                    "imgObjeto": "src/data/imagenes-png/p04obj4.png",
                     "videoObjeto": "link",
                     "cita1": "Abcde fghi jkl mn op qr",
                     "cita2": "Abcde fghi jkl mn op qr"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj5.jpeg",
+                    "imgObjeto": "src/data/imagenes-png/p04obj5.png",
                     "videoObjeto": "link",
                     "cita1": "Abcde fghi jkl mn op qr",
                     "cita2": "Abcde fghi jkl mn op qr"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj6.jpeg",
+                    "imgObjeto": "src/data/imagenes-png/p04obj6.png",
                     "videoObjeto": "link",
                     "cita1": "Abcde fghi jkl mn op qr",
                     "cita2": "Abcde fghi jkl mn op qr"
@@ -277,496 +244,415 @@
         },
         {
             "id": 5,
-            "nombreParticipante": "Turquesa",
+            "nombreParticipante": "Gael Negrón",
             "mainImg": "src/data/imagenes-png/p05obj0.png",
+            "fechaNacimiento": "25 septiembre 1989",
+            "edad": 32,
+            "cuña": "Mi cuerpo es todo para mí en este momento, me siento en mi casa en mi cuerpo ahora, yo logré hacer la paz con mi cuerpo ahora, puedo verme a un espejo y no sentir ni un poco de vergüenza, ni un poco de incomodidad",
             "ubicacion": {
-                "Region": "IV",
-                "Comuna": "Illapel, provincia ",
-                "Territorio": "Provincia del Choapa",
-                "Pais": "Chile"
+                "region": "X Región de los Lagos",
+                "comuna": "Puerto Montt",
+                "territorio": "Provincia del Choapa",
+                "pais": "Chile"
             },
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj1.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p05obj1.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj2.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p05obj2.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj3.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p05obj3.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj4.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p05obj4.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj5.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p05obj5.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj6.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p05obj6.png",
+                    "videoObjeto": "link"
                 }
             ]
         },
         {
             "id": 6,
-            "nombreParticipante": "Lili",
+            "nombreParticipante": "Violeta Adams",
             "mainImg": "src/data/imagenes-png/p06obj0.png",
+            "fechaNacimiento": "7 mayo 2000",
+            "edad": 21,
+            "cuña": "Eso es libertad: cagarte de miedo y hacerlo igual",
             "ubicacion": {
-                "Region": "IV",
-                "Comuna": "Illapel, provincia ",
-                "Territorio": "Provincia del Choapa",
-                "Pais": "Chile"
+                "region": "XVI Ñuble",
+                "comuna": "Chillan",
+                "territorio": "",
+                "pais": "Chile"
             },
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj1.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p06obj1.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj2.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p06obj2.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj3.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p06obj3.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj4.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p06obj4.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj5.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p06obj5.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj6.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p06obj6.png",
+                    "videoObjeto": "link"
                 }
             ]
         },
         {
             "id": 7,
-            "nombreParticipante": "Ianka",
+            "nombreParticipante": "Yoko",
             "mainImg": "src/data/imagenes-png/p07obj0.png",
+            "fechaNacimiento": "7 febrero 1997",
+            "edad": 24,
+            "cuña": "Me gustaría que me recordaran por mi música pop y por ser una persona transgénero",
             "ubicacion": {
-                "Region": "IV",
-                "Comuna": "Illapel, provincia ",
-                "Territorio": "Provincia del Choapa",
-                "Pais": "Chile"
+                "region": "XVI Región Ñuble",
+                "comuna": "Chillan",
+                "territorio": "",
+                "pais": "Chile"
             },
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj1.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p07obj1.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj2.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p07obj2.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj3.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p07obj3.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj4.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p07obj4.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj5.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p07obj5.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj6.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p07obj6.png",
+                    "videoObjeto": "link"
                 }
             ]
         },
         {
             "id": 8,
-            "nombreParticipante": "Barby",
+            "nombreParticipante": "Florencia",
             "mainImg": "src/data/imagenes-png/p08obj0.png",
+            "fechaNacimiento": "30 julio 1974",
+            "edad": 49,
+            "cuña": "Quien me hace sentir libre es la Francisca; de ser mamá, de poder tener un trabajo, de poder levantarme en las mañanas y saber que tengo un sueldo",
             "ubicacion": {
-                "Region": "IV",
-                "Comuna": "Illapel, provincia ",
-                "Territorio": "Provincia del Choapa",
-                "Pais": "Chile"
+                "region": "IV Coquimbo",
+                "comuna": "Coquimbo",
+                "territorio": "",
+                "pais": "Chile"
             },
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj1.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p08obj1.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj2.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p08obj2.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj3.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p08obj3.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj4.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p08obj4.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj5.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p08obj5.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj6.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p08obj6.png",
+                    "videoObjeto": "link"
                 }
             ]
         },
         {
             "id": 9,
-            "nombreParticipante": "Mariano",
+            "nombreParticipante": "Melanie",
             "mainImg": "src/data/imagenes-png/p09obj0.png",
+            "fechaNacimiento": "16 mayo 1993",
+            "edad": 28,
+            "cuña": "Ballroom me da esa libertad que queremos sentir todas las personas disidentes en algún momento, donde tú sales y es una celebración",
             "ubicacion": {
-                "Region": "IV",
-                "Comuna": "Illapel, provincia ",
-                "Territorio": "Provincia del Choapa",
-                "Pais": "Chile"
+                "region": "IV Coquimbo",
+                "comuna": "Vicuña",
+                "territorio": "",
+                "pais": "Chile"
             },
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj1.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p09obj1.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj2.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p09obj2.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj3.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p09obj3.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj4.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p09obj4.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj5.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p09obj5.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj6.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p09obj6.png",
+                    "videoObjeto": "link"
                 }
             ]
         },
         {
             "id": 10,
-            "nombreParticipante": "Koni",
+            "nombreParticipante": "Manuel Moraga",
             "mainImg": "src/data/imagenes-png/p10obj0.png",
+            "fechaNacimiento": "28 diciembre 1969",
+            "edad": 52,
+            "cuña": "Yo creo ser una persona bastante liberada de prejuicios. Vivo y vivimos nuestra vida siendo uno, y desde ese terreno puedo hablar",
             "ubicacion": {
-                "Region": "IV",
-                "Comuna": "Illapel, provincia ",
-                "Territorio": "Provincia del Choapa",
-                "Pais": "Chile"
+                "region": "X de los Lagos",
+                "comuna": "Puerto Montt",
+                "territorio": "",
+                "pais": "Chile"
             },
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj1.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p10obj1.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj2.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p10obj2.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj3.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p10obj3.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj4.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p10obj4.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj5.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p10obj5.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj6.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p10obj6.png",
+                    "videoObjeto": "link"
                 }
             ]
         },
         {
             "id": 11,
-            "nombreParticipante": "Xime",
+            "nombreParticipante": "Maco",
             "mainImg": "src/data/imagenes-png/p11obj0.png",
+            "fechaNacimiento": "26 octubre 1989",
+            "edad": 32,
+            "cuña": "Para mi la naturaleza es importantísima, porque es el lugar donde estamos, nos da comida, nos da vida, hay que puro abrazarla y quererla",
             "ubicacion": {
-                "Region": "IV",
-                "Comuna": "Illapel, provincia ",
-                "Territorio": "Provincia del Choapa",
-                "Pais": "Chile"
+                "region": "V Valparaiso",
+                "comuna": "Valparaiso",
+                "territorio": "Valparaiso",
+                "pais": "Chile"
             },
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj1.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p11obj1.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj2.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p11obj2.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj3.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p11obj3.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj4.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p11obj4.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj5.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p11obj5.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj6.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p11obj6.png",
+                    "videoObjeto": "link"
                 }
             ]
         },
         {
             "id": 12,
-            "nombreParticipante": "Amanda",
+            "nombreParticipante": "Gonzalo",
             "mainImg": "src/data/imagenes-png/p12obj0.png",
+            "fechaNacimiento": "22 marzo 1996",
+            "edad": 26,
+            "cuña": "Lo que más rescato es hacer a Sandy, fue el quiebre que hice en mi vida; fue mi salvadora",
             "ubicacion": {
-                "Region": "IV",
-                "Comuna": "Illapel, provincia ",
-                "Territorio": "Provincia del Choapa",
-                "Pais": "Chile"
+                "region": "X Region de los Lagos",
+                "comuna": "Quellón",
+                "territorio": "Chiloe",
+                "pais": "Chile"
             },
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj1.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p12obj1.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj2.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p12obj2.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj3.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p12obj3.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj4.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p12obj4.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj5.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p12obj5.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj6.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p12obj6.png",
+                    "videoObjeto": "link"
                 }
             ]
         },
         {
             "id": 13,
-            "nombreParticipante": "Carolina",
+            "nombreParticipante": "Eros",
             "mainImg": "src/data/imagenes-png/p13obj0.png",
+            "fechaNacimiento": "26 abril 1996",
+            "edad": 25,
+            "cuña": "Me gusta la libertad de no sentirme presionado por nada a mi alrededor, ni por la vista de alguien, ni porque esté haciendo algo mal, no existe el tiempo",
             "ubicacion": {
-                "Region": "IV",
-                "Comuna": "Illapel, provincia ",
-                "Territorio": "Provincia del Choapa",
-                "Pais": "Chile"
+                "region": "XI Aysén",
+                "comuna": "Puerto aysén",
+                "territorio": "",
+                "pais": "Chile"
             },
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj1.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p13obj1.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj2.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p13obj2.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj3.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p13obj3.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj4.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p13obj4.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj5.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p13obj5.png",
+                    "videoObjeto": "link"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "https://raw.githubusercontent.com/Cleytonleiva/ArchiveroIMG/main/p00obj6.jpeg",
-                    "videoObjeto": "link",
-                    "cita1": "Abcde fghi jkl mn op qr",
-                    "cita2": "Abcde fghi jkl mn op qr"
+                    "imgObjeto": "src/data/imagenes-png/p13obj6.png",
+                    "videoObjeto": "link"
                 }
             ]
         }
