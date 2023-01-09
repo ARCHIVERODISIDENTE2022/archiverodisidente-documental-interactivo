@@ -4,14 +4,59 @@ height: auto;
 background-color: black;
 display: flex;
 flex-direction: row;
-position: absolute;
+position: static;
 justify-content: space-around;
 font-size: 0.75rem;
 text-decoration: none;
 color: white;
 line-height: 2rem;
+grid-area: footer;
+bottom: 1rem;
 }
 
+.link{
+  color: white;
+}
+
+.volume {
+  position: relative;}
+  
+  .volume-progressbar {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: white;
+  }
+  .volume-slider {
+    position: relative;
+    top: 3px;
+    width: 100%;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+    -webkit-appearance: none;}
+
+    .volume-slider::-webkit-slider-runnable-track {
+      width: 75px;
+      height: 20px;
+      border: none;
+    }
+
+    .volume-slider:hover::-webkit-slider-thumb, .volume-slider:active::-webkit-slider-thumb {
+      display: block;
+    }
+
+    .volume-slider:focus {
+      outline: none;
+    }
+
+    .volume-slider:active::-webkit-slider-thumb {
+      background: #EFEFEF;
+    }
+    
 @media screen and (max-width: 640px){
   .footer{
 font-size: x-small;

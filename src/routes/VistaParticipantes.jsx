@@ -9,7 +9,6 @@ const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
 
 export const VistaParticipantes = () => {
-  //const context = useContext(contextParticipantes);
   const [participantes, setParticipantes] = useState(null);
 
   const random = (a) => {
@@ -43,7 +42,7 @@ export const VistaParticipantes = () => {
         <AiOutlineArrowLeft />
       </a>
       <div>
-        <h1 className="title"> PARTICIPANTES </h1>
+        <h1 className="titleParticipantes"> PARTICIPANTES </h1>
       </div>
       <div className="participantes">
         {random(Array.from(participantes)).map((participantes) => {
@@ -55,24 +54,3 @@ export const VistaParticipantes = () => {
   );
 };
 
-// {participantes.map((participante) => {
-//   return (
-//     <>
-//       <div>
-//         <ListaParticipantes participante={participante} />
-//       </div>
-//     </>
-//   );
-// })}
-
-// import { Link } from "react-router-dom";
-// import Footer from "../components/Footer";
-
-// const VistaParticipantes = () => {
-
-//     return (
-//
-//     )
-// }
-
-// export default VistaParticipantes
