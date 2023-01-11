@@ -1,0 +1,46 @@
+{
+    "id": 0,
+    "nombreParticipante": "Turquesa",
+    "mainImg": "src/data/imagenes-png/p00obj0.png",
+    "fechaNacimiento": "5 de octubre 1996",
+    "edad": 25,
+    "cuña": "La vida no me tocó fácil tuve varias historias para llorar, simplemente me aburrí de seguir botando lagrimas por ellas",
+    "ubicacion": {
+        "region": "IV",
+        "comuna": "Illapel, provincia ",
+        "territorio": "Provincia del Choapa",
+        "pais": "Chile"
+    },
+    "categoria": [
+        {
+            "nombre": "Amor",
+            "imgObjeto": "src/data/imagenes-png/p00obj1.png",
+            "videoObjeto": "link"
+        },
+        {
+            "nombre": "Miedo",
+            "imgObjeto": "src/data/imagenes-png/p00obj2.png",
+            "videoObjeto": "link"
+        },
+        {
+            "nombre": "Familia",
+            "imgObjeto": "src/data/imagenes-png/p00obj3.png",
+            "videoObjeto": "link"
+        },
+        {
+            "nombre": "Cuerpo",
+            "imgObjeto": "src/data/imagenes-png/p00obj4.png",
+            "videoObjeto": "link"
+        },
+        {
+            "nombre": "Libertad",
+            "imgObjeto": "src/data/imagenes-png/p00obj5.png",
+            "videoObjeto": "link"
+        },
+        {
+            "nombre": "Actosentido",
+            "imgObjeto": "src/data/imagenes-png/p00obj6.png",
+            "videoObjeto": "link"
+        }
+    ]
+}
