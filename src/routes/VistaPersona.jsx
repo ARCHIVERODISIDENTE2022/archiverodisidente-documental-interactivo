@@ -6,25 +6,39 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 import "./VistaPersona.css"
 
 
-const url =
-  "https://raw.githubusercontent.com/Cleytonleiva/archiverodata/main/archiveroMock.json";
-
-const Vistaparticipante = () => {
-  const [participante, setparticipante] = useState(null);
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await axios.get(url);
-        setparticipante(response.data.participantes);
-      } catch (error) { }
-    }
-
-    fetchData();
-  }, []);
-
-  if (participante === null) {
-    return <div>Cargando...</div>;
+export const VistaPersona = () => {
+  if (selectedParticipant) {
+    return (
+      <div>
+        <img
+          src={participanteSeleccionado.mainImg}
+          alt=""
+          className="imgPersona"
+        />
+      </div>
+    );
   }
+};
+
+
+
+// const Vistaparticipante = () => {
+//   const [participante, setparticipante] = useState(null);
+//   useEffect(() => {
+//     async function fetchData() {
+//       try {
+//         const response = await axios.get(url);
+//         setparticipante(response.data.participantes);
+//       } catch (error) {}
+//     }
+
+//     fetchData();
+//   }, []);
+
+
+//   if (participante === null) {
+//     return <div>Cargando...</div>;
+//   }
 
   return (
     <>
@@ -71,4 +85,5 @@ const Vistaparticipante = () => {
   );
 };
 
-export default Vistaparticipante;
+
+// export default Vistaparticipante;
