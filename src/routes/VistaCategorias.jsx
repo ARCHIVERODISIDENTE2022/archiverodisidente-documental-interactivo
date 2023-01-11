@@ -14,12 +14,12 @@ const VistaCategorias = () => {
         <div className="containerVistaCategoria">
         <h1 className="titleCategoria">CATEGORÍAS</h1>
         <div className="categorias">
-        <Link to="/vistavideo" className='categoria'>FAMILIA</Link>
-        <Link to="/vistavideo" className='categoria'>MIEDO</Link>
-        <Link to="/vistavideo" className='categoria'>AMOR</Link>
-        <Link to="/vistavideo" className='categoria'>ACTOSENTIDO</Link>
-        <Link to="/vistavideo" className='categoria'>CUERPO</Link>
-        <Link to="/vistavideo" className='categoria'>LIBERTAD</Link>
+        <Link to="/vistavideo" className='ctgr'>FAMILIA</Link>
+        <Link to="/vistavideo" className='ctgr'>MIEDO</Link>
+        <Link to="/vistavideo" className='ctgr'>AMOR</Link>
+        <Link to="/vistavideo" className='ctgr'>ACTOSENTIDO</Link>
+        <Link to="/vistavideo" className='ctgr'>CUERPO</Link>
+        <Link to="/vistavideo" className='ctgr'>LIBERTAD</Link>
       </div>
       <Footer/>
       </div>

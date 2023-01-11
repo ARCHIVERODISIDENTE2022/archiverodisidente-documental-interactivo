@@ -16,7 +16,6 @@ export const ListaParticipantes = ({ participante }) => {
       <Link to="/vistapersona">
         <img className="participante" src={participante.mainImg} />{" "}
       </Link>
-      <h1>{participante.nombreParticipante}</h1>
     </div>
   );
 };

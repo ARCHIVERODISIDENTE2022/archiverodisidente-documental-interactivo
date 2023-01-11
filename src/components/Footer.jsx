@@ -6,14 +6,14 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-        <Link to="#choice" className="">
+        <Link to="#choice" className="link">
           FORMA DE NAVEGACIÓN |
         </Link>
-        <Link to="/retribucion" className="">
+        <Link to="/retribucion" className="link">
           {" "}
           | RETRIBUCIÓN
         </Link>
-        <Link to="/creditos" className="">
+        <Link to="/creditos" className="link">
           | CRÉDITOS
         </Link>
       </div>

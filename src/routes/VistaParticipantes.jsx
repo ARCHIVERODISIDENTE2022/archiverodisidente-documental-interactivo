@@ -43,7 +43,7 @@ export const VistaParticipantes = () => {
         <AiOutlineArrowLeft />
       </a>
       <div>
-        <h1 className="title"> PARTICIPANTES </h1>
+        <h1 className="titleParticipantes"> PARTICIPANTES </h1>
       </div>
       <div className="participantes">
         {random(Array.from(participantes)).map((participantes) => {

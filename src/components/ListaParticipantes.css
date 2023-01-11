@@ -8,8 +8,8 @@ border-width: 4px;
 border-style: solid;
 border-color: black;
 margin: 0.5rem;
-width: 5rem;
-height: 5rem;
+width: 10rem;
+height: 10rem;
 }
 @media screen and (max-width: 640px) {
 }
