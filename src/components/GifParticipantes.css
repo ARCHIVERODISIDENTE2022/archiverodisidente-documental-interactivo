@@ -1,0 +1,12 @@
+.containerActosentido {
+    display: grid;
+}
+
+.gifParticipante{
+border-width: 4px;
+border-style: solid;
+border-color: black;
+width: 10rem;
+height: 10rem;
+margin: 0.2rem;
+}

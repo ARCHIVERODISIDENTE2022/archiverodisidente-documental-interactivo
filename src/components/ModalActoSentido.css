@@ -4,7 +4,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .7);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,28 +12,45 @@
 }
 
 .contenedorModal {
-    width: 500px;
-    min-height: 100px;
+    width: 50%;
+    height: 40%;
     background: white;
     position: relative;
-    border-radius: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 20px;
+    margin: 3rem;
 }
 
 .recomendacion {
     text-align: center;
+font-size: 4rem;
 }
 
 .textoRecomendacion {
     text-align: center;
+    margin: 1rem 4rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .back, .go {
     border-style: solid;
     border-color: black;
-    border-width: 4px;
+    border-width: 5px;
     background: white;
     color: black;
+    margin: 2rem;
+    font-size: 1.5rem;
+    padding: 1% 6%;
+    font-weight: 900;
+    height: 10%;
+    width: 50%;
 }
 

@@ -1,5 +1,22 @@
-.gifperson {
-  width: 10rem;
-  height: 10rem;
+.vistaActoSentido{
+  width: auto;
+  height: 100vh;    
+  display: grid;
+  align-items: center;
+  grid-template-columns: 5% 90% 5%;
+  grid-template-rows: 5% 10% 80% 5%;
+  justify-items: center;
+  align-content: center;
+}
+.gifParticipantes {
+  display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 2rem;
+    grid-column: 2/3;
+    grid-row: 3/4;
   }
   

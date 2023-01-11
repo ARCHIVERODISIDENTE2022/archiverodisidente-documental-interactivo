@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./GifParticipantes.css"
 
 export const GifParticipantes = ({ participante }) => {
   return (
-    <div className="container">
+    <div className="containerActosentido">
       <Link to="/actosentido">
-        <img className="participante" src={participante.gif} />{" "}
+        <img className="gifParticipante" src={participante.gif} />{" "}
       </Link>
     </div>
   );

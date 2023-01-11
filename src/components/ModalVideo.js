@@ -1,12 +1,13 @@
 import React from "react";
 import { AiOutlineArrowLeft } from "react-icons/ai";
+import "./ModalVideo.css"
 
 const ModalVideo = () => {
     return (
         <>
         <div className="overlayVideo">
             <div className="contenedorModalVideo">
-            <AiOutlineArrowLeft />
+                <button className="close"><AiOutlineArrowLeft /></button>
             <h1 className="nombrePersona">{participante.nombreparticipante}</h1>
             <h2 className="categoriaPersona">{participante.categoria}</h2>
             <h2 className="ubicacionPersona">{participante.ubicacion}</h2>
