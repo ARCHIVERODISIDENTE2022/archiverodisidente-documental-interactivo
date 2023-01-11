@@ -17,7 +17,7 @@ const VistaCategorias = () => {
         <Link to="/vistavideo" className='ctgr'>FAMILIA</Link>
         <Link to="/vistavideo" className='ctgr'>MIEDO</Link>
         <Link to="/vistavideo" className='ctgr'>AMOR</Link>
-        <Link to="/vistavideo" className='ctgr'>ACTOSENTIDO</Link>
+        <Link to="/actosentido" className='ctgr'>ACTOSENTIDO</Link>
         <Link to="/vistavideo" className='ctgr'>CUERPO</Link>
         <Link to="/vistavideo" className='ctgr'>LIBERTAD</Link>
       </section>
