@@ -34,7 +34,7 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.ctgr {
+.ctgr{
     display: flex;
     margin: 0.5rem 1rem;
     padding: 2rem 2.7rem;
