@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css"
-import logo from '../assets/gif/GIF-PRINCIPAL-.gif'
+import logo from '../data/gif/GIF-PRINCIPAL-.gif'
 import { AiOutlineArrowRight } from 'react-icons/ai';
 
 const Home = () => {

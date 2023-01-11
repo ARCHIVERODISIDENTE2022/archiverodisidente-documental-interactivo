@@ -1,18 +1,50 @@
 import Footer from "../components/Footer";
 import "./ActoSentido.css"
-import React from 'react';
-import gif from "../assets/gif/violeta actosentido.gif"
-// import Modal from '../components/Modal'
+import { React, useEffect, useState } from "react";
+import gif from "../data/gif/violeta.gif"
+import axios from "axios";
+import { GifParticipantes } from "../components/gifParticipantes";
+
+const url =
+  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
 
 const ActoSentido = () => {
-    return(
+    const [participantes, setParticipantes] = useState(null);
+
+    const random = (a) => {
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    };
+  
+    useEffect(() => {
+      async function fetchData() {
+        try {
+          const response = await axios.get(url);
+          setParticipantes(response.data.participantes);
+        } catch (error) {
+        }
+      }
+  
+      fetchData();
+    }, []);
+  
+    if (participantes === null) {
+      return <div>Cargando...</div>;   }
+
+    return (
         <>
             <h1>ACTOSENTIDO_</h1>
-            {/* <Modal/> */}
-
-<audio src="{cuña}"></audio> 
-           <img className="gifperson" src={gif}/>
-            <Footer/>
+            <div className="gifParticipantes">
+        {random(Array.from(participantes)).map((participantes) => {
+          return <GifParticipantes participante={participantes} />;
+        })}
+      </div>
+            {/* <img className="" scr={participante.gif} /> */}
+            <img className="gifperson" src={gif} />
+            <Footer />
         </>
     )
 };
