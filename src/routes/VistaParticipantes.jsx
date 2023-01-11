@@ -10,11 +10,9 @@ const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
 
 export const VistaParticipantes = () => {
- 
   const [participantesData, setParticipantesData] = useState(null);
   const [participanteSeleccionado, setParticipanteSeleccionado] =
     useState(null);
-
 
   const random = (a) => {
     for (let i = a.length - 1; i > 0; i--) {
@@ -29,8 +27,7 @@ export const VistaParticipantes = () => {
       try {
         const response = await axios.get(url);
         setParticipantesData(response.data.participantes);
-      } catch (error) {
-      }
+      } catch (error) {}
     }
 
     fetchData();
@@ -45,7 +42,7 @@ export const VistaParticipantes = () => {
       <div className="personaContainer">
         <div className="persona">
           <Link to="/vistaparticipantes" className="backArrow">
-            <AiOutlineArrowLeft />
+            <AiOutlineArrowLeft />n
           </Link>
           <h2 className="quote">"{participanteSeleccionado.cuña}"</h2>
 
@@ -88,7 +85,7 @@ export const VistaParticipantes = () => {
       <a className="backArrow" href="#choice">
         <AiOutlineArrowLeft />
       </a>
-<h1 className="titleParticipantes"> PARTICIPANTES </h1>
+      <h1 className="titleParticipantes"> PARTICIPANTES </h1>
       <div className="participantes">
         {Array.from(participantesData).map((participantes) => (
           <div
