@@ -1,0 +1,11 @@
+.creditos{
+    width: auto;
+    height: 100vh; 
+    background-color: black;
+}
+
+.titleCreditos{
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}

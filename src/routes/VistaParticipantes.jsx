@@ -10,10 +10,11 @@ const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
 
 export const VistaParticipantes = () => {
-  //const context = useContext(contextParticipantes);
+ 
   const [participantesData, setParticipantesData] = useState(null);
   const [participanteSeleccionado, setParticipanteSeleccionado] =
     useState(null);
+
 
   const random = (a) => {
     for (let i = a.length - 1; i > 0; i--) {
@@ -29,7 +30,6 @@ export const VistaParticipantes = () => {
         const response = await axios.get(url);
         setParticipantesData(response.data.participantes);
       } catch (error) {
-        // Manejar el error acá
       }
     }
 
@@ -88,9 +88,7 @@ export const VistaParticipantes = () => {
       <a className="backArrow" href="#choice">
         <AiOutlineArrowLeft />
       </a>
-      <div>
-        <h1 className="title"> PARTICIPANTES </h1>
-      </div>
+<h1 className="titleParticipantes"> PARTICIPANTES </h1>
       <div className="participantes">
         {Array.from(participantesData).map((participantes) => (
           <div
@@ -106,25 +104,3 @@ export const VistaParticipantes = () => {
     </div>
   );
 };
-
-// {participantes.map((participante) => {
-//   return (
-//     <>
-//       <div>
-//         <ListaParticipantes participante={participante} />
-//       </div>
-//     </>
-//   );
-// })}
-
-// import { Link } from "react-router-dom";
-// import Footer from "../components/Footer";
-
-// const VistaParticipantes = () => {
-
-//     return (
-//
-//     )
-// }
-
-// export default VistaParticipantes
