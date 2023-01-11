@@ -26,7 +26,6 @@ export const VistaParticipantes = () => {
         const response = await axios.get(url);
         setParticipantes(response.data.participantes);
       } catch (error) {
-        // Manejar el error acá
       }
     }
 
@@ -42,9 +41,7 @@ export const VistaParticipantes = () => {
       <a className="backArrow" href="#choice">
         <AiOutlineArrowLeft />
       </a>
-      <div>
         <h1 className="titleParticipantes"> PARTICIPANTES </h1>
-      </div>
       <div className="participantes">
         {random(Array.from(participantes)).map((participantes) => {
           return <ListaParticipantes participante={participantes} />;
@@ -54,25 +51,3 @@ export const VistaParticipantes = () => {
     </div>
   );
 };
-
-// {participantes.map((participante) => {
-//   return (
-//     <>
-//       <div>
-//         <ListaParticipantes participante={participante} />
-//       </div>
-//     </>
-//   );
-// })}
-
-// import { Link } from "react-router-dom";
-// import Footer from "../components/Footer";
-
-// const VistaParticipantes = () => {
-
-//     return (
-//
-//     )
-// }
-
-// export default VistaParticipantes

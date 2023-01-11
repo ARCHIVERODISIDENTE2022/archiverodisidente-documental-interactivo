@@ -16,7 +16,7 @@ const Vistaparticipante = () => {
       try {
         const response = await axios.get(url);
         setparticipante(response.data.participantes);
-      } catch (error) {}
+      } catch (error) { }
     }
 
     fetchData();
@@ -29,14 +29,18 @@ const Vistaparticipante = () => {
   return (
     <>
       <div className="personaContainer">
-          <Link to="/vistaparticipantes" className="backArrow">
-            <AiOutlineArrowLeft />
-          </Link>
-          <h2 className="cuña">
-            “CREO EN OTRAS PALABRAS MÁS REGIAS, COMO LA REBELDÍA, EL DESACATO,
-            LA INSURRECCIÓN. ESTAS PALABRAS QUE SIGNIFICAN UN QUIEBRE O UNA
-            GRIETA”
-          </h2>
+        <Link to="/vistaparticipantes" className="backArrow">
+          <AiOutlineArrowLeft />
+        </Link>
+        <h2 className="cuña">
+          “CREO EN OTRAS PALABRAS MÁS REGIAS, COMO LA REBELDÍA, EL DESACATO,
+          LA INSURRECCIÓN. ESTAS PALABRAS QUE SIGNIFICAN UN QUIEBRE O UNA
+          GRIETA”
+        </h2>
+
+        <main className="infoPersona">
+          <h1 className="nombrePersona">{participante.nombreparticipante}</h1>
+          <img src={participante.mainImg} alt="" className="imgPersona" /></main>
           <section className="categoriasIzq">
             <Link to="/vistavideo" className="categoria">
               FAMILIA
@@ -47,13 +51,10 @@ const Vistaparticipante = () => {
             <Link to="/vistavideo" className="categoria">
               AMOR
             </Link>
-            </section>
-            <main className="infoPersona">
-          <h1 className="nombrePersona">{participante.nombreparticipante}</h1>
-          <img src={participante.mainImg} alt="" className="imgPersona" /></main>
+          </section>
           <section className="categoriasDer">
-          
-            <Link to="/vistavideo" className="categoria">
+
+            <Link to="/actosentido" className="categoria">
               ACTOSENTIDO
             </Link>
             <Link to="/vistavideo" className="categoria">
@@ -62,7 +63,8 @@ const Vistaparticipante = () => {
             <Link to="/vistavideo" className="categoria">
               LIBERTAD
             </Link>
-            </section>
+          </section>
+
         <Footer />
       </div>
     </>
