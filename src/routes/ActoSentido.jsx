@@ -1,9 +1,9 @@
 import Footer from "../components/Footer";
 import "./ActoSentido.css"
 import { React, useEffect, useState } from "react";
-import gif from "../data/gif/violeta.gif"
 import axios from "axios";
 import { GifParticipantes } from "../components/gifParticipantes";
+import ModalActoSentido from "../components/ModalActoSentido";
 
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
@@ -36,15 +36,16 @@ const ActoSentido = () => {
 
     return (
         <>
-            <h1>ACTOSENTIDO_</h1>
+        <ModalActoSentido/>
+        <div className="vistaActoSentido">
+            <h1 className="titleParticipantes">ACTOSENTIDO_</h1>
             <div className="gifParticipantes">
         {random(Array.from(participantes)).map((participantes) => {
           return <GifParticipantes participante={participantes} />;
         })}
       </div>
-            {/* <img className="" scr={participante.gif} /> */}
-            <img className="gifperson" src={gif} />
             <Footer />
+            </div>
         </>
     )
 };
