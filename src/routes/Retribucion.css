@@ -1,0 +1,50 @@
+.retribucion{
+    width: auto;
+    height: 100vh;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 10% 10% 75% 5%;
+    padding: 3rem 15rem;
+    grid-column: 1/4;
+
+}
+
+.titleRetribucion{
+    color: white;
+    text-align: left;
+    font-size: 3rem;
+    grid-row: 1/2;
+}
+
+.descripcion{
+    color: white;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 100;
+grid-row: 2/3;
+}
+
+.containerlinks{
+    display: grid;
+    grid-row: 3/4;
+    grid-template-columns: 30% 70%;
+    justify-items: center;
+    align-items: center;
+}
+
+.name{
+    background-color: white;
+    padding: 1rem;
+}
+
+.descripcionLink{
+    background-color: white;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    font-size: 0.5rem;
+}
+
+.footer{
+    grid-column: 1/4;
+    grid-row: 4/5;
+}

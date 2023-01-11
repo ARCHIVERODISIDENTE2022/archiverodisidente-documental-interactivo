@@ -1,10 +1,12 @@
 import Footer from "../components/Footer";
+import "./Creditos.css"
 
 const Creditos = () => {
     return(
-        <>
-            <h1>Creditos</h1>
+        <><div className="creditos">
+            <h1 className="titleCreditos">CRÉDITOS</h1>
             <Footer/>
+            </div>
         </>
     )
 };

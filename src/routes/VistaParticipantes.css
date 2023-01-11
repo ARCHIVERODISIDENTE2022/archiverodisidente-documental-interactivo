@@ -17,7 +17,7 @@
     margin-left: 75rem;
     top: 1rem;
     right: 1rem;
-    grid-column: 3/4;
+    grid-column: 2/3;
     grid-row: 1/2;
 }
 
@@ -53,14 +53,13 @@
 
 @media screen and (max-width: 640px) {
     .vistaParticipantes {
+        width: auto;
+        height: 100vh;    
         display: grid;
         align-items: center;
-        grid-template-areas: 
-        "arrow"
-        "title"
-        "participantes"
-        "footer";
-        grid-template-columns: 1fr;
+        grid-template-rows: 5% 5% 85% 5%;
+        justify-items: center;
+        align-content: center;
     }
     
     .backArrow {
@@ -69,22 +68,32 @@
         color: black;
         font-size: 2rem;
         margin-left: 75rem;
+        top: 1rem;
+        right: 1rem;
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    
+    .titleParticipantes {
+        font-weight: 900;
+        text-align: center;
+        font-size: 2rem;
         grid-area: arrow;
         top: 1rem;
         right: 1rem;
     }
     
     .titleParticipantes {
-        display: flex;
-        font-weight: 900;
-        font-size: 2.25rem;
-        justify-content: center;
+         font-weight: 900;
+        text-align: center;
+        font-size: 2rem;
         padding: 0.5rem 1rem;
         border-width: 4px;
         border-style: solid;
         border-color: black;
         margin: 0 35rem;
-        grid-area: title;
+        grid-column: 2/3;
+        grid-row: 2/3; 
     }
     
     .participantes {
@@ -94,7 +103,13 @@
         align-items: center;
         flex-wrap: wrap;
         flex-direction: row;
-        margin: 0 5rem;
-        grid-area: participantes;
+        margin: 0 2rem;
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    
+    .footer{
+        grid-column: 1/4;
+        grid-row: 4/5;
     }
 }

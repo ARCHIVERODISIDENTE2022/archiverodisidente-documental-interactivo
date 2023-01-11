@@ -1,3 +1,7 @@
+.container {
+    display: grid;
+}
+
 .participante{
 border-width: 4px;
 border-style: solid;
@@ -7,4 +11,17 @@ height: 10rem;
 margin: 0.2rem;
 }
 @media screen and (max-width: 640px) {
+    .container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .participante{
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    margin: 0.5rem;
+    width: 7rem;
+    height: 7rem;
+    }
 }

@@ -25,7 +25,6 @@ export const VistaParticipantes = () => {
         const response = await axios.get(url);
         setParticipantes(response.data.participantes);
       } catch (error) {
-        // Manejar el error acá
       }
     }
 
@@ -41,9 +40,7 @@ export const VistaParticipantes = () => {
       <a className="backArrow" href="#choice">
         <AiOutlineArrowLeft />
       </a>
-      <div>
-        <h1 className="titleParticipantes"> PARTICIPANTES </h1>
-      </div>
+<h1 className="titleParticipantes"> PARTICIPANTES </h1>
       <div className="participantes">
         {random(Array.from(participantes)).map((participantes) => {
           return <ListaParticipantes participante={participantes} />;
@@ -53,4 +50,3 @@ export const VistaParticipantes = () => {
     </div>
   );
 };
-
