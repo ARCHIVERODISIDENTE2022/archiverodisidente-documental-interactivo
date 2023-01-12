@@ -42,7 +42,7 @@ export const VistaParticipantes = () => {
       <div className="personaContainer">
         <div className="persona">
           <Link to="/vistaparticipantes" className="backArrow">
-            <AiOutlineArrowLeft />n
+            <AiOutlineArrowLeft />
           </Link>
           <h2 className="quote">"{participanteSeleccionado.cuña}"</h2>
 
@@ -93,7 +93,7 @@ export const VistaParticipantes = () => {
             onClick={() => setParticipanteSeleccionado(participantes)}
           >
             {console.log(participanteSeleccionado)}
-            {participantes.nombreParticipante}
+            <img className="participante" src={participantes.mainImg} />
           </div>
         ))}
       </div>

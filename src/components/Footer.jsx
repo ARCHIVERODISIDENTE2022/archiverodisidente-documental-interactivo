@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import "./styles/Footer.css";
 
 const Footer = () => {
-  
   return (
     <>
       <footer className="footer">
@@ -17,9 +16,9 @@ const Footer = () => {
           | CRÉDITOS
         </Link>
         <div className="volume">
-  					<span id="volume-progressbar" className="volume-progressbar"></span>
-  					<input type="range" min="0" max="100" step="1" value="100" id="np-volume" class="volume-slider" role="progressbar"/>
-				</div>
+          <span id="volume-progressbar" className="volume-progressbar"></span>
+          {/* <input type="range" min="0" max="100" step="1" value="100" id="np-volume" class="volume-slider" role="progressbar"/> */}
+        </div>
       </footer>
     </>
   );
