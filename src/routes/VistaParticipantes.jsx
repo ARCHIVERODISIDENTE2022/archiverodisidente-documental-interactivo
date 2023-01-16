@@ -87,11 +87,14 @@ export const VistaParticipantes = () => {
   }
 
   return (
-    <div className="vistaParticipantes">
-      <a className="backArrow" href="/#choice">
-        <AiOutlineArrowLeft />
-      </a>
-       <div className="containerVistaParticipantes">
+    <>
+      <div className="container">
+        <div>
+          <a className="backArrow" href="#choice">
+            <AiOutlineArrowLeft />
+          </a>
+        </div>
+        <div className="containerVistaParticipantes">
           <h1 className="titleParticipantes"> PARTICIPANTES </h1>
           <div className="participantesContainer">
             {Array.from(participantesData).map((participantes) => (
@@ -102,7 +105,7 @@ export const VistaParticipantes = () => {
               >
                 <img className="participanteImg" src={participantes.mainImg} />
               </div>
-
+            ))}
           </div>
         </div>
         <Footer />
