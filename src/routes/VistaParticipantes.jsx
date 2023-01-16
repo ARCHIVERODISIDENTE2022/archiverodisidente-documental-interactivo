@@ -26,7 +26,7 @@ export const VistaParticipantes = () => {
     async function fetchData() {
       try {
         const response = await axios.get(url);
-        setParticipantesData(response.data.participantes);
+        setParticipantesData(random(response.data.participantes));
       } catch (error) {}
     }
 
@@ -87,23 +87,29 @@ export const VistaParticipantes = () => {
   }
 
   return (
-    <div className="containerVistaParticipantes">
-      <a className="backArrow" href="#choice">
-        <AiOutlineArrowLeft />
-      </a>
-      <h1 className="titleParticipantes"> PARTICIPANTES </h1>
-      <div className="participantes">
-        {Array.from(participantesData).map((participantes) => (
-          <div
-            key={participantes.id}
-            onClick={() => setParticipanteSeleccionado(participantes)}
-          >
-            {console.log(participanteSeleccionado)}
-            <img className="participante" src={participantes.mainImg} />
+    <>
+      <div className="container">
+        <div>
+          <a className="backArrow" href="#choice">
+            <AiOutlineArrowLeft />
+          </a>
+        </div>
+        <div className="containerVistaParticipantes">
+          <h1 className="titleParticipantes"> PARTICIPANTES </h1>
+          <div className="participantesContainer">
+            {Array.from(participantesData).map((participantes) => (
+              <div
+                className="participante"
+                key={participantes.id}
+                onClick={() => setParticipanteSeleccionado(participantes)}
+              >
+                <img className="participanteImg" src={participantes.mainImg} />
+              </div>
+            ))}
           </div>
-        ))}
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </>
   );
 };
