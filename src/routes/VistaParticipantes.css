@@ -1,6 +1,6 @@
-.vistaParticipantes {
+.containerVistaParticipantes {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
 }
 
@@ -21,11 +21,6 @@
   border-style: solid;
   border-color: black;
   margin: 0 35rem;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: repeat(7, minmax (0, 1fr));
 }
 
 @media screen and (max-width: 640px) {
@@ -52,12 +47,6 @@
     border-style: solid;
     border-color: black;
   }
-
-  .container {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
 
 ////// propiedades vista persona
 
