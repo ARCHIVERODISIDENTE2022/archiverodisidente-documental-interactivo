@@ -36,7 +36,9 @@ bottom: 1rem; */
     border-radius: 5px;
     background: none;
     cursor: pointer;
-    -webkit-appearance: none;}
+    -webkit-appearance: none;
+
+  }
 
     .volume-slider::-webkit-slider-runnable-track {
       width: 75px;

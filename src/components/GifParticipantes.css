@@ -2,11 +2,25 @@
     display: grid;
 }
 
-.gifParticipante{
+.gifParticipanteStatic{
 border-width: 4px;
 border-style: solid;
 border-color: black;
 width: 10rem;
 height: 10rem;
 margin: 0.2rem;
+position: absolute;
+}
+
+.gifParticipanteStatic:hover {
+    opacity:0;
+}
+
+.gifParticipanteActive{
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    width: 10rem;
+    height: 10rem;
+    margin: 0.2rem;
 }
