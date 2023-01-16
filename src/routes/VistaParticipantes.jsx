@@ -26,7 +26,7 @@ export const VistaParticipantes = () => {
     async function fetchData() {
       try {
         const response = await axios.get(url);
-        setParticipantesData(response.data.participantes);
+        setParticipantesData(random(response.data.participantes));
       } catch (error) {}
     }
 
@@ -39,44 +39,50 @@ export const VistaParticipantes = () => {
 
   if (participanteSeleccionado) {
     return (
-      <div className="personaContainer">
-        <div className="persona">
-          <Link to="/vistaparticipantes" className="backArrow">
-            <AiOutlineArrowLeft />
-          </Link>
-          <h2 className="quote">"{participanteSeleccionado.cuña}"</h2>
+      <>
+        <div className="personaContainer">
+          <div className="persona">
+            <Link to="/vistaparticipantes" className="backArrow">
+              <AiOutlineArrowLeft />
+            </Link>
+            <div className="quote">
+              <h2>"{participanteSeleccionado.cuña}"</h2>
+            </div>
 
-          <h1 className="title">
-            {participanteSeleccionado.nombreParticipante}
-          </h1>
-          <img
-            src={participanteSeleccionado.mainImg}
-            alt=""
-            className="imgPersona"
-          />
-          <div className="categorias">
-            <Link to="/vistavideo" className="categoria">
-              FAMILIA
-            </Link>
-            <Link to="/vistavideo" className="categoria">
-              MIEDO
-            </Link>
-            <Link to="/vistavideo" className="categoria">
-              AMOR
-            </Link>
-            <Link to="/actosentido" className="categoria">
-              ACTOSENTIDO
-            </Link>
-            <Link to="/vistavideo" className="categoria">
-              CUERPO
-            </Link>
-            <Link to="/vistavideo" className="categoria">
-              LIBERTAD
-            </Link>
+            <div>
+              <h1 className="title">
+                {participanteSeleccionado.nombreParticipante}
+              </h1>
+              <img
+                src={participanteSeleccionado.mainImg}
+                alt=""
+                className="imgPersona"
+              />
+            </div>
+            <div className="categorias">
+              <Link to="/vistavideo" className="categoria">
+                FAMILIA
+              </Link>
+              <Link to="/vistavideo" className="categoria">
+                MIEDO
+              </Link>
+              <Link to="/vistavideo" className="categoria">
+                AMOR
+              </Link>
+              <Link to="/actosentido" className="categoria">
+                ACTOSENTIDO
+              </Link>
+              <Link to="/vistavideo" className="categoria">
+                CUERPO
+              </Link>
+              <Link to="/vistavideo" className="categoria">
+                LIBERTAD
+              </Link>
+            </div>
           </div>
         </div>
         <Footer />
-      </div>
+      </>
     );
   }
 
@@ -85,19 +91,22 @@ export const VistaParticipantes = () => {
       <a className="backArrow" href="/#choice">
         <AiOutlineArrowLeft />
       </a>
-      <h1 className="titleParticipantes"> PARTICIPANTES </h1>
-      <div className="participantes">
-        {Array.from(participantesData).map((participantes) => (
-          <div
-            key={participantes.id}
-            onClick={() => setParticipanteSeleccionado(participantes)}
-          >
-            {console.log(participanteSeleccionado)}
-            <img className="participante" src={participantes.mainImg} />
+       <div className="containerVistaParticipantes">
+          <h1 className="titleParticipantes"> PARTICIPANTES </h1>
+          <div className="participantesContainer">
+            {Array.from(participantesData).map((participantes) => (
+              <div
+                className="participante"
+                key={participantes.id}
+                onClick={() => setParticipanteSeleccionado(participantes)}
+              >
+                <img className="participanteImg" src={participantes.mainImg} />
+              </div>
+
           </div>
-        ))}
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </>
   );
 };
