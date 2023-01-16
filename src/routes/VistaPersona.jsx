@@ -1,16 +1,20 @@
-import { React, useContext, useEffect, useState } from "react";
+import { React, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import axios from "axios";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import "./VistaPersona.css"
-
+import Modal from 'react-modal';
 
 const url =
   "https://raw.githubusercontent.com/Cleytonleiva/archiverodata/main/archiveroMock.json";
 
+
 const Vistaparticipante = () => {
   const [participante, setparticipante] = useState(null);
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+
   useEffect(() => {
     async function fetchData() {
       try {
@@ -39,31 +43,40 @@ const Vistaparticipante = () => {
         </h2>
 
         <main className="infoPersona">
-          <h1 className="nombrePersona">{participante.nombreparticipante}</h1>
+          <h1 className="nombrePersona">{participante.nombreParticipante}</h1>
           <img src={participante.mainImg} alt="" className="imgPersona" /></main>
-          <section className="categoriasIzq">
-            <Link to="/vistavideo" className="categoria">
-              FAMILIA
-            </Link>
-            <Link to="/vistavideo" className="categoria">
-              MIEDO
-            </Link>
-            <Link to="/vistavideo" className="categoria">
-              AMOR
-            </Link>
-          </section>
-          <section className="categoriasDer">
+        <section className="categoriasIzq">
+          <button onClick={() => setModalIsOpen(true)} className="categoria">FAMILIA</button>
+          <Modal isOpen={modalIsOpen}>
+            <button onClick={() => setModalIsOpen(false)} className="backArrow"><AiOutlineArrowLeft /></button>
+          </Modal>
+          <button onClick={() => setModalIsOpen(true)} className="categoria">MIEDO</button>
+          <Modal isOpen={modalIsOpen}>
+            <button onClick={() => setModalIsOpen(false)} className="backArrow"><AiOutlineArrowLeft /></button>
+          </Modal><button onClick={() => setModalIsOpen(true)} className="categoria">AMOR</button>
+          <Modal isOpen={modalIsOpen}>
+            <div className="overlayVideo">
+              <div className="contenedorModalVideo">
+                <button onClick={() => setModalIsOpen(false)} className="backArrow"><AiOutlineArrowLeft /></button>
+                <h1 className="nombrePersona">{participante.nombreParticipante}</h1>
+                <h2 className="categoriaPersona">{participante.categoria}</h2>
+                <h2 className="ubicacionPersona">{participante.ubicacion}</h2>
+              </div>
+            </div>
+          </Modal>
+        </section>
+        <section className="categoriasDer">
 
-            <Link to="/actosentido" className="categoria">
-              ACTOSENTIDO
-            </Link>
-            <Link to="/vistavideo" className="categoria">
-              CUERPO
-            </Link>
-            <Link to="/vistavideo" className="categoria">
-              LIBERTAD
-            </Link>
-          </section>
+          <Link to="/actosentido" className="categoria">
+            ACTOSENTIDO
+          </Link>
+          <Link to="/vistavideo" className="categoria">
+            CUERPO
+          </Link>
+          <Link to="/vistavideo" className="categoria">
+            LIBERTAD
+          </Link>
+        </section>
 
         <Footer />
       </div>

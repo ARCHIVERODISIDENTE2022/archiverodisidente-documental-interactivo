@@ -1,15 +1,21 @@
-import React, { useContext, useState } from "react";
+import React, { useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css"
 import logo from '../data/gif/GIF-PRINCIPAL-.gif'
 import logoNegro from '../assets/img/LOGO-NEGRO.png'
 import { AiOutlineArrowRight } from 'react-icons/ai';
+import music from '../data/mp3/Leit-Motiv.mp3'
+
 
 const Home = () => {
-
-  return (
+  const audio = useRef(null);
+  useEffect(() => {
+    audio.current.play();
+  }, []);
+    return (
     <>
       <div className="App">
+      <audio className="volume-progressbar" ref={audio} src={music}/>
         <div className="first" id="first">
           <img className="logo"
             src={logo}
@@ -107,8 +113,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-
     </>
   );
 };

@@ -8,7 +8,7 @@ const VistaCategorias = () => {
   return (
     <>
 <div className="containerVistaCategoria">
-    <a className="backArrow" href="#choice">
+    <a className="backArrow" href="/#choice">
     <AiOutlineArrowLeft/>
         </a>
         

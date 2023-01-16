@@ -37,7 +37,7 @@ export const VistaParticipantes = () => {
 
   return (
     <div className="vistaParticipantes">
-      <a className="backArrow" href="#choice">
+      <a className="backArrow" href="/#choice">
         <AiOutlineArrowLeft />
       </a>
 <h1 className="titleParticipantes"> PARTICIPANTES </h1>
