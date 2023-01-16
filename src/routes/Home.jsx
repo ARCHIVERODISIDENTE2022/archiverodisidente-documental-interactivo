@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css"
 import logo from '../data/gif/GIF-PRINCIPAL-.gif'
+import logoNegro from '../assets/img/LOGO-NEGRO.png'
 import { AiOutlineArrowRight } from 'react-icons/ai';
 
 const Home = () => {
@@ -82,12 +83,11 @@ const Home = () => {
         </div>
 
         <div className="instructions" id="instructions">
-          <img
-            className="logo"
-            src="/src/img/archiveroicono.png"
-            alt="Archivero"
+        <img className="logoNegro"
+            src={logoNegro}
+            alt=""
           />
-          <h1 className="text-left font-black text-2xl pr-10 mr-10">INSTRUCCIONES</h1>
+          <h1 className="titleInstrucciones">INSTRUCCIONES</h1>
           <h2 className="instructionsText">
             “Archivero Disidente es un <b><i>documental interactivo</i></b> que narra acerca de los procesos identitarios de 14 personas de las disidencias sexuales en Chile; un registro participativo de su archivo en vida. Tienes dos formas de navegar por el contenido: <span className="boldItalic"> por participantes o por categorías.</span> Recuerda que puedes desplazarte hacia adelante o atrás con las flechas. Y <span className="boldItalic">tranquilx,</span> siempre puedes guiarte por el <span className="boldItalic">menú que se encontrará en la parte inferior de la pantalla.</span> 
           </h2>
