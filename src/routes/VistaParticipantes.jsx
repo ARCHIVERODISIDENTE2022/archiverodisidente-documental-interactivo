@@ -39,49 +39,55 @@ export const VistaParticipantes = () => {
 
   if (participanteSeleccionado) {
     return (
-      <div className="personaContainer">
-        <div className="persona">
-          <Link to="/vistaparticipantes" className="backArrow">
-            <AiOutlineArrowLeft />
-          </Link>
-          <h2 className="quote">"{participanteSeleccionado.cuña}"</h2>
+      <>
+        <div className="personaContainer">
+          <div className="persona">
+            <Link to="/vistaparticipantes" className="backArrow">
+              <AiOutlineArrowLeft />
+            </Link>
+            <div className="quote">
+              <h2>"{participanteSeleccionado.cuña}"</h2>
+            </div>
 
-          <h1 className="title">
-            {participanteSeleccionado.nombreParticipante}
-          </h1>
-          <img
-            src={participanteSeleccionado.mainImg}
-            alt=""
-            className="imgPersona"
-          />
-          <div className="categorias">
-            <Link to="/vistavideo" className="categoria">
-              FAMILIA
-            </Link>
-            <Link to="/vistavideo" className="categoria">
-              MIEDO
-            </Link>
-            <Link to="/vistavideo" className="categoria">
-              AMOR
-            </Link>
-            <Link to="/actosentido" className="categoria">
-              ACTOSENTIDO
-            </Link>
-            <Link to="/vistavideo" className="categoria">
-              CUERPO
-            </Link>
-            <Link to="/vistavideo" className="categoria">
-              LIBERTAD
-            </Link>
+            <div>
+              <h1 className="title">
+                {participanteSeleccionado.nombreParticipante}
+              </h1>
+              <img
+                src={participanteSeleccionado.mainImg}
+                alt=""
+                className="imgPersona"
+              />
+            </div>
+            <div className="categorias">
+              <Link to="/vistavideo" className="categoria">
+                FAMILIA
+              </Link>
+              <Link to="/vistavideo" className="categoria">
+                MIEDO
+              </Link>
+              <Link to="/vistavideo" className="categoria">
+                AMOR
+              </Link>
+              <Link to="/actosentido" className="categoria">
+                ACTOSENTIDO
+              </Link>
+              <Link to="/vistavideo" className="categoria">
+                CUERPO
+              </Link>
+              <Link to="/vistavideo" className="categoria">
+                LIBERTAD
+              </Link>
+            </div>
           </div>
         </div>
         <Footer />
-      </div>
+      </>
     );
   }
 
   return (
-    <div className="vistaParticipantes">
+    <div className="containerVistaParticipantes">
       <a className="backArrow" href="#choice">
         <AiOutlineArrowLeft />
       </a>
