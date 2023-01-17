@@ -4,6 +4,7 @@ import axios from "axios";
 import Footer from "../components/Footer";
 import "./VistaCategorias.css";
 import { AiOutlineArrowLeft } from "react-icons/ai";
+import Modal from "react-modal";
 
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
@@ -49,7 +50,7 @@ export const VistaCategorias = () => {
           <Link to="/vistavideo" className="ctgr">
             MIEDO
           </Link>
-          <Link to="/vistavideo" className="ctgr">
+          <Link to="/amor" className="ctgr">
             AMOR
           </Link>
           <Link to="/actosentido" className="ctgr">

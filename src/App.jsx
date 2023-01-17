@@ -11,6 +11,7 @@ import Cuerpo from "./routes/Cuerpo";
 import Libertad from "./routes/Libertad";
 import Retribucion from "./routes/Retribucion";
 import Creditos from "./routes/Creditos";
+import Familia from "./routes/Familia";
 
 const App = () => {
   return (
@@ -35,9 +36,13 @@ const App = () => {
 
         <Route path="/actosentido" element={<ActoSentido />}></Route>
 
+<<<<<<< HEAD
         <Route path="/cuerpo" element={<Cuerpo />}></Route>
 
         <Route path="/libertad" element={<Libertad />}></Route>
+=======
+        <Route path="/familia" element={<Familia />}></Route>
+>>>>>>> fa5464616efb591a5a9c753728cfe829ee77e431
 
         <Route path="/retribucion" element={<Retribucion />}></Route>
 
