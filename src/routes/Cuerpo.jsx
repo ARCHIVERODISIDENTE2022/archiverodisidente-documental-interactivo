@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import "./Cuerpo.css";
 import { React, useEffect, useState } from "react";
 import axios from "axios";
-import { FamiliaContent } from "../components/FamiliaContent";
+import { CuerpoContent } from "../components/CuerpoContent";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Modal from "react-modal";
 
