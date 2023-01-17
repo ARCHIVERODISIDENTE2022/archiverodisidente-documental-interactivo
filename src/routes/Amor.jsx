@@ -70,4 +70,4 @@ const Amor = () => {
   );
 };
 
-export default Familia;
+export default Amor;
