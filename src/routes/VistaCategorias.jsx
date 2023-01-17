@@ -50,7 +50,7 @@ export const VistaCategorias = () => {
           <Link to="/vistavideo" className="ctgr">
             MIEDO
           </Link>
-          <Link to="/vistavideo" className="ctgr">
+          <Link to="/amor" className="ctgr">
             AMOR
           </Link>
           <Link to="/actosentido" className="ctgr">

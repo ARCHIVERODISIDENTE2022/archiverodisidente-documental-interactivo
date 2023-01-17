@@ -1,11 +1,11 @@
 import React from "react";
 
-export const FamiliaContent = ({ participante }) => {
+export const AmorContent = ({ participante }) => {
   return (
     <div className="containerActosentido">
       <img
         className="gifParticipanteStatic"
-        src={participante.categoria[3].imgObjeto}
+        src={participante.categoria[0].imgObjeto}
       />
     </div>
   );
