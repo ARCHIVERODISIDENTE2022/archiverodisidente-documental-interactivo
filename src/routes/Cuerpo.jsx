@@ -1,5 +1,5 @@
 import Footer from "../components/Footer";
-import "./Familia.css";
+import "./Cuerpo.css";
 import { React, useEffect, useState } from "react";
 import axios from "axios";
 import { FamiliaContent } from "../components/FamiliaContent";
@@ -9,7 +9,7 @@ import Modal from "react-modal";
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
 
-const Familia = () => {
+const Cuerpo = () => {
   const [participantes, setParticipantes] = useState(null);
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
@@ -39,7 +39,7 @@ const Familia = () => {
   return (
     <>
       <div className="vistaActoFamilia">
-        <h1 className="title">FAMILIA</h1>
+        <h1 className="title">CUERPO</h1>
         <div>
           {random(Array.from(participantes)).map((participantes) => {
             return (
@@ -49,7 +49,7 @@ const Familia = () => {
                   key={participantes.id}
                   className="categoria"
                 >
-                  <FamiliaContent participante={participantes} />
+                  <CuerpoContent participante={participantes} />
                 </button>
                 <Modal isOpen={modalIsOpen}>
                   <button
@@ -70,4 +70,4 @@ const Familia = () => {
   );
 };
 
-export default Familia;
+export default Cuerpo;
