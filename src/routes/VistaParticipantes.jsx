@@ -43,7 +43,7 @@ export const VistaParticipantes = () => {
       <>
         <div className="personaContainer">
           <div className="persona">
-            <Link to="/vistaparticipantes" className="backArrow">
+            <Link to="/#choice" className="backArrow">
               <AiOutlineArrowLeft />
             </Link>
             <div className="quote">

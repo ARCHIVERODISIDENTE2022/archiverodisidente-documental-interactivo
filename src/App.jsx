@@ -3,7 +3,12 @@ import Home from "./routes/Home";
 import { VistaCategorias } from "./routes/VistaCategorias";
 import { VistaParticipantes } from "./routes/VistaParticipantes";
 import Categorias from "./routes/Categorias";
+import Familia from "./routes/Familia";
+import Miedo from "./routes/Miedo";
+import Amor from "./routes/Amor";
 import ActoSentido from "./routes/ActoSentido";
+import Cuerpo from "./routes/Cuerpo";
+import Libertad from "./routes/Libertad";
 import Retribucion from "./routes/Retribucion";
 import Creditos from "./routes/Creditos";
 
@@ -22,9 +27,17 @@ const App = () => {
 
         <Route path="/categorias" element={<Categorias />}></Route>
 
-        {/* <Route path="/vistaPersona" element={<VistaPersona />}></Route> */}
+        <Route path="/familia" element={<Familia />}></Route>
+
+        <Route path="/miedo" element={<Miedo />}></Route> 
+
+        <Route path="/amor" element={<Amor />}></Route>
 
         <Route path="/actosentido" element={<ActoSentido />}></Route>
+
+        <Route path="/cuerpo" element={<Cuerpo />}></Route>
+
+        <Route path="/libertad" element={<Libertad />}></Route>
 
         <Route path="/retribucion" element={<Retribucion />}></Route>
 

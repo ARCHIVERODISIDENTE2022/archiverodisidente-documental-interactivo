@@ -10,7 +10,6 @@ const url =
 
 export const VistaCategorias = () => {
   const [categoriasData, setCategoriasData] = useState(null);
-  // const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const random = (a) => {
     for (let i = a.length - 1; i > 0; i--) {
@@ -44,7 +43,7 @@ export const VistaCategorias = () => {
           </a>
         </div>
         <section className="categorias">
-          <Link to="/vistavideo" className="ctgr">
+          <Link to="/familia" className="ctgr">
             FAMILIA
           </Link>
           <Link to="/vistavideo" className="ctgr">

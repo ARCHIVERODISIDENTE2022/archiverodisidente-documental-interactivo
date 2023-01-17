@@ -5,6 +5,7 @@ import axios from "axios";
 import { GifParticipantes } from "../components/gifParticipantes";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Modal from "react-modal";
+import ModalActoSentido from "../components/ModalActoSentido";
 
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
@@ -38,7 +39,7 @@ const ActoSentido = () => {
 
   return (
     <>
-      {/* <ModalActoSentido/> */}
+    <ModalActoSentido/>
       <div className="vistaActoSentido">
         <h1 className="titleParticipantes">ACTOSENTIDO_</h1>
         <div className="gifParticipantes">

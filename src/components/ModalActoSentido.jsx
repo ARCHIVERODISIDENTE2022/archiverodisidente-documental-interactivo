@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useState } from "react";
 import { Link } from "react-router-dom";
 import "./ModalActoSentido.css"
 import Modal from 'react-modal';
