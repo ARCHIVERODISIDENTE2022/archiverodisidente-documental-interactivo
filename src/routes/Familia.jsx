@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-const Familia = () => {
-  <>
-  <h1 className="">Hi</h1>
-  </>
-}
-export default Familia;
-=======
 import Footer from "../components/Footer";
 import "./Familia.css";
 import { React, useEffect, useState } from "react";
