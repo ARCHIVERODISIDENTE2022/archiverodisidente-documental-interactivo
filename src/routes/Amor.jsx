@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-const Amor = () => {
-    <>
-    <h1 className="">Hi</h1>
-    </>
-}
-export default Amor;
-=======
 import Footer from "../components/Footer";
 import "./Familia.css";
 import { React, useEffect, useState } from "react";
