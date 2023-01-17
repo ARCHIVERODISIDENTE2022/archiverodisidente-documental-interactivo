@@ -4,13 +4,13 @@ import axios from "axios";
 import Footer from "../components/Footer";
 import "./VistaCategorias.css";
 import { AiOutlineArrowLeft } from "react-icons/ai";
+import Modal from "react-modal";
 
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
 
 export const VistaCategorias = () => {
   const [categoriasData, setCategoriasData] = useState(null);
-  // const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const random = (a) => {
     for (let i = a.length - 1; i > 0; i--) {
@@ -44,7 +44,7 @@ export const VistaCategorias = () => {
           </a>
         </div>
         <section className="categorias">
-          <Link to="/vistavideo" className="ctgr">
+          <Link to="/familia" className="ctgr">
             FAMILIA
           </Link>
           <Link to="/vistavideo" className="ctgr">

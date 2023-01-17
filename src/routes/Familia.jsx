@@ -2,13 +2,16 @@ import Footer from "../components/Footer";
 import "./Familia.css";
 import { React, useEffect, useState } from "react";
 import axios from "axios";
-// import ModalActoSentido from "../components/ModalActoSentido";
+import { FamiliaContent } from "../components/FamiliaContent";
+import { AiOutlineArrowLeft } from "react-icons/ai";
+import Modal from "react-modal";
 
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
 
 const Familia = () => {
   const [participantes, setParticipantes] = useState(null);
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const random = (a) => {
     for (let i = a.length - 1; i > 0; i--) {
@@ -35,12 +38,30 @@ const Familia = () => {
 
   return (
     <>
-      {/* <ModalActoSentido/> */}
-      <div className="vistaActoSentido">
-        <h1 className="titleParticipantes">ACTOSENTIDO_</h1>
-        <div className="gifParticipantes">
+      <div className="vistaActoFamilia">
+        <h1 className="title">FAMILIA_</h1>
+        <div>
           {random(Array.from(participantes)).map((participantes) => {
-            return <GifParticipantes participante={participantes} />;
+            return (
+              <>
+                <button
+                  onClick={() => setModalIsOpen(true)}
+                  key={participantes.id}
+                  className="categoria"
+                >
+                  <FamiliaContent participante={participantes} />
+                </button>
+                <Modal isOpen={modalIsOpen}>
+                  <button
+                    onClick={() => setModalIsOpen(false)}
+                    key={participantes.id}
+                    className="backArrow"
+                  >
+                    <AiOutlineArrowLeft />
+                  </button>
+                </Modal>
+              </>
+            );
           })}
         </div>
         <Footer />

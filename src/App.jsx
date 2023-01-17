@@ -6,6 +6,7 @@ import Categorias from "./routes/Categorias";
 import ActoSentido from "./routes/ActoSentido";
 import Retribucion from "./routes/Retribucion";
 import Creditos from "./routes/Creditos";
+import Familia from "./routes/Familia";
 
 const App = () => {
   return (
@@ -25,6 +26,8 @@ const App = () => {
         {/* <Route path="/vistaPersona" element={<VistaPersona />}></Route> */}
 
         <Route path="/actosentido" element={<ActoSentido />}></Route>
+
+        <Route path="/familia" element={<Familia />}></Route>
 
         <Route path="/retribucion" element={<Retribucion />}></Route>
 
