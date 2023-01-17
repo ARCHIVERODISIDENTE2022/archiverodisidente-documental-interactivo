@@ -71,4 +71,3 @@ const Familia = () => {
 };
 
 export default Familia;
->>>>>>> fa5464616efb591a5a9c753728cfe829ee77e431
