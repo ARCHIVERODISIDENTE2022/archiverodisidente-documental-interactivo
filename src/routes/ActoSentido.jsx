@@ -1,5 +1,5 @@
 import Footer from "../components/Footer";
-import "./ActoSentido.css";
+import "./ContainerCategoria.css";
 import { React, useEffect, useState } from "react";
 import axios from "axios";
 import { GifParticipantes } from "../components/gifParticipantes";
@@ -39,9 +39,9 @@ const ActoSentido = () => {
 
   return (
     <>
-    <ModalActoSentido/>
+      <ModalActoSentido />
       <div className="vistaActoSentido">
-      <div>
+        <div>
           <a className="backArrow" href="/#choice">
             <AiOutlineArrowLeft />
           </a>
@@ -66,6 +66,17 @@ const ActoSentido = () => {
                   >
                     <AiOutlineArrowLeft />
                   </button>
+                  <div className="video-responsive">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src={participantes.categoria[5].videoObjeto}
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
                 </Modal>
               </>
             );

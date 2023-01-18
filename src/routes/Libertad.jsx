@@ -1,9 +1,9 @@
 import Footer from "../components/Footer";
-import "./Familia.css";
 import { React, useEffect, useState } from "react";
 import axios from "axios";
 import { LibertadContent } from "../components/Libertadcontent";
 import { AiOutlineArrowLeft } from "react-icons/ai";
+import "./ContainerCategoria.css";
 import Modal from "react-modal";
 
 const url =
@@ -39,7 +39,7 @@ const Familia = () => {
   return (
     <>
       <div className="vistaActoFamilia">
-        <h1 className="title">FAMILIA</h1>
+        <h1 className="title">LIBERTAD</h1>
         <div>
           {random(Array.from(participantes)).map((participantes) => {
             return (
@@ -59,6 +59,17 @@ const Familia = () => {
                   >
                     <AiOutlineArrowLeft />
                   </button>
+                  <div className="video-responsive">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src={participantes.categoria[4].videoObjeto}
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
                 </Modal>
               </>
             );

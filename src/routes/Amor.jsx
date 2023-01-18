@@ -5,7 +5,6 @@ import axios from "axios";
 import { AmorContent } from "../components/AmorContent";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Modal from "react-modal";
-import VideoContent from "../components/VideoContent";
 
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
@@ -40,7 +39,7 @@ const Amor = () => {
   return (
     <>
       <div className="vista">
-      <div>
+        <div>
           <a className="backArrow" href="/#choice">
             <AiOutlineArrowLeft />
           </a>
@@ -69,7 +68,7 @@ const Amor = () => {
                     <iframe
                       width="560"
                       height="315"
-                      src="https://www.youtube.com/embed/zEx5YL0MsEE"
+                      src={participantes.categoria[0].videoObjeto}
                       title="YouTube video player"
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

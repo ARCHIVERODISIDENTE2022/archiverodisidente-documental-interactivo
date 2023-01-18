@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
-import "./Cuerpo.css";
 import { React, useEffect, useState } from "react";
 import axios from "axios";
+import "./ContainerCategoria.css";
 import { CuerpoContent } from "../components/CuerpoContent";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Modal from "react-modal";
@@ -59,6 +59,17 @@ const Cuerpo = () => {
                   >
                     <AiOutlineArrowLeft />
                   </button>
+                  <div className="video-responsive">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src={participantes.categoria[3].videoObjeto}
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
                 </Modal>
               </>
             );
