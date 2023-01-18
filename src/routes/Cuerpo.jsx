@@ -26,7 +26,7 @@ const Cuerpo = () => {
       try {
         const response = await axios.get(url);
         setParticipantes(response.data.participantes);
-      } catch (error) {}
+      } catch (error) { }
     }
 
     fetchData();
@@ -38,42 +38,47 @@ const Cuerpo = () => {
 
   return (
     <>
-      <div className="vistaActoFamilia">
-        <h1 className="title">CUERPO</h1>
-        <div>
-          {random(Array.from(participantes)).map((participantes) => {
-            return (
-              <>
-                <button
-                  onClick={() => setModalIsOpen(true)}
-                  key={participantes.id}
-                  className="categoria"
-                >
-                  <CuerpoContent participante={participantes} />
-                </button>
-                <Modal isOpen={modalIsOpen}>
+      <div className="container">
+        <div className="vista">
+          <a className="backArrow" href="/#choice">
+            <AiOutlineArrowLeft />
+          </a>
+          <h1 className="title">CUERPO</h1>
+          <div className="imgParticipantes">
+            {random(Array.from(participantes)).map((participantes) => {
+              return (
+                <>
                   <button
-                    onClick={() => setModalIsOpen(false)}
+                    onClick={() => setModalIsOpen(true)}
                     key={participantes.id}
-                    className="backArrow"
+                    className="personCategoria"
                   >
-                    <AiOutlineArrowLeft />
+                    <CuerpoContent participante={participantes} />
                   </button>
-                  <div className="video">
-                    <iframe
-                      width="560"
-                      height="315"
-                      src={participantes.categoria[3].videoObjeto}
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </Modal>
-              </>
-            );
-          })}
+                  <Modal isOpen={modalIsOpen}>
+                    <button
+                      onClick={() => setModalIsOpen(false)}
+                      key={participantes.id}
+                      className="backArrow"
+                    >
+                      <AiOutlineArrowLeft />
+                    </button>
+                    <div className="video">
+                      <iframe
+                        width="560"
+                        height="315"
+                        src={participantes.categoria[3].videoObjeto}
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </Modal>
+                </>
+              );
+            })}
+          </div>
         </div>
         <Footer />
       </div>
