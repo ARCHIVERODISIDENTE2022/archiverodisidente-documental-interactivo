@@ -75,6 +75,17 @@ export const VistaParticipantes = () => {
                 >
                   <AiOutlineArrowLeft />
                 </button>
+                <div className="video">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src={participanteSeleccionado.categoria[2].videoObjeto}
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </Modal>
               <button
                 onClick={() => setModalIsOpen(true)}
@@ -89,6 +100,17 @@ export const VistaParticipantes = () => {
                 >
                   <AiOutlineArrowLeft />
                 </button>
+                <div className="video">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src={participanteSeleccionado.categoria[1].videoObjeto}
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </Modal>
               <button
                 onClick={() => setModalIsOpen(true)}
@@ -103,6 +125,17 @@ export const VistaParticipantes = () => {
                 >
                   <AiOutlineArrowLeft />
                 </button>
+                <div className="video">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src={participanteSeleccionado.categoria[0].videoObjeto}
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </Modal>
               <button
                 onClick={() => setModalIsOpen(true)}
@@ -117,6 +150,17 @@ export const VistaParticipantes = () => {
                 >
                   <AiOutlineArrowLeft />
                 </button>
+                <div className="video">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src={participanteSeleccionado.categoria[5].videoObjeto}
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </Modal>
               <button
                 onClick={() => setModalIsOpen(true)}
@@ -131,6 +175,17 @@ export const VistaParticipantes = () => {
                 >
                   <AiOutlineArrowLeft />
                 </button>
+                <div className="video">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src={participanteSeleccionado.categoria[3].videoObjeto}
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </Modal>
               <button
                 onClick={() => setModalIsOpen(true)}
@@ -145,6 +200,17 @@ export const VistaParticipantes = () => {
                 >
                   <AiOutlineArrowLeft />
                 </button>
+                <div className="video">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src={participanteSeleccionado.categoria[4].videoObjeto}
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </Modal>
             </div>
           </div>
