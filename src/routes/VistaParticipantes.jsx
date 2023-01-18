@@ -41,17 +41,16 @@ export const VistaParticipantes = () => {
   if (participanteSeleccionado) {
     return (
       <>
+      <div className="container">
         <div className="personaContainer">
-          <div className="persona">
-            <Link to="/#choice" className="backArrow">
+            <Link to="/#choice" className="bckArrow">
               <AiOutlineArrowLeft />
             </Link>
-            <div className="quote">
+            <div className="cuña">
               <h2>"{participanteSeleccionado.cuña}"</h2>
             </div>
-
-            <div>
-              <h1 className="title">
+            <div className="info">
+              <h1 className="name">
                 {participanteSeleccionado.nombreParticipante}
               </h1>
               <img
@@ -60,7 +59,7 @@ export const VistaParticipantes = () => {
                 className="imgPersona"
               />
             </div>
-            <div className="categorias">
+            <div className="categoriasIzq">
               <button
                 onClick={() => setModalIsOpen(true)}
                 className="categoria"
@@ -70,7 +69,7 @@ export const VistaParticipantes = () => {
               <Modal isOpen={modalIsOpen}>
                 <button
                   onClick={() => setModalIsOpen(false)}
-                  className="backArrow"
+                  className="backArrowModal"
                 >
                   <AiOutlineArrowLeft />
                 </button>
@@ -103,6 +102,8 @@ export const VistaParticipantes = () => {
                   <AiOutlineArrowLeft />
                 </button>
               </Modal>
+              </div>
+              <div className="categoriasDer">
               <button
                 onClick={() => setModalIsOpen(true)}
                 className="categoria"
@@ -146,9 +147,9 @@ export const VistaParticipantes = () => {
                 </button>
               </Modal>
             </div>
-          </div>
         </div>
         <Footer />
+        </div>
       </>
     );
   }
@@ -156,13 +157,10 @@ export const VistaParticipantes = () => {
   return (
     <>
       <div className="container">
-      
         <div className="containerVistaParticipantes">
-        <div>
           <a className="backArrow" href="/#choice">
             <AiOutlineArrowLeft />
           </a>
-        </div>
           <h1 className="titleParticipantes"> PARTICIPANTES </h1>
           <div className="participantesContainer">
             {Array.from(participantesData).map((participantes) => (
@@ -177,7 +175,7 @@ export const VistaParticipantes = () => {
           </div>
         </div>
         <Footer />
-      </div>
+        </div>
     </>
   );
 };

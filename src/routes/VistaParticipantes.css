@@ -1,154 +1,125 @@
-.container{
+.container {
+  width: 100vw;
   height: 100vh;
-  width: auto;
+  display: flex;
+  flex-direction: column;
 }
+
 .containerVistaParticipantes {
-height: 95vh;
+  height: 100vh;
   width: auto;
   display: grid;
   align-items: center;
   justify-items: center;
   align-content: center;
+  align-content: space-evenly;
+  grid-template-columns: 5% 90% 5%;
+  grid-template-rows: 10% 15% 70% 5%;
+  gap: 1%;
 }
 
 .backArrow {
-  flex-direction: row-reverse;
-  margin: 0.25rem;
   text-decoration: none;
   color: black;
+  position: relative;
+  margin: 70% 100% 0 0;
+  grid-row: 1/2;
+  grid-column: 3/4;
 }
 
-.titleParticipantes{
-  display: flex;
+.titleParticipantes {
   font-weight: 900;
-  font-size: 2.25rem;
+  font-size: 3rem;
   justify-content: center;
   padding: 0.5rem 1rem;
   border-width: 4px;
   border-style: solid;
   border-color: black;
-  margin: 0 35rem;
   cursor: default;
+  grid-row: 2/3;
+  grid-column: 2/3;
 }
-.participantesContainer{
-  height:75vh;
-  width: auto;
+
+.participantesContainer {
+  grid-row: 3/4;
+  grid-column: 2/3;
   display: grid;
   justify-content: space-around;
   align-content: space-evenly;
-  column-gap: 5%;
+  align-content: center;
+  grid-template-rows: 50% 50%;
   grid-template-columns: auto auto auto auto auto auto auto;
-  grid-template-rows: 80px 80px;
-  
-  padding: 10px;
+  position: absolute;
+  gap: 3%;
 }
-.participante{
 
-  height:auto;
-  width: auto;
-  gap: 10px;
-  
-}
-.participanteImg{
-  height:150px;
+.participanteImg {
   width: 150px;
   border-width: 4px;
   border-style: solid;
   border-color: black;
 }
-@media screen and (max-width: 640px) {
-  .containerVistaParticipantes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .backArrow {
-    flex-direction: row-reverse;
-    margin: 0.25rem;
-    text-decoration: none;
-    color: black;
-  }
-
-  .titleParticipantes {
-    display: flex;
-    font-weight: 900;
-    font-size: 1.5rem;
-    justify-content: center;
-    padding: 0.5rem 1rem;
-    border-width: 4px;
-    border-style: solid;
-    border-color: black;
-  }
-
-////// propiedades vista persona
-
-.personaContainer{
+.personaContainer {
   width: auto;
   height: 100vh;
   display: grid;
   grid-template-columns: 33% 34% 33%;
-  grid-template-rows: 5% 5% 75% 5%;
+  grid-template-rows: 5% 15% 75% 5%;
   align-items: center;
   justify-items: center;
-  align-content: center;
+  align-content: space-between;
 }
 
-.backArrow{
+.bckArrow {
   text-decoration: none;
   color: black;
-  font-size: 2rem;
+  position: relative;
   grid-column: 3/4;
   grid-row: 1/2;
+  margin-left: 70%;
+  font-size: 2rem;
 }
 
-.cuña{
+.cuña {
   text-align: center;
-  font-size: 1rem;
-  margin: 0 15rem;
+  font-size: 0.7rem;
   grid-row: 2/3;
   grid-column: 1/4;
+  margin: 0 25%;
 }
 
-.categoriasIzq{
-  grid-column: 1/2;
-  grid-row: 3/4;
-}
-
-.infoPersona{
+.info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  grid-column: 2/3;
-  grid-row: 3/4;}
-
-.nombrePersona{
-  /* display: flex; */
-  font-weight: 900;
-  font-size: 2.25rem;
   justify-content: center;
-  padding: 0.5rem 1rem;
-  border-width: 4px;
-  border-style: solid;
-  border-color: black;
-  margin: 0 35rem;
-  text-transform: uppercase;
-}
-
-.imgPersona{
-  border-style: solid;
-  border-color: black;
-  border-width: 4px;
-  height: 25rem;
-  width: 25rem;
-  padding: 0.5rem;
-}
-.categoriasDer{
-  grid-column: 3/4;
+  width: 100%;
+  height: 100%;
+  grid-column: 2/3;
   grid-row: 3/4;
 }
-.categoria{
+
+.name {
+  font-weight: 900;
+  font-size: 2rem;
+  padding: 10px 50px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: black;
+  text-transform: uppercase;
+  position: static;
+}
+
+.imgPersona {
+  border-style: solid;
+  border-color: black;
+  border-width: 4px;
+  height: 70%;
+  padding: 0.5rem;
+}
+
+.categoria {
   display: flex;
   justify-content: center;
   margin: 3.5rem 0;
@@ -159,19 +130,158 @@ height: 95vh;
   font-size: 2rem;
   font-weight: 900;
   width: 20rem;
+  background-color: white;
 }
 
-.footer{
-  grid-column: 1/4;
-  grid-row: 4/5;
+.categoriasIzq {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  grid-column: 1/2;
+  grid-row: 3/4;
 }
 
-.categoria:visited{
-  color: black;
+.categoriasDer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.footer {
+  position: relative;
 }
 
 @media screen and (max-width: 640px) {
-  .personaContainer{
+  .containerVistaParticipantes {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: 5% 10% 80% 5%;
+  }
+
+  .backArrow {
+    flex-direction: row-reverse;
+    margin: 0.25rem;
+    text-decoration: none;
+    color: black;
+  }
+
+  .titleParticipantes {
+    position: relative;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-weight: 900;
+    font-size: 1.5rem;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+  }
+
+  .participantesContainer {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    position: absolute;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+
+  .backArrow {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  .participanteImg {
+    width: 100px;
+  }
+
+  .cuña {
+    text-align: center;
+    font-size: 1rem;
+    margin: 0 15rem;
+    grid-row: 2/3;
+    grid-column: 1/4;
+  }
+
+  .categoriasIzq {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .infoPersona {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+
+  .nombrePersona {
+    /* display: flex; */
+    font-weight: 900;
+    font-size: 2.25rem;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    margin: 0 35rem;
+    text-transform: uppercase;
+  }
+
+  .imgPersona {
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    height: 25rem;
+    width: 25rem;
+    padding: 0.5rem;
+  }
+
+  .categoriasDer {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+
+  .categoria {
+    display: flex;
+    justify-content: center;
+    margin: 3.5rem 0;
+    padding: 1rem 0;
+    border-style: solid;
+    border-color: black;
+    border-width: 8px;
+    font-size: 2rem;
+    font-weight: 900;
+    width: 20rem;
+  }
+
+  .footer {
+    grid-column: 1/4;
+    grid-row: 4/5;
+  }
+
+  .categoria:visited {
+    color: black;
+  }
+
+  @media screen and (max-width: 640px) {
+    .personaContainer {
       width: auto;
       height: 100vh;
       display: grid;
@@ -180,38 +290,39 @@ height: 95vh;
       align-items: center;
       justify-items: center;
       align-content: center;
-  }
-  
-  .backArrow{
+    }
+
+    .backArrow {
       text-decoration: none;
       color: black;
       font-size: 2rem;
       grid-column: 2/3;
       grid-row: 1/2;
-  }
-  
-  .cuña{
+    }
+
+    .cuña {
       text-align: center;
       font-size: 0.7rem;
       margin: 2rem;
       grid-row: 3/4;
       grid-column: 1/3;
-  }
-  
-  .categoriasIzq{
+    }
+
+    .categoriasIzq {
       grid-column: 1/2;
       grid-row: 4/5;
-  }
-  
-  .infoPersona{
+    }
+
+    .infoPersona {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       grid-column: 1/3;
-      grid-row: 2/3;}
-  
-  .nombrePersona{
+      grid-row: 2/3;
+    }
+
+    .nombrePersona {
       /* display: flex; */
       font-weight: 900;
       font-size: 2.25rem;
@@ -222,22 +333,23 @@ height: 95vh;
       border-color: black;
       text-transform: uppercase;
       margin: 0;
-  }
-  
-  .imgPersona{
+    }
+
+    .imgPersona {
       border-style: solid;
       border-color: black;
       border-width: 4px;
       height: 10rem;
       width: 10rem;
       padding: 0.5rem;
-  }
+    }
 
-  .categoriasDer{
+    .categoriasDer {
       grid-column: 2/3;
       grid-row: 4/5;
-  }
-  .categoria{
+    }
+
+    .categoria {
       display: flex;
       justify-content: center;
       margin: 2rem;
@@ -248,14 +360,14 @@ height: 95vh;
       font-size: 1.3rem;
       font-weight: 900;
       width: 10rem;
-  }
-  
-  .footer{
+    }
+
+    .footer {
       grid-column: 1/3;
       grid-row: 5/6;
-  }
-  
-  .categoria:visited{
+    }
+
+    .categoria:visited {
       color: black;
+    }
   }
-}    

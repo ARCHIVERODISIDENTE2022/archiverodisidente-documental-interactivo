@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css"
 import logo from '../data/gif/GIF-PRINCIPAL-.gif'
-import logoNegro from '../assets/img/LOGO-NEGRO.png'
+import blackLogo from '../assets/img/LOGO-NEGRO.png'
 import { AiOutlineArrowRight } from 'react-icons/ai';
 import music from '../data/mp3/Leit-Motiv.mp3'
 
@@ -16,59 +16,59 @@ const Home = () => {
     <>
       <div className="App">
       <audio className="volume-progressbar" ref={audio} src={music}/>
-        <div className="first" id="first">
+        <div className="first" id="#home">
           <img className="logo"
             src={logo}
             alt="Archivero icono"
           />
           <h1 className="welcome">REGISTROS 2021 - 2022</h1>
           <p className="subWelcome">¿CÓMO IMAGINAS QUE SERÁ CONTADA TU HISTORIA EN EL FUTURO?</p>
-          <a className="firstArrow" href="#second">
+          <a className="firstArrow" href="#slide-1">
             < AiOutlineArrowRight />
           </a>
 
         </div>
 
-        <div className="second" id="second">
+        <div className="second" id="slide-1">
           <h1 className="secondText">
             Los viajes nos desplazan, nos mueven de un lugar a otro, <span>nos
               movilizan.</span>
           </h1>
           <div>
-            <a className="arrow" href="#third">
+            <a className="arrow" href="#slide-2">
             < AiOutlineArrowRight />
    </a>
           </div>
         </div>
 
-        <div className="third" id="third">
+        <div className="third" id="slide-2">
           <h1 className="thirdText">Nos muestran otros <span>paisajes y vivencias.</span> </h1>
           <div>
-            <a className="arrow" href="#fourth">
+            <a className="arrow" href="#slide-3">
             < AiOutlineArrowRight />
            </a>
           </div>
         </div>
 
-        <div className="fourth" id="fourth">
+        <div className="fourth" id="slide-3">
           <h1 className="fourthText">Nos cambian_</h1>
           <div>
-            <a className="arrowWhite" href="#fifth">
+            <a className="arrowWhite" href="#slide-4">
             < AiOutlineArrowRight />
             </a>
           </div>
         </div>
 
-        <div className="fifth" id="fifth">
+        <div className="fifth" id="slide-4">
           <h1 className="fifthText">Te invitamos a este viaje, en el cual <span>no estas solx.</span></h1>
           <div>
-            <a className="arrow" href="#sixth">
+            <a className="arrow" href="#slide-5">
             < AiOutlineArrowRight />
             </a>
           </div>
         </div>
 
-        <div className="sixth" id="sixth">
+        <div className="sixth" id="slide-5">
           <h2 className="quote">
             “Creo que es importante que la gente que pueda contar su historia la cuente, porque hay muchas personas que buscan historias parecidas que intentan ubicarse en algún lugar del mundo.”
           </h2>
@@ -82,30 +82,30 @@ const Home = () => {
           </h2>
           <h1 className="person">TURQUESA LILA MENTOLADA, ILLAPEL, IV REGIÓN.</h1>
           <div>
-            <a className="arrowSixth" href="#instructions">
+            <a className="arrowSixth" href="#slide-instructions">
             < AiOutlineArrowRight />
             </a>
           </div>
         </div>
 
-        <div className="instructions" id="instructions">
-        <img className="logoNegro"
-            src={logoNegro}
+        <div className="instructions" id="slide-instructions">
+        <img className="blackLogo"
+            src={blackLogo}
             alt=""
           />
-          <h1 className="titleInstrucciones">INSTRUCCIONES</h1>
+          <h1 className="instructionsTitle">INSTRUCCIONES</h1>
           <p className="instructionsText">
             “Archivero Disidente es un <span className="boldItalic">documental interactivo</span> que narra acerca de los procesos identitarios de 14 personas de las disidencias sexuales en Chile; un registro participativo de su archivo en vida. Tienes dos formas de navegar por el contenido: <span className="boldItalic"> por participantes o por categorías.</span> Recuerda que puedes desplazarte hacia adelante o atrás con las flechas. Y <span className="boldItalic">tranquilx,</span> siempre puedes guiarte por el <b className="boldItalic">menú que se encontrará en la parte inferior de la pantalla.</b> 
           </p>
 
           <div>
-            <a href="#choice">
-              <h2 className="viaje">COMENZAR EL VIAJE</h2>
+            <a href="#slide-choice">
+              <h2 className="btnInstructions">COMENZAR EL VIAJE</h2>
             </a>
           </div>
         </div>
 
-        <div className="choice" id="choice">
+        <div className="choice" id="slide-choice">
           <h1 className="choiceText">ELIGE LA FORMA EN LA QUE DESEAS NAVEGAR</h1>
           <div className="btnChoice">
             <Link to="/vistaparticipantes" className="choiceParticipantes"> PARTICIPANTES </Link>
