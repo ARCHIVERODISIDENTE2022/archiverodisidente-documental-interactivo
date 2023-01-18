@@ -1,10 +1,11 @@
 import React from "react";
+import "./Categorias.css";
 
 export const LibertadContent = ({ participante }) => {
   return (
-    <div className="containerActosentido">
+    <div className="containerCategoria">
       <img
-        className="gifParticipanteStatic"
+        className="imgCategoria"
         src={participante.categoria[4].imgObjeto}
       />
     </div>

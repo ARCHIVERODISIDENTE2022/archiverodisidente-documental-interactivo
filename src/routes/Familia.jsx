@@ -5,7 +5,6 @@ import axios from "axios";
 import { FamiliaContent } from "../components/FamiliaContent";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Modal from "react-modal";
-import "./ContainerCategoria.css";
 
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
@@ -41,7 +40,6 @@ const Familia = () => {
     <>
     <div className="container">
       <div className="vista">
-
           <a className="backArrow" href="/#choice">
             <AiOutlineArrowLeft />
           </a>

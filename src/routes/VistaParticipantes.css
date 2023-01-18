@@ -53,11 +53,15 @@
   gap: 3%;
 }
 
+.partipante{
+  cursor: pointer;
+}
 .participanteImg {
   width: 150px;
   border-width: 4px;
   border-style: solid;
   border-color: black;
+  cursor: pointer;
 }
 
 .personaContainer {
@@ -87,6 +91,7 @@
   grid-row: 2/3;
   grid-column: 1/4;
   margin: 0 25%;
+  cursor: default;
 }
 
 .info {
@@ -109,6 +114,7 @@
   border-color: black;
   text-transform: uppercase;
   position: static;
+  cursor: default;
 }
 
 .imgPersona {
@@ -131,6 +137,7 @@
   font-weight: 900;
   width: 20rem;
   background-color: white;
+  cursor: pointer;
 }
 
 .categoriasIzq {

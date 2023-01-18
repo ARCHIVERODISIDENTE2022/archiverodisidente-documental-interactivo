@@ -9,7 +9,7 @@ import Modal from "react-modal";
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
 
-const Familia = () => {
+const Miedo = () => {
   const [participantes, setParticipantes] = useState(null);
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
@@ -38,7 +38,11 @@ const Familia = () => {
 
   return (
     <>
+        <div className="container">
       <div className="vista">
+      <a className="backArrow" href="/#choice">
+            <AiOutlineArrowLeft />
+          </a>
         <h1 className="title">MIEDO</h1>
         <div className="imgParticipantes">
           {random(Array.from(participantes)).map((participantes) => {
@@ -47,7 +51,7 @@ const Familia = () => {
                 <button
                   onClick={() => setModalIsOpen(true)}
                   key={participantes.id}
-                  className="PersonaCategoria"
+                  className="personCategoria"
                 >
                   <MiedoContent participante={participantes} />
                 </button>
@@ -75,10 +79,11 @@ const Familia = () => {
             );
           })}
         </div>
+        </div>
         <Footer />
       </div>
     </>
   );
 };
 
-export default Familia;
+export default Miedo;
