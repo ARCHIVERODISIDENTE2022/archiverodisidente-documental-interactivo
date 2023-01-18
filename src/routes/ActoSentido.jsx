@@ -39,13 +39,12 @@ const ActoSentido = () => {
 
   return (
     <>
-      <ModalActoSentido />
+    <ModalActoSentido/>
+    <div className="container">
       <div className="vistaActoSentido">
-        <div>
           <a className="backArrow" href="/#choice">
             <AiOutlineArrowLeft />
           </a>
-        </div>
         <h1 className="title">ACTOSENTIDO_</h1>
         <div className="gifParticipantes">
           {random(Array.from(participantes)).map((participantes) => {
@@ -81,6 +80,7 @@ const ActoSentido = () => {
               </>
             );
           })}
+        </div>
         </div>
         <Footer />
       </div>

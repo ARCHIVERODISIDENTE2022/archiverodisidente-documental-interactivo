@@ -39,12 +39,12 @@ const Familia = () => {
 
   return (
     <>
+    <div className="container">
       <div className="vista">
-        <div>
+
           <a className="backArrow" href="/#choice">
             <AiOutlineArrowLeft />
           </a>
-        </div>
         <h1 className="title">FAMILIA</h1>
         <div className="imgParticipantes">
           {random(Array.from(participantes)).map((participantes) => {
@@ -80,6 +80,7 @@ const Familia = () => {
               </>
             );
           })}
+        </div>
         </div>
         <Footer />
       </div>

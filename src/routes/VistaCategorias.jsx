@@ -36,12 +36,11 @@ export const VistaCategorias = () => {
 
   return (
     <>
+    <div className="container">
       <div className="containerVistaCategoria">
-        <div>
           <a className="backArrow" href="/#choice">
             <AiOutlineArrowLeft />
           </a>
-        </div>
         <h1 className="titleCategoria"> CATEGORÍAS </h1>
         <section className="categorias">
           <Link to="/familia" className="ctgr">
@@ -63,6 +62,7 @@ export const VistaCategorias = () => {
             LIBERTAD
           </Link>
         </section>
+        </div>
         <Footer />
       </div>
     </>
