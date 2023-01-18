@@ -59,7 +59,7 @@ const Cuerpo = () => {
                   >
                     <AiOutlineArrowLeft />
                   </button>
-                  <div className="video-responsive">
+                  <div className="video">
                     <iframe
                       width="560"
                       height="315"
