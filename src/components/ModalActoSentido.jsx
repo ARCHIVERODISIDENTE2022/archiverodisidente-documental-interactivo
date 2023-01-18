@@ -3,12 +3,24 @@ import { Link } from "react-router-dom";
 import "./ModalActoSentido.css"
 import Modal from 'react-modal';
 
+const customStyles = {
+    content: {
+        width: '100vw',
+        height: '100vh',
+        position: 'fixed',
+        top: '0',
+        left: '0',
+        background: 'rgba(0, 0, 0, .5)',
+    }
+  };
 const ModalActoSentido = () => {
     const [modalIsOpen, setModalIsOpen] = useState(true);
  
     return (
         <>
-          <Modal isOpen={modalIsOpen}>
+          <Modal isOpen={modalIsOpen}
+            style={customStyles}
+            >
           
         <div className="overlay">
             <div className="contenedorModal">

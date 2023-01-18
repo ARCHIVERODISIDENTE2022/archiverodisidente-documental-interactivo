@@ -8,24 +8,29 @@
 .first {
     width: auto;
     height: 100vh;
-    margin: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-weight: 600;
+    gap: 1%;
 }
 
 .logo {
-    margin-top: -10rem;
-    width: 40rem;
-    height: 20rem;
-    padding: 2rem;
+    width: 50%;
+    height: 50%;
+    cursor: default;
 }
 
-.welcome{
+.welcome {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    cursor: default;
+}
+
+.subWelcome {
+    font-size: 1.12rem;
+    cursor: default;
 }
 
 .firstArrow {
@@ -57,6 +62,7 @@
 .fifthText {
     font-weight: 100;
     font-size: 1.5rem;
+    cursor: default;
 }
 
 .arrow {
@@ -106,6 +112,7 @@
     align-items: center;
     font-size: 2rem;
     padding-bottom: 0;
+    cursor: default;
 }
 
 .sixth {
@@ -117,29 +124,35 @@
     color: white;
     justify-content: center;
     text-align: left;
-    padding: 0 20rem 0 20rem;
+    padding: 0 20%;
+    gap: 1%;
 }
 
 .quote {
     font-size: 1rem;
     font-weight: 100;
-    padding: 0 5rem 0 5rem;
+    padding: 0 10%;
     text-align: justify;
+    cursor: default;
+    word-spacing: 0.3rem;
 }
 
 .person {
     text-align: left;
     font-size: 0.75rem;
     font-weight: 900;
-    margin: 1rem 0 2rem 5rem;
+    margin: 1% 10% 5%;
+    word-spacing: 0.3rem;
+    cursor: default;
 }
 
-.logoNegro{
+.logoNegro {
     height: 10rem;
 }
 
 .titleInstrucciones {
     font-size: 2.5rem;
+    cursor: default;
 }
 
 .instructions {
@@ -149,14 +162,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 3%;
 }
 
 .instructionsText {
-    font-weight: 100;
     font-size: 1.1rem;
     text-align: justify;
-    margin: 1rem 15rem 1rem 15rem;
-    padding: 0 10rem 0 10rem;
+    margin: 0 20%;
+    padding: 0 5%;
+    cursor: default;
 }
 
 .viaje {
@@ -177,7 +191,7 @@
     justify-content: center;
     align-items: center;
     background-color: black;
-    margin: 0;
+    gap: 1%
 }
 
 .choiceText {
@@ -185,12 +199,14 @@
     font-weight: 900;
     text-align: center;
     color: white;
-    margin: 0 2rem 0 2rem;
+    cursor: default;
 }
 
 .btnChoice {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+
 }
 
 .choiceParticipantes {
@@ -201,7 +217,7 @@
     border-style: solid;
     border-color: white;
     border-width: 4px;
-    margin: 0.5rem;
+    margin: 1%;
     text-decoration: none;
 }
 
@@ -213,28 +229,21 @@
     border-style: solid;
     border-color: white;
     border-width: 4px;
-    margin: 0.5rem;
+    margin: 1%;
     text-decoration: none;
 
-} 
-
-.fontBlack {
-    font-weight: 900;
-}
-
-span {
-    font-weight: 900;
 }
 
 .boldItalic {
-    font-weight: 900;
     font-style: italic;
 }
+span{
+    font-weight: 900;
 
+}
 a {
     text-decoration: none;
-
-} 
+}
 
 @media screen and (max-width: 640px) {
     .first {
@@ -245,29 +254,29 @@ a {
         justify-content: center;
         align-items: center;
         font-weight: 600;
+        gap: 1%;
     }
 
     .logo {
-        width: 20rem;
-        height: 10rem;
-        margin-bottom: 10rem;
+        width: 80%;
+        height: 20%;
     }
 
     .welcome {
-        position: absolute;
         font-weight: 800;
         font-size: 1.5rem;
         text-align: left;
-        margin: 5rem 0  0 7rem;
-        padding-left: 3rem;
+        margin: 10% 5% 0 50%;
+    }
+
+    .subWelcome {
+        margin: 0 5% 0 50%;
     }
 
     .firstArrow {
         position: absolute;
-        bottom: 4.5rem;
-        font-size: 5rem;
-        margin-left: 0.5rem;
-        text-decoration: none;
+        font-size: 3rem;
+        margin-left: 30%;
         color: black;
     }
 
@@ -333,7 +342,7 @@ a {
         padding-bottom: 0;
     }
 
-   .sixth {
+    .sixth {
         display: flex;
         flex-direction: column;
         width: auto;
@@ -357,7 +366,7 @@ a {
         text-align: left;
         font-size: 0.7rem;
         font-weight: 900;
-        margin: 0.5rem 0 ;
+        margin: 0.5rem 0;
     }
 
     .instructions {
@@ -366,7 +375,7 @@ a {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center; 
+        align-items: center;
     }
 
     .instructionsText {
@@ -431,5 +440,5 @@ a {
         border-color: white;
         border-width: 4px;
         text-align: center;
-    } 
+    }
 }

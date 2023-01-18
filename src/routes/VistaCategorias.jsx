@@ -4,7 +4,6 @@ import axios from "axios";
 import Footer from "../components/Footer";
 import "./VistaCategorias.css";
 import { AiOutlineArrowLeft } from "react-icons/ai";
-import Modal from "react-modal";
 
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
@@ -37,12 +36,13 @@ export const VistaCategorias = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="containerVistaCategoria">
         <div>
-          <a className="backArrow" href="#choice">
+          <a className="backArrow" href="/#choice">
             <AiOutlineArrowLeft />
           </a>
         </div>
+        <h1 className="titleCategoria"> CATEGORÍAS </h1>
         <section className="categorias">
           <Link to="/familia" className="ctgr">
             FAMILIA

@@ -1,5 +1,5 @@
 import Footer from "../components/Footer";
-import "./Familia.css";
+import "./ContainerCategoria.css";
 import { React, useEffect, useState } from "react";
 import axios from "axios";
 import { FamiliaContent } from "../components/FamiliaContent";
@@ -38,16 +38,21 @@ const Familia = () => {
 
   return (
     <>
-      <div className="vistaActoFamilia">
+      <div className="vista">
+      <div>
+          <a className="backArrow" href="/#choice">
+            <AiOutlineArrowLeft />
+          </a>
+        </div>
         <h1 className="title">FAMILIA</h1>
-        <div>
+        <div className="imgParticipantes">
           {random(Array.from(participantes)).map((participantes) => {
             return (
               <>
                 <button
                   onClick={() => setModalIsOpen(true)}
                   key={participantes.id}
-                  className="categoria"
+                  className="personCategoria"
                 >
                   <FamiliaContent participante={participantes} />
                 </button>
@@ -56,6 +61,7 @@ const Familia = () => {
                     onClick={() => setModalIsOpen(false)}
                     key={participantes.id}
                     className="backArrow"
+                
                   >
                     <AiOutlineArrowLeft />
                   </button>
@@ -66,6 +72,7 @@ const Familia = () => {
         </div>
         <Footer />
       </div>
+      
     </>
   );
 };

@@ -4,6 +4,11 @@ html {
   font-weight: 200;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
 a:link {
   text-decoration: none;
 }
