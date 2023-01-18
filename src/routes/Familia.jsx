@@ -5,6 +5,7 @@ import axios from "axios";
 import { FamiliaContent } from "../components/FamiliaContent";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Modal from "react-modal";
+import "./ContainerCategoria.css";
 
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
@@ -40,6 +41,7 @@ const Familia = () => {
     <>
     <div className="container">
       <div className="vista">
+
           <a className="backArrow" href="/#choice">
             <AiOutlineArrowLeft />
           </a>
@@ -60,10 +62,20 @@ const Familia = () => {
                     onClick={() => setModalIsOpen(false)}
                     key={participantes.id}
                     className="backArrow"
-                
                   >
                     <AiOutlineArrowLeft />
                   </button>
+                  <div className="video">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src={participantes.categoria[2].videoObjeto}
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
                 </Modal>
               </>
             );
@@ -72,7 +84,6 @@ const Familia = () => {
         </div>
         <Footer />
       </div>
-      
     </>
   );
 };

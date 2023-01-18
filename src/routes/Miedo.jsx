@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
-import "./Familia.css";
 import { React, useEffect, useState } from "react";
 import axios from "axios";
+import "./ContainerCategoria.css";
 import { MiedoContent } from "../components/MiedoContent";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Modal from "react-modal";
@@ -38,16 +38,16 @@ const Familia = () => {
 
   return (
     <>
-      <div className="vistaActoFamilia">
+      <div className="vista">
         <h1 className="title">MIEDO</h1>
-        <div>
+        <div className="imgParticipantes">
           {random(Array.from(participantes)).map((participantes) => {
             return (
               <>
                 <button
                   onClick={() => setModalIsOpen(true)}
                   key={participantes.id}
-                  className="categoria"
+                  className="PersonaCategoria"
                 >
                   <MiedoContent participante={participantes} />
                 </button>
@@ -59,6 +59,17 @@ const Familia = () => {
                   >
                     <AiOutlineArrowLeft />
                   </button>
+                  <div className="video">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src={participantes.categoria[1].videoObjeto}
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
                 </Modal>
               </>
             );

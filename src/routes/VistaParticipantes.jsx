@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import "./VistaParticipantes.css";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Modal from "react-modal";
+import VideoContent from "../components/VideoContent";
 
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
@@ -73,6 +74,17 @@ export const VistaParticipantes = () => {
                 >
                   <AiOutlineArrowLeft />
                 </button>
+                <div className="video">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src={participanteSeleccionado.categoria[2].videoObjeto}
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </Modal>
               <button
                 onClick={() => setModalIsOpen(true)}
@@ -87,6 +99,17 @@ export const VistaParticipantes = () => {
                 >
                   <AiOutlineArrowLeft />
                 </button>
+                <div className="video">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src={participanteSeleccionado.categoria[1].videoObjeto}
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </Modal>
               <button
                 onClick={() => setModalIsOpen(true)}
@@ -101,6 +124,17 @@ export const VistaParticipantes = () => {
                 >
                   <AiOutlineArrowLeft />
                 </button>
+                <div className="video">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src={participanteSeleccionado.categoria[0].videoObjeto}
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </Modal>
               </div>
               <div className="categoriasDer">
@@ -117,6 +151,17 @@ export const VistaParticipantes = () => {
                 >
                   <AiOutlineArrowLeft />
                 </button>
+                <div className="video">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src={participanteSeleccionado.categoria[5].videoObjeto}
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </Modal>
               <button
                 onClick={() => setModalIsOpen(true)}
@@ -131,6 +176,17 @@ export const VistaParticipantes = () => {
                 >
                   <AiOutlineArrowLeft />
                 </button>
+                <div className="video">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src={participanteSeleccionado.categoria[3].videoObjeto}
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </Modal>
               <button
                 onClick={() => setModalIsOpen(true)}
@@ -145,6 +201,17 @@ export const VistaParticipantes = () => {
                 >
                   <AiOutlineArrowLeft />
                 </button>
+                <div className="video">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src={participanteSeleccionado.categoria[4].videoObjeto}
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </Modal>
             </div>
         </div>
@@ -161,6 +228,7 @@ export const VistaParticipantes = () => {
           <a className="backArrow" href="/#choice">
             <AiOutlineArrowLeft />
           </a>
+
           <h1 className="titleParticipantes"> PARTICIPANTES </h1>
           <div className="participantesContainer">
             {Array.from(participantesData).map((participantes) => (
