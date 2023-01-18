@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import "./VistaParticipantes.css";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Modal from "react-modal";
+import VideoContent from "../components/VideoContent";
 
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
