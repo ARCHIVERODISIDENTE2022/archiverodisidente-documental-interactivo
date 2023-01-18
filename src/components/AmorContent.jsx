@@ -1,10 +1,12 @@
 import React from "react";
+import "./Categorias.css";
+
 
 export const AmorContent = ({ participante }) => {
   return (
-    <div className="containerActosentido">
+    <div className="containerCategoria">
       <img
-        className="gifParticipanteStatic"
+        className="imgCategoria"
         src={participante.categoria[0].imgObjeto}
       />
     </div>

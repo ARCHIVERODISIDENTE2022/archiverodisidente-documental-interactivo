@@ -156,12 +156,13 @@ export const VistaParticipantes = () => {
   return (
     <>
       <div className="container">
+      
+        <div className="containerVistaParticipantes">
         <div>
-          <a className="backArrow" href="#choice">
+          <a className="backArrow" href="/#choice">
             <AiOutlineArrowLeft />
           </a>
         </div>
-        <div className="containerVistaParticipantes">
           <h1 className="titleParticipantes"> PARTICIPANTES </h1>
           <div className="participantesContainer">
             {Array.from(participantesData).map((participantes) => (

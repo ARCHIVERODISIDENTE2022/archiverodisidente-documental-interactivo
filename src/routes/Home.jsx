@@ -21,8 +21,8 @@ const Home = () => {
             src={logo}
             alt="Archivero icono"
           />
-          <h1 className="welcome">REGISTROS 2021 - 2022
-<p>¿CÓMO IMAGINAS QUE SERÁ CONTADA TU HISTORIA EN EL FUTURO?</p></h1>
+          <h1 className="welcome">REGISTROS 2021 - 2022</h1>
+          <p className="subWelcome">¿CÓMO IMAGINAS QUE SERÁ CONTADA TU HISTORIA EN EL FUTURO?</p>
           <a className="firstArrow" href="#second">
             < AiOutlineArrowRight />
           </a>
@@ -94,9 +94,9 @@ const Home = () => {
             alt=""
           />
           <h1 className="titleInstrucciones">INSTRUCCIONES</h1>
-          <h2 className="instructionsText">
-            “Archivero Disidente es un <b><i>documental interactivo</i></b> que narra acerca de los procesos identitarios de 14 personas de las disidencias sexuales en Chile; un registro participativo de su archivo en vida. Tienes dos formas de navegar por el contenido: <span className="boldItalic"> por participantes o por categorías.</span> Recuerda que puedes desplazarte hacia adelante o atrás con las flechas. Y <span className="boldItalic">tranquilx,</span> siempre puedes guiarte por el <span className="boldItalic">menú que se encontrará en la parte inferior de la pantalla.</span> 
-          </h2>
+          <p className="instructionsText">
+            “Archivero Disidente es un <span className="boldItalic">documental interactivo</span> que narra acerca de los procesos identitarios de 14 personas de las disidencias sexuales en Chile; un registro participativo de su archivo en vida. Tienes dos formas de navegar por el contenido: <span className="boldItalic"> por participantes o por categorías.</span> Recuerda que puedes desplazarte hacia adelante o atrás con las flechas. Y <span className="boldItalic">tranquilx,</span> siempre puedes guiarte por el <b className="boldItalic">menú que se encontrará en la parte inferior de la pantalla.</b> 
+          </p>
 
           <div>
             <a href="#choice">

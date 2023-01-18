@@ -41,7 +41,12 @@ const ActoSentido = () => {
     <>
     <ModalActoSentido/>
       <div className="vistaActoSentido">
-        <h1 className="titleParticipantes">ACTOSENTIDO_</h1>
+      <div>
+          <a className="backArrow" href="/#choice">
+            <AiOutlineArrowLeft />
+          </a>
+        </div>
+        <h1 className="title">ACTOSENTIDO_</h1>
         <div className="gifParticipantes">
           {random(Array.from(participantes)).map((participantes) => {
             return (
@@ -49,7 +54,7 @@ const ActoSentido = () => {
                 <button
                   onClick={() => setModalIsOpen(true)}
                   key={participantes.id}
-                  className="categoria"
+                  className="personCategoria"
                 >
                   <GifParticipantes participante={participantes} />
                 </button>

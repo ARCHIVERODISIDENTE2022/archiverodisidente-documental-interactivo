@@ -1,13 +1,5 @@
-<<<<<<< HEAD
-const Amor = () => {
-    <>
-    <h1 className="">Hi</h1>
-    </>
-}
-export default Amor;
-=======
 import Footer from "../components/Footer";
-import "./Familia.css";
+import "./ContainerCategoria.css";
 import { React, useEffect, useState } from "react";
 import axios from "axios";
 import { AmorContent } from "../components/AmorContent";
@@ -46,16 +38,21 @@ const Amor = () => {
 
   return (
     <>
-      <div className="vistaActoFamilia">
+      <div className="vista">
+      <div>
+          <a className="backArrow" href="/#choice">
+            <AiOutlineArrowLeft />
+          </a>
+        </div>
         <h1 className="title">AMOR</h1>
-        <div>
+        <div className="imgParticipantes">
           {random(Array.from(participantes)).map((participantes) => {
             return (
               <>
                 <button
                   onClick={() => setModalIsOpen(true)}
                   key={participantes.id}
-                  className="categoria"
+                  className="personCategoria"
                 >
                   <AmorContent participante={participantes} />
                 </button>
@@ -78,5 +75,4 @@ const Amor = () => {
   );
 };
 
-export default Familia;
->>>>>>> fa5464616efb591a5a9c753728cfe829ee77e431
+export default Amor;

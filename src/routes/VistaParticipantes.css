@@ -9,7 +9,6 @@ height: 95vh;
   align-items: center;
   justify-items: center;
   align-content: center;
-  flex:1;
 }
 
 .backArrow {
@@ -29,6 +28,7 @@ height: 95vh;
   border-style: solid;
   border-color: black;
   margin: 0 35rem;
+  cursor: default;
 }
 .participantesContainer{
   height:75vh;
