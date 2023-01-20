@@ -3,7 +3,7 @@
         {
             "id": 0,
             "nombreParticipante": "Turquesa",
-            "mainImg": "src/data/imagenes-png/p00obj0.png",
+            "mainImg": "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/assets/imagenes/p00obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/data/imagenes-png/p06obj6.png",
             "gif": "src/data/gif/violeta.gif",
@@ -20,33 +20,33 @@
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "src/data/imagenes-png/p00obj1.png",
+                    "imgObjeto": "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/assets/imagenes/p00obj1.png",
                     "videoObjeto": "zEx5YL0MsEE"
                 },
                 {
                     "nombre": "Miedo",
                     "imgObjeto": "src/data/imagenes-png/p00obj2.png",
-                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
+                    "videoObjeto": "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/assets/imagenes/p00obj2.png"
                 },
                 {
                     "nombre": "Familia",
                     "imgObjeto": "src/data/imagenes-png/p00obj3.png",
-                    "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
+                    "videoObjeto": "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/assets/imagenes/p00obj3.png"
                 },
                 {
                     "nombre": "Cuerpo",
                     "imgObjeto": "src/data/imagenes-png/p00obj4.png",
-                    "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
+                    "videoObjeto": "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/assets/imagenes/p00obj4.png"
                 },
                 {
                     "nombre": "Libertad",
                     "imgObjeto": "src/data/imagenes-png/p00obj5.png",
-                    "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
+                    "videoObjeto": "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/assets/imagenes/p00obj5.png"
                 },
                 {
                     "nombre": "Actosentido",
                     "imgObjeto": "src/data/imagenes-png/p00obj6.png",
-                    "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
+                    "videoObjeto": "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/assets/imagenes/p00obj6.png"
                 }
             ]
         },
