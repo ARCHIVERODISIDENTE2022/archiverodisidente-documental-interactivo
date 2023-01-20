@@ -42,8 +42,8 @@ export const VistaParticipantes = () => {
   if (participanteSeleccionado) {
     return (
       <>
-      <div className="container">
-        <div className="personaContainer">
+        <div className="container">
+          <div className="personaContainer">
             <Link to="/#choice" className="bckArrow">
               <AiOutlineArrowLeft />
             </Link>
@@ -67,7 +67,7 @@ export const VistaParticipantes = () => {
               >
                 FAMILIA
               </button>
-              <Modal isOpen={modalIsOpen}>
+              <Modal isOpen={modalIsOpen} ariaHideApp={false}>
                 <button
                   onClick={() => setModalIsOpen(false)}
                   className="backArrowModal"
@@ -117,7 +117,7 @@ export const VistaParticipantes = () => {
               >
                 AMOR
               </button>
-              <Modal isOpen={modalIsOpen}>
+              <Modal isOpen={modalIsOpen} ariaHideApp={false}>
                 <button
                   onClick={() => setModalIsOpen(false)}
                   className="backArrow"
@@ -125,6 +125,12 @@ export const VistaParticipantes = () => {
                   <AiOutlineArrowLeft />
                 </button>
                 <div className="video">
+                  {/* <VideoContent
+                    participanteSeleccionado={participanteSeleccionado}
+                  /> */}
+                  {console.log(
+                    participanteSeleccionado.categoria[0].videoObjeto
+                  )}
                   <iframe
                     width="560"
                     height="315"
@@ -136,8 +142,8 @@ export const VistaParticipantes = () => {
                   ></iframe>
                 </div>
               </Modal>
-              </div>
-              <div className="categoriasDer">
+            </div>
+            <div className="categoriasDer">
               <button
                 onClick={() => setModalIsOpen(true)}
                 className="categoria"
@@ -214,8 +220,8 @@ export const VistaParticipantes = () => {
                 </div>
               </Modal>
             </div>
-        </div>
-        <Footer />
+          </div>
+          <Footer />
         </div>
       </>
     );
@@ -243,7 +249,7 @@ export const VistaParticipantes = () => {
           </div>
         </div>
         <Footer />
-        </div>
+      </div>
     </>
   );
 };
