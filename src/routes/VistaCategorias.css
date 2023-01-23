@@ -11,7 +11,7 @@
     display: grid;
     align-items: center;
     grid-template-columns: 5% 90% 5%;
-    grid-template-rows: 5% 10% 80% 5%;
+    grid-template-rows: 5% 90% 5%;
     justify-items: center;
     align-content: space-evenly;
 
@@ -32,15 +32,18 @@
     grid-column: 2/3;
     grid-row: 2/3;
     cursor: default;
+    bottom: 30%;
+    position: relative;
 }
 
 .categorias {
     display: grid;
     grid-column: 2/3;
-    grid-row: 3/4;
+    grid-row: 2/3;
     grid-template-rows: 2fr 2fr;
     grid-template-columns: 1fr 1fr 1fr;
     position: absolute;
+    top: 30%;
 }
 
 .ctgr{

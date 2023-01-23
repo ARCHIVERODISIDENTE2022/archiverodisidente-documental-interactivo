@@ -3,7 +3,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-  }
+}
 
 .vista {
     width: auto;
@@ -17,14 +17,16 @@
     background-color: none;
 }
 
-.title{
+.title {
     display: flex;
     font-weight: 900;
     font-size: 2.5rem;
     justify-content: center;
     grid-column: 2/3;
     grid-row: 2/3;
+    cursor: default;
 }
+
 .personCategoria {
     background-color: none;
     background-color: white;
@@ -33,7 +35,7 @@
     width: 5rem;
     height: 5rem;
     position: relative;
-
+    cursor: pointer;
 }
 
 .imgParticipantes {
@@ -47,9 +49,44 @@
     width: 90%;
     grid-column: 1/4;
     grid-row: 3/4;
+    cursor: pointer;
 }
 
-.backArrow{
-    background-color: rgba(0,0,0,0.0);
+.over {
+    width: 50vw;
+    height: 60vh;
+    background: white;
+    border-width: 5px;
+    border-style: solid;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 10% 80% 10%;
+    padding: 2% 0;
+    align-items: center;
+}
+
+.data {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    cursor: default;
+}
+
+.close {
     border: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 2rem;
+    position: relative;
+    left: 50%;
+    cursor: pointer;
+}
+
+.video {
+    margin: auto;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: black;
+    padding: 1% 5%;
 }

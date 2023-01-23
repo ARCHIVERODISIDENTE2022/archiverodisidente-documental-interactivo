@@ -40,6 +40,7 @@
     position: absolute;
     padding-top: 30.9rem;
     right: 2.5rem;
+    bottom: 2.5rem;
     text-decoration: none;
     color: black;
     margin-bottom: 0;
@@ -70,7 +71,7 @@
     display: flex;
     font-size: 3rem;
     position: absolute;
-    padding-top: 14rem;
+    padding-top: 16rem;
     right: 2.5rem;
     text-decoration: none;
     color: black;
@@ -82,7 +83,7 @@
     display: flex;
     font-size: 3rem;
     position: absolute;
-    padding-top: 12rem;
+    padding-top: 14rem;
     right: 2.5rem;
     text-decoration: none;
     color: white;

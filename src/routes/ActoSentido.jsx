@@ -39,10 +39,10 @@ const ActoSentido = () => {
 
   return (
     <>
-      <ModalActoSentido />
-      <div className="container">
-        <div className="vistaActoSentido">
-          <a className="backArrow" href="/#choice">
+    <ModalActoSentido/>
+    <div className="container">
+      <div className="vistaActoSentido">
+          <a className="backArrow" href="/vistacategorias">
             <AiOutlineArrowLeft />
           </a>
           <h1 className="title">ACTOSENTIDO_</h1>

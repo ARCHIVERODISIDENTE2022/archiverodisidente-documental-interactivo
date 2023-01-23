@@ -1,11 +1,22 @@
 import { React, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import axios from "axios";
 import Footer from "../components/Footer";
 import "./VistaParticipantes.css";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Modal from "react-modal";
-import VideoContent from "../components/VideoContent";
+
+const customStyles = {
+  content: {
+    width: '100%',
+    height: '100%',
+    position: 'absolute',
+    background: 'white',
+    display: 'flex',
+    margin: '0 auto',
+    top: '0',
+    left: '0',
+  }
+};
 
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/dataParticipantes.json";
@@ -15,6 +26,11 @@ export const VistaParticipantes = () => {
   const [participanteSeleccionado, setParticipanteSeleccionado] =
     useState(null);
   const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const handleClick = () => {
+    window.location.reload();
+  }
+
 
   const random = (a) => {
     for (let i = a.length - 1; i > 0; i--) {
@@ -29,9 +45,8 @@ export const VistaParticipantes = () => {
       try {
         const response = await axios.get(url);
         setParticipantesData(random(response.data.participantes));
-      } catch (error) {
-        console.log("error");
-      }
+      } catch (error) { }
+
     }
 
     fetchData();
@@ -46,9 +61,8 @@ export const VistaParticipantes = () => {
       <>
         <div className="container">
           <div className="personaContainer">
-            <Link to="/#choice" className="bckArrow">
-              <AiOutlineArrowLeft />
-            </Link>
+            <button className="bckArrow" onClick={handleClick}><AiOutlineArrowLeft /></button>
+
             <div className="cuña">
               <h2>"{participanteSeleccionado.cuña}"</h2>
             </div>
@@ -69,23 +83,26 @@ export const VistaParticipantes = () => {
               >
                 FAMILIA
               </button>
-              <Modal isOpen={modalIsOpen} ariaHideApp={false}>
-                <button
-                  onClick={() => setModalIsOpen(false)}
-                  className="backArrowModal"
-                >
-                  <AiOutlineArrowLeft />
-                </button>
-                <div className="video">
-                  <iframe
-                    width="560"
-                    height="315"
-                    src={participanteSeleccionado.categoria[2].videoObjeto}
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                  ></iframe>
+              <Modal isOpen={modalIsOpen}
+                style={customStyles}
+              >
+                <div className="containerModal">
+                  <button
+                    onClick={() => setModalIsOpen(false)}
+                    className="backArrowModal"
+                  >
+                    <AiOutlineArrowLeft />
+                  </button>
+                  <div className="video">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src={participanteSeleccionado.categoria[2].videoObjeto}
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
                 </div>
               </Modal>
               <button
@@ -97,7 +114,7 @@ export const VistaParticipantes = () => {
               <Modal isOpen={modalIsOpen}>
                 <button
                   onClick={() => setModalIsOpen(false)}
-                  className="backArrow"
+                  className="backArrowModal"
                 >
                   <AiOutlineArrowLeft />
                 </button>
@@ -122,7 +139,7 @@ export const VistaParticipantes = () => {
               <Modal isOpen={modalIsOpen} ariaHideApp={false}>
                 <button
                   onClick={() => setModalIsOpen(false)}
-                  className="backArrow"
+                  className="backArrowModal"
                 >
                   <AiOutlineArrowLeft />
                 </button>
@@ -155,7 +172,7 @@ export const VistaParticipantes = () => {
               <Modal isOpen={modalIsOpen}>
                 <button
                   onClick={() => setModalIsOpen(false)}
-                  className="backArrow"
+                  className="backArrowModal"
                 >
                   <AiOutlineArrowLeft />
                 </button>
@@ -180,7 +197,7 @@ export const VistaParticipantes = () => {
               <Modal isOpen={modalIsOpen}>
                 <button
                   onClick={() => setModalIsOpen(false)}
-                  className="backArrow"
+                  className="backArrowModal"
                 >
                   <AiOutlineArrowLeft />
                 </button>
@@ -205,7 +222,7 @@ export const VistaParticipantes = () => {
               <Modal isOpen={modalIsOpen}>
                 <button
                   onClick={() => setModalIsOpen(false)}
-                  className="backArrow"
+                  className="backArrowModal"
                 >
                   <AiOutlineArrowLeft />
                 </button>
@@ -233,7 +250,7 @@ export const VistaParticipantes = () => {
     <>
       <div className="container">
         <div className="containerVistaParticipantes">
-          <a className="backArrow" href="/#choice">
+          <a className="backArrow" href="/#slide-choice">
             <AiOutlineArrowLeft />
           </a>
 

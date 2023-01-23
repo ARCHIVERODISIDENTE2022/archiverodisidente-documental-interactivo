@@ -6,6 +6,19 @@ import { AmorContent } from "../components/AmorContent";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Modal from "react-modal";
 
+const customStyles = {
+  content: {
+    width: '100%',
+    height: '100%',
+    position: 'absolute',
+    background: 'white',
+    display: 'flex',
+    margin: '0 auto',
+    top: '0',
+    left: '0',
+  }
+};
+
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/dataParticipantes.json";
 
@@ -40,7 +53,7 @@ const Amor = () => {
     <>
       <div className="container">
         <div className="vista">
-          <a className="backArrow" href="/#choice">
+          <a className="backArrow" href="/vistacategorias">
             <AiOutlineArrowLeft />
           </a>
           <h1 className="title">AMOR</h1>
@@ -55,24 +68,41 @@ const Amor = () => {
                   >
                     <AmorContent participante={participantes} />
                   </button>
-                  <Modal isOpen={modalIsOpen}>
+                  <Modal isOpen={modalIsOpen}
+                   style={customStyles}
+                   >
+                     <div className="over">
                     <button
                       onClick={() => setModalIsOpen(false)}
                       key={participantes.id}
-                      className="backArrow"
+                      className="close"
                     >
                       <AiOutlineArrowLeft />
                     </button>
+                    <div className="data">
+                        <h3 className="">
+                          {participantes.nombreParticipante}
+                        </h3>
+                        <h3 className="">
+                          Categoria: {participantes.categoria[2].nombre}
+                        </h3>
+                        <h3 className="">
+                          {participantes.ubicacion.comuna}
+                        </h3>
+                      </div>
                     <div className="video">
                       <iframe
                         width="560"
                         height="315"
+                        margin='auto'
+                        position='absolute'
                         src={participantes.categoria[0].videoObjeto}
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen
                       ></iframe>
+                    </div>
                     </div>
                   </Modal>
                 </>
