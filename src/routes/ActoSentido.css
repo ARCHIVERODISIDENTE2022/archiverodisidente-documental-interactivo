@@ -22,6 +22,10 @@
   justify-content: center;
   grid-column: 2/3;
   grid-row: 2/3;
+  cursor: default;
+  border-width: 5px;
+  border-style: solid;
+  padding: 1% 5%;
 }
 .gifParticipantes {
   display: flex;
@@ -42,4 +46,18 @@
   padding: 7%;
   width: 5rem;
   height: 5rem;
+}
+
+.data {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  cursor: default;
+}
+
+.informationName, .informationData{
+  font-size: 0.8rem;
+}
+
+.informationData{
+  font-weight: 100;
 }

@@ -55,24 +55,42 @@ const Familia = () => {
                   >
                     <FamiliaContent participante={participantes} />
                   </button>
-                  <Modal isOpen={modalIsOpen}>
-                    <button
-                      onClick={() => setModalIsOpen(false)}
-                      key={participantes.id}
-                      className="backArrow"
-                    >
-                      <AiOutlineArrowLeft />
-                    </button>
-                    <div className="video">
-                      <iframe
-                        width="560"
-                        height="315"
-                        src={participantes.categoria[2].videoObjeto}
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                      ></iframe>
+                  <Modal isOpen={modalIsOpen} style={customStyles}>
+                    <div className="over">
+                      <button
+                        onClick={() => setModalIsOpen(false)}
+                        key={participantes.id}
+                        className="close"
+                      >
+                        <AiOutlineArrowLeft />
+                      </button>
+                      <div className="data">
+                        <h3 className="informationName">
+                          {participantes.nombreParticipante}
+                        </h3>
+                        <h3 className="informationData">
+                          Categoria: {participantes.categoria[2].nombre}
+                        </h3>
+                        <h3 className="informationData">
+                          Región: {participantes.ubicacion.region}
+                        </h3>
+                        <h3 className="informationData">
+                          Comuna: {participantes.ubicacion.comuna}
+                        </h3>
+                      </div>
+                      <div className="video">
+                        <iframe
+                          width="560"
+                          height="315"
+                          margin="auto"
+                          position="absolute"
+                          src={participantes.categoria[2].videoObjeto}
+                          title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
                     </div>
                   </Modal>
                 </>

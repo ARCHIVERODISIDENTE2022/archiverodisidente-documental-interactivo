@@ -8,16 +8,15 @@ import Modal from "react-modal";
 
 const customStyles = {
   content: {
-    width: "100%",
-    height: "100%",
-    position: "absolute",
-    background: "white",
-    display: "flex",
-    margin: "0 auto",
-    top: "0",
-    left: "0",
-  },
-};
+    width: '100%',
+    height: '100%',
+    position: 'absolute',
+    background: 'transparent',
+    display: 'flex',
+    margin: '0 auto',
+    top: '0',
+    left: '0',
+  }}
 
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/dataParticipantes.json";

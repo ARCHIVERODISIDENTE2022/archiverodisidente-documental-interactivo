@@ -62,7 +62,10 @@
     text-decoration: none;
     justify-content: center;
 }
-
+.ctgr:hover{
+    transform: translateY(-5px);
+    background-color: transparent;
+}
 .footer {
     grid-column: 1/4;
     grid-row: 4/5;

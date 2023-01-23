@@ -11,7 +11,7 @@ const customStyles = {
     width: '100%',
     height: '100%',
     position: 'absolute',
-    background: 'rgba(0, 0, 0, .1)',
+    background: 'transparent',
     display: 'flex',
     margin: '0 auto',
     top: '0',
@@ -80,14 +80,17 @@ const Cuerpo = () => {
                       <AiOutlineArrowLeft />
                     </button>
                     <div className="data">
-                        <h3 className="">
+                        <h3 className="informationName">
                           {participantes.nombreParticipante}
                         </h3>
-                        <h3 className="">
+                        <h3 className="informationData">
                           Categoria: {participantes.categoria[2].nombre}
                         </h3>
-                        <h3 className="">
-                          {participantes.ubicacion.comuna}
+                        <h3 className="informationData">
+                          Región: {participantes.ubicacion.region}
+                        </h3>
+                        <h3 className="informationData">
+                          Comuna: {participantes.ubicacion.comuna}
                         </h3>
                       </div>
                     <div className="video">

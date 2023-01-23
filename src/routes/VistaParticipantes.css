@@ -1,3 +1,4 @@
+
 .container {
   width: 100vw;
   height: 100vh;
@@ -17,6 +18,26 @@
   gap: 1%;
 }
 
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.loading {
+  margin-top: 7%;
+  height: 45px;
+  aspect-ratio: 1.2;
+  --c: no-repeat repeating-linear-gradient(90deg, #000 0 20%, #0000 0 40%);
+  background:
+    var(--c) 50% 0,
+    var(--c) 50% 100%;
+  background-size: calc(500%/6) 50%;
+  animation: b10 1s infinite linear;
+}
+
 .backArrow {
   text-decoration: none;
   color: black;
@@ -24,6 +45,7 @@
   margin: 70% 100% 0 0;
   grid-row: 1/2;
   grid-column: 3/4;
+  background-color: transparent;
 }
 
 .titleParticipantes {
@@ -52,8 +74,13 @@
   gap: 3%;
 }
 
-.partipante {
+.participante {
   cursor: pointer;
+}
+
+.participante:hover{
+  transform: translateY(-5px);
+    background-color: transparent;
 }
 
 .participanteImg {
@@ -83,13 +110,14 @@
   grid-row: 1/2;
   margin-left: 70%;
   font-size: 2rem;
-  background-color: white;
+  background-color: transparent;
   border: none;
 }
 
-.backArrow:hover{
-  transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+.backArrow:hover {
+  transition: all .1s ease;
+  transform: translateX(-10px);
+  background-color: transparent;
 }
 
 .cuña {
@@ -123,7 +151,7 @@
   position: absolute;
   cursor: default;
   margin-bottom: 27%;
-    background-color: white;
+  background-color: white;
 }
 
 .imgPersona {
@@ -132,6 +160,11 @@
   border-width: 8px;
   height: 70%;
   padding: 0.5rem;
+}
+
+.play{
+  position: absolute;
+  font-size: 10rem;
 }
 
 .categoria {
@@ -172,7 +205,7 @@
 }
 
 .containerModal {
-  width: 60vw;
+  width: 50vw;
   height: 60vh;
   background: white;
   border-width: 5px;
@@ -181,16 +214,19 @@
   display: grid;
   grid-template-rows: 20% 80%;
   grid-template-columns: 20% 60% 20%;
-  padding: 2% 0;
+  padding: 1% 0;
   align-items: center;
 }
 
 .backArrowModal {
   border: none;
-  background-color: rgba(0, 0, 0, 0.0);
-  grid-column: 3;
+  background-color: transparent;
+  grid-column: 2/3;
   grid-row: 1/2;
   font-size: 2rem;
+  position: relative;
+  left: 90%;
+  cursor: pointer;
 }
 
 .footer {
