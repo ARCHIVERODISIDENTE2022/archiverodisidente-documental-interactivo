@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import "./VistaParticipantes.css";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Modal from "react-modal";
-import {BsPlayCircle} from "react-icons/bs"
+import { BsPlayCircle } from "react-icons/bs";
 
 const customStyles = {
   content: {
@@ -52,9 +52,12 @@ export const VistaParticipantes = () => {
   }, []);
 
   if (participantesData === null) {
-    return <div className="loadingContainer">Cargando...
-    <div className="loading"></div>
-    </div>;
+    return (
+      <div className="loadingContainer">
+        Cargando...
+        <div className="loading"></div>
+      </div>
+    );
   }
 
   if (participanteSeleccionado) {
@@ -78,8 +81,8 @@ export const VistaParticipantes = () => {
                 alt=""
                 className="imgPersona"
               />
-              
-              <BsPlayCircle values={{className:"play"}}/>
+
+              <BsPlayCircle values={{ className: "play" }} />
             </div>
             <div className="categoriasIzq">
               <button
