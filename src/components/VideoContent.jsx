@@ -1,22 +1,29 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React, { useRef } from "react";
+import Youtube from "react-youtube";
 
-const VideoContent = ({ participantes }) => (
-  <div className="video-responsive">
-    <iframe
-      width="853"
-      height="480"
-      src={`https://www.youtube.com/embed/${participantes.categoria[0].videoObjeto}`}
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-      title="Embedded youtube"
+const VideoContent = (participanteSeleccionado) => {
+  const playerRef = useRef(null);
+
+  const onReady = (event) => {
+    event.target.pauseVideo();
+  };
+
+  const opts = {
+    height: "390",
+    width: "640",
+    playerVars: {
+      autoplay: 1,
+    },
+  };
+
+  return (
+    <Youtube
+      ref={playerRef}
+      videoId={participanteSeleccionado.categoria[0].videoObjeto}
+      opts={opts}
+      onReady={onReady}
     />
-  </div>
-);
-
-VideoContent.propTypes = {
-  embedId: PropTypes.string.isRequired,
+  );
 };
 
 export default VideoContent;

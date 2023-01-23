@@ -20,7 +20,7 @@ const customStyles = {
 };
 
 const url =
-  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
+  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/dataParticipantes.json";
 
 const Familia = () => {
   const [participantes, setParticipantes] = useState(null);
@@ -39,7 +39,7 @@ const Familia = () => {
       try {
         const response = await axios.get(url);
         setParticipantes(response.data.participantes);
-      } catch (error) { }
+      } catch (error) {}
     }
 
     fetchData();

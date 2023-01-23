@@ -20,7 +20,7 @@ const customStyles = {
 };
 
 const url =
-  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
+  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/dataParticipantes.json";
 
 const Familia = () => {
   const [participantes, setParticipantes] = useState(null);
@@ -102,7 +102,6 @@ const Familia = () => {
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                           allowfullscreen
                         ></iframe>
-                      </div>
                     </div>
                   </Modal>
                 </>

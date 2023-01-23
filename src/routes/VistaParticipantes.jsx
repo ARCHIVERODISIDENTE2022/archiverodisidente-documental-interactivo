@@ -19,7 +19,7 @@ const customStyles = {
 };
 
 const url =
-  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
+  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/dataParticipantes.json";
 
 export const VistaParticipantes = () => {
   const [participantesData, setParticipantesData] = useState(null);
@@ -46,6 +46,7 @@ export const VistaParticipantes = () => {
         const response = await axios.get(url);
         setParticipantesData(random(response.data.participantes));
       } catch (error) { }
+
     }
 
     fetchData();
@@ -61,6 +62,7 @@ export const VistaParticipantes = () => {
         <div className="container">
           <div className="personaContainer">
             <button className="bckArrow" onClick={handleClick}><AiOutlineArrowLeft /></button>
+
             <div className="cuña">
               <h2>"{participanteSeleccionado.cuña}"</h2>
             </div>
@@ -101,7 +103,6 @@ export const VistaParticipantes = () => {
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowfullscreen
                     ></iframe>
-                  </div>
                 </div>
               </Modal>
               <button
@@ -135,7 +136,7 @@ export const VistaParticipantes = () => {
               >
                 AMOR
               </button>
-              <Modal isOpen={modalIsOpen}>
+              <Modal isOpen={modalIsOpen} ariaHideApp={false}>
                 <button
                   onClick={() => setModalIsOpen(false)}
                   className="backArrowModal"
@@ -143,6 +144,12 @@ export const VistaParticipantes = () => {
                   <AiOutlineArrowLeft />
                 </button>
                 <div className="video">
+                  {/* <VideoContent
+                    participanteSeleccionado={participanteSeleccionado}
+                  /> */}
+                  {console.log(
+                    participanteSeleccionado.categoria[0].videoObjeto
+                  )}
                   <iframe
                     width="560"
                     height="315"
