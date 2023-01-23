@@ -6,6 +6,19 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 import "./ContainerCategoria.css";
 import Modal from "react-modal";
 
+const customStyles = {
+  content: {
+    width: '100%',
+    height: '100%',
+    position: 'absolute',
+    background: 'white',
+    display: 'flex',
+    margin: '0 auto',
+    top: '0',
+    left: '0',
+  }
+};
+
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
 
@@ -40,7 +53,7 @@ const Familia = () => {
     <>
       <div className="container">
         <div className="vista">
-          <a className="backArrow" href="/#choice">
+          <a className="backArrow" href="/vistacategorias">
             <AiOutlineArrowLeft />
           </a>
           <h1 className="title">LIBERTAD</h1>
@@ -55,14 +68,28 @@ const Familia = () => {
                   >
                     <LibertadContent participante={participantes} />
                   </button>
-                  <Modal isOpen={modalIsOpen}>
+                  <Modal isOpen={modalIsOpen}
+                  style={customStyles}
+                  >
+                    <div className="over">
                     <button
                       onClick={() => setModalIsOpen(false)}
                       key={participantes.id}
-                      className="backArrow"
+                      className="close"
                     >
                       <AiOutlineArrowLeft />
                     </button>
+                    <div className="data">
+                        <h3 className="">
+                          {participantes.nombreParticipante}
+                        </h3>
+                        <h3 className="">
+                          Categoria: {participantes.categoria[2].nombre}
+                        </h3>
+                        <h3 className="">
+                          {participantes.ubicacion.comuna}
+                        </h3>
+                      </div>
                     <div className="video">
                       <iframe
                         width="560"
@@ -73,6 +100,7 @@ const Familia = () => {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen
                       ></iframe>
+                    </div>
                     </div>
                   </Modal>
                 </>
