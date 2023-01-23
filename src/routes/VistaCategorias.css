@@ -34,6 +34,9 @@
     cursor: default;
     bottom: 30%;
     position: relative;
+    border-width: 8px;
+    border-style: solid;
+    padding: 1% 5%;
 }
 
 .categorias {
@@ -43,7 +46,7 @@
     grid-template-rows: 2fr 2fr;
     grid-template-columns: 1fr 1fr 1fr;
     position: absolute;
-    top: 30%;
+    top: 40%;
 }
 
 .ctgr{
@@ -51,7 +54,7 @@
     margin: 0.5rem 1rem;
     padding: 2rem 2.7rem;
     border-color: black;
-    border-width: 7px;
+    border-width: 8px;
     border-style: solid;
     font-size: 2rem;
     font-weight: 900;

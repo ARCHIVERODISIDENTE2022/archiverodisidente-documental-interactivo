@@ -103,6 +103,7 @@ export const VistaParticipantes = () => {
                     ></iframe>
                   </div>
                 </div>
+                </div>
               </Modal>
               <button
                 onClick={() => setModalIsOpen(true)}

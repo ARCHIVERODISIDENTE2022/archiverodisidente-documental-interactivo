@@ -11,7 +11,7 @@
   display: grid;
   align-items: center;
   justify-items: center;
-  align-content: space-evenly;
+  align-content: stretch;
   grid-template-columns: 5% 90% 5%;
   grid-template-rows: 10% 15% 70% 5%;
   gap: 1%;
@@ -87,6 +87,11 @@
   border: none;
 }
 
+.backArrow:hover{
+  transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
 .cuña {
   text-align: center;
   font-size: 0.7rem;
@@ -111,18 +116,20 @@
   font-weight: 900;
   font-size: 2rem;
   padding: 10px 50px;
-  border-width: 7px;
+  border-width: 8px;
   border-style: solid;
   border-color: black;
   text-transform: uppercase;
-  position: static;
+  position: absolute;
   cursor: default;
+  margin-bottom: 27%;
+    background-color: white;
 }
 
 .imgPersona {
   border-style: solid;
   border-color: black;
-  border-width: 4px;
+  border-width: 8px;
   height: 70%;
   padding: 0.5rem;
 }

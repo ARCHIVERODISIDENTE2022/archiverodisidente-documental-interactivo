@@ -98,6 +98,7 @@ const Familia = () => {
                         ></iframe>
                       </div>
                     </div>
+                    </div>
                   </Modal>
                 </>
               );

@@ -25,6 +25,9 @@
     grid-column: 2/3;
     grid-row: 2/3;
     cursor: default;
+    border-width: 5px;
+    border-style: solid;
+    padding: 1% 5%;
 }
 
 .personCategoria {
@@ -32,10 +35,15 @@
     background-color: white;
     border: none;
     padding: 7%;
-    width: 5rem;
-    height: 5rem;
+    width: 1%;
     position: relative;
     cursor: pointer;
+}
+
+.personCategoria:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
 }
 
 .imgParticipantes {
@@ -52,6 +60,40 @@
     cursor: pointer;
 }
 
+.loadingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.loading {
+    margin-top: 7%;
+    height: 45px;
+    aspect-ratio: 1.2;
+    --c: no-repeat repeating-linear-gradient(90deg, #000 0 20%, #0000 0 40%);
+    background:
+        var(--c) 50% 0,
+        var(--c) 50% 100%;
+    background-size: calc(500%/6) 50%;
+    animation: b10 1s infinite linear;
+}
+
+@keyframes b10 {
+    33% {
+        background-position: 0 0, 100% 100%
+    }
+
+    66% {
+        background-position: 0 100%, 100% 0
+    }
+
+    100% {
+        background-position: 50% 100%, 50% 0
+    }
+}
+
 .over {
     width: 50vw;
     height: 60vh;
@@ -62,7 +104,7 @@
     display: grid;
     grid-template-rows: 20% 80%;
     grid-template-columns: 10% 80% 10%;
-    padding: 2% 0;
+    padding: 1% 0;
     align-items: center;
 }
 
@@ -72,6 +114,14 @@
     cursor: default;
 }
 
+.informationName, .informationData{
+    font-size: 0.8rem;
+}
+
+.informationData{
+    font-weight: 100;
+}
+
 .close {
     border: none;
     background-color: rgba(0, 0, 0, 0.0);
@@ -79,7 +129,7 @@
     grid-row: 1/2;
     font-size: 2rem;
     position: relative;
-    left: 50%;
+    left: 48%;
     cursor: pointer;
 }
 
