@@ -32,6 +32,7 @@
     font-size: 1.12rem;
     cursor: default;
     margin: 0 4%;
+    font-weight: 100;
 }
 
 .firstArrow {
@@ -173,6 +174,10 @@
     margin: 0 20%;
     padding: 0 5%;
     cursor: default;
+}
+
+.two{
+    margin-top: 1%;
 }
 
 .btnInstructions {

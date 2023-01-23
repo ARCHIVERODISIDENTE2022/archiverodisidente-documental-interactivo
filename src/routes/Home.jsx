@@ -106,17 +106,18 @@ const Home = () => {
             <span className="boldItalic">documental interactivo</span> que narra
             acerca de los procesos identitarios de 14 personas de las
             disidencias sexuales en Chile; un registro participativo de su
-            archivo en vida. Tienes dos formas de navegar por el contenido:{" "}
+            archivo en vida. 
+            <p className="two">Tienes dos formas de navegar por el contenido:
             <span className="boldItalic">
-              {" "}
               por participantes o por categorías.
-            </span>{" "}
+            </span>
             Recuerda que puedes desplazarte hacia adelante o atrás con las
             flechas. Y <span className="boldItalic">tranquilx,</span> siempre
             puedes guiarte por el{" "}
             <b className="boldItalic">
               menú que se encontrará en la parte inferior de la pantalla.
             </b>
+          </p>
           </p>
 
           <div>

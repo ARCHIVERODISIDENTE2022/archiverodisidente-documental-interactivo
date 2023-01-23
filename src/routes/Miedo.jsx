@@ -57,6 +57,7 @@ const Miedo = () => {
             <AiOutlineArrowLeft />
           </a>
           <h1 className="title">MIEDO</h1>
+         
           <div className="imgParticipantes">
             {random(Array.from(participantes)).map((participantes) => {
               return (
@@ -80,14 +81,17 @@ const Miedo = () => {
                         <AiOutlineArrowLeft />
                       </button>
                       <div className="data">
-                        <h3 className="">
+                        <h3 className="informationName">
                           {participantes.nombreParticipante}
                         </h3>
-                        <h3 className="">
+                        <h3 className="informationData">
                           Categoria: {participantes.categoria[2].nombre}
                         </h3>
-                        <h3 className="">
-                          {participantes.ubicacion.comuna}
+                        <h3 className="informationData">
+                          Región: {participantes.ubicacion.region}
+                        </h3>
+                        <h3 className="informationData">
+                          Comuna: {participantes.ubicacion.comuna}
                         </h3>
                       </div>
                       <div className="video">
@@ -100,13 +104,17 @@ const Miedo = () => {
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                           allowfullscreen
                         ></iframe>
-
+                </div>
                     </div>
                   </Modal>
+                  {/* <div className="loadingContainer">Cargando...
+          <div className="loading"></div>
+          </div> */}
                 </>
               );
             })}
           </div>
+         
         </div>
         <Footer />
       </div>

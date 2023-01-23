@@ -104,6 +104,7 @@ export const VistaParticipantes = () => {
                       allowfullscreen
                     ></iframe>
                 </div>
+                </div>
               </Modal>
               <button
                 onClick={() => setModalIsOpen(true)}

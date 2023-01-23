@@ -103,6 +103,7 @@ const Familia = () => {
                           allowfullscreen
                         ></iframe>
                     </div>
+                    </div>
                   </Modal>
                 </>
               );
