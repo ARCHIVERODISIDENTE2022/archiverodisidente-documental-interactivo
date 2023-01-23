@@ -3,7 +3,7 @@
         {
             "id": 0,
             "nombreParticipante": "Turquesa",
-            "mainImg": "src\assets\imagenes\p00obj0.png",
+            "mainImg": "src/assets/imagenes/p00obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/data/imagenes-png/p06obj6.png",
             "gif": "src/data/gif/violeta.gif",
@@ -26,7 +26,7 @@
                 {
                     "nombre": "Miedo",
                     "imgObjeto": "src/assets/imagenes/p00obj2.png",
-                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA",
+                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
@@ -76,7 +76,7 @@
                 {
                     "nombre": "Miedo",
                     "imgObjeto": "src/assets/imagenes/p01obj2.png",
-                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA",
+                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
@@ -126,7 +126,7 @@
                 {
                     "nombre": "Miedo",
                     "imgObjeto": "src/assets/imagenes/p02obj2.png",
-                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA",
+                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
@@ -176,7 +176,7 @@
                 {
                     "nombre": "Miedo",
                     "imgObjeto": "src/assets/imagenes/p03obj2.png",
-                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA",
+                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
@@ -226,7 +226,7 @@
                 {
                     "nombre": "Miedo",
                     "imgObjeto": "src/assets/imagenes/p04obj2.png",
-                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA",
+                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
@@ -276,7 +276,7 @@
                 {
                     "nombre": "Miedo",
                     "imgObjeto": "src/assets/imagenes/p05obj2.png",
-                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA",
+                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
@@ -326,7 +326,7 @@
                 {
                     "nombre": "Miedo",
                     "imgObjeto": "src/assets/imagenes/p06obj2.png",
-                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA",
+                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
@@ -376,7 +376,7 @@
                 {
                     "nombre": "Miedo",
                     "imgObjeto": "src/assets/imagenes/p07obj2.png",
-                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA",
+                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
@@ -426,7 +426,7 @@
                 {
                     "nombre": "Miedo",
                     "imgObjeto": "src/assets/imagenes/p08obj2.png",
-                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA",
+                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
@@ -476,7 +476,7 @@
                 {
                     "nombre": "Miedo",
                     "imgObjeto": "src/assets/imagenes/p09obj2.png",
-                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA",
+                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
@@ -526,7 +526,7 @@
                 {
                     "nombre": "Miedo",
                     "imgObjeto": "src/assets/imagenes/p10obj2.png",
-                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA",
+                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
@@ -548,157 +548,157 @@
                     "imgObjeto": "src/assets/imagenes/p10obj6.png",
                     "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
                 }
-        10
+            ]
+        },
+        {
+            "id": 11,
+            "nombreParticipante": "Maco",
+            "mainImg": "src/assets/imagenes/p11obj0.png",
+            "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
+            "frameGif": "src/assets/imagenes/p06obj6.png",
+            "gif": "src/data/gif/violeta.gif",
+            "fechaNacimiento": "26 octubre 1989",
+            "edad": 32,
+            "cuña": "Para mi la naturaleza es importantísima, porque es el lugar donde estamos, nos da comida, nos da vida, hay que puro abrazarla y quererla",
+            "mp3Cuña": "src/data/mp3/violeta.mp3",
+            "ubicacion": {
+                "region": "V Valparaiso",
+                "comuna": "Valparaiso",
+                "territorio": "Valparaiso",
+                "pais": "Chile"
             },
-            {
-                "id": 11,
-                "nombreParticipante": "Maco",
-                "mainImg": "src/assets/imagenes/p11obj0.png",
-                "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
-                "frameGif": "src/assets/imagenes/p06obj6.png",
-                "gif": "src/data/gif/violeta.gif",
-                "fechaNacimiento": "26 octubre 1989",
-                "edad": 32,
-                "cuña": "Para mi la naturaleza es importantísima, porque es el lugar donde estamos, nos da comida, nos da vida, hay que puro abrazarla y quererla",
-                "mp3Cuña": "src/data/mp3/violeta.mp3",
-                "ubicacion": {
-                    "region": "V Valparaiso",
-                    "comuna": "Valparaiso",
-                    "territorio": "Valparaiso",
-                    "pais": "Chile"
-                },
-                "categoria": [
-                    {
-                        "nombre": "Amor",
-                        "imgObjeto": "src/assets/imagenes/p11obj1.png",
-                        "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
-                    },
-                    {
-                        "nombre": "Miedo",
-                        "imgObjeto": "src/assets/imagenes/p11obj2.png",
-                        "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA",
-                    },
-                    {
-                        "nombre": "Familia",
-                        "imgObjeto": "src/assets/imagenes/p00obj3.png",
-                        "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
-                    },
-                    {
-                        "nombre": "Cuerpo",
-                        "imgObjeto": "src/assets/imagenes/p11obj4.png",
-                        "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
-                    },
-                    {
-                        "nombre": "Libertad",
-                        "imgObjeto": "src/assets/imagenes/p11obj5.png",
-                        "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
-                    },
-                    {
-                        "nombre": "Actosentido",
-                        "imgObjeto": "src/assets/imagenes/p11obj6.png",
-                        "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
-                    }
-                ]
-            },
-            {
-                "id": 12,
-                "nombreParticipante": "Gonzalo",
-                "mainImg": "src/assets/imagenes/p12obj0.png",
-                "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
-                "frameGif": "src/assets/imagenes/p06obj6.png",
-                "gif": "src/data/gif/violeta.gif",
-                "fechaNacimiento": "22 marzo 1996",
-                "edad": 26,
-                "cuña": "Lo que más rescato es hacer a Sandy, fue el quiebre que hice en mi vida; fue mi salvadora",
-                "mp3Cuña": "src/data/mp3/violeta.mp3",
-                "ubicacion": {
-                    "region": "X Region de los Lagos",
-                    "comuna": "Quellón",
-                    "territorio": "Chiloe",
-                    "pais": "Chile"
-                },
-                "categoria": [
-                    {
-                        "nombre": "Amor",
-                        "imgObjeto": "src/assets/imagenes/p12obj1.png",
-                        "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
-                    },
-                    {
-                        "nombre": "Miedo",
-                        "imgObjeto": "src/assets/imagenes/p12obj2.png",
-                        "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA",
-                    },
-                    {
-                        "nombre": "Familia",
-                        "imgObjeto": "src/assets/imagenes/p12obj3.png",
-                        "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
-                    },
-                    {
-                        "nombre": "Cuerpo",
-                        "imgObjeto": "src/assets/imagenes/p12obj4.png",
-                        "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
-                    },
-                    {
-                        "nombre": "Libertad",
-                        "imgObjeto": "src/assets/imagenes/p12obj5.png",
-                        "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
-                    },
-                    {
-                        "nombre": "Actosentido",
-                        "imgObjeto": "src/assets/imagenes/p12obj6.png",
-                        "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
-                    }
-            12
+            "categoria": [
+                {
+                    "nombre": "Amor",
+                    "imgObjeto": "src/assets/imagenes/p11obj1.png",
+                    "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
                 },
                 {
-                    "id": 13,
-                    "nombreParticipante": "Eros",
-                    "mainImg": "src/assets/imagenes/p13obj0.png",
-                    "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
-                    "frameGif": "src/assets/imagenes/p06obj6.png",
-                    "gif": "src/data/gif/violeta.gif",
-                    "fechaNacimiento": "26 abril 1996",
-                    "edad": 25,
-                    "cuña": "Me gusta la libertad de no sentirme presionado por nada a mi alrededor, ni por la vista de alguien, ni porque esté haciendo algo mal, no existe el tiempo",
-                    "mp3Cuña": "src/data/mp3/violeta.mp3",
-                    "ubicacion": {
-                        "region": "XI Aysén",
-                        "comuna": "Puerto aysén",
-                        "territorio": "",
-                        "pais": "Chile"
-                    },
-                    "categoria": [
-                        {
-                            "nombre": "Amor",
-                            "imgObjeto": "src/assets/imagenes/p12obj1.png",
-                            "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
-                        },
-                        {
-                            "nombre": "Miedo",
-                            "imgObjeto": "src/assets/imagenes/p12obj2.png",
-                            "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA",
-                        },
-                        {
-                            "nombre": "Familia",
-                            "imgObjeto": "src/assets/imagenes/p12obj3.png",
-                            "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
-                        },
-                        {
-                            "nombre": "Cuerpo",
-                            "imgObjeto": "src/assets/imagenes/p12obj4.png",
-                            "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
-                        },
-                        {
-                            "nombre": "Libertad",
-                            "imgObjeto": "src/assets/imagenes/p12obj5.png",
-                            "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
-                        },
-                        {
-                            "nombre": "Actosentido",
-                            "imgObjeto": "src/assets/imagenes/p12obj6.png",
-                            "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
-                        }
-                    ]
+                    "nombre": "Miedo",
+                    "imgObjeto": "src/assets/imagenes/p11obj2.png",
+                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
+                },
+                {
+                    "nombre": "Familia",
+                    "imgObjeto": "src/assets/imagenes/p00obj3.png",
+                    "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
+                },
+                {
+                    "nombre": "Cuerpo",
+                    "imgObjeto": "src/assets/imagenes/p11obj4.png",
+                    "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
+                },
+                {
+                    "nombre": "Libertad",
+                    "imgObjeto": "src/assets/imagenes/p11obj5.png",
+                    "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
+                },
+                {
+                    "nombre": "Actosentido",
+                    "imgObjeto": "src/assets/imagenes/p11obj6.png",
+                    "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "nombreParticipante": "Gonzalo",
+            "mainImg": "src/assets/imagenes/p12obj0.png",
+            "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
+            "frameGif": "src/assets/imagenes/p06obj6.png",
+            "gif": "src/data/gif/violeta.gif",
+            "fechaNacimiento": "22 marzo 1996",
+            "edad": 26,
+            "cuña": "Lo que más rescato es hacer a Sandy, fue el quiebre que hice en mi vida; fue mi salvadora",
+            "mp3Cuña": "src/data/mp3/violeta.mp3",
+            "ubicacion": {
+                "region": "X Region de los Lagos",
+                "comuna": "Quellón",
+                "territorio": "Chiloe",
+                "pais": "Chile"
+            },
+            "categoria": [
+                {
+                    "nombre": "Amor",
+                    "imgObjeto": "src/assets/imagenes/p12obj1.png",
+                    "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
+                },
+                {
+                    "nombre": "Miedo",
+                    "imgObjeto": "src/assets/imagenes/p12obj2.png",
+                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
+                },
+                {
+                    "nombre": "Familia",
+                    "imgObjeto": "src/assets/imagenes/p12obj3.png",
+                    "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
+                },
+                {
+                    "nombre": "Cuerpo",
+                    "imgObjeto": "src/assets/imagenes/p12obj4.png",
+                    "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
+                },
+                {
+                    "nombre": "Libertad",
+                    "imgObjeto": "src/assets/imagenes/p12obj5.png",
+                    "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
+                },
+                {
+                    "nombre": "Actosentido",
+                    "imgObjeto": "src/assets/imagenes/p12obj6.png",
+                    "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "nombreParticipante": "Eros",
+            "mainImg": "src/assets/imagenes/p13obj0.png",
+            "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
+            "frameGif": "src/assets/imagenes/p06obj6.png",
+            "gif": "src/data/gif/violeta.gif",
+            "fechaNacimiento": "26 abril 1996",
+            "edad": 25,
+            "cuña": "Me gusta la libertad de no sentirme presionado por nada a mi alrededor, ni por la vista de alguien, ni porque esté haciendo algo mal, no existe el tiempo",
+            "mp3Cuña": "src/data/mp3/violeta.mp3",
+            "ubicacion": {
+                "region": "XI Aysén",
+                "comuna": "Puerto aysén",
+                "territorio": "",
+                "pais": "Chile"
+            },
+            "categoria": [
+                {
+                    "nombre": "Amor",
+                    "imgObjeto": "src/assets/imagenes/p12obj1.png",
+                    "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
+                },
+                {
+                    "nombre": "Miedo",
+                    "imgObjeto": "src/assets/imagenes/p12obj2.png",
+                    "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
+                },
+                {
+                    "nombre": "Familia",
+                    "imgObjeto": "src/assets/imagenes/p12obj3.png",
+                    "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
+                },
+                {
+                    "nombre": "Cuerpo",
+                    "imgObjeto": "src/assets/imagenes/p12obj4.png",
+                    "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
+                },
+                {
+                    "nombre": "Libertad",
+                    "imgObjeto": "src/assets/imagenes/p12obj5.png",
+                    "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
+                },
+                {
+                    "nombre": "Actosentido",
+                    "imgObjeto": "src/assets/imagenes/p12obj6.png",
+                    "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
                 }
             ]
         }
+    ]
+}
