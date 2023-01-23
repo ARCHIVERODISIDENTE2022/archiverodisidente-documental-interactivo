@@ -3,7 +3,7 @@
         {
             "id": 0,
             "nombreParticipante": "Turquesa",
-            "mainImg": "src/assets/imagenes/p00obj0.png",
+            "mainImg": "dist/assets/p00obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/data/imagenes-png/p06obj6.png",
             "gif": "src/data/gif/violeta.gif",
@@ -103,7 +103,7 @@
         {
             "id": 2,
             "nombreParticipante": "Valentí",
-            "mainImg": "src/assets/imagenes/p01obj0.png",
+            "mainImg": "src/assets/imagenes/p02obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/data/imagenes-png/p06obj6.png",
             "gif": "src/data/gif/violeta.gif",

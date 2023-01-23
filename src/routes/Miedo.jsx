@@ -8,15 +8,15 @@ import Modal from "react-modal";
 
 const customStyles = {
   content: {
-    width: '100%',
-    height: '100%',
-    position: 'absolute',
-    background: 'white',
-    display: 'flex',
-    margin: '0 auto',
-    top: '0',
-    left: '0',
-  }
+    width: "100%",
+    height: "100%",
+    position: "absolute",
+    background: "white",
+    display: "flex",
+    margin: "0 auto",
+    top: "0",
+    left: "0",
+  },
 };
 
 const url =
@@ -39,7 +39,7 @@ const Miedo = () => {
       try {
         const response = await axios.get(url);
         setParticipantes(response.data.participantes);
-      } catch (error) { }
+      } catch (error) {}
     }
 
     fetchData();
@@ -69,9 +69,7 @@ const Miedo = () => {
                   >
                     <MiedoContent participante={participantes} />
                   </button>
-                  <Modal isOpen={modalIsOpen}
-                    style={customStyles}
-                  >
+                  <Modal isOpen={modalIsOpen} style={customStyles}>
                     <div className="over">
                       <button
                         onClick={() => setModalIsOpen(false)}
@@ -105,6 +103,7 @@ const Miedo = () => {
                           allowfullscreen
                         ></iframe>
                 </div>
+
                     </div>
                   </Modal>
                   {/* <div className="loadingContainer">Cargando...
