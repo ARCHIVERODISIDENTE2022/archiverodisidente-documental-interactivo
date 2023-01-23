@@ -8,15 +8,15 @@ import Modal from "react-modal";
 
 const customStyles = {
   content: {
-    width: '100%',
-    height: '100%',
-    position: 'absolute',
-    background: 'white',
-    display: 'flex',
-    margin: '0 auto',
-    top: '0',
-    left: '0',
-  }
+    width: "100%",
+    height: "100%",
+    position: "absolute",
+    background: "white",
+    display: "flex",
+    margin: "0 auto",
+    top: "0",
+    left: "0",
+  },
 };
 
 const url =
@@ -39,7 +39,7 @@ const Familia = () => {
       try {
         const response = await axios.get(url);
         setParticipantes(response.data.participantes);
-      } catch (error) { }
+      } catch (error) {}
     }
 
     fetchData();
@@ -68,9 +68,7 @@ const Familia = () => {
                   >
                     <FamiliaContent participante={participantes} />
                   </button>
-                  <Modal isOpen={modalIsOpen}
-                    style={customStyles}
-                  >
+                  <Modal isOpen={modalIsOpen} style={customStyles}>
                     <div className="over">
                       <button
                         onClick={() => setModalIsOpen(false)}
@@ -97,15 +95,15 @@ const Familia = () => {
                         <iframe
                           width="560"
                           height="315"
-                          margin='auto'
-                          position= 'absolute'
+                          margin="auto"
+                          position="absolute"
                           src={participantes.categoria[2].videoObjeto}
                           title="YouTube video player"
                           frameborder="0"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                           allowfullscreen
                         ></iframe>
-                    </div>
+                      </div>
                     </div>
                   </Modal>
                 </>

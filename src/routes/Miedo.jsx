@@ -16,8 +16,7 @@ const customStyles = {
     margin: '0 auto',
     top: '0',
     left: '0',
-  }
-};
+  }}
 
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/dataParticipantes.json";
@@ -39,7 +38,7 @@ const Miedo = () => {
       try {
         const response = await axios.get(url);
         setParticipantes(response.data.participantes);
-      } catch (error) { }
+      } catch (error) {}
     }
 
     fetchData();
@@ -69,9 +68,7 @@ const Miedo = () => {
                   >
                     <MiedoContent participante={participantes} />
                   </button>
-                  <Modal isOpen={modalIsOpen}
-                    style={customStyles}
-                  >
+                  <Modal isOpen={modalIsOpen} style={customStyles}>
                     <div className="over">
                       <button
                         onClick={() => setModalIsOpen(false)}
@@ -105,6 +102,7 @@ const Miedo = () => {
                           allowfullscreen
                         ></iframe>
                 </div>
+
                     </div>
                   </Modal>
                   {/* <div className="loadingContainer">Cargando...
