@@ -70,6 +70,7 @@ const Home = () => {
         </div>
 
         <div className="sixth" id="slide-5">
+          <div className="quotes">
           <h2 className="quote">
             “Creo que es importante que la gente que pueda contar su historia la
             cuente, porque hay muchas personas que buscan historias parecidas
@@ -91,7 +92,6 @@ const Home = () => {
           <h1 className="person">
             TURQUESA LILA MENTOLADA, ILLAPEL, IV REGIÓN.
           </h1>
-          <div>
             <a className="arrowSixth" href="#slide-instructions">
               <AiOutlineArrowRight />
             </a>

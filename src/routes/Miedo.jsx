@@ -11,7 +11,7 @@ const customStyles = {
     width: '100%',
     height: '100%',
     position: 'absolute',
-    background: 'white',
+    background: 'transparent',
     display: 'flex',
     margin: '0 auto',
     top: '0',

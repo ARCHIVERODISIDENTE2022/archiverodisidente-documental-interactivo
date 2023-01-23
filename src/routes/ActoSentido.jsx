@@ -7,6 +7,19 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 import Modal from "react-modal";
 import ModalActoSentido from "../components/ModalActoSentido";
 
+const customStyles = {
+  content: {
+    width: '100%',
+    height: '100%',
+    position: 'absolute',
+    background: 'transparent',
+    display: 'flex',
+    margin: '0 auto',
+    top: '0',
+    left: '0',
+  }
+};
+
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/dataParticipantes.json";
 
@@ -27,7 +40,7 @@ const ActoSentido = () => {
       try {
         const response = await axios.get(url);
         setParticipantes(response.data.participantes);
-      } catch (error) {}
+      } catch (error) { }
     }
 
     fetchData();
@@ -39,9 +52,9 @@ const ActoSentido = () => {
 
   return (
     <>
-    <ModalActoSentido/>
-    <div className="container">
-      <div className="vistaActoSentido">
+      <ModalActoSentido />
+      <div className="container">
+        <div className="vistaActoSentido">
           <a className="backArrow" href="/vistacategorias">
             <AiOutlineArrowLeft />
           </a>
@@ -57,7 +70,9 @@ const ActoSentido = () => {
                   >
                     <GifParticipantes participante={participantes} />
                   </button>
-                  <Modal isOpen={modalIsOpen}>
+                  <Modal isOpen={modalIsOpen}
+                    style={customStyles}
+                  >
                     <button
                       onClick={() => setModalIsOpen(false)}
                       key={participantes.id}
@@ -65,6 +80,20 @@ const ActoSentido = () => {
                     >
                       <AiOutlineArrowLeft />
                     </button>
+                    <div className="data">
+                        <h3 className="informationName">
+                          {participantes.nombreParticipante}
+                        </h3>
+                        <h3 className="informationData">
+                          Categoria: {participantes.categoria[2].nombre}
+                        </h3>
+                        <h3 className="informationData">
+                          Región: {participantes.ubicacion.region}
+                        </h3>
+                        <h3 className="informationData">
+                          Comuna: {participantes.ubicacion.comuna}
+                        </h3>
+                      </div>
                     <div className="video">
                       <iframe
                         width="560"
