@@ -29,7 +29,9 @@ export const VistaParticipantes = () => {
       try {
         const response = await axios.get(url);
         setParticipantesData(random(response.data.participantes));
-      } catch (error) {}
+      } catch (error) {
+        console.log("error");
+      }
     }
 
     fetchData();
