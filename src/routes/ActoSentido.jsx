@@ -8,7 +8,7 @@ import Modal from "react-modal";
 import ModalActoSentido from "../components/ModalActoSentido";
 
 const url =
-  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
+  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/dataParticipantes.json";
 
 const ActoSentido = () => {
   const [participantes, setParticipantes] = useState(null);
@@ -39,48 +39,48 @@ const ActoSentido = () => {
 
   return (
     <>
-    <ModalActoSentido/>
-    <div className="container">
-      <div className="vistaActoSentido">
+      <ModalActoSentido />
+      <div className="container">
+        <div className="vistaActoSentido">
           <a className="backArrow" href="/#choice">
             <AiOutlineArrowLeft />
           </a>
-        <h1 className="title">ACTOSENTIDO_</h1>
-        <div className="gifParticipantes">
-          {random(Array.from(participantes)).map((participantes) => {
-            return (
-              <>
-                <button
-                  onClick={() => setModalIsOpen(true)}
-                  key={participantes.id}
-                  className="personCategoria"
-                >
-                  <GifParticipantes participante={participantes} />
-                </button>
-                <Modal isOpen={modalIsOpen}>
+          <h1 className="title">ACTOSENTIDO_</h1>
+          <div className="gifParticipantes">
+            {random(Array.from(participantes)).map((participantes) => {
+              return (
+                <>
                   <button
-                    onClick={() => setModalIsOpen(false)}
+                    onClick={() => setModalIsOpen(true)}
                     key={participantes.id}
-                    className="backArrow"
+                    className="personCategoria"
                   >
-                    <AiOutlineArrowLeft />
+                    <GifParticipantes participante={participantes} />
                   </button>
-                  <div className="video">
-                    <iframe
-                      width="560"
-                      height="315"
-                      src={participantes.categoria[5].videoObjeto}
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </Modal>
-              </>
-            );
-          })}
-        </div>
+                  <Modal isOpen={modalIsOpen}>
+                    <button
+                      onClick={() => setModalIsOpen(false)}
+                      key={participantes.id}
+                      className="backArrow"
+                    >
+                      <AiOutlineArrowLeft />
+                    </button>
+                    <div className="video">
+                      <iframe
+                        width="560"
+                        height="315"
+                        src={participantes.categoria[5].videoObjeto}
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </Modal>
+                </>
+              );
+            })}
+          </div>
         </div>
         <Footer />
       </div>

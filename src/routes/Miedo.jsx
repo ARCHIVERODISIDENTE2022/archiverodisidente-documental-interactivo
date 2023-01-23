@@ -7,7 +7,7 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 import Modal from "react-modal";
 
 const url =
-  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
+  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/dataParticipantes.json";
 
 const Miedo = () => {
   const [participantes, setParticipantes] = useState(null);
@@ -38,47 +38,47 @@ const Miedo = () => {
 
   return (
     <>
-        <div className="container">
-      <div className="vista">
-      <a className="backArrow" href="/#choice">
+      <div className="container">
+        <div className="vista">
+          <a className="backArrow" href="/#choice">
             <AiOutlineArrowLeft />
           </a>
-        <h1 className="title">MIEDO</h1>
-        <div className="imgParticipantes">
-          {random(Array.from(participantes)).map((participantes) => {
-            return (
-              <>
-                <button
-                  onClick={() => setModalIsOpen(true)}
-                  key={participantes.id}
-                  className="personCategoria"
-                >
-                  <MiedoContent participante={participantes} />
-                </button>
-                <Modal isOpen={modalIsOpen}>
+          <h1 className="title">MIEDO</h1>
+          <div className="imgParticipantes">
+            {random(Array.from(participantes)).map((participantes) => {
+              return (
+                <>
                   <button
-                    onClick={() => setModalIsOpen(false)}
+                    onClick={() => setModalIsOpen(true)}
                     key={participantes.id}
-                    className="backArrow"
+                    className="personCategoria"
                   >
-                    <AiOutlineArrowLeft />
+                    <MiedoContent participante={participantes} />
                   </button>
-                  <div className="video">
-                    <iframe
-                      width="560"
-                      height="315"
-                      src={participantes.categoria[1].videoObjeto}
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </Modal>
-              </>
-            );
-          })}
-        </div>
+                  <Modal isOpen={modalIsOpen}>
+                    <button
+                      onClick={() => setModalIsOpen(false)}
+                      key={participantes.id}
+                      className="backArrow"
+                    >
+                      <AiOutlineArrowLeft />
+                    </button>
+                    <div className="video">
+                      <iframe
+                        width="560"
+                        height="315"
+                        src={participantes.categoria[1].videoObjeto}
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </Modal>
+                </>
+              );
+            })}
+          </div>
         </div>
         <Footer />
       </div>
