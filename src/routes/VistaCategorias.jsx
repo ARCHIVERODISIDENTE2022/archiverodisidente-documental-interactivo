@@ -6,7 +6,7 @@ import "./VistaCategorias.css";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 
 const url =
-  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
+  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/dataParticipantes.json";
 
 export const VistaCategorias = () => {
   const [categoriasData, setCategoriasData] = useState(null);
@@ -36,32 +36,32 @@ export const VistaCategorias = () => {
 
   return (
     <>
-    <div className="container">
-      <div className="containerVistaCategoria">
+      <div className="container">
+        <div className="containerVistaCategoria">
           <a className="backArrow" href="/#choice">
             <AiOutlineArrowLeft />
           </a>
-        <h1 className="titleCategoria"> CATEGORÍAS </h1>
-        <section className="categorias">
-          <Link to="/familia" className="ctgr">
-            FAMILIA
-          </Link>
-          <Link to="/miedo" className="ctgr">
-            MIEDO
-          </Link>
-          <Link to="/amor" className="ctgr">
-            AMOR
-          </Link>
-          <Link to="/actosentido" className="ctgr">
-            ACTOSENTIDO
-          </Link>
-          <Link to="/cuerpo" className="ctgr">
-            CUERPO
-          </Link>
-          <Link to="/libertad" className="ctgr">
-            LIBERTAD
-          </Link>
-        </section>
+          <h1 className="titleCategoria"> CATEGORÍAS </h1>
+          <section className="categorias">
+            <Link to="/familia" className="ctgr">
+              FAMILIA
+            </Link>
+            <Link to="/miedo" className="ctgr">
+              MIEDO
+            </Link>
+            <Link to="/amor" className="ctgr">
+              AMOR
+            </Link>
+            <Link to="/actosentido" className="ctgr">
+              ACTOSENTIDO
+            </Link>
+            <Link to="/cuerpo" className="ctgr">
+              CUERPO
+            </Link>
+            <Link to="/libertad" className="ctgr">
+              LIBERTAD
+            </Link>
+          </section>
         </div>
         <Footer />
       </div>
