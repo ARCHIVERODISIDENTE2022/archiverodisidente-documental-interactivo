@@ -8,7 +8,7 @@ import Modal from "react-modal";
 import VideoContent from "../components/VideoContent";
 
 const url =
-  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/archiveroMock.json";
+  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/dataParticipantes.json";
 
 export const VistaParticipantes = () => {
   const [participantesData, setParticipantesData] = useState(null);
