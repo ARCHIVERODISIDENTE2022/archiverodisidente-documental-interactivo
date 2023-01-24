@@ -1,62 +1,57 @@
-.footer{
-width: 100%;
-height: 5%;
-background-color: black;
-position: relative;
-display:flex;
-justify-content: space-around;
-font-size: 0.75rem;
-text-decoration: none;
-color: white;
-line-height: 2rem;
-
-}
-
-.link{
+.footer {
+  width: 100%;
+  height: 5%;
+  background-color: black;
+  position: relative;
+  display: grid;
+  justify-content: space-around;
+  font-size: 0.75rem;
+  text-decoration: none;
   color: white;
+  line-height: 2rem;
+  grid-template-columns: 15% 55% 10% 5% 15%;
 }
 
-.volume {
-  position: relative;}
-  
-  .volume-progressbar {
-    position: absolute;
-    top: 10px;
-    left: 0;
-    width: 100%;
-    height: 5px;
-    border-radius: 5px;
-    background: white;
+.formaNavegacion {
+  grid-column: 1/2;
+}
+
+.toRetribucion {
+  grid-column: 3/4;
+}
+
+.toCreditos {
+  grid-column: 4/5;
+}
+
+.formaNavegacion,
+.toRetribucion,
+.toCreditos {
+  color: white;
+  max-height: 5%;
+  text-align: center;
+}
+
+.audioPlayer {
+  /* position: relative;
+  width: 90%;
+  max-width: 500px;
+  height: 80px; */
+}
+
+.btnPlay {
+  position: absolute;
+  border: none;
+  background: transparent;
+  color: white;
+  margin: 0;
+  color
+}
+
+
+
+@media screen and (max-width: 640px) {
+  .footer {
+    font-size: x-small;
   }
-  .volume-slider {
-    position: relative;
-    top: 3px;
-    width: 100%;
-    border-radius: 5px;
-    background: none;
-    cursor: pointer;
-
-  }
-
-    .volume-slider::-webkit-slider-runnable-track {
-      width: 75px;
-      height: 20px;
-      border: none;
-    }
-
-    .volume-slider:hover::-webkit-slider-thumb, .volume-slider:active::-webkit-slider-thumb {
-      display: block;
-    }
-
-    .volume-slider:focus {
-      outline: none;
-    }
-
-    .volume-slider:active::-webkit-slider-thumb {
-      background: #EFEFEF;
-    }
-    
-@media screen and (max-width: 640px){
-  .footer{
-font-size: x-small;
-  }}
+}

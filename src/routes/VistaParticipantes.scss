@@ -48,6 +48,12 @@
   background-color: transparent;
 }
 
+.backArrow:hover{
+  transition: all .1s ease;
+  transform: translateX(-10px);
+  background-color: transparent;
+}
+
 .titleParticipantes {
   font-weight: 900;
   font-size: 3rem;
@@ -114,7 +120,7 @@
   border: none;
 }
 
-.backArrow:hover {
+.bckArrow:hover {
   transition: all .1s ease;
   transform: translateX(-10px);
   background-color: transparent;
@@ -182,6 +188,11 @@
   cursor: pointer;
 }
 
+.categoria:hover{
+  transform: translateY(-5px);
+  background-color: transparent;
+}
+
 .categoriasIzq {
   display: flex;
   flex-direction: column;
@@ -228,6 +239,50 @@
   left: 90%;
   cursor: pointer;
 }
+
+.backArrowModal:hover{
+  transition: all .1s ease;
+  transform: translateX(-10px);
+  background-color: transparent;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.stroke-solid {
+  stroke-dashoffset: 0;
+  stroke-dashArray: 300;
+  stroke-width: 4px;
+  transition: stroke-dashoffset 1s ease, 
+              opacity 1s ease;
+}
+
+.icon {
+  transform: scale(.8);
+  transform-origin: 50% 50%;
+  transition: transform 200ms ease-out;
+}
+
+#play:hover {
+  .stroke-solid {
+    opacity: 1;
+    stroke-dashoffset: 300;
+  }
+  .icon {
+    transform: scale(.9);
+  }
+}
+
+
+#play {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
 
 .footer {
   position: relative;
