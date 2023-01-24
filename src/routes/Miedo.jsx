@@ -8,15 +8,16 @@ import Modal from "react-modal";
 
 const customStyles = {
   content: {
-    width: '100%',
-    height: '100%',
-    position: 'absolute',
-    background: 'transparent',
-    display: 'flex',
-    margin: '0 auto',
-    top: '0',
-    left: '0',
-  }}
+    width: "100%",
+    height: "100%",
+    position: "absolute",
+    background: "transparent",
+    display: "flex",
+    margin: "0 auto",
+    top: "0",
+    left: "0",
+  },
+};
 
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/dataParticipantes.json";
@@ -56,7 +57,7 @@ const Miedo = () => {
             <AiOutlineArrowLeft />
           </a>
           <h1 className="title">MIEDO</h1>
-         
+
           <div className="imgParticipantes">
             {random(Array.from(participantes)).map((participantes) => {
               return (
@@ -82,7 +83,7 @@ const Miedo = () => {
                           {participantes.nombreParticipante}
                         </h3>
                         <h3 className="informationData">
-                          Categoria: {participantes.categoria[2].nombre}
+                          Categoria: {participantes.categoria[1].nombre}
                         </h3>
                         <h3 className="informationData">
                           Región: {participantes.ubicacion.region}
@@ -101,8 +102,7 @@ const Miedo = () => {
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                           allowfullscreen
                         ></iframe>
-                </div>
-
+                      </div>
                     </div>
                   </Modal>
                   {/* <div className="loadingContainer">Cargando...
@@ -112,7 +112,6 @@ const Miedo = () => {
               );
             })}
           </div>
-         
         </div>
         <Footer />
       </div>

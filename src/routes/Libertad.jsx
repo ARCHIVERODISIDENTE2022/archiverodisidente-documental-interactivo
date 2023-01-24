@@ -8,15 +8,15 @@ import Modal from "react-modal";
 
 const customStyles = {
   content: {
-    width: '100%',
-    height: '100%',
-    position: 'absolute',
-    background: 'white',
-    display: 'flex',
-    margin: '0 auto',
-    top: '0',
-    left: '0',
-  }
+    width: "100%",
+    height: "100%",
+    position: "absolute",
+    background: "white",
+    display: "flex",
+    margin: "0 auto",
+    top: "0",
+    left: "0",
+  },
 };
 
 const url =
@@ -68,23 +68,21 @@ const Familia = () => {
                   >
                     <LibertadContent participante={participantes} />
                   </button>
-                  <Modal isOpen={modalIsOpen}
-                  style={customStyles}
-                  >
+                  <Modal isOpen={modalIsOpen} style={customStyles}>
                     <div className="over">
-                    <button
-                      onClick={() => setModalIsOpen(false)}
-                      key={participantes.id}
-                      className="close"
-                    >
-                      <AiOutlineArrowLeft />
-                    </button>
-                    <div className="data">
+                      <button
+                        onClick={() => setModalIsOpen(false)}
+                        key={participantes.id}
+                        className="close"
+                      >
+                        <AiOutlineArrowLeft />
+                      </button>
+                      <div className="data">
                         <h3 className="informationName">
                           {participantes.nombreParticipante}
                         </h3>
                         <h3 className="informationData">
-                          Categoria: {participantes.categoria[2].nombre}
+                          Categoria: {participantes.categoria[4].nombre}
                         </h3>
                         <h3 className="informationData">
                           Región: {participantes.ubicacion.region}
@@ -93,17 +91,17 @@ const Familia = () => {
                           Comuna: {participantes.ubicacion.comuna}
                         </h3>
                       </div>
-                    <div className="video">
-                      <iframe
-                        width="560"
-                        height="315"
-                        src={participantes.categoria[4].videoObjeto}
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                      ></iframe>
-                    </div>
+                      <div className="video">
+                        <iframe
+                          width="560"
+                          height="315"
+                          src={participantes.categoria[4].videoObjeto}
+                          title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
                     </div>
                   </Modal>
                 </>

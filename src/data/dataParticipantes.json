@@ -670,32 +670,32 @@
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "assets/imagenes/p12obj1.png",
+                    "imgObjeto": "assets/imagenes/p13obj1.png",
                     "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "assets/imagenes/p12obj2.png",
+                    "imgObjeto": "assets/imagenes/p13obj2.png",
                     "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "assets/imagenes/p12obj3.png",
+                    "imgObjeto": "assets/imagenes/p13obj3.png",
                     "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "assets/imagenes/p12obj4.png",
+                    "imgObjeto": "assets/imagenes/p13obj4.png",
                     "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "assets/imagenes/p12obj5.png",
+                    "imgObjeto": "assets/imagenes/p13obj5.png",
                     "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "assets/imagenes/p12obj6.png",
+                    "imgObjeto": "assets/imagenes/p13obj6.png",
                     "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
                 }
             ]
