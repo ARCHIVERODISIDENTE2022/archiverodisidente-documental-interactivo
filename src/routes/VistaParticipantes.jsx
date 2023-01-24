@@ -1,10 +1,9 @@
 import { React, useEffect, useState } from "react";
 import axios from "axios";
 import Footer from "../components/Footer";
-import "./VistaParticipantes.css";
+import "./VistaParticipantes.scss";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Modal from "react-modal";
-import {BsPlayCircle} from "react-icons/bs"
 
 const customStyles = {
   content: {
@@ -45,7 +44,7 @@ export const VistaParticipantes = () => {
       try {
         const response = await axios.get(url);
         setParticipantesData(random(response.data.participantes));
-      } catch (error) {}
+      } catch (error) { }
     }
 
     fetchData();
@@ -53,7 +52,7 @@ export const VistaParticipantes = () => {
 
   if (participantesData === null) {
     return <div className="loadingContainer">Cargando...
-    <div className="loading"></div>
+      <div className="loading"></div>
     </div>;
   }
 
@@ -78,8 +77,34 @@ export const VistaParticipantes = () => {
                 alt=""
                 className="imgPersona"
               />
-              
-              <BsPlayCircle values={{className:"play"}}/>
+<button onClick={() => setModalIsOpen(true)}>
+              <svg version="1.1" id="play" xmlns="http://www.w3.org/2000/svg" xmlnsLink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="100px" width="100px"
+                viewBox="0 0 100 100" enableBackground="new 0 0 100 100" xmlSpace="preserve">
+                <path className="stroke-solid" fill="none" stroke="#000" d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+    C97.3,23.7,75.7,2.3,49.9,2.5"/>
+                <path className="icon" fill="#000" d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z" />
+              </svg></button>
+              <Modal isOpen={modalIsOpen} style={customStyles}>
+                <div className="containerModal">
+                  <button
+                    onClick={() => setModalIsOpen(false)}
+                    className="backArrowModal"
+                  >
+                    <AiOutlineArrowLeft />
+                  </button>
+                  <div className="video">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src={participanteSeleccionado.presentacion}
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </Modal>
             </div>
             <div className="categoriasIzq">
               <button

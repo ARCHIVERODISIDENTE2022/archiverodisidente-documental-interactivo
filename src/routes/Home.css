@@ -36,16 +36,12 @@
 }
 
 .firstArrow {
-    display: flex;
     font-size: 3rem;
     position: absolute;
-    padding-top: 30.9rem;
-    right: 2.5rem;
-    bottom: 2.5rem;
-    text-decoration: none;
+    padding-top: 38%;
+    right: 2%;
     color: black;
     margin-bottom: 0;
-    align-items: flex-end;
 }
 
 .firstArrow:hover {
@@ -74,11 +70,10 @@
 }
 
 .arrow {
-    display: flex;
     font-size: 3rem;
     position: absolute;
-    padding-top: 16rem;
-    right: 2.5rem;
+    padding-top: 16%;
+    right: 2%;
     text-decoration: none;
     color: black;
     margin-bottom: 0;
@@ -91,15 +86,12 @@
 }
 
 .arrowWhite {
-    display: flex;
     font-size: 3rem;
     position: absolute;
-    padding-top: 14rem;
-    right: 2.5rem;
+    padding-top: 14%;
+    right: 2%;
     text-decoration: none;
     color: white;
-    margin-bottom: 0;
-    align-items: flex-end;
 }
 
 .arrowWhite:hover{

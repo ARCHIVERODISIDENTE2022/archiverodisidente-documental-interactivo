@@ -6,6 +6,7 @@ import blackLogo from "../assets/logos/LOGO-NEGRO.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import music from "../data/mp3/Leit-Motiv.mp3";
 
+
 const Home = () => {
   const audio = useRef(null);
   useEffect(() => {
