@@ -270,32 +270,32 @@
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "src/assets/imagenes/p05obj1.png",
+                    "imgObjeto": "assets/imagenes/p05obj1.png",
                     "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "src/assets/imagenes/p05obj2.png",
+                    "imgObjeto": "assets/imagenes/p05obj2.png",
                     "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "src/assets/imagenes/p05obj3.png",
+                    "imgObjeto": "assets/imagenes/p05obj3.png",
                     "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "src/assets/imagenes/p05obj4.png",
+                    "imgObjeto": "assets/imagenes/p05obj4.png",
                     "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "src/assets/imagenes/p05obj5.png",
+                    "imgObjeto": "assets/imagenes/p05obj5.png",
                     "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "src/assets/imagenes/p05obj6.png",
+                    "imgObjeto": "assets/imagenes/p05obj6.png",
                     "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
                 }
             ]
@@ -403,7 +403,7 @@
         {
             "id": 8,
             "nombreParticipante": "Florencia",
-            "mainImg": "src/assets/imagenes/p08obj0.png",
+            "mainImg": "assets/imagenes/p08obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/data/imagenes-png/p06obj6.png",
             "gif": "src/data/gif/violeta.gif",
@@ -420,32 +420,32 @@
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "src/assets/imagenes/p08obj1.png",
+                    "imgObjeto": "assets/imagenes/p08obj1.png",
                     "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "src/assets/imagenes/p08obj2.png",
+                    "imgObjeto": "assets/imagenes/p08obj2.png",
                     "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "src/assets/imagenes/p08obj3.png",
+                    "imgObjeto": "assets/imagenes/p08obj3.png",
                     "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "src/assets/imagenes/p08obj4.png",
+                    "imgObjeto": "assets/imagenes/p08obj4.png",
                     "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "src/assets/imagenes/p08obj5.png",
+                    "imgObjeto": "assets/imagenes/p08obj5.png",
                     "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "src/assets/imagenes/p08obj6.png",
+                    "imgObjeto": "assets/imagenes/p08obj6.png",
                     "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
                 }
             ]
@@ -453,7 +453,7 @@
         {
             "id": 9,
             "nombreParticipante": "Melanie",
-            "mainImg": "src/assets/imagenes/p09obj0.png",
+            "mainImg": "assets/imagenes/p09obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/assets/imagenes/p06obj6.png",
             "gif": "src/data/gif/violeta.gif",
