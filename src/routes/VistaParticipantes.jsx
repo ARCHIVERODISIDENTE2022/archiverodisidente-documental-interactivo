@@ -114,17 +114,34 @@ export const VistaParticipantes = () => {
                 FAMILIA
               </button>
               <Modal isOpen={modalIsOpen} style={customStyles}>
-                <div className="containerModal">
+                <div className="over">
                   <button
                     onClick={() => setModalIsOpen(false)}
-                    className="backArrowModal"
+                    key={participanteSeleccionado.id}
+                    className="close"
                   >
                     <AiOutlineArrowLeft />
                   </button>
+                  <div className="data">
+                    <h3 className="informationName">
+                      {participanteSeleccionado.nombreParticipante}
+                    </h3>
+                    <h3 className="informationData">
+                      Categoria: {participanteSeleccionado.categoria[2].nombre}
+                    </h3>
+                    <h3 className="informationData">
+                      Región: {participanteSeleccionado.ubicacion.region}
+                    </h3>
+                    <h3 className="informationData">
+                      Comuna: {participanteSeleccionado.ubicacion.comuna}
+                    </h3>
+                  </div>
                   <div className="video">
                     <iframe
                       width="560"
                       height="315"
+                      margin="auto"
+                      position="absolute"
                       src={participanteSeleccionado.categoria[2].videoObjeto}
                       title="YouTube video player"
                       frameborder="0"
@@ -140,23 +157,42 @@ export const VistaParticipantes = () => {
               >
                 MIEDO
               </button>
-              <Modal isOpen={modalIsOpen}>
-                <button
-                  onClick={() => setModalIsOpen(false)}
-                  className="backArrowModal"
-                >
-                  <AiOutlineArrowLeft />
-                </button>
-                <div className="video">
-                  <iframe
-                    width="560"
-                    height="315"
-                    src={participanteSeleccionado.categoria[1].videoObjeto}
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                  ></iframe>
+              <Modal isOpen={modalIsOpen} style={customStyles}>
+                <div className="over">
+                  <button
+                    onClick={() => setModalIsOpen(false)}
+                    key={participanteSeleccionado.id}
+                    className="close"
+                  >
+                    <AiOutlineArrowLeft />
+                  </button>
+                  <div className="data">
+                    <h3 className="informationName">
+                      {participanteSeleccionado.nombreParticipante}
+                    </h3>
+                    <h3 className="informationData">
+                      Categoria: {participanteSeleccionado.categoria[1].nombre}
+                    </h3>
+                    <h3 className="informationData">
+                      Región: {participanteSeleccionado.ubicacion.region}
+                    </h3>
+                    <h3 className="informationData">
+                      Comuna: {participanteSeleccionado.ubicacion.comuna}
+                    </h3>
+                  </div>
+                  <div className="video">
+                    <iframe
+                      width="560"
+                      height="315"
+                      margin="auto"
+                      position="absolute"
+                      src={participanteSeleccionado.categoria[1].videoObjeto}
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
                 </div>
               </Modal>
               <button
@@ -165,23 +201,42 @@ export const VistaParticipantes = () => {
               >
                 AMOR
               </button>
-              <Modal isOpen={modalIsOpen} ariaHideApp={false}>
-                <button
-                  onClick={() => setModalIsOpen(false)}
-                  className="backArrowModal"
-                >
-                  <AiOutlineArrowLeft />
-                </button>
-                <div className="video">
-                  <iframe
-                    width="560"
-                    height="315"
-                    src={participanteSeleccionado.categoria[0].videoObjeto}
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                  ></iframe>
+              <Modal isOpen={modalIsOpen} style={customStyles}>
+                <div className="over">
+                  <button
+                    onClick={() => setModalIsOpen(false)}
+                    key={participanteSeleccionado.id}
+                    className="close"
+                  >
+                    <AiOutlineArrowLeft />
+                  </button>
+                  <div className="data">
+                    <h3 className="informationName">
+                      {participanteSeleccionado.nombreParticipante}
+                    </h3>
+                    <h3 className="informationData">
+                      Categoria: {participanteSeleccionado.categoria[0].nombre}
+                    </h3>
+                    <h3 className="informationData">
+                      Región: {participanteSeleccionado.ubicacion.region}
+                    </h3>
+                    <h3 className="informationData">
+                      Comuna: {participanteSeleccionado.ubicacion.comuna}
+                    </h3>
+                  </div>
+                  <div className="video">
+                    <iframe
+                      width="560"
+                      height="315"
+                      margin="auto"
+                      position="absolute"
+                      src={participanteSeleccionado.categoria[0].videoObjeto}
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
                 </div>
               </Modal>
             </div>
@@ -192,23 +247,42 @@ export const VistaParticipantes = () => {
               >
                 ACTOSENTIDO
               </button>
-              <Modal isOpen={modalIsOpen}>
-                <button
-                  onClick={() => setModalIsOpen(false)}
-                  className="backArrowModal"
-                >
-                  <AiOutlineArrowLeft />
-                </button>
-                <div className="video">
-                  <iframe
-                    width="560"
-                    height="315"
-                    src={participanteSeleccionado.categoria[5].videoObjeto}
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                  ></iframe>
+              <Modal isOpen={modalIsOpen} style={customStyles}>
+                <div className="over">
+                  <button
+                    onClick={() => setModalIsOpen(false)}
+                    key={participanteSeleccionado.id}
+                    className="close"
+                  >
+                    <AiOutlineArrowLeft />
+                  </button>
+                  <div className="data">
+                    <h3 className="informationName">
+                      {participanteSeleccionado.nombreParticipante}
+                    </h3>
+                    <h3 className="informationData">
+                      Categoria: {participanteSeleccionado.categoria[5].nombre}
+                    </h3>
+                    <h3 className="informationData">
+                      Región: {participanteSeleccionado.ubicacion.region}
+                    </h3>
+                    <h3 className="informationData">
+                      Comuna: {participanteSeleccionado.ubicacion.comuna}
+                    </h3>
+                  </div>
+                  <div className="video">
+                    <iframe
+                      width="560"
+                      height="315"
+                      margin="auto"
+                      position="absolute"
+                      src={participanteSeleccionado.categoria[5].videoObjeto}
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
                 </div>
               </Modal>
               <button
@@ -217,23 +291,42 @@ export const VistaParticipantes = () => {
               >
                 CUERPO
               </button>
-              <Modal isOpen={modalIsOpen}>
-                <button
-                  onClick={() => setModalIsOpen(false)}
-                  className="backArrowModal"
-                >
-                  <AiOutlineArrowLeft />
-                </button>
-                <div className="video">
-                  <iframe
-                    width="560"
-                    height="315"
-                    src={participanteSeleccionado.categoria[3].videoObjeto}
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                  ></iframe>
+              <Modal isOpen={modalIsOpen} style={customStyles}>
+                <div className="over">
+                  <button
+                    onClick={() => setModalIsOpen(false)}
+                    key={participanteSeleccionado.id}
+                    className="close"
+                  >
+                    <AiOutlineArrowLeft />
+                  </button>
+                  <div className="data">
+                    <h3 className="informationName">
+                      {participanteSeleccionado.nombreParticipante}
+                    </h3>
+                    <h3 className="informationData">
+                      Categoria: {participanteSeleccionado.categoria[3].nombre}
+                    </h3>
+                    <h3 className="informationData">
+                      Región: {participanteSeleccionado.ubicacion.region}
+                    </h3>
+                    <h3 className="informationData">
+                      Comuna: {participanteSeleccionado.ubicacion.comuna}
+                    </h3>
+                  </div>
+                  <div className="video">
+                    <iframe
+                      width="560"
+                      height="315"
+                      margin="auto"
+                      position="absolute"
+                      src={participanteSeleccionado.categoria[3].videoObjeto}
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
                 </div>
               </Modal>
               <button
@@ -242,23 +335,42 @@ export const VistaParticipantes = () => {
               >
                 LIBERTAD
               </button>
-              <Modal isOpen={modalIsOpen}>
-                <button
-                  onClick={() => setModalIsOpen(false)}
-                  className="backArrowModal"
-                >
-                  <AiOutlineArrowLeft />
-                </button>
-                <div className="video">
-                  <iframe
-                    width="560"
-                    height="315"
-                    src={participanteSeleccionado.categoria[4].videoObjeto}
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                  ></iframe>
+              <Modal isOpen={modalIsOpen} style={customStyles}>
+                <div className="over">
+                  <button
+                    onClick={() => setModalIsOpen(false)}
+                    key={participanteSeleccionado.id}
+                    className="close"
+                  >
+                    <AiOutlineArrowLeft />
+                  </button>
+                  <div className="data">
+                    <h3 className="informationName">
+                      {participanteSeleccionado.nombreParticipante}
+                    </h3>
+                    <h3 className="informationData">
+                      Categoria: {participanteSeleccionado.categoria[4].nombre}
+                    </h3>
+                    <h3 className="informationData">
+                      Región: {participanteSeleccionado.ubicacion.region}
+                    </h3>
+                    <h3 className="informationData">
+                      Comuna: {participanteSeleccionado.ubicacion.comuna}
+                    </h3>
+                  </div>
+                  <div className="video">
+                    <iframe
+                      width="560"
+                      height="315"
+                      margin="auto"
+                      position="absolute"
+                      src={participanteSeleccionado.categoria[4].videoObjeto}
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
                 </div>
               </Modal>
             </div>
