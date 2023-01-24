@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
-import logo from "/assets/gif/GIF-PRINCIPAL-.gif";
 import blackLogo from "/assets/logos/LOGO-NEGRO.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import music from "../data/mp3/Leit-Motiv.mp3";
