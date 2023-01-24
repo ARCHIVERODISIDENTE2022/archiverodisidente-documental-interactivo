@@ -58,7 +58,7 @@ const Cuerpo = () => {
           </a>
           <h1 className="title">CUERPO</h1>
           <div className="imgParticipantes">
-            {random(Array.from(participantes)).map((participantes) => {
+            {Array.from(participantes).map((participantes) => {
               return (
                 <>
                   <button
