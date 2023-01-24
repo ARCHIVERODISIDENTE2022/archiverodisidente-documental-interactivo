@@ -103,7 +103,7 @@
         {
             "id": 2,
             "nombreParticipante": "Valenti",
-            "mainImg": "src/assets/imagenes/p02obj0.png",
+            "mainImg": "assets/imagenes/p02obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/data/imagenes-png/p06obj6.png",
             "gif": "src/data/gif/violeta.gif",
@@ -120,32 +120,32 @@
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "src/assets/imagenes/p02obj1.png",
+                    "imgObjeto": "assets/imagenes/p02obj1.png",
                     "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "src/assets/imagenes/p02obj2.png",
+                    "imgObjeto": "assets/imagenes/p02obj2.png",
                     "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "src/assets/imagenes/p02obj3.png",
+                    "imgObjeto": "assets/imagenes/p02obj3.png",
                     "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "src/assets/imagenes/p02obj4.png",
+                    "imgObjeto": "assets/imagenes/p02obj4.png",
                     "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "src/assets/imagenes/p02obj5.png",
+                    "imgObjeto": "assets/imagenes/p02obj5.png",
                     "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "src/assets/imagenes/p02obj6.png",
+                    "imgObjeto": "assets/imagenes/p02obj6.png",
                     "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
                 }
             ]
@@ -153,7 +153,7 @@
         {
             "id": 3,
             "nombreParticipante": "Orlando",
-            "mainImg": "src/assets/imagenes/p03obj0.png",
+            "mainImg": "assets/imagenes/p03obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/data/imagenes-png/p06obj6.png",
             "gif": "src/data/gif/violeta.gif",
@@ -170,32 +170,32 @@
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "src/assets/imagenes/p03obj1.png",
+                    "imgObjeto": "assets/imagenes/p03obj1.png",
                     "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "src/assets/imagenes/p03obj2.png",
+                    "imgObjeto": "assets/imagenes/p03obj2.png",
                     "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "src/assets/imagenes/p03obj3.png",
+                    "imgObjeto": "assets/imagenes/p03obj3.png",
                     "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "src/assets/imagenes/p03obj4.png",
+                    "imgObjeto": "assets/imagenes/p03obj4.png",
                     "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "src/assets/imagenes/p03obj5.png",
+                    "imgObjeto": "assets/imagenes/p03obj5.png",
                     "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "src/assets/imagenes/p03obj6.png",
+                    "imgObjeto": "assets/imagenes/p03obj6.png",
                     "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
                 }
             ]
@@ -203,7 +203,7 @@
         {
             "id": 4,
             "nombreParticipante": "Catalina López",
-            "mainImg": "src/assets/imagenes/p04obj0.png",
+            "mainImg": "assets/imagenes/p04obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/data/imagenes-png/p06obj6.png",
             "gif": "src/data/gif/violeta.gif",
@@ -220,32 +220,32 @@
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "src/assets/imagenes/p00obj1.png",
+                    "imgObjeto": "assets/imagenes/p00obj1.png",
                     "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "src/assets/imagenes/p04obj2.png",
+                    "imgObjeto": "assets/imagenes/p04obj2.png",
                     "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "src/assets/imagenes/p04obj3.png",
+                    "imgObjeto": "assets/imagenes/p04obj3.png",
                     "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "src/assets/imagenes/p04obj4.png",
+                    "imgObjeto": "assets/imagenes/p04obj4.png",
                     "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "src/assets/imagenes/p04obj5.png",
+                    "imgObjeto": "assets/imagenes/p04obj5.png",
                     "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "src/assets/imagenes/p04obj6.png",
+                    "imgObjeto": "assets/imagenes/p04obj6.png",
                     "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
                 }
             ]
@@ -253,7 +253,7 @@
         {
             "id": 5,
             "nombreParticipante": "Gael Negrón",
-            "mainImg": "src/assets/imagenes/p05obj0.png",
+            "mainImg": "assets/imagenes/p05obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/data/imagenes-png/p06obj6.png",
             "gif": "src/data/gif/violeta.gif",
@@ -303,7 +303,7 @@
         {
             "id": 6,
             "nombreParticipante": "Violeta Adams",
-            "mainImg": "src/assets/imagenes/p06obj0.png",
+            "mainImg": "assets/imagenes/p06obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/data/imagenes-png/p06obj6.png",
             "gif": "src/data/gif/violeta.gif",
@@ -320,32 +320,32 @@
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "src/assets/imagenes/p06obj1.png",
+                    "imgObjeto": "assets/imagenes/p06obj1.png",
                     "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "src/assets/imagenes/p06obj2.png",
+                    "imgObjeto": "assets/imagenes/p06obj2.png",
                     "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "src/assets/imagenes/p06obj3.png",
+                    "imgObjeto": "assets/imagenes/p06obj3.png",
                     "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "src/assets/imagenes/p06obj4.png",
+                    "imgObjeto": "assets/imagenes/p06obj4.png",
                     "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "src/assets/imagenes/p06obj5.png",
+                    "imgObjeto": "assets/imagenes/p06obj5.png",
                     "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "src/assets/imagenes/p06obj6.png",
+                    "imgObjeto": "assets/imagenes/p06obj6.png",
                     "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
                 }
             ]
@@ -353,7 +353,7 @@
         {
             "id": 7,
             "nombreParticipante": "Yoko",
-            "mainImg": "src/assets/imagenes/p07obj0.png",
+            "mainImg": "assets/imagenes/p07obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/data/imagenes-png/p06obj6.png",
             "gif": "src/data/gif/violeta.gif",
@@ -370,32 +370,32 @@
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "src/assets/imagenes/p07obj1.png",
+                    "imgObjeto": "assets/imagenes/p07obj1.png",
                     "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "src/assets/imagenes/p07obj2.png",
+                    "imgObjeto": "assets/imagenes/p07obj2.png",
                     "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "src/assets/imagenes/p07obj3.png",
+                    "imgObjeto": "assets/imagenes/p07obj3.png",
                     "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "src/assets/imagenes/p07obj4.png",
+                    "imgObjeto": "assets/imagenes/p07obj4.png",
                     "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "src/assets/imagenes/p07obj5.png",
+                    "imgObjeto": "assets/imagenes/p07obj5.png",
                     "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "src/assets/imagenes/p07obj6.png",
+                    "imgObjeto": "assets/imagenes/p07obj6.png",
                     "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
                 }
             ]
@@ -470,32 +470,32 @@
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "src/assets/imagenes/p09obj1.png",
+                    "imgObjeto": "assets/imagenes/p09obj1.png",
                     "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "src/assets/imagenes/p09obj2.png",
+                    "imgObjeto": "assets/imagenes/p09obj2.png",
                     "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "src/assets/imagenes/p09obj3.png",
+                    "imgObjeto": "assets/imagenes/p09obj3.png",
                     "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "src/assets/imagenes/p09obj4.png",
+                    "imgObjeto": "assets/imagenes/p09obj4.png",
                     "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "src/assets/imagenes/p09obj5.png",
+                    "imgObjeto": "assets/imagenes/p09obj5.png",
                     "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "src/assets/imagenes/p09obj6.png",
+                    "imgObjeto": "assets/imagenes/p09obj6.png",
                     "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
                 }
             ]
@@ -503,7 +503,7 @@
         {
             "id": 10,
             "nombreParticipante": "Manuel Moraga",
-            "mainImg": "src/assets/imagenes/p10obj0.png",
+            "mainImg": "assets/imagenes/p10obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/assets/imagenes/p06obj6.png",
             "gif": "src/data/gif/violeta.gif",
@@ -520,32 +520,32 @@
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "src/assets/imagenes/p10obj1.png",
+                    "imgObjeto": "assets/imagenes/p10obj1.png",
                     "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "src/assets/imagenes/p10obj2.png",
+                    "imgObjeto": "assets/imagenes/p10obj2.png",
                     "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "src/assets/imagenes/p10obj3.png",
+                    "imgObjeto": "assets/imagenes/p10obj3.png",
                     "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "src/assets/imagenes/p10obj4.png",
+                    "imgObjeto": "assets/imagenes/p10obj4.png",
                     "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "src/assets/imagenes/p10obj5.png",
+                    "imgObjeto": "assets/imagenes/p10obj5.png",
                     "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "src/assets/imagenes/p10obj6.png",
+                    "imgObjeto": "assets/imagenes/p10obj6.png",
                     "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
                 }
             ]
@@ -553,7 +553,7 @@
         {
             "id": 11,
             "nombreParticipante": "Maco",
-            "mainImg": "src/assets/imagenes/p11obj0.png",
+            "mainImg": "assets/imagenes/p11obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/assets/imagenes/p06obj6.png",
             "gif": "src/data/gif/violeta.gif",
@@ -570,32 +570,32 @@
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "src/assets/imagenes/p11obj1.png",
+                    "imgObjeto": "assets/imagenes/p11obj1.png",
                     "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "src/assets/imagenes/p11obj2.png",
+                    "imgObjeto": "assets/imagenes/p11obj2.png",
                     "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "src/assets/imagenes/p00obj3.png",
+                    "imgObjeto": "assets/imagenes/p00obj3.png",
                     "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "src/assets/imagenes/p11obj4.png",
+                    "imgObjeto": "assets/imagenes/p11obj4.png",
                     "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "src/assets/imagenes/p11obj5.png",
+                    "imgObjeto": "assets/imagenes/p11obj5.png",
                     "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "src/assets/imagenes/p11obj6.png",
+                    "imgObjeto": "assets/imagenes/p11obj6.png",
                     "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
                 }
             ]
@@ -603,7 +603,7 @@
         {
             "id": 12,
             "nombreParticipante": "Gonzalo",
-            "mainImg": "src/assets/imagenes/p12obj0.png",
+            "mainImg": "assets/imagenes/p12obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/assets/imagenes/p06obj6.png",
             "gif": "src/data/gif/violeta.gif",
@@ -620,32 +620,32 @@
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "src/assets/imagenes/p12obj1.png",
+                    "imgObjeto": "assets/imagenes/p12obj1.png",
                     "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "src/assets/imagenes/p12obj2.png",
+                    "imgObjeto": "assets/imagenes/p12obj2.png",
                     "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "src/assets/imagenes/p12obj3.png",
+                    "imgObjeto": "assets/imagenes/p12obj3.png",
                     "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "src/assets/imagenes/p12obj4.png",
+                    "imgObjeto": "assets/imagenes/p12obj4.png",
                     "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "src/assets/imagenes/p12obj5.png",
+                    "imgObjeto": "assets/imagenes/p12obj5.png",
                     "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "src/assets/imagenes/p12obj6.png",
+                    "imgObjeto": "assets/imagenes/p12obj6.png",
                     "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
                 }
             ]
@@ -653,7 +653,7 @@
         {
             "id": 13,
             "nombreParticipante": "Eros",
-            "mainImg": "src/assets/imagenes/p13obj0.png",
+            "mainImg": "assets/imagenes/p13obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/assets/imagenes/p06obj6.png",
             "gif": "src/data/gif/violeta.gif",
@@ -670,32 +670,32 @@
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "src/assets/imagenes/p12obj1.png",
+                    "imgObjeto": "assets/imagenes/p12obj1.png",
                     "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "src/assets/imagenes/p12obj2.png",
+                    "imgObjeto": "assets/imagenes/p12obj2.png",
                     "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "src/assets/imagenes/p12obj3.png",
+                    "imgObjeto": "assets/imagenes/p12obj3.png",
                     "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "src/assets/imagenes/p12obj4.png",
+                    "imgObjeto": "assets/imagenes/p12obj4.png",
                     "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "src/assets/imagenes/p12obj5.png",
+                    "imgObjeto": "assets/imagenes/p12obj5.png",
                     "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "src/assets/imagenes/p12obj6.png",
+                    "imgObjeto": "assets/imagenes/p12obj6.png",
                     "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
                 }
             ]
