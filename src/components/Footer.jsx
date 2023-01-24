@@ -1,44 +1,64 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 import music from "../data/mp3/Leit-Motiv.mp3";
+import { GrPlayFill } from "react-icons/gr"
+import { GrPause } from "react-icons/gr"
 
 const Footer = () => {
-  const audio = useRef(null);
+  const [playing, setPlaying] = useState(true)
+  const [volume, setVolume] = useState(100);
+  const audioRef = useRef(null);
+  
   useEffect(() => {
-    audio.current.play();
-  }, []);
+    if (playing) {
+      handlePlay();
+    }
+    else { handlePause(); }
+  
+  }, [!playing],
 
-  return (
-    <>
-      <footer className="footer">
-        <Link to="/#choice" className="link">
-          FORMA DE NAVEGACIÓN |
-        </Link>
-        <Link to="/retribucion" className="link">
-          {" "}
-          | RETRIBUCIÓN
-        </Link>
-        <Link to="/creditos" className="link">
-          | CRÉDITOS
-        </Link>
-        <div className="volume">
-          <audio className="volume-progressbar" ref={audio} src={music} />
-          <span id="volume-progressbar" className="volume-progressbar"></span>
-          <input
-            type="range"
-            min="0"
-            max="100"
-            step="1"
-            value="100"
-            id="np-volume"
-            className="volume-slider"
-            role="progressbar"
-          />
-        </div>
-      </footer>
-    </>
-  );
+);
+
+function handleClick() {
+  setPlaying(!playing);
+}
+
+const handlePlay = () => {
+  audioRef.current.play();
+  setPlaying(true);
+}
+
+const handlePause = () => {
+  audioRef.current.pause();
+  setPlaying(false);
+}
+
+const handleVolume = (e) => {
+  setVolume(e.target.value);
+  audioRef.current.volume = e.target.value / 100;
+}
+
+return (
+  <>
+    <footer className="footer">
+
+      <Link to="/#choice" className="formaNavegacion">
+        FORMA DE NAVEGACIÓN |
+      </Link>
+      <Link to="/retribucion" className="toRetribucion">
+        {" "}
+        | RETRIBUCIÓN |</Link>
+      <Link to="/creditos" className="toCreditos">CRÉDITOS   |
+      </Link>
+      <div className="audioPlayer">
+        <audio ref={audioRef} src={music} />
+        <button className="btnPlay" onClick={handleClick}>{playing ? <GrPause size={'2rem'} color={'white'} /> : <GrPlayFill size={'2rem'} color={'white'} />} </button>
+        <input className="volume" type="range" min={0} max={100} value={volume} onChange={handleVolume} />
+      </div>
+    </footer>
+  </>
+);
 };
 
 export default Footer;
