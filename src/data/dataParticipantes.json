@@ -3,7 +3,7 @@
         {
             "id": 0,
             "nombreParticipante": "Turquesa",
-            "mainImg": "dist/assets/p00obj0.png",
+            "mainImg": "assets/imagenes/p00obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/data/imagenes-png/p06obj6.png",
             "gif": "src/data/gif/violeta.gif",
@@ -20,32 +20,32 @@
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "src/assets/imagenes/p00obj1.png",
+                    "imgObjeto": "assets/imagenes/p00obj1.png",
                     "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "src/assets/imagenes/p00obj2.png",
+                    "imgObjeto": "assets/imagenes/p00obj2.png",
                     "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "src/assets/imagenes/p00obj3.png",
+                    "imgObjeto": "assets/imagenes/p00obj3.png",
                     "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "src/assets/imagenes/p00obj4.png",
+                    "imgObjeto": "assets/imagenes/p00obj4.png",
                     "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "src/assets/imagenes/p00obj5.png",
+                    "imgObjeto": "assets/imagenes/p00obj5.png",
                     "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "src/assets/imagenes/p00obj6.png",
+                    "imgObjeto": "assets/imagenes/p00obj6.png",
                     "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
                 }
             ]
@@ -53,7 +53,7 @@
         {
             "id": 1,
             "nombreParticipante": "Katherine",
-            "mainImg": "src/assets/imagenes/p01obj0.png",
+            "mainImg": "assets/imagenes/p01obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/assets/imagenes/p06obj6.png",
             "gif": "src/data/gif/violeta.gif",
@@ -70,39 +70,39 @@
             "categoria": [
                 {
                     "nombre": "Amor",
-                    "imgObjeto": "src/assets/imagenes/p01obj1.png",
+                    "imgObjeto": "assets/imagenes/p01obj1.png",
                     "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
                 },
                 {
                     "nombre": "Miedo",
-                    "imgObjeto": "src/assets/imagenes/p01obj2.png",
+                    "imgObjeto": "assets/imagenes/p01obj2.png",
                     "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
                 },
                 {
                     "nombre": "Familia",
-                    "imgObjeto": "src/assets/imagenes/p01obj3.png",
+                    "imgObjeto": "assets/imagenes/p01obj3.png",
                     "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
                 },
                 {
                     "nombre": "Cuerpo",
-                    "imgObjeto": "src/assets/imagenes/p01obj4.png",
+                    "imgObjeto": "assets/imagenes/p01obj4.png",
                     "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
                 },
                 {
                     "nombre": "Libertad",
-                    "imgObjeto": "src/assets/imagenes/p01obj5.png",
+                    "imgObjeto": "assets/imagenes/p01obj5.png",
                     "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
                 },
                 {
                     "nombre": "Actosentido",
-                    "imgObjeto": "src/assets/imagenes/p01obj6.png",
+                    "imgObjeto": "assets/imagenes/p01obj6.png",
                     "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
                 }
             ]
         },
         {
             "id": 2,
-            "nombreParticipante": "Valentí",
+            "nombreParticipante": "Valenti",
             "mainImg": "src/assets/imagenes/p02obj0.png",
             "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
             "frameGif": "src/data/imagenes-png/p06obj6.png",
