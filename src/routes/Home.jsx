@@ -122,11 +122,8 @@ const Home = () => {
           </p>
 
           <div>
-            <div href="#slide-choice">
-              <Link to="/choice" className="choiceParticipantes">
-                {" "}
-                COMENZAR EL VIAJE{" "}
-              </Link>
+            <div className="btnInstructions" href="#slide-choice">
+              <a href="/choice">COMENZAR EL VIAJE</a>
             </div>
           </div>
         </div>
