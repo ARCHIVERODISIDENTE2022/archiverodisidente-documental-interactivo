@@ -1,5 +1,6 @@
 import { React, useEffect, useState } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 import Footer from "../components/Footer";
 import "./VistaParticipantes.scss";
 import { AiOutlineArrowLeft } from "react-icons/ai";
@@ -27,10 +28,13 @@ export const VistaParticipantes = () => {
     useState(null);
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
-  const handleClick = () => {
-    window.location.reload();
+  const navigate = useNavigate();
+  const handleClickback = () => {
+    navigate("/#slide-choice");
   };
-
+  const handleClick = () => {
+    setParticipanteSeleccionado(null);
+  };
   const random = (a) => {
     for (let i = a.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -409,9 +413,9 @@ export const VistaParticipantes = () => {
     <>
       <div className="container">
         <div className="containerVistaParticipantes">
-          <a className="backArrow" href="/#slide-choice">
+          <button onClick={handleClickback}>
             <AiOutlineArrowLeft />
-          </a>
+          </button>
           <h1 className="titleParticipantes"> PARTICIPANTES </h1>
           <div className="participantesContainer">
             {random(Array.from(participantesData)).map((participantes) => (

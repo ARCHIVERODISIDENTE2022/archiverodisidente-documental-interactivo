@@ -10,7 +10,6 @@ const url =
 
 const Amor = () => {
   const [participantesData, setParticipantesData] = useState(null);
-  const [modalIsOpen, setModalIsOpen] = useState(false);
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null);
 
   const random = (a) => {
