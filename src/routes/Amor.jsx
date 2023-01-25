@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import "./ContainerCategoria.css";
 import { React, useEffect, useState } from "react";
+// import { useHistory } from "react-router-dom";
 import axios from "axios";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 
@@ -20,6 +21,9 @@ const Amor = () => {
     return a;
   };
 
+  const handleClick = () => {
+    setCategoriaSeleccionada(null);
+  };
   useEffect(() => {
     async function fetchData() {
       try {
@@ -39,11 +43,7 @@ const Amor = () => {
     return (
       <>
         <div className="over">
-          <button
-            onClick={() => setModalIsOpen(false)}
-            key={categoriaSeleccionada.id}
-            className="close"
-          >
+          <button onClick={handleClick}>
             <AiOutlineArrowLeft />
           </button>
           <div className="data">
