@@ -413,7 +413,7 @@ export const VistaParticipantes = () => {
     <>
       <div className="container">
         <div className="containerVistaParticipantes">
-          <button onClick={handleClickback}>
+          <button onClick={handleClickback}
             <AiOutlineArrowLeft />
           </button>
           <h1 className="titleParticipantes"> PARTICIPANTES </h1>

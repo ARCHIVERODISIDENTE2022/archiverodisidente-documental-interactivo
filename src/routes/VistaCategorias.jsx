@@ -36,9 +36,9 @@ export const VistaCategorias = () => {
 
   return (
     <>
-    <div className="container">
-      <div className="containerVistaCategoria">
-          <a className="backArrow" href="/#slide-choice">
+      <div className="container">
+        <div className="containerVistaCategoria">
+          <a className="backArrow" href="/choice">
             <AiOutlineArrowLeft />
           </a>
           <h1 className="titleCategoria"> CATEGORÍAS </h1>

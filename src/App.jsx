@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./routes/Home";
+import Choice from "./routes/choice";
 import { VistaCategorias } from "./routes/VistaCategorias";
 import { VistaParticipantes } from "./routes/VistaParticipantes";
 import Familia from "./routes/Familia";
@@ -16,6 +17,7 @@ const App = () => {
     <>
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path="choice" element={<Choice />}></Route>
 
         <Route path="/vistacategorias" element={<VistaCategorias />}></Route>
 
@@ -26,7 +28,7 @@ const App = () => {
 
         <Route path="/familia" element={<Familia />}></Route>
 
-        <Route path="/miedo" element={<Miedo />}></Route> 
+        <Route path="/miedo" element={<Miedo />}></Route>
 
         <Route path="/amor" element={<Amor />}></Route>
 

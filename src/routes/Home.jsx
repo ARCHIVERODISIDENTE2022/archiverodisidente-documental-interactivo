@@ -122,25 +122,9 @@ const Home = () => {
           </p>
 
           <div>
-            <a href="#slide-choice">
-              <h2 className="btnInstructions">COMENZAR EL VIAJE</h2>
-            </a>
-          </div>
-        </div>
-
-        <div className="choice" id="slide-choice">
-          <h1 className="choiceText">
-            ELIGE LA FORMA EN LA QUE DESEAS NAVEGAR
-          </h1>
-          <div className="btnChoice">
-            <Link to="/vistaparticipantes" className="choiceParticipantes">
-              {" "}
-              PARTICIPANTES{" "}
-            </Link>
-            <Link to="/vistacategorias" className="choiceCategorias">
-              {" "}
-              CATEGORÍAS{" "}
-            </Link>
+            <div className="btnInstructions" href="#slide-choice">
+              <a href="/choice">COMENZAR EL VIAJE</a>
+            </div>
           </div>
         </div>
       </div>
