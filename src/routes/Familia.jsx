@@ -2,27 +2,15 @@ import Footer from "../components/Footer";
 import "./ContainerCategoria.css";
 import { React, useEffect, useState } from "react";
 import axios from "axios";
-import { FamiliaContent } from "../components/FamiliaContent";
 import { AiOutlineArrowLeft } from "react-icons/ai";
-import Modal from "react-modal";
-const customStyles = {
-  content: {
-    width: "100%",
-    height: "100%",
-    position: "absolute",
-    background: "white",
-    display: "flex",
-    margin: "0 auto",
-    top: "0",
-    left: "0",
-  },
-};
+
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/dataParticipantes.json";
 
 const Familia = () => {
-  const [participantes, setParticipantes] = useState(null);
+  const [participantesData, setParticipantesData] = useState(null);
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null);
 
   const random = (a) => {
     for (let i = a.length - 1; i > 0; i--) {
@@ -36,77 +24,81 @@ const Familia = () => {
     async function fetchData() {
       try {
         const response = await axios.get(url);
-        setParticipantes(response.data.participantes);
+        setParticipantesData(response.data.participantes);
       } catch (error) {}
     }
 
     fetchData();
   }, []);
 
-  if (participantes === null) {
+  if (participantesData === null) {
     return <div>Cargando...</div>;
   }
-
+  if (categoriaSeleccionada) {
+    return (
+      <>
+        <div className="over">
+          <button
+            onClick={() => setModalIsOpen(false)}
+            key={categoriaSeleccionada.id}
+            className="close"
+          >
+            <AiOutlineArrowLeft />
+          </button>
+          <div className="data">
+            <h3 className="informationName">
+              {categoriaSeleccionada.nombreParticipante}
+            </h3>
+            <h3 className="informationData">
+              Categoria: {categoriaSeleccionada.categoria[2].nombre}
+            </h3>
+            <h3 className="informationData">
+              Región: {categoriaSeleccionada.ubicacion.region}
+            </h3>
+            <h3 className="informationData">
+              Comuna: {categoriaSeleccionada.ubicacion.comuna}
+            </h3>
+          </div>
+          <div className="video">
+            <iframe
+              width="560"
+              height="315"
+              margin="auto"
+              position="absolute"
+              src={categoriaSeleccionada.categoria[2].videoObjeto}
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullscreen
+            ></iframe>
+          </div>
+        </div>
+      </>
+    );
+  }
   return (
     <>
       <div className="container">
         <div className="vista">
-          <a className="backArrow" href="/#choice">
+          <a className="backArrow" href="/vistacategorias">
             <AiOutlineArrowLeft />
           </a>
           <h1 className="title">FAMILIA</h1>
           <div className="imgParticipantes">
-            {random(Array.from(participantes)).map((participantes) => {
-              return (
-                <>
-                  <button
-                    onClick={() => setModalIsOpen(true)}
-                    key={participantes.id}
-                    className="personCategoria"
-                  >
-                    <FamiliaContent participante={participantes} />
-                  </button>
-                  <Modal isOpen={modalIsOpen} style={customStyles}>
-                    <div className="over">
-                      <button
-                        onClick={() => setModalIsOpen(false)}
-                        key={participantes.id}
-                        className="close"
-                      >
-                        <AiOutlineArrowLeft />
-                      </button>
-                      <div className="data">
-                        <h3 className="informationName">
-                          {participantes.nombreParticipante}
-                        </h3>
-                        <h3 className="informationData">
-                          Categoria: {participantes.categoria[2].nombre}
-                        </h3>
-                        <h3 className="informationData">
-                          Región: {participantes.ubicacion.region}
-                        </h3>
-                        <h3 className="informationData">
-                          Comuna: {participantes.ubicacion.comuna}
-                        </h3>
-                      </div>
-                      <div className="video">
-                        <iframe
-                          width="560"
-                          height="315"
-                          margin="auto"
-                          position="absolute"
-                          src={participantes.categoria[2].videoObjeto}
-                          title="YouTube video player"
-                          frameborder="0"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                          allowfullscreen
-                        ></iframe>
-                      </div>
-                    </div>
-                  </Modal>
-                </>
-              );
-            })}
+            <div className="conteinerCategoria">
+              {random(Array.from(participantesData)).map((participantes) => (
+                <div
+                  className="participante"
+                  key={participantes.id}
+                  onClick={() => setCategoriaSeleccionada(participantes)}
+                >
+                  <img
+                    className="participanteImg"
+                    src={participantes.mainImg}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
         <Footer />
@@ -114,5 +106,4 @@ const Familia = () => {
     </>
   );
 };
-
 export default Familia;
