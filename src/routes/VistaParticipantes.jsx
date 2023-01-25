@@ -409,7 +409,7 @@ export const VistaParticipantes = () => {
     <>
       <div className="container">
         <div className="containerVistaParticipantes">
-          <a className="backArrow" href="/#slide-choice">
+          <a className="backArrow" href="/choice">
             <AiOutlineArrowLeft />
           </a>
           <h1 className="titleParticipantes"> PARTICIPANTES </h1>
