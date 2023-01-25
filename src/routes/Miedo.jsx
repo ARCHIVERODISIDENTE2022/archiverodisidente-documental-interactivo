@@ -18,6 +18,7 @@ const Miedo = () => {
     }
     return a;
   };
+
   const handleClick = () => {
     setCategoriaSeleccionada(null);
   };

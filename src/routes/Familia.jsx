@@ -9,7 +9,6 @@ const url =
 
 const Familia = () => {
   const [participantesData, setParticipantesData] = useState(null);
-  const [modalIsOpen, setModalIsOpen] = useState(false);
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null);
 
   const random = (a) => {
@@ -19,6 +18,7 @@ const Familia = () => {
     }
     return a;
   };
+
   const handleClick = () => {
     setCategoriaSeleccionada(null);
   };
