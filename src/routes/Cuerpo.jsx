@@ -95,7 +95,7 @@ const Cuerpo = () => {
                 >
                   <img
                     className="participanteImg"
-                    src={participantes.mainImg}
+                    src={participantes.categoria[3].imgObjeto}
                   />
                 </div>
               ))}

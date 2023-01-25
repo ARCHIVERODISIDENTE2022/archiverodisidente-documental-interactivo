@@ -95,7 +95,7 @@ const Amor = () => {
                 >
                   <img
                     className="participanteImg"
-                    src={participantes.mainImg}
+                    src={participantes.categoria[0].imgObjeto}
                   />
                 </div>
               ))}

@@ -94,7 +94,7 @@ const Miedo = () => {
                 >
                   <img
                     className="participanteImg"
-                    src={participantes.mainImg}
+                    src={participantes.categoria[1].imgObjeto}
                   />
                 </div>
               ))}

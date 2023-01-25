@@ -94,7 +94,7 @@ const Familia = () => {
                 >
                   <img
                     className="participanteImg"
-                    src={participantes.mainImg}
+                    src={participantes.categoria[2].imgObjeto}
                   />
                 </div>
               ))}
