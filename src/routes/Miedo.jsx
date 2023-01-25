@@ -9,7 +9,6 @@ const url =
 
 const Miedo = () => {
   const [participantesData, setParticipantesData] = useState(null);
-  const [modalIsOpen, setModalIsOpen] = useState(false);
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null);
 
   const random = (a) => {
@@ -19,7 +18,9 @@ const Miedo = () => {
     }
     return a;
   };
-
+  const handleClick = () => {
+    setCategoriaSeleccionada(null);
+  };
   useEffect(() => {
     async function fetchData() {
       try {
@@ -38,11 +39,7 @@ const Miedo = () => {
     return (
       <>
         <div className="over">
-          <button
-            onClick={() => setModalIsOpen(false)}
-            key={categoriaSeleccionada.id}
-            className="close"
-          >
+          <button onClick={handleClick}>
             <AiOutlineArrowLeft />
           </button>
           <div className="data">

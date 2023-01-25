@@ -19,7 +19,9 @@ const Familia = () => {
     }
     return a;
   };
-
+  const handleClick = () => {
+    setCategoriaSeleccionada(null);
+  };
   useEffect(() => {
     async function fetchData() {
       try {
@@ -38,11 +40,7 @@ const Familia = () => {
     return (
       <>
         <div className="over">
-          <button
-            onClick={() => setModalIsOpen(false)}
-            key={categoriaSeleccionada.id}
-            className="close"
-          >
+          <button onClick={handleClick}>
             <AiOutlineArrowLeft />
           </button>
           <div className="data">
