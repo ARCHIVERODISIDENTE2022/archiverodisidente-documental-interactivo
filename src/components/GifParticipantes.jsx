@@ -1,6 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./GifParticipantes.css";
+import axios from "axios";
+
+
+const url =
+  "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/dataParticipantes.json";
+
 
 export const GifParticipantes = ({ participante }) => {
   return (

@@ -42,7 +42,7 @@ const Amor = () => {
     return (
       <>
         <div className="over">
-          <button onClick={handleClick}>
+          <button className="close" onClick={handleClick}>
             <AiOutlineArrowLeft />
           </button>
           <div className="data">
@@ -84,8 +84,7 @@ const Amor = () => {
             <AiOutlineArrowLeft />
           </a>
           <h1 className="title">AMOR</h1>
-          <div className="imgParticipantes">
-            <div className="conteinerCategoria">
+            <div className="containerCategoria">
               {random(Array.from(participantesData)).map((participantes) => (
                 <div
                   className="participante"
@@ -99,7 +98,6 @@ const Amor = () => {
                 </div>
               ))}
             </div>
-          </div>
         </div>
         <Footer />
       </div>

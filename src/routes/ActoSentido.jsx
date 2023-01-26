@@ -1,5 +1,5 @@
 import Footer from "../components/Footer";
-import "./ContainerCategoria.css";
+import "./ActoSentido.css";
 import { React, useEffect, useState } from "react";
 import axios from "axios";
 import { GifParticipantes } from "../components/gifParticipantes";
@@ -68,7 +68,11 @@ const ActoSentido = () => {
                     key={participantes.id}
                     className="personCategoria"
                   >
-                    <GifParticipantes participante={participantes} />
+                     {/* <div className="containerActosentido"> */}
+      <img className="gifParticipanteStatic" src={participantes.frameGif} />
+        <img className="gifParticipanteActive" src={participantes.gif} />
+      <audio src={participantes.mp3Cuña}></audio>
+    {/* </div> */}
                   </button>
                   <Modal isOpen={modalIsOpen}
                     style={customStyles}
