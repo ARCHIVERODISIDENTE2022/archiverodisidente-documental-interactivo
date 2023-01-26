@@ -40,7 +40,7 @@ const Familia = () => {
     return (
       <>
         <div className="over">
-          <button onClick={handleClick}>
+          <button className="close" onClick={handleClick}>
             <AiOutlineArrowLeft />
           </button>
           <div className="data">
@@ -81,9 +81,8 @@ const Familia = () => {
           <a className="backArrow" href="/vistacategorias">
             <AiOutlineArrowLeft />
           </a>
-          <h1 className="title">AMOR</h1>
-          <div className="imgParticipantes">
-            <div className="conteinerCategoria">
+          <h1 className="title">LIBERTAD</h1>
+            <div className="containerCategoria">
               {random(Array.from(participantesData)).map((participantes) => (
                 <div
                   className="participante"
@@ -97,7 +96,6 @@ const Familia = () => {
                 </div>
               ))}
             </div>
-          </div>
         </div>
         <Footer />
       </div>

@@ -1,4 +1,3 @@
-
 .container {
   width: 100vw;
   height: 100vh;
@@ -246,6 +245,13 @@
   background-color: transparent;
 }
 
+.btnPlay{
+  position: absolute;
+  border: none;
+  color: transparent;
+  background-color: transparent;
+}
+
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
@@ -281,11 +287,16 @@
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
+  background-color: rgb(255, 255, 255, .2);
+  border-radius: 50%;
+  padding: 1%;
+  opacity: 70%;
 }
 
 
 .footer {
-  position: relative;
+  grid-column: 1/4;
+  grid-row: 4/5;
 }
 
 @media screen and (max-width: 640px) {

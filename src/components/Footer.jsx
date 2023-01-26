@@ -53,7 +53,7 @@ return (
       </Link>
       <div className="audioPlayer">
         <audio ref={audioRef} src={music} />
-        <button className="btnPlay" onClick={handleClick}>{playing ? <GrPause size={'2rem'} color={'white'} /> : <GrPlayFill size={'2rem'} color={'white'} />} </button>
+        <button className="btn" onClick={handleClick}>{playing ? <GrPause className="btnMusic" size={'1rem'} /> : <GrPlayFill className="btnMusic" size={'1rem'} />} </button>
         <input className="volume" type="range" min={0} max={100} value={volume} onChange={handleVolume} />
       </div>
     </footer>

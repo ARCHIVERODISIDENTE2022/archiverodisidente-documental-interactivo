@@ -84,7 +84,7 @@ export const VistaParticipantes = () => {
                 alt=""
                 className="imgPersona"
               />
-              <button onClick={() => setModalIsOpen(true)}>
+              <button className="btnPlay" onClick={() => setModalIsOpen(true)}>
                 <svg
                   version="1.1"
                   id="play"
@@ -413,7 +413,7 @@ export const VistaParticipantes = () => {
     <>
       <div className="container">
         <div className="containerVistaParticipantes">
-          <button onClick={handleClickback}
+          <button className="backArrow" onClick={handleClickback}>
             <AiOutlineArrowLeft />
           </button>
           <h1 className="titleParticipantes"> PARTICIPANTES </h1>
