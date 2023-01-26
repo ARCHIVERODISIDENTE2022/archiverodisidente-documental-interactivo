@@ -9,7 +9,6 @@ const url =
 
 const Familia = () => {
   const [participantesData, setParticipantesData] = useState(null);
-  const [modalIsOpen, setModalIsOpen] = useState(false);
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null);
 
   const random = (a) => {
@@ -19,6 +18,7 @@ const Familia = () => {
     }
     return a;
   };
+
   const handleClick = () => {
     setCategoriaSeleccionada(null);
   };
@@ -40,7 +40,7 @@ const Familia = () => {
     return (
       <>
         <div className="over">
-          <button onClick={handleClick}>
+          <button className="close" onClick={handleClick}>
             <AiOutlineArrowLeft />
           </button>
           <div className="data">
@@ -82,8 +82,7 @@ const Familia = () => {
             <AiOutlineArrowLeft />
           </a>
           <h1 className="title">FAMILIA</h1>
-          <div className="imgParticipantes">
-            <div className="conteinerCategoria">
+            <div className="containerCategoria">
               {random(Array.from(participantesData)).map((participantes) => (
                 <div
                   className="participante"
@@ -97,7 +96,6 @@ const Familia = () => {
                 </div>
               ))}
             </div>
-          </div>
         </div>
         <Footer />
       </div>

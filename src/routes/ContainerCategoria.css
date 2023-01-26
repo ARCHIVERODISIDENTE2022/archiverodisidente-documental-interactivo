@@ -14,7 +14,6 @@
     grid-template-rows: 5% 10% 80% 5%;
     justify-items: center;
     align-content: center;
-    background-color: none;
 }
 
 .title {
@@ -45,18 +44,16 @@
     background-color: transparent;
 }
 
-.imgParticipantes {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin: 0;
-    width: 90%;
-    grid-column: 1/4;
+.containerCategoria {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-rows: 50% 50%;
+    gap: 5% 2%;
+    grid-column: 2/3;
     grid-row: 3/4;
-    cursor: pointer;
+    margin: 0;
+    justify-content: center;
+
 }
 
 .loadingContainer {
@@ -113,11 +110,12 @@
     cursor: default;
 }
 
-.informationName, .informationData{
+.informationName,
+.informationData {
     font-size: 0.8rem;
 }
 
-.informationData{
+.informationData {
     font-weight: 100;
 }
 
@@ -132,7 +130,7 @@
     cursor: pointer;
 }
 
-.close:hover{
+.close:hover {
     transition: all .1s ease;
     transform: translateX(-10px);
     background-color: transparent;
