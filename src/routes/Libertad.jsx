@@ -7,7 +7,7 @@ import "./ContainerCategoria.css";
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/dataParticipantes.json";
 
-const Familia = () => {
+const Libertad = () => {
   const [participantesData, setParticipantesData] = useState(null);
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null);
 
@@ -48,7 +48,7 @@ const Familia = () => {
               {categoriaSeleccionada.nombreParticipante}
             </h3>
             <h3 className="informationData">
-              Categoria: {categoriaSeleccionada.categoria[0].nombre}
+              Categoria: {categoriaSeleccionada.categoria[4].nombre}
             </h3>
             <h3 className="informationData">
               Región: {categoriaSeleccionada.ubicacion.region}
@@ -63,7 +63,7 @@ const Familia = () => {
               height="315"
               margin="auto"
               position="absolute"
-              src={categoriaSeleccionada.categoria[0].videoObjeto}
+              src={categoriaSeleccionada.categoria[4].videoObjeto}
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -102,4 +102,4 @@ const Familia = () => {
     </>
   );
 };
-export default Familia;
+export default Libertad;

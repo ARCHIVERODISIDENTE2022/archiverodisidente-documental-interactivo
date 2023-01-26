@@ -81,7 +81,7 @@ const Miedo = () => {
           <a className="backArrow" href="/vistacategorias">
             <AiOutlineArrowLeft />
           </a>
-          <h1 className="title">MIEDO</h1>
+          <h1 className="nameCategoria">MIEDO</h1>
             <div className="containerCategoria">
               {random(Array.from(participantesData)).map((participantes) => (
                 <div
