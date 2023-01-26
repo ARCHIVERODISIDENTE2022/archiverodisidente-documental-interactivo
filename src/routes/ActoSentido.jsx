@@ -2,7 +2,6 @@ import Footer from "../components/Footer";
 import "./ActoSentido.css";
 import { React, useEffect, useState } from "react";
 import axios from "axios";
-import { GifParticipantes } from "../components/gifParticipantes";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Modal from "react-modal";
 import ModalActoSentido from "../components/ModalActoSentido";
@@ -68,11 +67,9 @@ const ActoSentido = () => {
                     key={participantes.id}
                     className="personCategoria"
                   >
-                     {/* <div className="containerActosentido"> */}
-      <img className="gifParticipanteStatic" src={participantes.frameGif} />
-        <img className="gifParticipanteActive" src={participantes.gif} />
-      <audio src={participantes.mp3Cuña}></audio>
-    {/* </div> */}
+                    <img className="gifParticipanteStatic" src={participantes.frameGif} />
+                    <img className="gifParticipanteActive" src={participantes.gif} />
+                    <audio src={participantes.mp3Cuña}></audio>
                   </button>
                   <Modal isOpen={modalIsOpen}
                     style={customStyles}
@@ -85,19 +82,19 @@ const ActoSentido = () => {
                       <AiOutlineArrowLeft />
                     </button>
                     <div className="data">
-                        <h3 className="informationName">
-                          {participantes.nombreParticipante}
-                        </h3>
-                        <h3 className="informationData">
-                          Categoria: {participantes.categoria[2].nombre}
-                        </h3>
-                        <h3 className="informationData">
-                          Región: {participantes.ubicacion.region}
-                        </h3>
-                        <h3 className="informationData">
-                          Comuna: {participantes.ubicacion.comuna}
-                        </h3>
-                      </div>
+                      <h3 className="informationName">
+                        {participantes.nombreParticipante}
+                      </h3>
+                      <h3 className="informationData">
+                        Categoria: {participantes.categoria[2].nombre}
+                      </h3>
+                      <h3 className="informationData">
+                        Región: {participantes.ubicacion.region}
+                      </h3>
+                      <h3 className="informationData">
+                        Comuna: {participantes.ubicacion.comuna}
+                      </h3>
+                    </div>
                     <div className="video">
                       <iframe
                         width="560"

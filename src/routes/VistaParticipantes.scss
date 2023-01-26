@@ -6,15 +6,13 @@
 }
 
 .containerVistaParticipantes {
-  height: 100vh;
-  width: auto;
   display: grid;
-  align-items: center;
-  justify-items: center;
-  align-content: stretch;
-  grid-template-columns: 5% 90% 5%;
-  grid-template-rows: 10% 15% 70% 5%;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 90%;
   gap: 1%;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
 }
 
 .loadingContainer {
@@ -38,22 +36,25 @@
 }
 
 .backArrow {
+  grid-area: 1 / 1 / 2 / 2;
   text-decoration: none;
   color: black;
-  position: relative;
-  margin: 70% 100% 0 0;
-  grid-row: 1/2;
-  grid-column: 3/4;
   background-color: transparent;
+  margin: 5% 3% 0 0;
+  cursor: pointer;
 }
 
-.backArrow:hover{
+.backArrow:hover {
   transition: all .1s ease;
   transform: translateX(-10px);
   background-color: transparent;
 }
 
 .titleParticipantes {
+  justify-self: center;
+  align-self: end;
+  grid-column: 1/2;
+  grid-row: 2/3;
   font-weight: 900;
   font-size: 3rem;
   justify-content: center;
@@ -62,30 +63,30 @@
   border-style: solid;
   border-color: black;
   cursor: default;
-  grid-row: 2/3;
-  grid-column: 2/3;
+  position: absolute;
+  top: 10%;
 }
 
 .participantesContainer {
+  align-self: center;
+  grid-column: 1/2;
+  grid-row: 2/3;
   width: 10vw;
-  grid-row: 3/4;
-  grid-column: 2/3;
   display: grid;
   justify-content: space-around;
   align-content: center;
   grid-template-rows: 50% 50%;
   grid-template-columns: auto auto auto auto auto auto auto;
-  position: absolute;
-  gap: 3%;
+  gap: 5%;
 }
 
 .participante {
   cursor: pointer;
 }
 
-.participante:hover{
+.participante:hover {
   transform: translateY(-5px);
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .participanteImg {
@@ -98,22 +99,24 @@
 
 .personaContainer {
   width: auto;
-  height: 100vh;
+  height: 100%;
   display: grid;
   grid-template-columns: 33% 34% 33%;
-  grid-template-rows: 5% 15% 75% 5%;
+  grid-template-rows: 10% 90%;
+  grid-row-gap: 5%;
   align-items: center;
   justify-items: center;
-  align-content: space-between;
 }
 
 .bckArrow {
   text-decoration: none;
   color: black;
   position: relative;
-  grid-column: 3/4;
+  justify-self: end; 
+  align-self: end; 
   grid-row: 1/2;
-  margin-left: 70%;
+  grid-column: 3/4;
+  margin: 5% 3% 0 0;
   font-size: 2rem;
   background-color: transparent;
   border: none;
@@ -127,22 +130,23 @@
 
 .cuña {
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   grid-row: 2/3;
   grid-column: 1/4;
+  top: 10%;
   margin: 0 25%;
+  position: absolute;
   cursor: default;
 }
 
 .info {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
+  justify-items: center;
+  height: 90%;
   grid-column: 2/3;
-  grid-row: 3/4;
+  grid-row: 2/3;
 }
 
 .name {
@@ -153,10 +157,12 @@
   border-style: solid;
   border-color: black;
   text-transform: uppercase;
-  position: absolute;
   cursor: default;
-  margin-bottom: 27%;
   background-color: white;
+  grid-row: 1/2;
+  position: absolute;
+  top: 25%;
+  z-index: 2;
 }
 
 .imgPersona {
@@ -165,17 +171,22 @@
   border-width: 8px;
   height: 70%;
   padding: 0.5rem;
+  position: absolute;
+  max-height: 50%;
+  grid-row: 2/3;
+  z-index: 1;
 }
 
-.play{
+.play {
   position: absolute;
   font-size: 10rem;
+  background-color: transparent;
 }
 
 .categoria {
   display: flex;
   justify-content: center;
-  margin: 3.5rem 0;
+  margin: 10% 0;
   padding: 1rem 0;
   border-style: solid;
   border-color: black;
@@ -187,7 +198,7 @@
   cursor: pointer;
 }
 
-.categoria:hover{
+.categoria:hover {
   transform: translateY(-5px);
   background-color: transparent;
 }
@@ -197,10 +208,9 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  max-height: 70%;
   grid-column: 1/2;
-  grid-row: 3/4;
+  grid-row: 2/3;
 }
 
 .categoriasDer {
@@ -208,10 +218,9 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  max-height: 70%;
   grid-column: 3/4;
-  grid-row: 3/4;
+  grid-row: 2/3;
 }
 .data {
   grid-column: 2/3;
@@ -243,29 +252,32 @@
   cursor: pointer;
 }
 
-.backArrowModal:hover{
+.backArrowModal:hover {
   transition: all .1s ease;
   transform: translateX(-10px);
   background-color: transparent;
 }
 
-.btnPlay{
+.btnPlay {
   position: absolute;
   border: none;
   color: transparent;
   background-color: transparent;
+  z-index: 3;
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .stroke-solid {
   stroke-dashoffset: 0;
   stroke-dashArray: 300;
   stroke-width: 4px;
-  transition: stroke-dashoffset 1s ease, 
-              opacity 1s ease;
+  transition: stroke-dashoffset 1s ease,
+    opacity 1s ease;
 }
 
 .icon {
@@ -279,6 +291,7 @@
     opacity: 1;
     stroke-dashoffset: 300;
   }
+
   .icon {
     transform: scale(.9);
   }
@@ -299,8 +312,9 @@
 
 
 .footer {
-  grid-column: 1/4;
-  grid-row: 4/5;
+  justify-self: stretch;
+  align-self: stretch;
+  grid-area: 4 / 1 / 5 / 2;
 }
 
 @media screen and (max-width: 640px) {
