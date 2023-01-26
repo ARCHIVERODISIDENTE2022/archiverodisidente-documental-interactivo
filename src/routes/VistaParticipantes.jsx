@@ -27,14 +27,17 @@ export const VistaParticipantes = () => {
   const [participanteSeleccionado, setParticipanteSeleccionado] =
     useState(null);
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null);
 
   const navigate = useNavigate();
   const handleClickback = () => {
-    navigate("/#slide-choice");
+    navigate("/choice");
   };
+
   const handleClick = () => {
-    setParticipanteSeleccionado(null);
+    setCategoriaSeleccionada(null);
   };
+
   const random = (a) => {
     for (let i = a.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -62,6 +65,52 @@ export const VistaParticipantes = () => {
       </div>
     );
   }
+  if (categoriaSeleccionada) {
+    return (
+      <>
+        <div className="over">
+          <button className="close" onClick={handleClick}>
+            <AiOutlineArrowLeft />
+          </button>
+          <div className="data">
+            <h3 className="informationName">
+              {participanteSeleccionado.nombreParticipante}
+            </h3>
+            <h3 className="informationData">
+              Categoria:
+              {
+                participanteSeleccionado.categoria[categoriaSeleccionada - 1]
+                  .nombre
+              }
+            </h3>
+            <h3 className="informationData">
+              Región: {participanteSeleccionado.ubicacion.region}
+            </h3>
+            <h3 className="informationData">
+              Comuna: {participanteSeleccionado.ubicacion.comuna}
+            </h3>
+          </div>
+          <div className="video">
+            <iframe
+              width="560"
+              height="315"
+              margin="auto"
+              position="absolute"
+              src={
+                participanteSeleccionado.categoria[categoriaSeleccionada - 1]
+                  .videoObjeto
+              }
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullscreen
+            ></iframe>
+          </div>
+        </div>
+      </>
+    );
+  }
+  console.log(categoriaSeleccionada);
 
   if (participanteSeleccionado) {
     return (
@@ -71,7 +120,6 @@ export const VistaParticipantes = () => {
             <button className="bckArrow" onClick={handleClick}>
               <AiOutlineArrowLeft />
             </button>
-
             <div className="cuña">
               <h2>"{participanteSeleccionado.cuña}"</h2>
             </div>
@@ -89,7 +137,7 @@ export const VistaParticipantes = () => {
                   version="1.1"
                   id="play"
                   xmlns="http://www.w3.org/2000/svg"
-                  xmlnsLink="http://www.w3.org/1999/xlink"
+                  xmlnslink="http://www.w3.org/1999/xlink"
                   x="0px"
                   y="0px"
                   height="100px"
@@ -134,273 +182,49 @@ export const VistaParticipantes = () => {
                 </div>
               </Modal>
             </div>
+
             <div className="categoriasIzq">
               <button
-                onClick={() => setModalIsOpen(true)}
+                onClick={() => setCategoriaSeleccionada(3)}
                 className="categoria"
               >
                 FAMILIA
               </button>
-              <Modal isOpen={modalIsOpen} style={customStyles}>
-                <div className="over">
-                  <button
-                    onClick={() => setModalIsOpen(false)}
-                    key={participanteSeleccionado.id}
-                    className="close"
-                  >
-                    <AiOutlineArrowLeft />
-                  </button>
-                  <div className="data">
-                    <h3 className="informationName">
-                      {participanteSeleccionado.nombreParticipante}
-                    </h3>
-                    <h3 className="informationData">
-                      Categoria: {participanteSeleccionado.categoria[2].nombre}
-                    </h3>
-                    <h3 className="informationData">
-                      Región: {participanteSeleccionado.ubicacion.region}
-                    </h3>
-                    <h3 className="informationData">
-                      Comuna: {participanteSeleccionado.ubicacion.comuna}
-                    </h3>
-                  </div>
-                  <div className="video">
-                    <iframe
-                      width="560"
-                      height="315"
-                      margin="auto"
-                      position="absolute"
-                      src={participanteSeleccionado.categoria[2].videoObjeto}
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div>
-              </Modal>
               <button
-                onClick={() => setModalIsOpen(true)}
+                onClick={() => setCategoriaSeleccionada(2)}
                 className="categoria"
               >
                 MIEDO
               </button>
-              <Modal isOpen={modalIsOpen} style={customStyles}>
-                <div className="over">
-                  <button
-                    onClick={() => setModalIsOpen(false)}
-                    key={participanteSeleccionado.id}
-                    className="close"
-                  >
-                    <AiOutlineArrowLeft />
-                  </button>
-                  <div className="data">
-                    <h3 className="informationName">
-                      {participanteSeleccionado.nombreParticipante}
-                    </h3>
-                    <h3 className="informationData">
-                      Categoria: {participanteSeleccionado.categoria[1].nombre}
-                    </h3>
-                    <h3 className="informationData">
-                      Región: {participanteSeleccionado.ubicacion.region}
-                    </h3>
-                    <h3 className="informationData">
-                      Comuna: {participanteSeleccionado.ubicacion.comuna}
-                    </h3>
-                  </div>
-                  <div className="video">
-                    <iframe
-                      width="560"
-                      height="315"
-                      margin="auto"
-                      position="absolute"
-                      src={participanteSeleccionado.categoria[1].videoObjeto}
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div>
-              </Modal>
+
               <button
-                onClick={() => setModalIsOpen(true)}
+                onClick={() => setCategoriaSeleccionada(1)}
                 className="categoria"
               >
                 AMOR
               </button>
-              <Modal isOpen={modalIsOpen} style={customStyles}>
-                <div className="over">
-                  <button
-                    onClick={() => setModalIsOpen(false)}
-                    key={participanteSeleccionado.id}
-                    className="close"
-                  >
-                    <AiOutlineArrowLeft />
-                  </button>
-                  <div className="data">
-                    <h3 className="informationName">
-                      {participanteSeleccionado.nombreParticipante}
-                    </h3>
-                    <h3 className="informationData">
-                      Categoria: {participanteSeleccionado.categoria[0].nombre}
-                    </h3>
-                    <h3 className="informationData">
-                      Región: {participanteSeleccionado.ubicacion.region}
-                    </h3>
-                    <h3 className="informationData">
-                      Comuna: {participanteSeleccionado.ubicacion.comuna}
-                    </h3>
-                  </div>
-                  <div className="video">
-                    <iframe
-                      width="560"
-                      height="315"
-                      margin="auto"
-                      position="absolute"
-                      src={participanteSeleccionado.categoria[0].videoObjeto}
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div>
-              </Modal>
             </div>
             <div className="categoriasDer">
               <button
-                onClick={() => setModalIsOpen(true)}
+                onClick={() => setCategoriaSeleccionada(6)}
                 className="categoria"
               >
                 ACTOSENTIDO
               </button>
-              <Modal isOpen={modalIsOpen} style={customStyles}>
-                <div className="over">
-                  <button
-                    onClick={() => setModalIsOpen(false)}
-                    key={participanteSeleccionado.id}
-                    className="close"
-                  >
-                    <AiOutlineArrowLeft />
-                  </button>
-                  <div className="data">
-                    <h3 className="informationName">
-                      {participanteSeleccionado.nombreParticipante}
-                    </h3>
-                    <h3 className="informationData">
-                      Categoria: {participanteSeleccionado.categoria[5].nombre}
-                    </h3>
-                    <h3 className="informationData">
-                      Región: {participanteSeleccionado.ubicacion.region}
-                    </h3>
-                    <h3 className="informationData">
-                      Comuna: {participanteSeleccionado.ubicacion.comuna}
-                    </h3>
-                  </div>
-                  <div className="video">
-                    <iframe
-                      width="560"
-                      height="315"
-                      margin="auto"
-                      position="absolute"
-                      src={participanteSeleccionado.categoria[5].videoObjeto}
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div>
-              </Modal>
+
               <button
-                onClick={() => setModalIsOpen(true)}
+                onClick={() => setCategoriaSeleccionada(4)}
                 className="categoria"
               >
                 CUERPO
               </button>
-              <Modal isOpen={modalIsOpen} style={customStyles}>
-                <div className="over">
-                  <button
-                    onClick={() => setModalIsOpen(false)}
-                    key={participanteSeleccionado.id}
-                    className="close"
-                  >
-                    <AiOutlineArrowLeft />
-                  </button>
-                  <div className="data">
-                    <h3 className="informationName">
-                      {participanteSeleccionado.nombreParticipante}
-                    </h3>
-                    <h3 className="informationData">
-                      Categoria: {participanteSeleccionado.categoria[3].nombre}
-                    </h3>
-                    <h3 className="informationData">
-                      Región: {participanteSeleccionado.ubicacion.region}
-                    </h3>
-                    <h3 className="informationData">
-                      Comuna: {participanteSeleccionado.ubicacion.comuna}
-                    </h3>
-                  </div>
-                  <div className="video">
-                    <iframe
-                      width="560"
-                      height="315"
-                      margin="auto"
-                      position="absolute"
-                      src={participanteSeleccionado.categoria[3].videoObjeto}
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div>
-              </Modal>
+
               <button
-                onClick={() => setModalIsOpen(true)}
+                onClick={() => setCategoriaSeleccionada(5)}
                 className="categoria"
               >
                 LIBERTAD
               </button>
-              <Modal isOpen={modalIsOpen} style={customStyles}>
-                <div className="over">
-                  <button
-                    onClick={() => setModalIsOpen(false)}
-                    key={participanteSeleccionado.id}
-                    className="close"
-                  >
-                    <AiOutlineArrowLeft />
-                  </button>
-                  <div className="data">
-                    <h3 className="informationName">
-                      {participanteSeleccionado.nombreParticipante}
-                    </h3>
-                    <h3 className="informationData">
-                      Categoria: {participanteSeleccionado.categoria[4].nombre}
-                    </h3>
-                    <h3 className="informationData">
-                      Región: {participanteSeleccionado.ubicacion.region}
-                    </h3>
-                    <h3 className="informationData">
-                      Comuna: {participanteSeleccionado.ubicacion.comuna}
-                    </h3>
-                  </div>
-                  <div className="video">
-                    <iframe
-                      width="560"
-                      height="315"
-                      margin="auto"
-                      position="absolute"
-                      src={participanteSeleccionado.categoria[4].videoObjeto}
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div>
-              </Modal>
             </div>
           </div>
           <Footer />

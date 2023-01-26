@@ -42,7 +42,9 @@ const handleVolume = (e) => {
 return (
   <>
     <footer className="footer">
-
+    <Link to="/" className="backHome">
+        VOLVER AL INICIO |
+      </Link>
       <Link to="/#choice" className="formaNavegacion">
         FORMA DE NAVEGACIÓN |
       </Link>

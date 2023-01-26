@@ -1,42 +1,54 @@
 .footer {
-  width: 100%;
-  height: 5%;
+  max-width: 100%;
   background-color: black;
   position: relative;
   display: grid;
-  justify-content: space-around;
+  align-content: center;
   font-size: 0.75rem;
   text-decoration: none;
   color: white;
   line-height: 2rem;
-  grid-template-columns: 15% 45% 20% 20%;
+  grid-template-columns: 10% 15% auto 10% 5% 11%;
+  max-height: 10%;
+  padding: 0 1%;
 }
 
-.formaNavegacion {
+.backHome {
   grid-column: 1/2;
 }
 
+.formaNavegacion {
+  grid-column: 2/3;
+}
+
 .toRetribucion {
-  grid-column: 3/4;
-  position: absolute;
+  grid-column: 4/5;
+  justify-content: left;
+
 }
 
 .toCreditos {
-  grid-column: 3/4;
+  grid-column: 5/6;
+  justify-content: left;
+
 }
 
+.backHome,
 .formaNavegacion,
 .toRetribucion,
 .toCreditos {
   color: white;
-  max-height: 5%;
   text-align: center;
+  display: flex;
 }
 
 .audioPlayer {
   display: flex;
   flex-direction: row;
-  grid-column: 4/5;
+  grid-column: 6/7;
+  align-items: center;
+  justify-content: left;
+  align-content: center;
 }
 
 .btn {
@@ -48,15 +60,12 @@
   stroke: white;
 }
 
-input[type="range"]::-webkit-slider-runnable-track {
-  border: 30%;
+input[type="range"] {
+  height: 1rem;
   color: white;
   /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(154,154,154,1) 52%, rgba(2,0,36,1) 100%); */
 }
 
-.volume {
-  color: white;
-}
 
 
 @media screen and (max-width: 640px) {
