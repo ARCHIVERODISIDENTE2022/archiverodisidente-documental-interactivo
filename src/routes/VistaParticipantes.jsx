@@ -33,9 +33,12 @@ export const VistaParticipantes = () => {
   const handleClickback = () => {
     navigate("/choice");
   };
-
-  const handleClick = () => {
+  const handleClickCategoria = () => {
     setCategoriaSeleccionada(null);
+  };
+
+  const handleClickParticipante = () => {
+    setParticipanteSeleccionado(null);
   };
 
   const random = (a) => {
@@ -69,7 +72,7 @@ export const VistaParticipantes = () => {
     return (
       <>
         <div className="over">
-          <button className="close" onClick={handleClick}>
+          <button className="close" onClick={handleClickCategoria}>
             <AiOutlineArrowLeft />
           </button>
           <div className="data">
@@ -117,7 +120,7 @@ export const VistaParticipantes = () => {
       <>
         <div className="container">
           <div className="personaContainer">
-            <button className="bckArrow" onClick={handleClick}>
+            <button className="bckArrow" onClick={handleClickParticipante}>
               <AiOutlineArrowLeft />
             </button>
             <div className="cuña">
@@ -162,12 +165,23 @@ export const VistaParticipantes = () => {
               </button>
               <Modal isOpen={modalIsOpen} style={customStyles}>
                 <div className="containerModal">
-                  <button
-                    onClick={() => setModalIsOpen(false)}
-                    className="backArrowModal"
-                  >
-                    <AiOutlineArrowLeft />
-                  </button>
+                  <div className="data">
+                    <button
+                      onClick={() => setModalIsOpen(false)}
+                      className="backArrowModal"
+                    >
+                      <AiOutlineArrowLeft />
+                    </button>
+                    <h3 className="informationName">
+                      {participanteSeleccionado.nombreParticipante}
+                    </h3>
+                    <h3 className="informationData">
+                      Región: {participanteSeleccionado.ubicacion.region}
+                    </h3>
+                    <h3 className="informationData">
+                      Comuna: {participanteSeleccionado.ubicacion.comuna}
+                    </h3>
+                  </div>
                   <div className="video">
                     <iframe
                       width="560"
@@ -196,7 +210,6 @@ export const VistaParticipantes = () => {
               >
                 MIEDO
               </button>
-
               <button
                 onClick={() => setCategoriaSeleccionada(1)}
                 className="categoria"
@@ -211,14 +224,12 @@ export const VistaParticipantes = () => {
               >
                 ACTOSENTIDO
               </button>
-
               <button
                 onClick={() => setCategoriaSeleccionada(4)}
                 className="categoria"
               >
                 CUERPO
               </button>
-
               <button
                 onClick={() => setCategoriaSeleccionada(5)}
                 className="categoria"

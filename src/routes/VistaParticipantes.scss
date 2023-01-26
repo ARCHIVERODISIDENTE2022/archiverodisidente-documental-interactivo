@@ -213,7 +213,11 @@
   grid-column: 3/4;
   grid-row: 3/4;
 }
-
+.data {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  cursor: default;
+}
 .containerModal {
   width: 50vw;
   height: 60vh;
