@@ -34,8 +34,10 @@ const Miedo = () => {
   }, []);
 
   if (participantesData === null) {
-    return <div>Cargando...</div>;
-  }
+    return <div className="loadingContainer">
+    Cargando...
+    <div className="loading"></div>
+  </div>;  }
   if (categoriaSeleccionada) {
     return (
       <>
@@ -81,7 +83,7 @@ const Miedo = () => {
           <a className="backArrow" href="/vistacategorias">
             <AiOutlineArrowLeft />
           </a>
-          <h1 className="nameCategoria">MIEDO</h1>
+          <h1 className="title">MIEDO</h1>
             <div className="containerCategoria">
               {random(Array.from(participantesData)).map((participantes) => (
                 <div

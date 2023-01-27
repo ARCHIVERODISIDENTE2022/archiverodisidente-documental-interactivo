@@ -81,3 +81,25 @@
 .informationData {
   font-weight: 100;
 }
+
+@media screen and (max-width: 640px) {
+  .vistaActoSentido {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 90%;
+  justify-items: center;
+  align-content: center;
+}
+.gifParticipantes {
+  display: grid;
+  align-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  justify-content: center;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  width: 90%;
+}
+}

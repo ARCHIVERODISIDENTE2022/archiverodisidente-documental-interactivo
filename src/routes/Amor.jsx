@@ -34,7 +34,10 @@ const Amor = () => {
   }, []);
 
   if (participantesData === null) {
-    return <div>Cargando...</div>;
+    return <div className="loadingContainer">
+    Cargando...
+    <div className="loading"></div>
+  </div>;
   }
 
   if (categoriaSeleccionada) {
