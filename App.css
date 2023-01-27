@@ -2,6 +2,7 @@ html {
   margin: 0;
   font-family: Roboto Mono, monospace;
   font-weight: 200;
+  height: -webkit-fill-available;
 }
 
 body::-webkit-scrollbar {
@@ -27,4 +28,14 @@ a:active {
 .root {
   height: 100%;
   width: auto;
+}
+
+@media screen and (max-width: 640px) {
+  html {
+    height: -webkit-fill-available;
+ }
+
+ body {
+  height: -webkit-fill-available;
+ }
 }

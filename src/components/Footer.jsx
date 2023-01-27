@@ -43,17 +43,17 @@ return (
   <>
     <footer className="footer">
     <Link to="/" className="backHome">
-        VOLVER AL INICIO |
+        VOLVER AL INICIO 
       </Link>
-      <Link to="/#choice" className="formaNavegacion">
-        FORMA DE NAVEGACIÓN |
+      <Link to="/choice" className="formaNavegacion">
+      | FORMA DE NAVEGACIÓN |
       </Link>
       <Link to="/retribucion" className="toRetribucion">
         {" "}
-        | RETRIBUCIÓN |</Link>
-      <Link to="/creditos" className="toCreditos">CRÉDITOS   |
+        | RETRIBUCIÓN </Link>
+      <Link to="/creditos" className="toCreditos">| CRÉDITOS   
       </Link>
-      <div className="audioPlayer">
+      <div className="audioPlayer"> |
         <audio ref={audioRef} src={music} />
         <button className="btn" onClick={handleClick}>{playing ? <GrPause className="btnMusic" size={'1rem'} /> : <GrPlayFill className="btnMusic" size={'1rem'} />} </button>
         <input className="volume" type="range" min={0} max={100} value={volume} onChange={handleVolume} />

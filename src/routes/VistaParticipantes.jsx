@@ -124,14 +124,14 @@ export const VistaParticipantes = () => {
               <h2>"{participanteSeleccionado.cuña}"</h2>
             </div>
             <div className="info">
-              <h1 className="name">
-                {participanteSeleccionado.nombreParticipante}
-              </h1>
               <img
                 src={participanteSeleccionado.mainImg}
                 alt=""
                 className="imgPersona"
               />
+                 <h1 className="name">
+                {participanteSeleccionado.nombreParticipante}
+              </h1>
               <button className="btnPlay" onClick={() => setModalIsOpen(true)}>
                 <svg
                   version="1.1"
