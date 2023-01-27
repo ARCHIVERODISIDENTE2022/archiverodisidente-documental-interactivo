@@ -1,7 +1,6 @@
 import Footer from "../components/Footer";
 import "./ContainerCategoria.css";
 import { React, useEffect, useState } from "react";
-// import { useHistory } from "react-router-dom";
 import axios from "axios";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 
@@ -87,20 +86,20 @@ const Amor = () => {
             <AiOutlineArrowLeft />
           </a>
           <h1 className="title">AMOR</h1>
-            <div className="containerCategoria">
-              {random(Array.from(participantesData)).map((participantes) => (
-                <div
-                  className="participante"
-                  key={participantes.id}
-                  onClick={() => setCategoriaSeleccionada(participantes)}
-                >
-                  <img
-                    className="participanteImg"
-                    src={participantes.categoria[0].imgObjeto}
-                  />
-                </div>
-              ))}
-            </div>
+          <div className="containerCategoria">
+            {random(Array.from(participantesData)).map((participantes) => (
+              <div
+                className="participante"
+                key={participantes.id}
+                onClick={() => setCategoriaSeleccionada(participantes)}
+              >
+                <img
+                  className="participanteImg"
+                  src={participantes.categoria[0].imgObjeto}
+                />
+              </div>
+            ))}
+          </div>
         </div>
         <Footer />
       </div>

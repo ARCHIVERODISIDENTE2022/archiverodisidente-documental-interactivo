@@ -4,6 +4,7 @@ import axios from "axios";
 import Footer from "../components/Footer";
 import "./VistaCategorias.css";
 import { AiOutlineArrowLeft } from "react-icons/ai";
+import { useNavigate } from "react-router-dom";
 
 const url =
   "https://raw.githubusercontent.com/ARCHIVERODISIDENTE2022/archiverodisidente-documental-interactivo/main/src/data/dataParticipantes.json";
@@ -11,14 +12,10 @@ const url =
 export const VistaCategorias = () => {
   const [categoriasData, setCategoriasData] = useState(null);
 
-  const random = (a) => {
-    for (let i = a.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [a[i], a[j]] = [a[j], a[i]];
-    }
-    return a;
+  const navigate = useNavigate();
+  const handleClickback = () => {
+    navigate("/choice");
   };
-
   useEffect(() => {
     async function fetchData() {
       try {
@@ -38,9 +35,9 @@ export const VistaCategorias = () => {
     <>
       <div className="container">
         <div className="containerVistaCategoria">
-          <a className="backArrow" href="/choice">
+          <button className="backArrow" onClick={handleClickback}>
             <AiOutlineArrowLeft />
-          </a>
+          </button>
           <h1 className="titleCategoria"> CATEGORÍAS </h1>
           <section className="categorias">
             <Link to="/familia" className="ctgr">
