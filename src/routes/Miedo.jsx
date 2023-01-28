@@ -60,7 +60,12 @@ const Miedo = () => {
             </h3>
           </div>
           <div className="video">
+          <div className="whiteLoading">
+              Cargando...
+              <div className="wLoading"></div>
+            </div>
             <iframe
+              className="youTube"
               width="560"
               height="315"
               margin="auto"

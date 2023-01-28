@@ -27,7 +27,7 @@ const Amor = () => {
       try {
         const response = await axios.get(url);
         setParticipantesData(response.data.participantes);
-      } catch (error) {}
+      } catch (error) { }
     }
 
     fetchData();
@@ -35,9 +35,9 @@ const Amor = () => {
 
   if (participantesData === null) {
     return <div className="loadingContainer">
-    Cargando...
-    <div className="loading"></div>
-  </div>;
+      Cargando...
+      <div className="loading"></div>
+    </div>;
   }
 
   if (categoriaSeleccionada) {
@@ -62,10 +62,15 @@ const Amor = () => {
             </h3>
           </div>
           <div className="video">
+            <div className="whiteLoading">
+              Cargando...
+              <div className="wLoading"></div>
+            </div>
             <iframe
+              className="youTube"
               width="560"
               height="315"
-              margin="auto"
+              margin="auto 0"
               position="absolute"
               src={categoriaSeleccionada.categoria[0].videoObjeto}
               title="YouTube video player"

@@ -68,7 +68,7 @@
 }
 
 .data {
-  grid-column: 2/3;
+  grid-column: 1/2;
   grid-row: 1/2;
   cursor: default;
 }
@@ -84,22 +84,62 @@
 
 @media screen and (max-width: 640px) {
   .vistaActoSentido {
-  width: 100%;
-  height: 100%;
-  display: grid;
-  align-items: center;
-  grid-template-columns: 100%;
-  grid-template-rows: 10% 90%;
-  justify-items: center;
-  align-content: center;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    grid-template-columns: 100%;
+    grid-template-rows: 5% 95%;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 0;
+}
+.title{
+  top: 5%;
 }
 .gifParticipantes {
   display: grid;
+  grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+  grid-auto-flow: row;
+  position: relative;
+  align-items: center;
+  justify-items: center;
   align-content: center;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  justify-content: center;
   grid-column: 1/2;
   grid-row: 2/3;
-  width: 90%;
+  height: 25%;
+  width: 80%;
+}
+
+.personCategoria, .gifParticipanteStatic, .gifParticipanteActive {
+  height: 100px;
+  width: 100px;
+}
+
+.personCategoria {
+  padding: 0;
+}
+
+
+.close {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.0);
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-size: 2rem;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.video {
+  width: auto;
+  height: auto;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-color: black;
+  padding: 2% 5%;
 }
 }
