@@ -94,7 +94,12 @@ export const VistaParticipantes = () => {
             </h3>
           </div>
           <div className="video">
+          <div className="whiteLoading">
+              Cargando...
+              <div className="wLoading"></div>
+            </div>
             <iframe
+              className="youTube"
               width="560"
               height="315"
               margin="auto"
@@ -164,14 +169,15 @@ export const VistaParticipantes = () => {
                 </svg>
               </button>
               <Modal isOpen={modalIsOpen} style={customStyles}>
-                <div className="containerModal">
-                  <div className="data">
+                <div className="over">
                     <button
                       onClick={() => setModalIsOpen(false)}
-                      className="backArrowModal"
+                      className="close"
                     >
                       <AiOutlineArrowLeft />
                     </button>
+                    <div className="data">
+
                     <h3 className="informationName">
                       {participanteSeleccionado.nombreParticipante}
                     </h3>
@@ -183,7 +189,12 @@ export const VistaParticipantes = () => {
                     </h3>
                   </div>
                   <div className="video">
+                  <div className="whiteLoading">
+              Cargando...
+              <div className="wLoading"></div>
+            </div>
                     <iframe
+                      className="youTube"
                       width="560"
                       height="315"
                       src={participanteSeleccionado.presentacion}

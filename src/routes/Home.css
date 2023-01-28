@@ -19,6 +19,14 @@
 .logo {
     height: 40%;
     cursor: default;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: trans late (-50%, -50%);
+    -moz-trahsform: trans late (-50%, -50%);
+    -o-transform: trans late (-50%, -50%);
+    -ms-transform: trans late (-50%, -50%);
+    transform: trans late (-50%, -50%);
+
 }
 
 .welcome {
@@ -38,7 +46,7 @@
 .firstArrow {
     font-size: 3rem;
     position: absolute;
-    right: 2%; 
+    right: 2%;
     bottom: 2%;
     color: black;
 }
@@ -71,15 +79,15 @@
 .arrow {
     font-size: 3rem;
     position: absolute;
-    padding-top: 16%;
-    right: 2%; 
+    bottom: 2%;
+    right: 2%;
     text-decoration: none;
     color: black;
     margin-bottom: 0;
     align-items: flex-end;
 }
 
-.arrow:hover{
+.arrow:hover {
     transition: all .1s ease;
     transform: translateX(-10px);
 }
@@ -87,13 +95,13 @@
 .arrowWhite {
     font-size: 3rem;
     position: absolute;
-    padding-top: 14%;
     right: 2%;
+    bottom: 2%;
     text-decoration: none;
     color: white;
 }
 
-.arrowWhite:hover{
+.arrowWhite:hover {
     transition: all .1s ease;
     transform: translateX(-10px);
 }
@@ -102,15 +110,15 @@
     display: flex;
     font-size: 3rem;
     position: absolute;
-    padding-top: 2rem;
-    right: 2.5rem;
+    right: 2%;
+    bottom: 2%;
     text-decoration: none;
     color: white;
     margin-bottom: 0;
     align-items: flex-end;
 }
 
-.arrowSixth:hover{
+.arrowSixth:hover {
     transition: all .1s ease;
     transform: translateX(-10px);
 }
@@ -201,9 +209,9 @@
     text-decoration: none;
 }
 
-.btnInstructions:hover{
+.btnInstructions:hover {
     transform: translateY(-5px);
-background-color: transparent;
+    background-color: transparent;
 }
 
 .choice {
@@ -257,13 +265,15 @@ background-color: transparent;
     text-decoration: none;
 }
 
-.btnText:link, .btnText:visited {
+.btnText:link,
+.btnText:visited {
     color: black;
 }
 
-.choiceCategorias:hover, .choiceParticipantes:hover{
+.choiceCategorias:hover,
+.choiceParticipantes:hover {
     transform: translateY(-5px);
-background-color: transparent;
+    background-color: transparent;
 }
 
 .boldItalic {
@@ -399,11 +409,12 @@ a {
         text-align: left;
         padding: 0 2.5rem;
     }
-    .quotes{
+
+    .quotes {
         display: flex;
-        flex-direction: column ;
+        flex-direction: column;
     }
-    
+
 
     .quote {
         font-size: 1rem;

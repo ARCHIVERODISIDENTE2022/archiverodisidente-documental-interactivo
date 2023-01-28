@@ -11,7 +11,6 @@ const url =
 const ActoSentido = () => {
   const [participantes, setParticipantes] = useState(null);
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null);
-
   const random = (a) => {
     for (let i = a.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -20,15 +19,10 @@ const ActoSentido = () => {
     return a;
   };
 
-  function playAudio() {
-    var audio = document.getElementById("audio");
-    audio.play(true);
-  }
-
   const handleClick = () => {
     setCategoriaSeleccionada(null);
   };
-  
+
   useEffect(() => {
     async function fetchData() {
       try {
@@ -42,9 +36,9 @@ const ActoSentido = () => {
 
   if (participantes === null) {
     return <div className="loadingContainer">
-    Cargando...
-    <div className="loading"></div>
-  </div>
+      Cargando...
+      <div className="loading"></div>
+    </div>
   }
   if (categoriaSeleccionada) {
     return (
@@ -68,7 +62,12 @@ const ActoSentido = () => {
             </h3>
           </div>
           <div className="video">
+            <div className="whiteLoading">
+              Cargando...
+              <div className="wLoading"></div>
+            </div>
             <iframe
+              className="youTube"
               width="560"
               height="315"
               margin="auto"
@@ -96,7 +95,7 @@ const ActoSentido = () => {
           <h1 className="title">ACTOSENTIDO_</h1>
           <div className="gifParticipantes">
             {random(Array.from(participantes)).map((participantes) => {
-             return (
+              return (
                 <>
                   <div
                     onClick={() => setCategoriaSeleccionada(participantes)}
@@ -104,7 +103,7 @@ const ActoSentido = () => {
                     className="personCategoria"
                   >
                     <img className="gifParticipanteStatic" src={participantes.categoria[5].imgObjeto} />
-                    <img className="gifParticipanteActive" src={participantes.gif} />
+                    <img className="gifParticipanteActive" src={participantes.gif} /> 
                     <audio id="audio" src={participantes.mp3Cuña}>
                     </audio>
                   </div>

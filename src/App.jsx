@@ -1,5 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./routes/Home";
+import Slide1 from "./routes/slide-1";
+import Slide2 from "./routes/slide-2";
+import Slide3 from "./routes/slide-3";
+import Slide4 from "./routes/slide-4";
+import Slide5 from "./routes/slide-5";
+import SlideInstructions from "./routes/slide-instructions";
 import Choice from "./routes/choice";
 import { VistaCategorias } from "./routes/VistaCategorias";
 import { VistaParticipantes } from "./routes/VistaParticipantes";
@@ -17,12 +23,15 @@ const App = () => {
     <>
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path="/slide-1" element={<Slide1 />}></Route>
+        <Route path="/slide-2" element={<Slide2 />}></Route>
+        <Route path="/slide-3" element={<Slide3 />}></Route>
+        <Route path="/slide-4" element={<Slide4 />}></Route>
+        <Route path="/slide-5" element={<Slide5 />}></Route>
+        <Route path="/slide-instructions" element={<SlideInstructions />}></Route>
         <Route path="choice" element={<Choice />}></Route>
         <Route path="/vistacategorias" element={<VistaCategorias />}></Route>
-        <Route
-          path="/vistaparticipantes"
-          element={<VistaParticipantes />}
-        ></Route>
+        <Route path="/vistaparticipantes" element={<VistaParticipantes />}></Route>
         <Route path="/familia" element={<Familia />}></Route>
         <Route path="/miedo" element={<Miedo />}></Route>
         <Route path="/amor" element={<Amor />}></Route>
