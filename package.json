@@ -1,40 +1,21 @@
 {
-  "name": "archivero-disidente-digital",
-  "homepage": "http://archiverodisidente.cl",
+  "name": "archiverodisidente-documental-interactivo",
+  "version": "2.0.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.2.1",
-    "@fortawesome/free-regular-svg-icons": "^6.2.1",
-    "@fortawesome/free-solid-svg-icons": "^6.2.1",
-    "autoprefixer": "^10.4.13",
-    "axios": "^1.2.1",
-    "compass": "^0.1.1",
-    "firebase": "^9.9.3",
-    "howler": "^2.2.3",
-    "node-sass": "^8.0.0",
-    "postcss": "^8.4.20",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1",
-    "react-modal": "^3.16.1",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "^5.0.1",
-    "react-youtube": "^10.1.0"
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "next": "13.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^2.0.1",
-    "postcss": "^8.4.14",
-    "sass": "^1.57.1",
-    "tailwindcss": "^3.2.4",
-    "vite": "^3.0.7"
+    "standard": "^17.0.0"
   }
 }

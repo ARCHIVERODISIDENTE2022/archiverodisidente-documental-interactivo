@@ -1,0 +1,13 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.intro-black {
+  background-color: black;
+  color: white;
+}

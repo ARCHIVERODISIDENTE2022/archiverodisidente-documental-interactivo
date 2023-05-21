@@ -1,0 +1,71 @@
+section {height: 100%;}
+
+.logo {
+    height: 40%;
+    cursor: default;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: trans late (-50%, -50%);
+    -moz-trahsform: trans late (-50%, -50%);
+    -o-transform: trans late (-50%, -50%);
+    -ms-transform: trans late (-50%, -50%);
+    transform: trans late (-50%, -50%);
+}
+
+#home-animated-logo {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    gap: 1%;
+}
+
+#welcome {
+    text-align: center;
+    font-size: 3rem;
+    cursor: default;
+    margin: 0 3%;
+}
+
+#subWelcome {
+    font-size: 1.12rem;
+    cursor: default;
+    margin: 0 4%;
+    font-weight: 100;
+}
+
+
+@media screen and (max-width: 640px) {
+    .logo {
+        width: 80%;
+        height: 20%;
+    }
+
+    #home-animated-logo {
+        width: auto;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        gap: 1%;
+    }
+
+    #welcome {
+        text-align: center;
+        margin: 0;
+        font-size: 1.3rem;
+    }
+
+    #subWelcome {
+        margin: 0 10%;
+        font-size: 1rem;
+        font-weight: 100;
+        text-align: center;
+
+    }
+}
