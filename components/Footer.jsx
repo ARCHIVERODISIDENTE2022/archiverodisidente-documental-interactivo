@@ -6,7 +6,6 @@ export function Footer () {
     <footer className='footer'>
       <Link href='/' id='backHome'>INICIO</Link>
       <Link href='/navegacion' id='toNavegacion'>NAVEGACIÓN</Link>
-      <Link href='/retribucion' id='toRetribucion'>RETRIBUCIÓN</Link>
       <Link href='/creditos' id='toCreditos'>CRÉDITOS</Link>
     </footer>
   )
