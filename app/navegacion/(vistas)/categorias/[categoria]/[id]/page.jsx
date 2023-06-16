@@ -7,6 +7,7 @@ export default function Persona ({ params }) {
   const nombreParticipante = dataParticipantes[id].nombreParticipante
   const ubicacion = dataParticipantes[id].ubicacion
 
+  // en return insertar: {categoria === 'actosentido' ? <ModalActoSentido /> : <p>chao</p>} 
   return (
     <>
       <div className='data'>
