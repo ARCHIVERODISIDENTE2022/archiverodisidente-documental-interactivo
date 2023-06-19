@@ -3,9 +3,9 @@
   "version": "2.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "lint": "next lint"
   },
   "dependencies": {
@@ -16,6 +16,8 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "standard": "^17.0.0"
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.9",
+    "standard": "^17.1.0"
   }
 }
