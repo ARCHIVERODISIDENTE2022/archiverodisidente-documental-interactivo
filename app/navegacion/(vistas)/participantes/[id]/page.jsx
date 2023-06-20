@@ -8,7 +8,7 @@ export default function Persona ({ params }) {
 
   return (
     <>
-      <p>{`"${dataParticipantes[id].cuña}"`}</p>
+      <p>{`"${dataParticipantes[id].cuna}"`}</p>
       <h1>{dataParticipantes[id].nombreParticipante}</h1>
       <iframe width='420' height='315' src={dataParticipantes[id].presentacion} />
       <div className='colContainer'>

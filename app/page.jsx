@@ -1,6 +1,6 @@
 import Link from 'next/link.js'
 import Image from 'next/image'
-import logo from '../assets/logos/GIF-PRINCIPAL.gif'
+import logo from '../assets/gif/logo_inicial.gif'
 import arrow from '../assets/icons/arrow.svg'
 import './Home.css'
 
