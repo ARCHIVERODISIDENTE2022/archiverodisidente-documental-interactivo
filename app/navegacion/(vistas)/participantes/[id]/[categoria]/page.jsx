@@ -1,18 +1,19 @@
 'use client'
-import Modal from '@/components/Modal'
 
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
-import Image from 'next/image'
-import Link from 'next/link.js'
-import dataParticipantes from '../../../../../public/assets/data.json'
-import styles from '../../participantes/participantes.module.css'
+import dataParticipantes from '../../../../../../public/assets/data.json'
+import Modal from '@/components/Modal'
 
-export default function Categoria ({ params }) {
+export default function Participante ({ params }) {
   const router = useRouter()
+
+  const { id, categoria } = params
   const [isModalOpen, setIsModalOpen] = useState(true)
   const getCategoryIndex = persona => persona.categoria.findIndex(c => c.nombre === categoria)
-  const { categoria } = params
+  const videoURL = dataParticipantes[id].categoria[getCategoryIndex(dataParticipantes[id])].videoObjeto
+  const nombreParticipante = dataParticipantes[id].nombreParticipante
+  const ubicacion = dataParticipantes[id].ubicacion
 
   const closeModal = () => setIsModalOpen(false)
   const goBack = () => {
@@ -31,18 +32,13 @@ export default function Categoria ({ params }) {
           </div>
         </Modal>
       )}
-      <div className='titleCategoria'><h2>{categoria.toUpperCase()}</h2></div>
-      <div className='colContainer'>
-        <div className={styles.tilesContainer}>
-          {dataParticipantes.map(p => (
-            <div className='participante' key={p.id}>
-              <Link href={`/navegacion/categorias/${categoria}/${p.id}`}>
-                <Image alt={p.id} width={100} height={100} src={`/${p.categoria[getCategoryIndex(p)].imgObjeto}`} />
-              </Link>
-            </div>
-          ))}
-        </div>
+      <div className='data'>
+        <h3 className='informationName'>{nombreParticipante}</h3>
+        <h3 className='informationData'>Categoría: {categoria}</h3>
+        <h3 className='informationData'>Región: {ubicacion.region}</h3>
+        <h3 className='informationData'>Comuna: {ubicacion.comuna}</h3>
       </div>
+      <iframe width='420' height='315' src={videoURL} />
     </>
   )
 }

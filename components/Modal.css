@@ -1,0 +1,29 @@
+#modalContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  height: max-content;
+}
+
+#modalContainer h2 {
+  font-size: 2.1rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+#modalText {
+  font-size: 2.1rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.btnModal {
+  font-weight: 900;
+  font-size: 2.25rem;
+}
+
+#modalBtns {
+  display: flex;
+  justify-content: space-evenly;
+}

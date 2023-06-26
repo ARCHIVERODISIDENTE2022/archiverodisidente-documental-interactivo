@@ -14,7 +14,7 @@ export default function Persona ({ params }) {
       <div className='colContainer'>
         <div className={styles.row}>
           {categorias.map(nombre => (
-            <Link key={nombre} href={`/navegacion/categorias/${nombre}/${id}`} className='ctgr'>{nombre.toUpperCase()}</Link>
+            <Link key={nombre} href={`/navegacion/participantes/${id}/${nombre}`} className='ctgr'>{nombre.toUpperCase()}</Link>
           ))}
         </div>
       </div>

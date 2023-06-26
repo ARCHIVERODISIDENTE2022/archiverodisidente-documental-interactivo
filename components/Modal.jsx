@@ -8,6 +8,7 @@ const Modal = ({ isOpen, onRequestClose, children }) => {
       onRequestClose={onRequestClose}
       contentLabel='Modal'
       ariaHideApp={false}
+      id='modalContainer'
     >
       {children}
     </ReactModal>
