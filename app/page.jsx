@@ -3,10 +3,16 @@ import Image from 'next/image'
 import logo from '../assets/gif/logo_inicial.gif'
 import arrow from '../assets/icons/arrow.svg'
 import './Home.css'
+import { Roboto_Mono } from 'next/font/google' // eslint-disable-line
+
+const robotoMono = Roboto_Mono({
+  subsets: ['latin'],
+  weight: '400'
+})
 
 export default function Home () {
   return (
-    <section>
+    <section className={robotoMono.className}>
       <div id='home-animated-logo'>
         <Image className='logo' src={logo} alt='Archivero icono' />
         <h1 id='welcome'>REGISTROS 2021 - 2022</h1>
