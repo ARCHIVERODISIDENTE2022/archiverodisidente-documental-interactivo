@@ -6,3 +6,21 @@
 .instrucciones-text {
   text-align: justify;
 }
+
+#btnComenzar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#btnComenzarLink {
+  color: black;
+  font-weight: 900;
+  font-size: 2.25rem;
+  border-style: solid;
+  border-color: black;
+  border-width: 4px;
+  margin: 1%;
+  padding: 2rem;
+  text-decoration: none;
+}
