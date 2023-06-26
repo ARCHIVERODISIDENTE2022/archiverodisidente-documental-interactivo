@@ -19,5 +19,3 @@ export default function Persona ({ params }) {
     </>
   )
 }
-
-// localhost:3000/navegacion/participantes/2/categoria
