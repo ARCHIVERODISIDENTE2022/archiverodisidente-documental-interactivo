@@ -1,4 +1,10 @@
 import './globals.css'
+import { Roboto_Mono } from 'next/font/google' // eslint-disable-line
+
+const robotoMono = Roboto_Mono({
+  subsets: ['latin'],
+  weight: '400'
+})
 
 export const metadata = {
   title: 'Archivero Disidente',
@@ -8,7 +14,7 @@ export const metadata = {
 export default function RootLayout ({ children }) {
   return (
     <html lang='es'>
-      <body>
+      <body className={robotoMono.className}>
         {children}
       </body>
     </html>
