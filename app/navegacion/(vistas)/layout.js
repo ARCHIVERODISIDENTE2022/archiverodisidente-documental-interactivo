@@ -1,7 +1,7 @@
 import { Footer } from '../../../components/Footer'
 import './Vistas.css'
 
-export default function CategoriasLayout ({ children }) {
+export default function VistasLayout ({ children }) {
   return (
     <section>
       <div className='container'>
