@@ -1,8 +1,8 @@
 import Link from 'next/link.js'
 import Image from 'next/image'
 import logo from '../assets/gif/logo_inicial.gif'
-import arrow from '../assets/icons/arrow.svg'
 import './Home.css'
+import FlechaAdelante from '@/components/FlechaAdelante'
 
 export default function Home () {
   return (
@@ -13,8 +13,8 @@ export default function Home () {
         <p id='subWelcome'>
           ¿CÓMO IMAGINAS QUE SERÁ CONTADA TU HISTORIA EN EL FUTURO?
         </p>
-        <div className='arrowForward'>
-          <Link href='/intro/p1'><Image src={arrow} height={48} alt='arrow' /></Link>
+        <div className='flechasInicio'>
+          <Link rel='icon' href='/intro/p1'><FlechaAdelante /></Link>
         </div>
       </div>
     </section>

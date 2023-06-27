@@ -1,10 +1,10 @@
-import Retroflecha from '@/components/Retroflecha'
+import FlechaAtras from '@/components/FlechaAtras'
 
 export default function ParticipantesLayout ({ children }) {
   return (
     <>
       {children}
-      <Retroflecha />
+      <FlechaAtras />
     </>
   )
 }

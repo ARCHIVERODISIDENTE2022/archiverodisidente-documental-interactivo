@@ -1,6 +1,5 @@
 import Link from 'next/link.js'
-import Image from 'next/image'
-import arrowWhite from '../../../assets/icons/arrow-white.svg'
+import FlechaBlancaAdelante from '@/components/FlechaBlancaAdelante'
 
 const quotes = [
   {
@@ -31,8 +30,8 @@ export default function p5 () {
           </div>
         ))}
       </div>
-      <div className='arrowForward'>
-        <Link href='/instrucciones'><Image src={arrowWhite} height={48} alt='arrow' /></Link>
+      <div className='flechasInicio'>
+        <Link href='/instrucciones'><FlechaBlancaAdelante /></Link>
       </div>
     </div>
   )

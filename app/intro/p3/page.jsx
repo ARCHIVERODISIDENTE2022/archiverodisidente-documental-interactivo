@@ -1,13 +1,12 @@
 import Link from 'next/link.js'
-import Image from 'next/image'
-import arrowWhite from '../../../assets/icons/arrow-white.svg'
+import FlechaBlancaAdelante from '@/components/FlechaBlancaAdelante'
 
 export default function p2 () {
   return (
     <div className='intro intro-black'>
       <p id='nosCambian'><b>Nos cambian_</b></p>
-      <div className='arrowForward'>
-        <Link href='/intro/p4'><Image src={arrowWhite} height={48} alt='arrow' /></Link>
+      <div className='flechasInicio'>
+        <Link href='/intro/p4'><FlechaBlancaAdelante /></Link>
       </div>
     </div>
   )
