@@ -17,7 +17,7 @@ export default function Categoria ({ params }) {
           {dataParticipantes.map(p => (
             <div className='participante' key={p.id}>
               <Link href={`/navegacion/categorias/${categoria}/${p.id}`}>
-                <Image alt={p.id} width={100} height={100} src={`/${p.categoria[getCategoryIndex(p)].imgObjeto}`} />
+                <Image className='imagenes-participantes' alt={p.id} width={100} height={100} src={`/${p.categoria[getCategoryIndex(p)].imgObjeto}`} />
               </Link>
             </div>
           ))}

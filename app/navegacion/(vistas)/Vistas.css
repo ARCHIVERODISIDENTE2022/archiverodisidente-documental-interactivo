@@ -70,6 +70,10 @@ html, body, section {
   background-color: transparent;
 }
 
+.imagenes-participantes {
+  border: 6px solid black;
+}
+
 @media screen and (max-width: 810px) {  
   .column {
       display: flex;

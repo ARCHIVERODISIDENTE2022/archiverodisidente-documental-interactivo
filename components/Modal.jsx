@@ -1,5 +1,4 @@
 import ReactModal from 'react-modal'
-import './Modal.css'
 
 const Modal = ({ isOpen, onRequestClose, children }) => {
   return (
