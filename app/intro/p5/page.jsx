@@ -5,7 +5,7 @@ const quotes = [
   {
     id: 1,
     quote: '“Creo que es importante que la gente que pueda contar su historia la cuente, porque hay muchas personas que buscan historias parecidas, que intentan ubicarse en algún lugar del mundo.”',
-    origin: 'VALENTI, PURRANQUE, REGIÓN DE LOS LAGOS'
+    origin: 'VALÉNTI, PURRANQUE, REGIÓN DE LOS LAGOS'
   },
   {
     id: 2,
