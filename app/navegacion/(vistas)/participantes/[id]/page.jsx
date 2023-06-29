@@ -5,9 +5,9 @@ import styles from '../../categorias/categoria.module.css'
 export default function Persona ({ params }) {
   const { id } = params
 
-  const participante = dataParticipantes[id-1]
+  const participante = dataParticipantes[id - 1]
 
-  const { cuna, nombreParticipante, videoPresentacion} = participante
+  const { cuna, nombreParticipante, videoPresentacion } = participante
 
   const categorias = ['familia', 'miedo', 'amor', 'actosentido', 'cuerpo', 'libertad']
 

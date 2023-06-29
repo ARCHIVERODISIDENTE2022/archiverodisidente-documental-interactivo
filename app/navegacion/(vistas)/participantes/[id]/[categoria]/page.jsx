@@ -4,13 +4,12 @@ import dataParticipantes from '../../../../../../public/assets/data.json'
 export default function Participante ({ params }) {
   const { id, categoria } = params
 
-  const participante = dataParticipantes[id-1]
+  const participante = dataParticipantes[id - 1]
 
-  const { nombreParticipante, ubicacion: {region, comuna}} = participante
+  const { nombreParticipante, ubicacion: { region, comuna } } = participante
 
   const buscarIndiceCategoria = p => p.categoria.findIndex(c => c.nombre === categoria)
   const videoURL = participante.categoria[buscarIndiceCategoria(participante)].videoObjeto
-
 
   return (
     <>
