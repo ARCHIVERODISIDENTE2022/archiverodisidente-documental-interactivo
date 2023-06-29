@@ -4,7 +4,7 @@
         "id": 1,
         "nombreParticipante": "KATHERINE",
         "imagenPerfil": "assets/imagenes/p01obj0.png",
-        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
+        "videoPresentacion": "https://www.youtube.com/embed/lll-W6SgWGQ",
         "cuna": "Pero gracias a Dios yo cada vez que entro a una pista, dejo huella",
         "ubicacion": {
             "region": "Valparaíso",
@@ -47,7 +47,7 @@
         "id": 2,
         "nombreParticipante": "VALENTI",
         "imagenPerfil": "assets/imagenes/p02obj0.png",
-        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
+        "videoPresentacion": "https://www.youtube.com/embed/mJhZrRmyYrM",
         "cuna": "Una de las formas de cambiar la soledad es encontrarte en otras personas, ver que otras personas existen y que eres parte de ese mundo",
         "ubicacion": {
             "region": "Los Lagos",
@@ -90,7 +90,7 @@
         "id": 3,
         "nombreParticipante": "TURQUESA",
         "imagenPerfil": "assets/imagenes/p03obj0.png",
-        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
+        "videoPresentacion": "https://www.youtube.com/embed/Oz9qMN5dHGI",
         "cuna": "La vida no me tocó fácil tuve varias historias para llorar, simplemente me aburrí de seguir botando lágrimas por ellas",
         "ubicacion": {
             "region": "Coquimbo",
@@ -100,32 +100,32 @@
             {
                 "nombre": "amor",
                 "imgObjeto": "assets/imagenes/p03obj1.png",
-                "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
+                "videoObjeto": "https://www.youtube.com/embed/FFu4JfHKNjQ"
             },
             {
                 "nombre": "miedo",
                 "imgObjeto": "assets/imagenes/p03obj2.png",
-                "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
+                "videoObjeto": "https://www.youtube.com/embed/EXM4wXsjXuA"
             },
             {
                 "nombre": "familia",
                 "imgObjeto": "assets/imagenes/p03obj3.png",
-                "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
+                "videoObjeto": "https://www.youtube.com/embed/gS_nzKyWwFg"
             },
             {
                 "nombre": "cuerpo",
                 "imgObjeto": "assets/imagenes/p03obj4.png",
-                "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
+                "videoObjeto": "https://www.youtube.com/embed/wxwk4SWy9G4"
             },
             {
                 "nombre": "libertad",
                 "imgObjeto": "assets/imagenes/p03obj5.png",
-                "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
+                "videoObjeto": "https://www.youtube.com/embed/8bIPcfn0vNo"
             },
             {
                 "nombre": "actosentido",
                 "imgObjeto": "assets/imagenes/p03obj6.png",
-                "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
+                "videoObjeto": "https://www.youtube.com/embed/8md9QROI8Wc"
             }
         ]
     },
@@ -219,7 +219,7 @@
         "id": 6,
         "nombreParticipante": "VIOLETA",
         "imagenPerfil": "assets/imagenes/p06obj0.png",
-        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
+        "videoPresentacion": "https://www.youtube.com/embed/XkhXDU_c60U",
         "cuna": "Eso es libertad: CAGARTE de miedo y hacerlo igual",
         "ubicacion": {
             "region": "Ñuble",
@@ -229,32 +229,32 @@
             {
                 "nombre": "amor",
                 "imgObjeto": "assets/imagenes/p06obj1.png",
-                "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
+                "videoObjeto": "https://www.youtube.com/embed/PTeB0MZLqkI"
             },
             {
                 "nombre": "miedo",
                 "imgObjeto": "assets/imagenes/p06obj2.png",
-                "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
+                "videoObjeto": "https://www.youtube.com/embed/-eJ8HSLyL3s"
             },
             {
                 "nombre": "familia",
                 "imgObjeto": "assets/imagenes/p06obj3.png",
-                "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
+                "videoObjeto": "https://www.youtube.com/embed/-koEauDkwWI"
             },
             {
                 "nombre": "cuerpo",
                 "imgObjeto": "assets/imagenes/p06obj4.png",
-                "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
+                "videoObjeto": "https://www.youtube.com/embed/D303PtMEsT4"
             },
             {
                 "nombre": "libertad",
                 "imgObjeto": "assets/imagenes/p06obj5.png",
-                "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
+                "videoObjeto": "https://www.youtube.com/embed/ocsGhQ6sujY"
             },
             {
                 "nombre": "actosentido",
                 "imgObjeto": "assets/imagenes/p06obj6.png",
-                "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
+                "videoObjeto": "https://www.youtube.com/embed/j3FReQCTW58"
             }
         ]
     },
@@ -262,7 +262,7 @@
         "id": 7,
         "nombreParticipante": "YOKO",
         "imagenPerfil": "assets/imagenes/p07obj0.png",
-        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
+        "videoPresentacion": "https://www.youtube.com/embed/DyXAOTPMrPE",
         "cuna": "Me gustaría que me recordaran por mi música pop y por ser una persona transgénero",
         "ubicacion": {
             "region": "Ñuble",
@@ -391,7 +391,7 @@
         "id": 10,
         "nombreParticipante": "MANUEL",
         "imagenPerfil": "assets/imagenes/p10obj0.png",
-        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
+        "videoPresentacion": "https://www.youtube.com/embed/sSJuHaH3s44",
         "cuna": "Yo creo ser una persona bastante liberada de prejuicios. Vivo y vivimos nuestra vida siendo uno, y desde ese terreno puedo hablar",
         "ubicacion": {
             "region": "Los Lagos",
@@ -401,32 +401,32 @@
             {
                 "nombre": "amor",
                 "imgObjeto": "assets/imagenes/p10obj1.png",
-                "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
+                "videoObjeto": "https://www.youtube.com/embed/tDAdNrBXRAo"
             },
             {
                 "nombre": "miedo",
                 "imgObjeto": "assets/imagenes/p10obj2.png",
-                "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
+                "videoObjeto": "https://www.youtube.com/embed/QRBhKQMILW0"
             },
             {
                 "nombre": "familia",
                 "imgObjeto": "assets/imagenes/p10obj3.png",
-                "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
+                "videoObjeto": "https://www.youtube.com/embed/SAjgB8-BofE"
             },
             {
                 "nombre": "cuerpo",
                 "imgObjeto": "assets/imagenes/p10obj4.png",
-                "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
+                "videoObjeto": "https://www.youtube.com/embed/Yi33SkOBWPg"
             },
             {
                 "nombre": "libertad",
                 "imgObjeto": "assets/imagenes/p10obj5.png",
-                "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
+                "videoObjeto": "https://www.youtube.com/embed/R0osTr-Z2Wo"
             },
             {
                 "nombre": "actosentido",
                 "imgObjeto": "assets/imagenes/p10obj6.png",
-                "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
+                "videoObjeto": "https://www.youtube.com/embed/N2UulTYnYDY"
             }
         ]
     },
@@ -520,7 +520,7 @@
         "id": 13,
         "nombreParticipante": "EROS",
         "imagenPerfil": "assets/imagenes/p13obj0.png",
-        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
+        "videoPresentacion": "https://www.youtube.com/embed/_vzcARZmIKY",
         "cuna": "Me gusta la libertad de no sentirme presionado por nada a mi alrededor, ni por la vista de alguien, ni porque esté haciendo algo mal, no existe el tiempo",
         "ubicacion": {
             "region": "Aysén",
