@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link.js'
-import Logo from '@/assets/logo_instrucciones.png'
+import Logo from '@/assets/logos/instrucciones.png'
 import './instrucciones.css'
 
 export default function Instrucciones () {

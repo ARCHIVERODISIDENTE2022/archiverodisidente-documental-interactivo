@@ -1,0 +1,9 @@
+#creditos {
+  text-align: center;
+}
+
+#logos {
+  display: flex;
+  justify-content:space-around;
+  padding: 5%;
+}
