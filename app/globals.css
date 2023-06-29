@@ -12,3 +12,8 @@ html {
 body::-webkit-scrollbar {
   display: none;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}

@@ -28,11 +28,10 @@
 }
 
 #btnComenzarLink:hover {
-  background: #000000f5 radial-gradient(circle, transparent 1%, #80808013 1%) center/15000%;
+  background: #000000f5;
   color: white;
   border: 4px solid rgb(22, 22, 22);
   text-transform: uppercase;
-  text-decoration: underline overline;
   text-align: left;
 }
 

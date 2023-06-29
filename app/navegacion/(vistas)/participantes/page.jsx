@@ -12,7 +12,7 @@ export default async function Participantes () {
           {dataParticipantes.map(p => (
             <div key={p.id}>
               <Link href={`/navegacion/participantes/${p.id}`}>
-                <Image className='imagenes-participantes' alt={p.id} width={100} height={100} src={`/${p.mainImg}`} />
+                <Image className='imagenes-participantes' alt={p.id} width={100} height={100} src={`/${p.imagenPerfil}`} />
               </Link>
             </div>
           ))}

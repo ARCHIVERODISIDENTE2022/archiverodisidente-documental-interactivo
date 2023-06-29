@@ -4,18 +4,18 @@ import FlechaBlancaAdelante from '@/components/FlechaBlancaAdelante'
 const quotes = [
   {
     id: 1,
-    quote: '“Creo que es importante que la gente que pueda contar su historia la cuente, porque hay muchas personas que buscan historias parecidas que intentan ubicarse en algún lugar del mundo.”',
-    origin: 'VALENTI, PURRANQUE, X REGIÓN'
+    quote: '“Creo que es importante que la gente que pueda contar su historia la cuente, porque hay muchas personas que buscan historias parecidas, que intentan ubicarse en algún lugar del mundo.”',
+    origin: 'VALENTI, PURRANQUE, REGIÓN DE LOS LAGOS'
   },
   {
     id: 2,
-    quote: '“Mi mama tenía unas muñecas y yo se las sacaba po. Pero siempre los chiquillos jugaban a la pelota y a mi no me gustaba, yo era seca pa la cuerda.”',
-    origin: 'KATHERINE, QUILLOTA, V REGIÓN.'
+    quote: '"He tenido que luchar por permanecer y hacer valer mi identidad de género frente a las situaciones o lugares donde habitualmente voy"',
+    origin: 'YOKO, CHILLÁN, REGIÓN DE ÑUBLE'
   },
   {
     id: 3,
-    quote: '“El miedo queda contigo, una aprende a abrazarse, a darse calma decirte ya, sea lo que sea que te haya dado miedo en un momento de la vida que no te achique, que no te haga sentir menos que el miedo no sea más grande que tu.”',
-    origin: 'TURQUESA LILA MENTOLADA, ILLAPEL, IV REGIÓN.'
+    quote: `“El miedo queda contigo, una aprende a abrazarse, a darse calma, a decirte: 'Ya, sea lo que sea que te haya dado miedo en un momento de la vida que no te achique, que no te haga sentir menos, que el miedo no sea más grande que tú'.”`, // eslint-disable-line
+    origin: 'TURQUESA, ILLAPEL, REGIÓN DE COQUIMBO'
   }
 ]
 

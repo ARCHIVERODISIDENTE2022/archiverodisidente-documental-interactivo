@@ -1,71 +1,14 @@
 
 [
     {
-        "id": 0,
-        "nombreParticipante": "Turquesa",
-        "mainImg": "assets/imagenes/p00obj0.png",
-        "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
-        "frameGif": "assets/imagenes/p06obj6.png",
-        "gif": "assets/gif/violeta.gif",
-        "fechaNacimiento": "5 de octubre 1996",
-        "edad": 25,
-        "cuna": "La vida no me tocó fácil tuve varias historias para llorar, simplemente me aburrí de seguir botando lagrimas por ellas",
-        "mp3cuna": "src/data/mp3/violeta.mp3",
-        "ubicacion": {
-            "region": "IV",
-            "comuna": "Illapel, provincia ",
-            "territorio": "Provincia del Choapa",
-            "pais": "Chile"
-        },
-        "categoria": [
-            {
-                "nombre": "amor",
-                "imgObjeto": "assets/imagenes/p00obj1.png",
-                "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
-            },
-            {
-                "nombre": "miedo",
-                "imgObjeto": "assets/imagenes/p00obj2.png",
-                "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
-            },
-            {
-                "nombre": "familia",
-                "imgObjeto": "assets/imagenes/p00obj3.png",
-                "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
-            },
-            {
-                "nombre": "cuerpo",
-                "imgObjeto": "assets/imagenes/p00obj4.png",
-                "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
-            },
-            {
-                "nombre": "libertad",
-                "imgObjeto": "assets/imagenes/p00obj5.png",
-                "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
-            },
-            {
-                "nombre": "actosentido",
-                "imgObjeto": "assets/imagenes/p00obj6.png",
-                "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
-            }
-        ]
-    },
-    {
         "id": 1,
-        "nombreParticipante": "Katherine",
-        "mainImg": "assets/imagenes/p01obj0.png",
-        "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
-        "frameGif": "assets/imagenes/p06obj6.png",
-        "gif": "assets/gif/violeta.gif",
-        "fechaNacimiento": "1 septiembre 1980",
-        "edad": 41,
+        "nombreParticipante": "KATHERINE",
+        "imagenPerfil": "assets/imagenes/p01obj0.png",
+        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
         "cuna": "Pero gracias a Dios yo cada vez que entro a una pista, dejo huella",
-        "mp3cuna": "src/data/mp3/violeta.mp3",
         "ubicacion": {
-            "region": "V Valparaiso",
-            "comuna": "Quillota",
-            "territorio": "Valparaiso",
-            "pais": "Chile"
+            "region": "Valparaíso",
+            "comuna": "Quillota"
         },
         "categoria": [
             {
@@ -102,20 +45,13 @@
     },
     {
         "id": 2,
-        "nombreParticipante": "Valenti",
-        "mainImg": "assets/imagenes/p02obj0.png",
-        "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
-        "frameGif": "assets/imagenes/p06obj6.png",
-        "gif": "assets/gif/violeta.gif",
-        "fechaNacimiento": "8 de febrero 1998",
-        "edad": 23,
+        "nombreParticipante": "VALENTI",
+        "imagenPerfil": "assets/imagenes/p02obj0.png",
+        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
         "cuna": "Una de las formas de cambiar la soledad es encontrarte en otras personas, ver que otras personas existen y que eres parte de ese mundo",
-        "mp3cuna": "src/data/mp3/violeta.mp3",
         "ubicacion": {
-            "region": "X Región de los Lagos",
-            "comuna": "Niebla",
-            "territorio": "Purranque",
-            "pais": "Chile"
+            "region": "Los Lagos",
+            "comuna": "Purranque"
         },
         "categoria": [
             {
@@ -152,20 +88,13 @@
     },
     {
         "id": 3,
-        "nombreParticipante": "Orlando",
-        "mainImg": "assets/imagenes/p03obj0.png",
-        "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
-        "frameGif": "assets/imagenes/p06obj6.png",
-        "gif": "assets/gif/violeta.gif",
-        "fechaNacimiento": "8 de junio 1993",
-        "edad": 28,
-        "cuna": "La libertad como tal es un vector y la liberación son momentos; piedras donde uno se para y se siente firme",
-        "mp3cuna": "src/data/mp3/violeta.mp3",
+        "nombreParticipante": "TURQUESA",
+        "imagenPerfil": "assets/imagenes/p03obj0.png",
+        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
+        "cuna": "La vida no me tocó fácil tuve varias historias para llorar, simplemente me aburrí de seguir botando lágrimas por ellas",
         "ubicacion": {
-            "region": "XIV Región de los Ríos",
-            "comuna": "Niebla",
-            "territorio": "",
-            "pais": "Chile"
+            "region": "Coquimbo",
+            "comuna": "Illapel"
         },
         "categoria": [
             {
@@ -202,20 +131,13 @@
     },
     {
         "id": 4,
-        "nombreParticipante": "Catalina López",
-        "mainImg": "assets/imagenes/p04obj0.png",
-        "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
-        "frameGif": "assets/imagenes/p06obj6.png",
-        "gif": "assets/gif/violeta.gif",
-        "fechaNacimiento": "18 de enero 1993",
-        "edad": 28,
+        "nombreParticipante": "CATALINA",
+        "imagenPerfil": "assets/imagenes/p04obj0.png",
+        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
         "cuna": "Siempre que he estado atravesando procesos complejos de mi mente o de mis sentimientos, acudo al mar...",
-        "mp3cuna": "src/data/mp3/violeta.mp3",
         "ubicacion": {
-            "region": "V Valparaiso",
-            "comuna": "Valparaiso",
-            "territorio": "",
-            "pais": "Chile"
+            "region": "Valparaíso",
+            "comuna": "Valparaíso"
         },
         "categoria": [
             {
@@ -252,20 +174,13 @@
     },
     {
         "id": 5,
-        "nombreParticipante": "Gael Negrón",
-        "mainImg": "assets/imagenes/p05obj0.png",
-        "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
-        "frameGif": "assets/imagenes/p06obj6.png",
-        "gif": "assets/gif/violeta.gif",
-        "fechaNacimiento": "25 septiembre 1989",
-        "edad": 32,
-        "cuna": "Mi cuerpo es todo para mí en este momento, me siento en mi casa en mi cuerpo ahora, yo logré hacer la paz con mi cuerpo ahora, puedo verme a un espejo y no sentir ni un poco de vergüenza, ni un poco de incomodidad",
-        "mp3cuna": "src/data/mp3/violeta.mp3",
+        "nombreParticipante": "GAEL",
+        "imagenPerfil": "assets/imagenes/p05obj0.png",
+        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
+        "cuna": "Mi cuerpo es todo para mí en este momento, me siento en mi casa en mi cuerpo ahora. Puedo verme a un espejo y no sentir ni un poco de vergüenza, ni un poco de incomodidad.",
         "ubicacion": {
-            "region": "X Región de los Lagos",
-            "comuna": "Puerto Montt",
-            "territorio": "Provincia del Choapa",
-            "pais": "Chile"
+            "region": "Los Lagos",
+            "comuna": "Puerto Montt"
         },
         "categoria": [
             {
@@ -302,20 +217,13 @@
     },
     {
         "id": 6,
-        "nombreParticipante": "Violeta Adams",
-        "mainImg": "assets/imagenes/p06obj0.png",
-        "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
-        "frameGif": "assets/imagenes/p06obj6.png",
-        "gif": "assets/gif/violeta.gif",
-        "fechaNacimiento": "7 mayo 2000",
-        "edad": 21,
-        "cuna": "Eso es libertad: cagarte de miedo y hacerlo igual",
-        "mp3cuna": "src/data/mp3/violeta.mp3",
+        "nombreParticipante": "VIOLETA",
+        "imagenPerfil": "assets/imagenes/p06obj0.png",
+        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
+        "cuna": "Eso es libertad: CAGARTE de miedo y hacerlo igual",
         "ubicacion": {
-            "region": "XVI Ñuble",
-            "comuna": "Chillan",
-            "territorio": "",
-            "pais": "Chile"
+            "region": "Ñuble",
+            "comuna": "Chillán"
         },
         "categoria": [
             {
@@ -352,20 +260,13 @@
     },
     {
         "id": 7,
-        "nombreParticipante": "Yoko",
-        "mainImg": "assets/imagenes/p07obj0.png",
-        "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
-        "frameGif": "assets/imagenes/p06obj6.png",
-        "gif": "assets/gif/violeta.gif",
-        "fechaNacimiento": "7 febrero 1997",
-        "edad": 24,
+        "nombreParticipante": "YOKO",
+        "imagenPerfil": "assets/imagenes/p07obj0.png",
+        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
         "cuna": "Me gustaría que me recordaran por mi música pop y por ser una persona transgénero",
-        "mp3cuna": "src/data/mp3/violeta.mp3",
         "ubicacion": {
-            "region": "XVI Región Ñuble",
-            "comuna": "Chillan",
-            "territorio": "",
-            "pais": "Chile"
+            "region": "Ñuble",
+            "comuna": "Chillán"
         },
         "categoria": [
             {
@@ -402,20 +303,13 @@
     },
     {
         "id": 8,
-        "nombreParticipante": "Florencia",
-        "mainImg": "assets/imagenes/p08obj0.png",
-        "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
-        "frameGif": "assets/imagenes/p06obj6.png",
-        "gif": "assets/gif/violeta.gif",
-        "fechaNacimiento": "30 julio 1974",
-        "edad": 49,
+        "nombreParticipante": "FLORENCIA",
+        "imagenPerfil": "assets/imagenes/p08obj0.png",
+        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
         "cuna": "Quien me hace sentir libre es la Francisca; de ser mamá, de poder tener un trabajo, de poder levantarme en las mañanas y saber que tengo un sueldo",
-        "mp3cuna": "src/data/mp3/violeta.mp3",
         "ubicacion": {
-            "region": "IV Coquimbo",
-            "comuna": "Coquimbo",
-            "territorio": "",
-            "pais": "Chile"
+            "region": "Coquimbo",
+            "comuna": "Coquimbo"
         },
         "categoria": [
             {
@@ -452,20 +346,13 @@
     },
     {
         "id": 9,
-        "nombreParticipante": "Melanie",
-        "mainImg": "assets/imagenes/p09obj0.png",
-        "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
-        "frameGif": "assets/imagenes/p06obj6.png",
-        "gif": "assets/gif/violeta.gif",
-        "fechaNacimiento": "16 mayo 1993",
-        "edad": 28,
+        "nombreParticipante": "MELANIE",
+        "imagenPerfil": "assets/imagenes/p09obj0.png",
+        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
         "cuna": "Ballroom me da esa libertad que queremos sentir todas las personas disidentes en algún momento, donde tú sales y es una celebración",
-        "mp3cuna": "src/data/mp3/violeta.mp3",
         "ubicacion": {
-            "region": "IV Coquimbo",
-            "comuna": "Vicuna",
-            "territorio": "",
-            "pais": "Chile"
+            "region": "Coquimbo",
+            "comuna": "Vicuña"
         },
         "categoria": [
             {
@@ -502,20 +389,13 @@
     },
     {
         "id": 10,
-        "nombreParticipante": "Manuel Moraga",
-        "mainImg": "assets/imagenes/p10obj0.png",
-        "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
-        "frameGif": "assets/imagenes/p06obj6.png",
-        "gif": "assets/gif/violeta.gif",
-        "fechaNacimiento": "28 diciembre 1969",
-        "edad": 52,
+        "nombreParticipante": "MANUEL",
+        "imagenPerfil": "assets/imagenes/p10obj0.png",
+        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
         "cuna": "Yo creo ser una persona bastante liberada de prejuicios. Vivo y vivimos nuestra vida siendo uno, y desde ese terreno puedo hablar",
-        "mp3cuna": "src/data/mp3/violeta.mp3",
         "ubicacion": {
-            "region": "X de los Lagos",
-            "comuna": "Puerto Montt",
-            "territorio": "",
-            "pais": "Chile"
+            "region": "Los Lagos",
+            "comuna": "Puerto Montt"
         },
         "categoria": [
             {
@@ -552,20 +432,13 @@
     },
     {
         "id": 11,
-        "nombreParticipante": "Maco",
-        "mainImg": "assets/imagenes/p11obj0.png",
-        "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
-        "frameGif": "assets/imagenes/p06obj6.png",
-        "gif": "assets/gif/violeta.gif",
-        "fechaNacimiento": "26 octubre 1989",
-        "edad": 32,
+        "nombreParticipante": "MACO",
+        "imagenPerfil": "assets/imagenes/p11obj0.png",
+        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
         "cuna": "Para mi la naturaleza es importantísima, porque es el lugar donde estamos, nos da comida, nos da vida, hay que puro abrazarla y quererla",
-        "mp3cuna": "src/data/mp3/violeta.mp3",
         "ubicacion": {
-            "region": "V Valparaiso",
-            "comuna": "Valparaiso",
-            "territorio": "Valparaiso",
-            "pais": "Chile"
+            "region": "Valparaíso",
+            "comuna": "Quillota"
         },
         "categoria": [
             {
@@ -602,20 +475,13 @@
     },
     {
         "id": 12,
-        "nombreParticipante": "Gonzalo",
-        "mainImg": "assets/imagenes/p12obj0.png",
-        "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
-        "frameGif": "assets/imagenes/p06obj6.png",
-        "gif": "assets/gif/violeta.gif",
-        "fechaNacimiento": "22 marzo 1996",
-        "edad": 26,
+        "nombreParticipante": "GONZALO",
+        "imagenPerfil": "assets/imagenes/p12obj0.png",
+        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
         "cuna": "Lo que más rescato es hacer a Sandy, fue el quiebre que hice en mi vida; fue mi salvadora",
-        "mp3cuna": "src/data/mp3/violeta.mp3",
         "ubicacion": {
-            "region": "X Region de los Lagos",
-            "comuna": "Quellón",
-            "territorio": "Chiloe",
-            "pais": "Chile"
+            "region": "Los Lagos",
+            "comuna": "Quellón"
         },
         "categoria": [
             {
@@ -652,20 +518,13 @@
     },
     {
         "id": 13,
-        "nombreParticipante": "Eros",
-        "mainImg": "assets/imagenes/p13obj0.png",
-        "presentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
-        "frameGif": "assets/imagenes/p06obj6.png",
-        "gif": "assets/gif/violeta.gif",
-        "fechaNacimiento": "26 abril 1996",
-        "edad": 25,
+        "nombreParticipante": "EROS",
+        "imagenPerfil": "assets/imagenes/p13obj0.png",
+        "videoPresentacion": "https://www.youtube.com/embed/S7Wvd9Wlxu8",
         "cuna": "Me gusta la libertad de no sentirme presionado por nada a mi alrededor, ni por la vista de alguien, ni porque esté haciendo algo mal, no existe el tiempo",
-        "mp3cuna": "src/data/mp3/violeta.mp3",
         "ubicacion": {
-            "region": "XI Aysén",
-            "comuna": "Puerto aysén",
-            "territorio": "",
-            "pais": "Chile"
+            "region": "Aysén",
+            "comuna": "Aysén"
         },
         "categoria": [
             {
