@@ -10,202 +10,162 @@ export default function Creditos () {
   return (
     <>
       <FlechaAtras />
-      <p id='creditos'>
-        CRÉDITOS ARCHIVERO DISIDENTE 2020 – 2023
-
-        DIRECCIÓN CONTENIDOS
-        Luka Montecinos
-
-        DIRECCIÓN AUDIOVISUAL
-        Mariana Barahona
-
-        PRODUCCIÓN EJECUTIVA
-        Carolina Zúñiga
-
-        PRODUCCIÓN PERIODÍSTICA E INVESTIGACIÓN
-        Ignacio Aguirre
-        María Ignacia Santos
-
-        MONTAJE
-        Mariana Barahona
-        Luka Montecinos
-        Javier Bascuñán
-        Ignacio Velásquez
-
-        COMPOSICIÓN Y MÚSICA ORIGINAL
-        Loreto Ríos
-
-        DIRECCIÓN PROGRAMACIÓN WEB
-        Zota Pianola
-
-        EQUIPO DESARROLLO WEB
-        Natalia Flores
-        Constanza Leyton
-        Ianka Ferrada
-
-        ASESORÍA UX Y DESARROLLO WEB
-        Zota Pianola
-        Natalia Flores
-        Gabriel Galindo
-
-        PARTICIPANTES
-        Catalina López
-        Florencia Chelme
-        Gael Negrón
-        Gonzalo Fonseca
-        Katherine Guzmán
-        Maco
-        Manuel Vidal
-        Melanie Díaz
-        Turquesa Lila Mentolada
-        Valénti Erregui
-        Violeta Addams
-        Venus Eros
-        Yoko Riquelme
-
-        POSTULACIÓN FONDO AUDIOVISUAL 2020
-        Carolina Zúñiga
-        Luka Montecinos
-        María Ignacia Santos
-        Mariana Barahona
-        Camila Montecinos
-
-        DIFUSIÓN Y REDES SOCIALES
-        Ignacia Pezoa
-        Maite Agurto
-        Valentina Mella
-        Isidora Rojas
-        Ignacio Torres
-
-        TRANSCRIPCIONES
-        Renata Landerer
-        Thiare Riquelme
-        Diego Acuña
-        Andrés Infante
-
-        CONTABILIDAD
-        Nélida Alarcón
-        Zulema Alarcón
-        Nayadet Rodríguez
-
-        ***
-
-        COLABORACIONES Y ASESORÍAS
-
-        Fundación Todo Mejora
-        Matías Trujillo
-        Fefi Barriga
-
-        Centro Espacio Seguro
-        Marcela Márquez
-
-        Departamento de Género UDP
-        Nicole Murillo
-
-        Laboratoria
-        Merly Blanco
-        Mijal Brunman
-
-        Música Edición Videos
-        Free Sound - www.freesound.org
-        Pueblo Nuevo -www.pueblonuevo.cl
-        Mono o Estéreo
-        nohumano
-        Cristóbal Alzérreca/dilunar
-
-        Documenta Sur
-        Magdalena Ponce
-        Amara Micaela
-        Alexia Lorca
-        Alejandra Rosas
-
-        Taller de Archivo Comunitario FECH
-
-        Ataka Coletiva
-
-        ***
-
-        AGRADECIMIENTOS
-
-        Claudio Montecinos
-        Macarena Fernández
-        Paula Sáenz-Laguna
-        Paz Urrutia
-        Carolina Gainza
-        Francisca Skoknic
-        Mónica Maureira
-        Arnau Grifeu Castell
-        María Ignacia Court
-        Camila Pantoja
-        José Mogrol
-        Galatea Jorquera
-        Paulina Toro
-
-        Facultad de Comunicación y Letras UDP
-        Marcela Aguilar
-        Gazi Jalil
-        Viviana Flores
-        Mónica Humeres
-        Mónica González
-        Isabel Tagle
-        Daniel Rodríguez
-        Cristián Peralta
-        Danitza Becerra
-        Luis Catalán
-        Pedro Benavente
-        Alexander Jiménez
-
-        Rodaje Región de Coquimbo
-        Fundación Así Somos
-        Florencia Chelme
-
-        Juan Pablo Álvares
-        Anita Aratto
-        Emma Castañeda
-        Vianni Tapia
-
-        Oficina de Diversidades de La Serena
-
-        Rodaje Región de Valparaíso
-        Oficina Diversidad Quillota
-        Cris Salazar
-
-        Circo Tony Caluga
-        Abraham Lillo
-
-        Oficina de las Diversidades Valparaíso
-
-        Rodaje Región de Ñuble
-        Teresa Ruiz
-
-        Rayén Castro
-        Martina Villalobos
-        Sophie Rose
-
-        Rodaje Región de Los Ríos
-        Identidad Chile
-        Patricio Cuevas
-
-        Teatro Municipal Purranque
-        Gonzalo Tejer
-
-        Rodaje Región de Los Lagos
-        Casa Teatro Puerto Montt
-
-        Rodaje Región de Aysén
-        Diversa Patagonia
-        Nicole Farías
-
-        Neutres Chile
-        OTR Chile
-        Valdiversa Chile
-        Todes
-        LGBT+LIBRE
-        Diversas
-        RRA Chile
-
-        ***
-      </p>
+      <div id='creditos'>
+        <h2>CRÉDITOS ARCHIVERO DISIDENTE 2020 – 2023</h2>
+        <div>
+          <h3>DIRECCIÓN CONTENIDOS</h3>
+          <p>Luka Montecinos</p>
+          <h3>DIRECCIÓN AUDIOVISUAL</h3>
+          <p>Mariana Barahona</p>
+          <h3>PRODUCCIÓN EJECUTIVA</h3>
+          <p>Carolina Zúñiga</p>
+          <h3>PRODUCCIÓN PERIODÍSTICA E INVESTIGACIÓN</h3>
+          <p>Ignacio Aguirre</p>
+          <p>María Ignacia Santos</p>
+          <h3>MONTAJE</h3>
+          <p>Mariana Barahona</p>
+          <p>Luka Montecinos</p>
+          <p>Javier Bascuñán</p>
+          <p>Ignacio Velásquez</p>
+          <h3>COMPOSICIÓN Y MÚSICA ORIGINAL</h3>
+          <p>Loreto Ríos</p>
+          <h3>DIRECCIÓN PROGRAMACIÓN WEB</h3>
+          <p>Zota Romero-Cors</p>
+          <h3>EQUIPO DESARROLLO WEB</h3>
+          <p>Natalia Flores</p>
+          <p>Constanza Leyton</p>
+          <p>Ianka Ferrada</p>
+          <h3>ASESORÍA UX Y DESARROLLO WEB</h3>
+          <p>Zota Romero-Cors</p>
+          <p>Natalia Flores</p>
+          <p>Gabriel Galindo</p>
+          <h3>PARTICIPANTES</h3>
+          <p>Catalina López</p>
+          <p>Florencia Chelme</p>
+          <p>Gael Negrón</p>
+          <p>Gonzalo Fonseca</p>
+          <p>Katherine Guzmán</p>
+          <p>Maco</p>
+          <p>Manuel Vidal</p>
+          <p>Melanie Díaz</p>
+          <p>Turquesa Lila Mentolada</p>
+          <p>Valénti Erregui</p>
+          <p>Violeta Addams</p>
+          <p>Venus Eros</p>
+          <p>Yoko Riquelme</p>
+          <h3>POSTULACIÓN FONDO AUDIOVISUAL 2020</h3>
+          <p>Carolina Zúñiga</p>
+          <p>Luka Montecinos</p>
+          <p>María Ignacia Santos</p>
+          <p>Mariana Barahona</p>
+          <p>Camila Montecinos</p>
+          <h3>DIFUSIÓN Y REDES SOCIALES</h3>
+          <p>Ignacia Pezoa</p>
+          <p>Maite Agurto</p>
+          <p>Valentina Mella</p>
+          <p>Isidora Rojas</p>
+          <p>Ignacio Torres</p>
+          <h3>TRANSCRIPCIONES</h3>
+          <p>Renata Landerer</p>
+          <p>Thiare Riquelme</p>
+          <p>Diego Acuña</p>
+          <p>Andrés Infante</p>
+          <h3>CONTABILIDAD</h3>
+          <p>Nélida Alarcón</p>
+          <p>Zulema Alarcón</p>
+          <p>Nayadet Rodríguez</p>
+          <h3>***</h3>
+          <h3>COLABORACIONES Y ASESORÍAS</h3>
+          <p>Fundación Todo Mejora</p>
+          <p>Matías Trujillo</p>
+          <p>Fefi Barriga</p>
+          <h3>Centro Espacio Seguro</h3>
+          <p>Marcela Márquez</p>
+          <h3>Departamento de Género UDP</h3>
+          <p>Nicole Murillo</p>
+          <h3>Laboratoria</h3>
+          <p>Merly Blanco</p>
+          <p>Mijal Brunman</p>
+          <h3>Música Edición Videos</h3>
+          <p>Free Sound - www.freesound.org</p>
+          <p>Pueblo Nuevo - www.pueblonuevo.cl</p>
+          <p>Mono o Estéreo</p>
+          <p>nohumano</p>
+          <p>Cristóbal Alzérreca/dilunar</p>
+          <h3>Documenta Sur</h3>
+          <p>Magdalena Ponce</p>
+          <p>Amara Micaela</p>
+          <p>Alexia Lorca</p>
+          <p>Alejandra Rosas</p>
+          <h3>Taller de Archivo Comunitario FECH</h3>
+          <h3>Ataka Coletiva</h3>
+          <h3>***</h3>
+          <h3>AGRADECIMIENTOS</h3>
+          <p>Claudio Montecinos</p>
+          <p>Macarena Fernández</p>
+          <p>Paula Sáenz-Laguna</p>
+          <p>Paz Urrutia</p>
+          <p>Carolina Gainza</p>
+          <p>Francisca Skoknic</p>
+          <p>Mónica Maureira</p>
+          <p>Arnau Grifeu Castell</p>
+          <p>María Ignacia Court</p>
+          <p>Camila Pantoja</p>
+          <p>José Mogrol</p>
+          <p>Galatea Jorquera</p>
+          <p>Paulina Toro</p>
+          <h3>Facultad de Comunicación y Letras UDP</h3>
+          <p>Marcela Aguilar</p>
+          <p>Gazi Jalil</p>
+          <p>Viviana Flores</p>
+          <p>Mónica Humeres</p>
+          <p>Mónica González</p>
+          <p>Isabel Tagle</p>
+          <p>Daniel Rodríguez</p>
+          <p>Cristián Peralta</p>
+          <p>Danitza Becerra</p>
+          <p>Luis Catalán</p>
+          <p>Pedro Benavente</p>
+          <p>Alexander Jiménez</p>
+          <h3>Rodaje Región de Coquimbo</h3>
+          <p>Fundación Así Somos</p>
+          <p>Florencia Chelme</p>
+          <p> <br />Juan Pablo Álvares</p>
+          <p>Anita Aratto</p>
+          <p>Emma Castañeda</p>
+          <p>Vianni Tapia</p>
+          <p><br />Oficina de Diversidades de La Serena</p>
+          <h3>Rodaje Región de Valparaíso</h3>
+          <p>Oficina Diversidad Quillota</p>
+          <p>Cris Salazar</p>
+          <p><br />Circo Tony Caluga</p>
+          <p>Abraham Lillo</p>
+          <p><br />Oficina de las Diversidades Valparaíso</p>
+          <h3>Rodaje Región de Ñuble</h3>
+          <p>Teresa Ruiz</p>
+          <p><br />Rayén Castro</p>
+          <p>Martina Villalobos</p>
+          <p>Sophie Rose</p>
+          <h3>Rodaje Región de Los Ríos</h3>
+          <p>Identidad Chile</p>
+          <p>Patricio Cuevas</p>
+          <p><br />Teatro Municipal Purranque</p>
+          <p>Gonzalo Tejer</p>
+          <h3>Rodaje Región de Los Lagos</h3>
+          <p>Casa Teatro Puerto Montt</p>
+          <h3>Rodaje Región de Aysén</h3>
+          <p>Diversa Patagonia</p>
+          <p>Nicole Farías</p>
+          <p><br />Neutres Chile</p>
+          <p>OTR Chile</p>
+          <p>Valdiversa Chile</p>
+          <p>Todes</p>
+          <p>LGBT+LIBRE</p>
+          <p>Diversas</p>
+          <p>RRA Chile</p>
+          <h3>***</h3>
+        </div>
+      </div>
       <code>
         *Proyecto financiado por el Fondo de Fomento Audiovisual, Convocatoria 2021 del Ministerio las Culturas, las Artes y el Patrimonio*
         *Proyecto desarrollado por equipo asociado al Laboratorio Digital de la Facultad de Comunicación y Letras de la Universidad Diego Portales, Santiago, Chile*
