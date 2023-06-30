@@ -65,6 +65,11 @@ html, body, section {
   border: 6px solid black;
 }
 
+.imagenes-participantes:hover {
+  transform: translateY(-5px)
+}
+
+
 iframe {
   height: 700px;
   width: 1280px;
