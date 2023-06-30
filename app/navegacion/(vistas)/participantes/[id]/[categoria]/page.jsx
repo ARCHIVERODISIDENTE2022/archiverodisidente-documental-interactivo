@@ -1,5 +1,6 @@
+import '@/app/navegacion/(vistas)/CategoriaIndividual.css'
 import ModalActoSentido from '@/components/ModalActoSentido'
-import dataParticipantes from '../../../../../../public/assets/data.json'
+import dataParticipantes from '@/public/data.json'
 
 export default function Participante ({ params }) {
   const { id, categoria } = params
@@ -14,7 +15,7 @@ export default function Participante ({ params }) {
   return (
     <>
       {categoria === 'actosentido' && <ModalActoSentido />}
-      <div>
+      <div id='container-individual'>
         <div id='franja-texto'>
           <div id='texto-participante'>
             <h3>{nombreParticipante}</h3>

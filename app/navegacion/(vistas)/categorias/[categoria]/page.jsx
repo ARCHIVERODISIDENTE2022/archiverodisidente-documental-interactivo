@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link.js'
-import dataParticipantes from '@/public/assets/data.json'
+import dataParticipantes from '@/public/data.json'
 import styles from '../../participantes/participantes.module.css'
 import ModalActoSentido from '@/components/ModalActoSentido'
 

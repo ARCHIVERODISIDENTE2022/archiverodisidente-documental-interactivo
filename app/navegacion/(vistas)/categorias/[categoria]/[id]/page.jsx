@@ -1,5 +1,5 @@
-import dataParticipantes from '@/public/assets/data.json'
-import './CategoriaIndividual.css'
+import '@/app/navegacion/(vistas)/CategoriaIndividual.css'
+import dataParticipantes from '@/public/data.json'
 
 export default function Persona ({ params }) {
   const { id, categoria } = params

@@ -1,5 +1,5 @@
 import Link from 'next/link.js'
-import dataParticipantes from '../../../../../public/assets/data.json'
+import dataParticipantes from '@/public/data.json'
 import styles from '../../categorias/categoria.module.css'
 
 export default function Persona ({ params }) {

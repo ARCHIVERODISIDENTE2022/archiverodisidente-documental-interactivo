@@ -3,7 +3,7 @@
     {
         "id": 1,
         "nombreParticipante": "KATHERINE",
-        "imagenPerfil": "assets/imagenes/p01obj0.png",
+        "imagenPerfil": "images/p01obj0.png",
         "videoPresentacion": "https://www.youtube.com/embed/lll-W6SgWGQ",
         "cuna": "Pero gracias a Dios yo cada vez que entro a una pista, dejo huella",
         "ubicacion": {
@@ -13,32 +13,32 @@
         "categoria": [
             {
                 "nombre": "amor",
-                "imgObjeto": "assets/imagenes/p01obj1.png",
+                "imgObjeto": "images/p01obj1.png",
                 "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
             },
             {
                 "nombre": "miedo",
-                "imgObjeto": "assets/imagenes/p01obj2.png",
+                "imgObjeto": "images/p01obj2.png",
                 "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
             },
             {
                 "nombre": "familia",
-                "imgObjeto": "assets/imagenes/p01obj3.png",
+                "imgObjeto": "images/p01obj3.png",
                 "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
             },
             {
                 "nombre": "cuerpo",
-                "imgObjeto": "assets/imagenes/p01obj4.png",
+                "imgObjeto": "images/p01obj4.png",
                 "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
             },
             {
                 "nombre": "libertad",
-                "imgObjeto": "assets/imagenes/p01obj5.png",
+                "imgObjeto": "images/p01obj5.png",
                 "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
             },
             {
                 "nombre": "actosentido",
-                "imgObjeto": "assets/imagenes/p01obj6.png",
+                "imgObjeto": "images/p01obj6.png",
                 "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
             }
         ]
@@ -46,7 +46,7 @@
     {
         "id": 2,
         "nombreParticipante": "VALÉNTI",
-        "imagenPerfil": "assets/imagenes/p02obj0.png",
+        "imagenPerfil": "images/p02obj0.png",
         "videoPresentacion": "https://www.youtube.com/embed/mJhZrRmyYrM",
         "cuna": "Una de las formas de cambiar la soledad es encontrarte en otras personas, ver que otras personas existen y que eres parte de ese mundo",
         "ubicacion": {
@@ -56,32 +56,32 @@
         "categoria": [
             {
                 "nombre": "amor",
-                "imgObjeto": "assets/imagenes/p02obj1.png",
+                "imgObjeto": "images/p02obj1.png",
                 "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
             },
             {
                 "nombre": "miedo",
-                "imgObjeto": "assets/imagenes/p02obj2.png",
+                "imgObjeto": "images/p02obj2.png",
                 "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
             },
             {
                 "nombre": "familia",
-                "imgObjeto": "assets/imagenes/p02obj3.png",
+                "imgObjeto": "images/p02obj3.png",
                 "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
             },
             {
                 "nombre": "cuerpo",
-                "imgObjeto": "assets/imagenes/p02obj4.png",
+                "imgObjeto": "images/p02obj4.png",
                 "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
             },
             {
                 "nombre": "libertad",
-                "imgObjeto": "assets/imagenes/p02obj5.png",
+                "imgObjeto": "images/p02obj5.png",
                 "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
             },
             {
                 "nombre": "actosentido",
-                "imgObjeto": "assets/imagenes/p02obj6.png",
+                "imgObjeto": "images/p02obj6.png",
                 "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
             }
         ]
@@ -89,7 +89,7 @@
     {
         "id": 3,
         "nombreParticipante": "TURQUESA",
-        "imagenPerfil": "assets/imagenes/p03obj0.png",
+        "imagenPerfil": "images/p03obj0.png",
         "videoPresentacion": "https://www.youtube.com/embed/Oz9qMN5dHGI",
         "cuna": "La vida no me tocó fácil tuve varias historias para llorar, simplemente me aburrí de seguir botando lágrimas por ellas",
         "ubicacion": {
@@ -99,32 +99,32 @@
         "categoria": [
             {
                 "nombre": "amor",
-                "imgObjeto": "assets/imagenes/p03obj1.png",
+                "imgObjeto": "images/p03obj1.png",
                 "videoObjeto": "https://www.youtube.com/embed/FFu4JfHKNjQ"
             },
             {
                 "nombre": "miedo",
-                "imgObjeto": "assets/imagenes/p03obj2.png",
+                "imgObjeto": "images/p03obj2.png",
                 "videoObjeto": "https://www.youtube.com/embed/EXM4wXsjXuA"
             },
             {
                 "nombre": "familia",
-                "imgObjeto": "assets/imagenes/p03obj3.png",
+                "imgObjeto": "images/p03obj3.png",
                 "videoObjeto": "https://www.youtube.com/embed/gS_nzKyWwFg"
             },
             {
                 "nombre": "cuerpo",
-                "imgObjeto": "assets/imagenes/p03obj4.png",
+                "imgObjeto": "images/p03obj4.png",
                 "videoObjeto": "https://www.youtube.com/embed/wxwk4SWy9G4"
             },
             {
                 "nombre": "libertad",
-                "imgObjeto": "assets/imagenes/p03obj5.png",
+                "imgObjeto": "images/p03obj5.png",
                 "videoObjeto": "https://www.youtube.com/embed/8bIPcfn0vNo"
             },
             {
                 "nombre": "actosentido",
-                "imgObjeto": "assets/imagenes/p03obj6.png",
+                "imgObjeto": "images/p03obj6.png",
                 "videoObjeto": "https://www.youtube.com/embed/8md9QROI8Wc"
             }
         ]
@@ -132,7 +132,7 @@
     {
         "id": 4,
         "nombreParticipante": "CATALINA",
-        "imagenPerfil": "assets/imagenes/p04obj0.png",
+        "imagenPerfil": "images/p04obj0.png",
         "videoPresentacion": "https://www.youtube.com/embed/li9DH_ON940",
         "cuna": "Siempre que he estado atravesando procesos complejos de mi mente o de mis sentimientos, acudo al mar...",
         "ubicacion": {
@@ -142,32 +142,32 @@
         "categoria": [
             {
                 "nombre": "amor",
-                "imgObjeto": "assets/imagenes/p00obj1.png",
+                "imgObjeto": "images/p00obj1.png",
                 "videoObjeto": "https://www.youtube.com/embed/XNem9R6xxHI"
             },
             {
                 "nombre": "miedo",
-                "imgObjeto": "assets/imagenes/p04obj2.png",
+                "imgObjeto": "images/p04obj2.png",
                 "videoObjeto": "https://www.youtube.com/embed/gFuve4lB1E4"
             },
             {
                 "nombre": "familia",
-                "imgObjeto": "assets/imagenes/p04obj3.png",
+                "imgObjeto": "images/p04obj3.png",
                 "videoObjeto": "https://www.youtube.com/embed/ksCx7YeSsPs"
             },
             {
                 "nombre": "cuerpo",
-                "imgObjeto": "assets/imagenes/p04obj4.png",
+                "imgObjeto": "images/p04obj4.png",
                 "videoObjeto": "https://www.youtube.com/embed/1c3VlZeiBu4"
             },
             {
                 "nombre": "libertad",
-                "imgObjeto": "assets/imagenes/p04obj5.png",
+                "imgObjeto": "images/p04obj5.png",
                 "videoObjeto": "https://www.youtube.com/embed/HBqwDDrG56w"
             },
             {
                 "nombre": "actosentido",
-                "imgObjeto": "assets/imagenes/p04obj6.png",
+                "imgObjeto": "images/p04obj6.png",
                 "videoObjeto": "https://www.youtube.com/embed/fVkuORG3E5Q"
             }
         ]
@@ -175,7 +175,7 @@
     {
         "id": 5,
         "nombreParticipante": "GAEL",
-        "imagenPerfil": "assets/imagenes/p05obj0.png",
+        "imagenPerfil": "images/p05obj0.png",
         "videoPresentacion": "https://www.youtube.com/embed/F-5d4jd32w8",
         "cuna": "Mi cuerpo es todo para mí en este momento, me siento en mi casa en mi cuerpo ahora. Puedo verme a un espejo y no sentir ni un poco de vergüenza, ni un poco de incomodidad.",
         "ubicacion": {
@@ -185,32 +185,32 @@
         "categoria": [
             {
                 "nombre": "amor",
-                "imgObjeto": "assets/imagenes/p05obj1.png",
+                "imgObjeto": "images/p05obj1.png",
                 "videoObjeto": "https://www.youtube.com/embed/12Tkv0vR8s8"
             },
             {
                 "nombre": "miedo",
-                "imgObjeto": "assets/imagenes/p05obj2.png",
+                "imgObjeto": "images/p05obj2.png",
                 "videoObjeto": "https://www.youtube.com/embed/AutmJX1KBKw"
             },
             {
                 "nombre": "familia",
-                "imgObjeto": "assets/imagenes/p05obj3.png",
+                "imgObjeto": "images/p05obj3.png",
                 "videoObjeto": "https://www.youtube.com/embed/wnFgdxt6iyA"
             },
             {
                 "nombre": "cuerpo",
-                "imgObjeto": "assets/imagenes/p05obj4.png",
+                "imgObjeto": "images/p05obj4.png",
                 "videoObjeto": "https://www.youtube.com/embed/Ic3Uaoi9HlI"
             },
             {
                 "nombre": "libertad",
-                "imgObjeto": "assets/imagenes/p05obj5.png",
+                "imgObjeto": "images/p05obj5.png",
                 "videoObjeto": "https://www.youtube.com/embed/GlE2TJXhMTE"
             },
             {
                 "nombre": "actosentido",
-                "imgObjeto": "assets/imagenes/p05obj6.png",
+                "imgObjeto": "images/p05obj6.png",
                 "videoObjeto": "https://www.youtube.com/embed/cnIsADAIj0M"
             }
         ]
@@ -218,7 +218,7 @@
     {
         "id": 6,
         "nombreParticipante": "VIOLETA",
-        "imagenPerfil": "assets/imagenes/p06obj0.png",
+        "imagenPerfil": "images/p06obj0.png",
         "videoPresentacion": "https://www.youtube.com/embed/XkhXDU_c60U",
         "cuna": "Eso es libertad: CAGARTE de miedo y hacerlo igual",
         "ubicacion": {
@@ -228,32 +228,32 @@
         "categoria": [
             {
                 "nombre": "amor",
-                "imgObjeto": "assets/imagenes/p06obj1.png",
+                "imgObjeto": "images/p06obj1.png",
                 "videoObjeto": "https://www.youtube.com/embed/PTeB0MZLqkI"
             },
             {
                 "nombre": "miedo",
-                "imgObjeto": "assets/imagenes/p06obj2.png",
+                "imgObjeto": "images/p06obj2.png",
                 "videoObjeto": "https://www.youtube.com/embed/-eJ8HSLyL3s"
             },
             {
                 "nombre": "familia",
-                "imgObjeto": "assets/imagenes/p06obj3.png",
+                "imgObjeto": "images/p06obj3.png",
                 "videoObjeto": "https://www.youtube.com/embed/-koEauDkwWI"
             },
             {
                 "nombre": "cuerpo",
-                "imgObjeto": "assets/imagenes/p06obj4.png",
+                "imgObjeto": "images/p06obj4.png",
                 "videoObjeto": "https://www.youtube.com/embed/D303PtMEsT4"
             },
             {
                 "nombre": "libertad",
-                "imgObjeto": "assets/imagenes/p06obj5.png",
+                "imgObjeto": "images/p06obj5.png",
                 "videoObjeto": "https://www.youtube.com/embed/ocsGhQ6sujY"
             },
             {
                 "nombre": "actosentido",
-                "imgObjeto": "assets/imagenes/p06obj6.png",
+                "imgObjeto": "images/p06obj6.png",
                 "videoObjeto": "https://www.youtube.com/embed/j3FReQCTW58"
             }
         ]
@@ -261,7 +261,7 @@
     {
         "id": 7,
         "nombreParticipante": "YOKO",
-        "imagenPerfil": "assets/imagenes/p07obj0.png",
+        "imagenPerfil": "images/p07obj0.png",
         "videoPresentacion": "https://www.youtube.com/embed/DyXAOTPMrPE",
         "cuna": "Me gustaría que me recordaran por mi música pop y por ser una persona transgénero",
         "ubicacion": {
@@ -271,32 +271,32 @@
         "categoria": [
             {
                 "nombre": "amor",
-                "imgObjeto": "assets/imagenes/p07obj1.png",
+                "imgObjeto": "images/p07obj1.png",
                 "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
             },
             {
                 "nombre": "miedo",
-                "imgObjeto": "assets/imagenes/p07obj2.png",
+                "imgObjeto": "images/p07obj2.png",
                 "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
             },
             {
                 "nombre": "familia",
-                "imgObjeto": "assets/imagenes/p07obj3.png",
+                "imgObjeto": "images/p07obj3.png",
                 "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
             },
             {
                 "nombre": "cuerpo",
-                "imgObjeto": "assets/imagenes/p07obj4.png",
+                "imgObjeto": "images/p07obj4.png",
                 "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
             },
             {
                 "nombre": "libertad",
-                "imgObjeto": "assets/imagenes/p07obj5.png",
+                "imgObjeto": "images/p07obj5.png",
                 "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
             },
             {
                 "nombre": "actosentido",
-                "imgObjeto": "assets/imagenes/p07obj6.png",
+                "imgObjeto": "images/p07obj6.png",
                 "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
             }
         ]
@@ -304,7 +304,7 @@
     {
         "id": 8,
         "nombreParticipante": "FLORENCIA",
-        "imagenPerfil": "assets/imagenes/p08obj0.png",
+        "imagenPerfil": "images/p08obj0.png",
         "videoPresentacion": "https://www.youtube.com/embed/Hcv0itL34eA",
         "cuna": "Quien me hace sentir libre es la Francisca; de ser mamá, de poder tener un trabajo, de poder levantarme en las mañanas y saber que tengo un sueldo",
         "ubicacion": {
@@ -314,32 +314,32 @@
         "categoria": [
             {
                 "nombre": "amor",
-                "imgObjeto": "assets/imagenes/p08obj1.png",
+                "imgObjeto": "images/p08obj1.png",
                 "videoObjeto": "https://www.youtube.com/embed/G91wtrQWigs"
             },
             {
                 "nombre": "miedo",
-                "imgObjeto": "assets/imagenes/p08obj2.png",
+                "imgObjeto": "images/p08obj2.png",
                 "videoObjeto": "https://www.youtube.com/embed/pY9Pd59Yt1w"
             },
             {
                 "nombre": "familia",
-                "imgObjeto": "assets/imagenes/p08obj3.png",
+                "imgObjeto": "images/p08obj3.png",
                 "videoObjeto": "https://www.youtube.com/embed/O5bRq0RYwwk"
             },
             {
                 "nombre": "cuerpo",
-                "imgObjeto": "assets/imagenes/p08obj4.png",
+                "imgObjeto": "images/p08obj4.png",
                 "videoObjeto": "https://www.youtube.com/embed/dmWiHnaFRxo"
             },
             {
                 "nombre": "libertad",
-                "imgObjeto": "assets/imagenes/p08obj5.png",
+                "imgObjeto": "images/p08obj5.png",
                 "videoObjeto": "https://www.youtube.com/embed/zv-TrZuA0bM"
             },
             {
                 "nombre": "actosentido",
-                "imgObjeto": "assets/imagenes/p08obj6.png",
+                "imgObjeto": "images/p08obj6.png",
                 "videoObjeto": "https://www.youtube.com/embed/N_gnqkyatL8"
             }
         ]
@@ -347,7 +347,7 @@
     {
         "id": 9,
         "nombreParticipante": "MELANIE",
-        "imagenPerfil": "assets/imagenes/p09obj0.png",
+        "imagenPerfil": "images/p09obj0.png",
         "videoPresentacion": "https://www.youtube.com/embed/W73Yt2DiEqc",
         "cuna": "Ballroom me da esa libertad que queremos sentir todas las personas disidentes en algún momento, donde tú sales y es una celebración",
         "ubicacion": {
@@ -357,32 +357,32 @@
         "categoria": [
             {
                 "nombre": "amor",
-                "imgObjeto": "assets/imagenes/p09obj1.png",
+                "imgObjeto": "images/p09obj1.png",
                 "videoObjeto": "https://www.youtube.com/embed/UOTqwN3PZ3A"
             },
             {
                 "nombre": "miedo",
-                "imgObjeto": "assets/imagenes/p09obj2.png",
+                "imgObjeto": "images/p09obj2.png",
                 "videoObjeto": "https://www.youtube.com/embed/HTG6J0AgANk"
             },
             {
                 "nombre": "familia",
-                "imgObjeto": "assets/imagenes/p09obj3.png",
+                "imgObjeto": "images/p09obj3.png",
                 "videoObjeto": "https://www.youtube.com/embed/qdW6SOJvYeM"
             },
             {
                 "nombre": "cuerpo",
-                "imgObjeto": "assets/imagenes/p09obj4.png",
+                "imgObjeto": "images/p09obj4.png",
                 "videoObjeto": "https://www.youtube.com/embed/-oOZAMFw0t4"
             },
             {
                 "nombre": "libertad",
-                "imgObjeto": "assets/imagenes/p09obj5.png",
+                "imgObjeto": "images/p09obj5.png",
                 "videoObjeto": "https://www.youtube.com/embed/9zW3CxscNA8"
             },
             {
                 "nombre": "actosentido",
-                "imgObjeto": "assets/imagenes/p09obj6.png",
+                "imgObjeto": "images/p09obj6.png",
                 "videoObjeto": "https://www.youtube.com/embed/f5oj5uGHb-k"
             }
         ]
@@ -390,7 +390,7 @@
     {
         "id": 10,
         "nombreParticipante": "MANUEL",
-        "imagenPerfil": "assets/imagenes/p10obj0.png",
+        "imagenPerfil": "images/p10obj0.png",
         "videoPresentacion": "https://www.youtube.com/embed/sSJuHaH3s44",
         "cuna": "Yo creo ser una persona bastante liberada de prejuicios. Vivo y vivimos nuestra vida siendo uno, y desde ese terreno puedo hablar",
         "ubicacion": {
@@ -400,32 +400,32 @@
         "categoria": [
             {
                 "nombre": "amor",
-                "imgObjeto": "assets/imagenes/p10obj1.png",
+                "imgObjeto": "images/p10obj1.png",
                 "videoObjeto": "https://www.youtube.com/embed/tDAdNrBXRAo"
             },
             {
                 "nombre": "miedo",
-                "imgObjeto": "assets/imagenes/p10obj2.png",
+                "imgObjeto": "images/p10obj2.png",
                 "videoObjeto": "https://www.youtube.com/embed/QRBhKQMILW0"
             },
             {
                 "nombre": "familia",
-                "imgObjeto": "assets/imagenes/p10obj3.png",
+                "imgObjeto": "images/p10obj3.png",
                 "videoObjeto": "https://www.youtube.com/embed/SAjgB8-BofE"
             },
             {
                 "nombre": "cuerpo",
-                "imgObjeto": "assets/imagenes/p10obj4.png",
+                "imgObjeto": "images/p10obj4.png",
                 "videoObjeto": "https://www.youtube.com/embed/Yi33SkOBWPg"
             },
             {
                 "nombre": "libertad",
-                "imgObjeto": "assets/imagenes/p10obj5.png",
+                "imgObjeto": "images/p10obj5.png",
                 "videoObjeto": "https://www.youtube.com/embed/R0osTr-Z2Wo"
             },
             {
                 "nombre": "actosentido",
-                "imgObjeto": "assets/imagenes/p10obj6.png",
+                "imgObjeto": "images/p10obj6.png",
                 "videoObjeto": "https://www.youtube.com/embed/N2UulTYnYDY"
             }
         ]
@@ -433,7 +433,7 @@
     {
         "id": 11,
         "nombreParticipante": "MACO",
-        "imagenPerfil": "assets/imagenes/p11obj0.png",
+        "imagenPerfil": "images/p11obj0.png",
         "videoPresentacion": "https://www.youtube.com/embed/QhhgjiKo4J0",
         "cuna": "Para mi la naturaleza es importantísima, porque es el lugar donde estamos, nos da comida, nos da vida, hay que puro abrazarla y quererla",
         "ubicacion": {
@@ -443,32 +443,32 @@
         "categoria": [
             {
                 "nombre": "amor",
-                "imgObjeto": "assets/imagenes/p11obj1.png",
+                "imgObjeto": "images/p11obj1.png",
                 "videoObjeto": "https://www.youtube.com/embed/zKqHPL4u7c8"
             },
             {
                 "nombre": "miedo",
-                "imgObjeto": "assets/imagenes/p11obj2.png",
+                "imgObjeto": "images/p11obj2.png",
                 "videoObjeto": "https://www.youtube.com/embed/T1PRk5ab1MY"
             },
             {
                 "nombre": "familia",
-                "imgObjeto": "assets/imagenes/p11obj3.png",
+                "imgObjeto": "images/p11obj3.png",
                 "videoObjeto": "https://www.youtube.com/embed/6BmXnLcI-84"
             },
             {
                 "nombre": "cuerpo",
-                "imgObjeto": "assets/imagenes/p11obj4.png",
+                "imgObjeto": "images/p11obj4.png",
                 "videoObjeto": "https://www.youtube.com/embed/vx4E1QPkU8M"
             },
             {
                 "nombre": "libertad",
-                "imgObjeto": "assets/imagenes/p11obj5.png",
+                "imgObjeto": "images/p11obj5.png",
                 "videoObjeto": "https://www.youtube.com/embed/HWtuaIjmZ8s"
             },
             {
                 "nombre": "actosentido",
-                "imgObjeto": "assets/imagenes/p11obj6.png",
+                "imgObjeto": "images/p11obj6.png",
                 "videoObjeto": "https://www.youtube.com/embed/eztQu24OxhU"
             }
         ]
@@ -476,7 +476,7 @@
     {
         "id": 12,
         "nombreParticipante": "GONZALO",
-        "imagenPerfil": "assets/imagenes/p12obj0.png",
+        "imagenPerfil": "images/p12obj0.png",
         "videoPresentacion": "https://www.youtube.com/embed/bcjM_wdi0Xw",
         "cuna": "Lo que más rescato es hacer a Sandy, fue el quiebre que hice en mi vida; fue mi salvadora",
         "ubicacion": {
@@ -486,32 +486,32 @@
         "categoria": [
             {
                 "nombre": "amor",
-                "imgObjeto": "assets/imagenes/p12obj1.png",
+                "imgObjeto": "images/p12obj1.png",
                 "videoObjeto": "https://www.youtube.com/embed/LLJRkz7YWL0"
             },
             {
                 "nombre": "miedo",
-                "imgObjeto": "assets/imagenes/p12obj2.png",
+                "imgObjeto": "images/p12obj2.png",
                 "videoObjeto": "https://www.youtube.com/embed/bY0XjQ6RSWo"
             },
             {
                 "nombre": "familia",
-                "imgObjeto": "assets/imagenes/p12obj3.png",
+                "imgObjeto": "images/p12obj3.png",
                 "videoObjeto": "https://www.youtube.com/embed/mREsYkCK43k"
             },
             {
                 "nombre": "cuerpo",
-                "imgObjeto": "assets/imagenes/p12obj4.png",
+                "imgObjeto": "images/p12obj4.png",
                 "videoObjeto": "https://www.youtube.com/embed/9gVLuvGA8l8"
             },
             {
                 "nombre": "libertad",
-                "imgObjeto": "assets/imagenes/p12obj5.png",
+                "imgObjeto": "images/p12obj5.png",
                 "videoObjeto": "https://www.youtube.com/embed/r1mVISyGclU"
             },
             {
                 "nombre": "actosentido",
-                "imgObjeto": "assets/imagenes/p12obj6.png",
+                "imgObjeto": "images/p12obj6.png",
                 "videoObjeto": "https://www.youtube.com/embed/IYd91E4RLYE"
             }
         ]
@@ -519,7 +519,7 @@
     {
         "id": 13,
         "nombreParticipante": "EROS",
-        "imagenPerfil": "assets/imagenes/p13obj0.png",
+        "imagenPerfil": "images/p13obj0.png",
         "videoPresentacion": "https://www.youtube.com/embed/_vzcARZmIKY",
         "cuna": "Me gusta la libertad de no sentirme presionado por nada a mi alrededor, ni por la vista de alguien, ni porque esté haciendo algo mal, no existe el tiempo",
         "ubicacion": {
@@ -529,32 +529,32 @@
         "categoria": [
             {
                 "nombre": "amor",
-                "imgObjeto": "assets/imagenes/p13obj1.png",
+                "imgObjeto": "images/p13obj1.png",
                 "videoObjeto": "https://www.youtube.com/embed/zEx5YL0MsEE"
             },
             {
                 "nombre": "miedo",
-                "imgObjeto": "assets/imagenes/p13obj2.png",
+                "imgObjeto": "images/p13obj2.png",
                 "videoObjeto": "https://www.youtube.com/embed/NMoph6OFydA"
             },
             {
                 "nombre": "familia",
-                "imgObjeto": "assets/imagenes/p13obj3.png",
+                "imgObjeto": "images/p13obj3.png",
                 "videoObjeto": "https://www.youtube.com/embed/NJGOOyJ2goQ"
             },
             {
                 "nombre": "cuerpo",
-                "imgObjeto": "assets/imagenes/p13obj4.png",
+                "imgObjeto": "images/p13obj4.png",
                 "videoObjeto": "https://www.youtube.com/embed/CbO_JqBQtSw"
             },
             {
                 "nombre": "libertad",
-                "imgObjeto": "assets/imagenes/p13obj5.png",
+                "imgObjeto": "images/p13obj5.png",
                 "videoObjeto": "https://www.youtube.com/embed/5csYNVvdLH0"
             },
             {
                 "nombre": "actosentido",
-                "imgObjeto": "assets/imagenes/p13obj6.png",
+                "imgObjeto": "images/p13obj6.png",
                 "videoObjeto": "https://www.youtube.com/embed/rlz1ktgcroQ"
             }
         ]
