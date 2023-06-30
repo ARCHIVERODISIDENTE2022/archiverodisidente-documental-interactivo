@@ -1,4 +1,5 @@
 import dataParticipantes from '@/public/assets/data.json'
+import './CategoriaIndividual.css'
 
 export default function Persona ({ params }) {
   const { id, categoria } = params
@@ -10,14 +11,16 @@ export default function Persona ({ params }) {
   const videoURL = participante.categoria[buscarIndiceCategoria(participante)].videoObjeto
 
   return (
-    <>
-      <div className='data'>
-        <h3 className='informationName'>{nombreParticipante}</h3>
-        <h3 className='informationData'>Categoría: {categoria}</h3>
-        <h3 className='informationData'>Región: {region}</h3>
-        <h3 className='informationData'>Comuna: {comuna}</h3>
+    <div id='container-individual'>
+      <div id='franja-texto'>
+        <div id='texto-participante'>
+          <h3>{nombreParticipante}</h3>
+          <h3>Categoría: <span className='datos'>{categoria}</span></h3>
+          <h3>Región: <span className='datos'>{region}</span></h3>
+          <h3>Comuna: <span className='datos'>{comuna}</span></h3>
+        </div>
       </div>
       <iframe src={videoURL} />
-    </>
+    </div>
   )
 }

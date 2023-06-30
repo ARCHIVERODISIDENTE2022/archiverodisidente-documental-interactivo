@@ -11,17 +11,15 @@ export default function Categoria ({ params }) {
   return (
     <>
       {categoria === 'actosentido' && <ModalActoSentido />}
-      <div className='titleCategoria'><h2>{categoria.toUpperCase()}</h2></div>
-      <div className='colContainer'>
-        <div className={styles.tilesContainer}>
-          {dataParticipantes.map(p => (
-            <div className='participante' key={p.id}>
-              <Link href={`/navegacion/categorias/${categoria}/${p.id}`}>
-                <Image className='imagenes-participantes' alt={p.id} width={100} height={100} src={`/${p.categoria[buscarIndiceCategoria(p)].imgObjeto}`} />
-              </Link>
-            </div>
-          ))}
-        </div>
+      <h2 className='titleCategoria'>{categoria.toUpperCase()}</h2>
+      <div className={styles.tilesContainer}>
+        {dataParticipantes.map(p => (
+          <div className='participante' key={p.id}>
+            <Link href={`/navegacion/categorias/${categoria}/${p.id}`}>
+              <Image className='imagenes-participantes' alt={p.id} width={100} height={100} src={`/${p.categoria[buscarIndiceCategoria(p)].imgObjeto}`} />
+            </Link>
+          </div>
+        ))}
       </div>
     </>
   )

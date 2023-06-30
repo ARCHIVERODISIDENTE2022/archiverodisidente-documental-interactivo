@@ -5,10 +5,8 @@ export default function VistasLayout ({ children }) {
   return (
     <section>
       <div className='container'>
-        <div id='containerVistaCategoria'>
-          <div className='colContainer'>
-            {children}
-          </div>
+        <div className='colContainer'>
+          {children}
         </div>
       </div>
       <Footer />

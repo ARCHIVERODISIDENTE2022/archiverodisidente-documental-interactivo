@@ -6,8 +6,8 @@ export default function Categorias () {
 
   return (
     <>
-      <div className='titleCategoria'><h2>CATEGORÍAS</h2></div>
-      <div className='colContainer'>
+      <h2 className='titleCategoria'>CATEGORÍAS</h2>
+      <div id='contenido-categoria'>
         <div className={styles.row}>
           {categorias.map(nombre => (
             <Link key={nombre} href={`/navegacion/categorias/${nombre}`} className='ctgr'>{nombre.toUpperCase()}</Link>

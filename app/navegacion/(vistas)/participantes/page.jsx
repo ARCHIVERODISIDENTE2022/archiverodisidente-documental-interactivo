@@ -7,7 +7,7 @@ export default async function Participantes () {
   return (
     <>
       <div className='titleCategoria'><h2>PARTICIPANTES</h2></div>
-      <div className='colContainer'>
+      <div>
         <div className={styles.tilesContainer}>
           {dataParticipantes.map(p => (
             <div key={p.id}>

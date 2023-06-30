@@ -15,8 +15,8 @@ export default function Persona ({ params }) {
     <>
       <p>{`"${cuna}"`}</p>
       <h1>{nombreParticipante}</h1>
-      <iframe width='420' height='315' src={videoPresentacion} />
-      <div className='colContainer'>
+      <iframe src={videoPresentacion} />
+      <div>
         <div className={styles.row}>
           {categorias.map(nombre => (
             <Link key={nombre} href={`/navegacion/participantes/${id}/${nombre}`} className='ctgr'>{nombre.toUpperCase()}</Link>
