@@ -19,10 +19,10 @@ export default function ModalActoSentido () {
     <>
       <Modal isOpen={isModalOpen} onRequestClose={closeModal}>
         <h2>RECOMENDACIÓN</h2>
-        <p id='modalText'>Antes de ingresar a esta el “ACTOSENTIDO” te recomendamos ver al menos una de las otras categorías o participantes.</p>
+        <p id='modalText'>Antes de ingresar a “ACTOSENTIDO” te recomendamos ver el contenido de al menos una categoria o participante.</p>
         <div className='row' id='modalBtns'>
-          <button className='btnModal' onClick={goBack}>Volver atrás</button>
-          <button className='btnModal' onClick={closeModal}>Seguir a Actosentido</button>
+          <button className='btnModal' onClick={goBack}>VOLVER ATRÁS</button>
+          <button className='btnModal' onClick={closeModal}>SEGUIR A ACTOSENTIDO</button>
         </div>
       </Modal>
     </>

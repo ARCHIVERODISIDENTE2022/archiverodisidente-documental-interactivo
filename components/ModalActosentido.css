@@ -1,29 +1,37 @@
-#modalContainer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-self: center;
-  height: max-content;
-}
-
 #modalContainer h2 {
   font-size: 2.1rem;
-  font-weight: 900;
+  font-weight:bolder;
   text-align: center;
 }
 
 #modalText {
-  font-size: 2.1rem;
-  font-weight: 900;
-  text-align: center;
-}
-
-.btnModal {
-  font-weight: 900;
-  font-size: 2.25rem;
+  text-align: justify;
+  font-weight: bolder;
+  font-size: x-large;
+  line-height: 1.5em;
+  padding: 6%;
 }
 
 #modalBtns {
   display: flex;
   justify-content: space-evenly;
+  position: relative;
+}
+
+.btnModal {
+  border: 6px solid black;
+  color: black;
+  background-color: white;
+  width: 36%;
+  padding: 10px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.btnModal:hover {
+  transform: translateY(-5px);
+}
+
+.btnModal:active {
+  background-color: rgba(128, 128, 128, 0.37);
 }
