@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 920px) {  
   .tilesContainer {
-    padding: 20px 60px 140px 60px;
+    padding: 0;
   }
 }
 
@@ -16,6 +16,8 @@
   .tilesContainer {
       position: relative;
       grid-template: repeat(1,1fr) / repeat(3,1fr);
+      grid-gap: 2% 2%;
+      gap: 2% 2%;
   }
 }
 
@@ -31,6 +33,7 @@
   .tilesContainer {
     height: 100%;
     padding: 20px 10px 20px 10px;
+    grid-gap: 1% 1%;
     gap: 1% 1%;
   }
 }
