@@ -3,6 +3,11 @@
   padding: 2.5rem;
 }
 
+#instrucciones-logo {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .instrucciones-text {
   text-align: justify;
 }
@@ -18,12 +23,12 @@
   transition: all 0.2s ease-out;
   color: black;
   font-weight: 900;
-  font-size: 2.25rem;
+  font-size: 1.7rem;
   border-style: solid;
   border-color: black;
   border-width: 4px;
   margin: 1%;
-  padding: 2rem;
+  padding: 1rem;
   text-decoration: none;
 }
 
