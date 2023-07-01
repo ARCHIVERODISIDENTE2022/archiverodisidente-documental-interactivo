@@ -10,6 +10,9 @@
 .intro-black {
   background-color: black;
   color: white;
+  font-size: medium;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .textoIntro {
@@ -28,5 +31,11 @@
 
   #nosCambian {
     font-size: x-large;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro-black {
+    font-size: small;
   }
 }
