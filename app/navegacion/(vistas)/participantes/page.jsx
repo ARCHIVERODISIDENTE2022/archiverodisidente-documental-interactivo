@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link.js'
-import dataParticipantes from '@/public/data.json'
+import { dataRandomizada } from '@/src/randomizar'
 import styles from './participantes.module.css'
 
 export default function Participantes () {
@@ -8,7 +8,7 @@ export default function Participantes () {
     <>
       <h2 className='titleCategoria'>PARTICIPANTES</h2>
       <div className={styles.tilesContainer}>
-        {dataParticipantes.map(p => (
+        {dataRandomizada.map(p => (
           <div className='participante' key={p.id}>
             <Link href={`/navegacion/participantes/${p.id}`}>
               <Image className='imagenes-participantes' alt={p.id} width={100} height={100} src={`/${p.imagenPerfil}`} />
