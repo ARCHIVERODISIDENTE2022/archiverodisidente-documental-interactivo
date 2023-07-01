@@ -6,7 +6,7 @@ import './instrucciones.css'
 export default function Instrucciones () {
   return (
     <section id='instrucciones'>
-      <Image src={Logo} height={160} alt='logo-archivero-disidente' id='instrucciones-logo'/>
+      <Image src={Logo} height={160} alt='logo-archivero-disidente' id='instrucciones-logo' />
       <div>
         <h1>INSTRUCCIONES</h1>
         <p className='instrucciones-text'>Archivero Disidente es un documental interactivo que narra acerca de los <b>procesos identitarios de personas de las disidencias sexuales en Chile; un registro participativo de su archivo en vida.</b></p>
