@@ -36,12 +36,10 @@
   background: #000000f5;
   color: white;
   border: 4px solid rgb(22, 22, 22);
-  text-transform: uppercase;
-  text-align: left;
+  transform: translateY(-5px);
 }
 
 #btnComenzarLink:active {
   color: black;
   background-color: #00000013;
-  background-size: 100%;
 }

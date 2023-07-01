@@ -15,7 +15,7 @@ export default function Instrucciones () {
         <p className='instrucciones-text'><i>Algunos testimonios en este sitio web pueden tener contenido sensible.</i></p>
       </div>
       <div id='btnComenzar'>
-        <Link id='btnComenzarLink' href='/navegacion'>Comenzar el viaje</Link>
+        <Link id='btnComenzarLink' href='/navegacion'>COMENZAR EL VIAJE</Link>
       </div>
     </section>
   )
