@@ -23,7 +23,6 @@
 
 @media screen and (max-width: 540px) {  
   .tilesContainer {
-    height: 100%;
     padding: 20px 44px 100px 44px;
     overflow-y: scroll;
   }
@@ -31,7 +30,6 @@
 
 @media screen and (max-width: 380px) {
   .tilesContainer {
-    height: 100%;
     padding: 20px 10px 20px 10px;
     grid-gap: 1% 1%;
     gap: 1% 1%;
