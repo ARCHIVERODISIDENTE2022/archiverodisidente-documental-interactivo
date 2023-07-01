@@ -19,3 +19,14 @@
 #nosCambian {
   font-size: xxx-large;
 }
+
+@media screen and (max-width: 800px) {
+  .textoIntro {
+    font-size: medium;
+    padding: 5%;
+  }
+
+  #nosCambian {
+    font-size: x-large;
+  }
+}
