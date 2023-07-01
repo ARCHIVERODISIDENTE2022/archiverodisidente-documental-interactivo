@@ -13,9 +13,13 @@ export default function Persona ({ params }) {
 
   return (
     <>
-      <p>{`"${cuna}"`}</p>
-      <h1>{nombreParticipante}</h1>
-      <iframe src={videoPresentacion} />
+      <div id='cuna'><p>{`"${cuna}"`}</p></div>
+      <div id='contenedor-grupo-iframe'>
+        <div id='contenedor-nombre-participante'>
+          <h1 id='nombre-participante'>{nombreParticipante}</h1>
+        </div>
+        <iframe id='iframe-participante' src={videoPresentacion} />
+      </div>
       <div>
         <div className={styles.row}>
           {categorias.map(nombre => (
