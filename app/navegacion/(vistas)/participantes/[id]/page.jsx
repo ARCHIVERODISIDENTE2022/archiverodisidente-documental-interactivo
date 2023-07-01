@@ -18,7 +18,7 @@ export default function Persona ({ params }) {
         <div id='contenedor-nombre-participante'>
           <h1 id='nombre-participante'>{nombreParticipante}</h1>
         </div>
-        <iframe id='iframe-participante' src={videoPresentacion} allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowFullscreen='true' />
+        <iframe id='iframe-participante' src={videoPresentacion} allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowFullScreen />
       </div>
       <div>
         <div className={styles.row}>

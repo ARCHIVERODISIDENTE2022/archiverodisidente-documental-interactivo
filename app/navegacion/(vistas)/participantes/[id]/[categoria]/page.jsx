@@ -24,7 +24,7 @@ export default function Participante ({ params }) {
             <h3>Comuna: <span className='datos'>{comuna}</span></h3>
           </div>
         </div>
-        <iframe src={videoURL} allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowFullscreen='true' />
+        <iframe src={videoURL} allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowFullScreen />
       </div>
     </>
   )
