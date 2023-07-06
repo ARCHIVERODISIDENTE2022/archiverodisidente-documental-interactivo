@@ -1,41 +1,45 @@
-.intro {
+.texto-intro-container {
+  width: auto;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  height: 100vh;
   justify-content: center;
   align-items: center;
-  text-align: center;
-}
-
-.intro-black {
-  background-color: black;
-  color: white;
-  font-size: medium;
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
 .textoIntro {
   font-size: x-large;
+  text-align: center;
+}
+
+.quote {
+  text-align: center;
+  padding: 0 2% 0 2%;
 }
 
 #nosCambian {
-  font-size: xxx-large;
+  font-size: xx-large;
+}
+
+.black-background {
+  background-color: black;
+  color: white;
 }
 
 @media screen and (max-width: 800px) {
-  .textoIntro {
-    font-size: medium;
-    padding: 5%;
-  }
-
   #nosCambian {
     font-size: x-large;
   }
 }
 
+@media screen and (max-width: 400px) {
+  .texto-intro-container {
+    font-size: medium;
+  }
+}
+
 @media screen and (max-width: 600px) {
-  .intro-black {
+  .texto-intro-container {
     font-size: small;
   }
 }
