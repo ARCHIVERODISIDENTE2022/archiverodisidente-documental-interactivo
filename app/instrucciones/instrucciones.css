@@ -1,21 +1,34 @@
 #instrucciones {
   text-align: center;
-  padding: 2.5rem;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  height: 100%;
 }
 
 #instrucciones-logo {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  object-fit: contain;
+  display: block;
+  position: relative;
+  top: 0px;
 }
 
 .instrucciones-text {
   text-align: justify;
 }
 
+#instrucciones-body {
+  padding: 0 2% 0 2%; 
+}
+
 #btnComenzar {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  object-fit: contain;
 }
 
 #btnComenzarLink {
@@ -42,4 +55,10 @@
 #btnComenzarLink:active {
   color: black;
   background-color: #00000013;
+}
+
+@media screen and (max-width: 375px) {
+  #instrucciones {
+    height: auto;
+  }
 }
