@@ -6,7 +6,9 @@ html, body, section {
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 90%
+  align-items: center;
+  justify-content: center;
+  height: 100%
 }
 
 #containerVistaCategoria {
