@@ -1,15 +1,11 @@
-import './creditos.css'
 import logoUdp from '@/assets/logos/laboratorio_digital_udp.png'
 import logoMincap from '@/assets/logos/mincap.png'
 import logoDocumentasur from '@/assets/logos/documenta_sur.png'
 import logoDocsvalparaiso from '@/assets/logos/docs_valparaiso.jpg'
 import Image from 'next/image'
-import FlechaAtras from '@/components/FlechaAtras'
 
 export default function Creditos () {
   return (
-    <>
-      <FlechaAtras />
       <div id='creditos'>
         <h2>CRÉDITOS ARCHIVERO DISIDENTE 2020 – 2023</h2>
         <div>
@@ -165,7 +161,6 @@ export default function Creditos () {
           <p>RRA Chile</p>
           <h3>***</h3>
         </div>
-      </div>
       <code>
         *Proyecto financiado por el Fondo de Fomento Audiovisual, Convocatoria 2021 del Ministerio las Culturas, las Artes y el Patrimonio*
         *Proyecto desarrollado por equipo asociado al Laboratorio Digital de la Facultad de Comunicación y Letras de la Universidad Diego Portales, Santiago, Chile*
@@ -178,6 +173,6 @@ export default function Creditos () {
         <Image src={logoDocumentasur} height='80' alt='logo-documenta-sur' />
         <Image src={logoDocsvalparaiso} height='80' alt='logo-docs-valparaiso' />
       </div>
-    </>
+    </div>
   )
 }

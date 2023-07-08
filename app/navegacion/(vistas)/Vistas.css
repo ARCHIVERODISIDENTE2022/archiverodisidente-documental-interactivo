@@ -73,7 +73,7 @@ html, body, section {
 }
 
 #contenedor-grupo-iframe {
-  padding: 10px;
+  padding: 0 10px 10px 10px;
 }
 
 #contenedor-nombre-participante {
@@ -103,7 +103,6 @@ iframe {
 #cuna {
   display: block;
   background-color: white;
-  margin-top: 120px;
   width: 1280px;
   font-size: large;
   font-weight: bold;
@@ -141,7 +140,6 @@ iframe {
     background-color: white;
     width: 480px;
     font-size: small;
-    margin-top: 100px;
   }
 }
 

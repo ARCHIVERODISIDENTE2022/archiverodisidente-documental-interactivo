@@ -15,8 +15,8 @@ export default function Home () {
         </p>
       </div>
       <div className='flechasInicio'>
-          <Link rel='icon' href='/intro/p1'><FlechaAdelante /></Link>
-        </div>
+        <Link rel='icon' href='/intro/p1'><FlechaAdelante /></Link>
+      </div>
     </section>
   )
 }
