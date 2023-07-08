@@ -24,15 +24,15 @@ export default function p5 () {
     <section className='column-section black-background'>
       <div className='texto-intro-container'>
         {quotes.map(q => (
-        <div key={q.id}>
-          <p className='quote'>{q.quote}</p>
-          <p className='quote'>{q.origin}</p>
-        </div>
+          <div key={q.id}>
+            <p className='quote'>{q.quote}</p>
+            <p className='quote'>{q.origin}</p>
+          </div>
         ))}
       </div>
       <div className='flechasInicio'>
-          <Link href='/instrucciones'><FlechaBlancaAdelante /></Link>
-        </div>
+        <Link href='/instrucciones'><FlechaBlancaAdelante /></Link>
+      </div>
     </section>
   )
 }

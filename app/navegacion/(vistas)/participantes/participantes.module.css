@@ -1,5 +1,4 @@
 .tilesContainer {
-  padding: 20px 100px 140px 100px;
   display: grid;
   grid-template: repeat(1,1fr) / repeat(7,1fr);
   justify-content: center;
