@@ -9,11 +9,12 @@ export default function FlechaAtras () {
   const router = useRouter()
   const goBack = () => {
     router.back()
+    clickSFX()
   }
 
   return (
     <>
-      <button onClick={goBack} id='btnArrow'><AiOutlineArrowLeft onClick={clickSFX} className='flecha' /></button>
+      <button onClick={goBack} id='btnArrow'><AiOutlineArrowLeft className='flecha' /></button>
     </>
   )
 }
