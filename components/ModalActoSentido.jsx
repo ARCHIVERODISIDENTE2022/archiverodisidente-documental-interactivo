@@ -3,24 +3,21 @@
 import Modal from '@/components/Modal'
 import './ModalActosentido.css'
 
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { useRouter } from 'next/navigation'
+import clickSFX from '@/src/clickSFX'
 
 export default function ModalActoSentido () {
   const router = useRouter()
   const [isModalOpen, setIsModalOpen] = useState(true)
-  const [audio, setAudio] = useState(null)
-  useEffect(() => {
-    setAudio(new Audio('/audio/click.wav'))
-  }, [])
 
   const closeModal = () => {
     setIsModalOpen(false)
-    audio.play()
+    clickSFX()
   }
   const goBack = () => {
     router.back()
-    audio.play()
+    clickSFX()
   }
 
   return (
