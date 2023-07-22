@@ -1,9 +1,16 @@
+'use client'
+
 import Image from 'next/image'
 import Link from 'next/link.js'
 import Logo from '@/assets/logos/instrucciones.png'
 import './instrucciones.css'
+import { useEffect, useState } from 'react'
 
 export default function Instrucciones () {
+  const [audio, setAudio] = useState(null)
+  useEffect(() => {
+    setAudio(new Audio('/audio/click.wav'))
+  }, [])
   return (
     <section id='instrucciones'>
       <Image src={Logo} height={160} alt='logo-archivero-disidente' id='instrucciones-logo' />
@@ -15,7 +22,7 @@ export default function Instrucciones () {
         <p className='instrucciones-text'><i>Algunos testimonios en este sitio web pueden tener contenido sensible.</i></p>
       </div>
       <div id='btnComenzar'>
-        <Link id='btnComenzarLink' href='/navegacion'>COMENZAR EL VIAJE</Link>
+        <Link onClick={()=>audio.play()} id='btnComenzarLink' href='/navegacion'>COMENZAR EL VIAJE</Link>
       </div>
     </section>
   )

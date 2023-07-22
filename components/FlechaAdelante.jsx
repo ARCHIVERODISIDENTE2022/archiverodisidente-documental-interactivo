@@ -1,10 +1,17 @@
+'use client'
+
 import './Flechas.css'
 import { AiOutlineArrowRight } from 'react-icons/ai'
+import { useEffect, useState } from 'react'
 
 export default function FlechaAdelante () {
+  const [audio, setAudio] = useState(null)
+  useEffect(() => {
+    setAudio(new Audio('/audio/click.wav'))
+  }, [])
   return (
     <>
-      <AiOutlineArrowRight className='flecha black' />
+      <AiOutlineArrowRight onClick={()=>audio.play()} className='flecha black' />
     </>
   )
 }
