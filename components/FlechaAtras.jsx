@@ -16,7 +16,7 @@ export default function FlechaAtras () {
   }, [])
   return (
     <>
-      <button onClick={goBack} id='btnArrow'><AiOutlineArrowLeft onClick={()=>audio.play()} className='flecha' /></button>
+      <button onClick={goBack} id='btnArrow'><AiOutlineArrowLeft onClick={() => audio.play()} className='flecha' /></button>
     </>
   )
 }
