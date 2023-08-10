@@ -1,10 +1,11 @@
-import Link from 'next/link.js'
 import Image from 'next/image'
 import logo from '../assets/gif/logo_inicial.gif'
 import './Home.css'
 import FlechaAdelante from '@/components/FlechaAdelante'
 
-export default function Home () {
+const Home = () => {
+  const paginaSiguiente = '/intro/p1'
+
   return (
     <section className='column-section'>
       <div id='home-animated-logo'>
@@ -14,9 +15,9 @@ export default function Home () {
           ¿CÓMO IMAGINAS QUE SERÁ CONTADA TU HISTORIA EN EL FUTURO?
         </p>
       </div>
-      <div className='flechasInicio'>
-        <Link rel='icon' href='/intro/p1'><FlechaAdelante /></Link>
-      </div>
+      <FlechaAdelante href={paginaSiguiente} color='black' />
     </section>
   )
 }
+
+export default Home

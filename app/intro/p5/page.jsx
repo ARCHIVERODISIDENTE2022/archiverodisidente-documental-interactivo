@@ -1,5 +1,4 @@
-import Link from 'next/link.js'
-import FlechaBlancaAdelante from '@/components/FlechaBlancaAdelante'
+import FlechaAdelante from '@/components/FlechaAdelante'
 
 const quotes = [
   {
@@ -19,7 +18,9 @@ const quotes = [
   }
 ]
 
-export default function p5 () {
+const p5 = () => {
+  const paginaSiguiente = '/instrucciones'
+  
   return (
     <section className='column-section black-background'>
       <div className='texto-intro-container'>
@@ -30,9 +31,9 @@ export default function p5 () {
           </div>
         ))}
       </div>
-      <div className='flechasInicio'>
-        <Link href='/instrucciones'><FlechaBlancaAdelante /></Link>
-      </div>
+      <FlechaAdelante href={paginaSiguiente} color='white' />
     </section>
   )
 }
+
+export default p5
