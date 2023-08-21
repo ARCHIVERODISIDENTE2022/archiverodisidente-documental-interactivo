@@ -2,7 +2,7 @@ import FlechaAdelante from '@/components/FlechaAdelante'
 
 const p1 = () => {
   const paginaSiguiente = '/intro/p2'
-  
+
   return (
     <section className='column-section'>
       <div className='texto-intro-container'>

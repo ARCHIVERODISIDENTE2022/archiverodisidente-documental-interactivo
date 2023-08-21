@@ -20,7 +20,7 @@ const quotes = [
 
 const p5 = () => {
   const paginaSiguiente = '/instrucciones'
-  
+
   return (
     <section className='column-section black-background'>
       <div className='texto-intro-container'>

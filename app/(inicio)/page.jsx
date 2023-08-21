@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logo from '../assets/gif/logo_inicial.gif'
+import logo from '@/assets/gif/logo_inicial.gif'
 import './Home.css'
 import FlechaAdelante from '@/components/FlechaAdelante'
 
