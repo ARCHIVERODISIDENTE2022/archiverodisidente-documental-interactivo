@@ -1,8 +1,13 @@
+'use client'
+
 import { Footer } from '../../../components/Footer'
 import './Vistas.css'
 import FlechaAtras from '@/components/FlechaAtras'
+import { useParams } from 'next/navigation'
 
-export default function VistasLayout ({ children }) {
+const VistasLayout = ({ children }) => {
+  const params = useParams()
+  const categoria = params.categoria
   return (
     <section className='container'>
       <div className='colContainer'>
@@ -11,7 +16,9 @@ export default function VistasLayout ({ children }) {
       <div className='flechasInicio'>
         <FlechaAtras />
       </div>
-      <Footer />
+      <Footer categoria={categoria}/>
     </section>
   )
 }
+
+export default VistasLayout
