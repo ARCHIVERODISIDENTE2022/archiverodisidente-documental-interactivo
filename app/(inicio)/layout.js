@@ -6,6 +6,7 @@ export default function LayoutInicio ({ children }) {
   const musicaInicio = '/audio/home.mp3'
   const audio = useRef(null);
   useEffect(() => {
+    audio.muted=true
     audio.current.play();
   }, []);
 

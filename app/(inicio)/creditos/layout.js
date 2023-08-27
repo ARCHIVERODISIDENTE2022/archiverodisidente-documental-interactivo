@@ -1,5 +1,5 @@
 import './creditos.css'
-import '../navegacion/(vistas)/Vistas.css'
+import '@/app/navegacion/(vistas)/Vistas.css'
 import FlechaAtras from '@/components/FlechaAtras'
 import { Footer } from '@/components/Footer'
 
