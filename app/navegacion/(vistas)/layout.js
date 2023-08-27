@@ -16,7 +16,7 @@ const VistasLayout = ({ children }) => {
       <div className='flechasInicio'>
         <FlechaAtras />
       </div>
-      <Footer categoria={categoria}/>
+      <Footer categoria={categoria} />
     </section>
   )
 }

@@ -9,7 +9,7 @@ export function Footer ({ categoria }) {
       <Link onClick={clickSFX} href='/' id='backHome'>INICIO</Link>
       <Link onClick={clickSFX} href='/navegacion' id='toNavegacion'>NAVEGACIÓN</Link>
       <Link onClick={clickSFX} href='/creditos' id='toCreditos'>CRÉDITOS</Link>
-      {categoria !== undefined && <AudioPlayer src={`/audio/${categoria}.mp3`}/>}
+      {categoria !== undefined && <AudioPlayer src={`/audio/${categoria}.mp3`} />}
     </footer>
   )
 }
