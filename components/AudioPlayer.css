@@ -1,0 +1,9 @@
+#audio-player {
+  display: flex;
+  border: none;
+  background-color: transparent;
+}
+
+#audio-player path{
+  stroke: white
+}

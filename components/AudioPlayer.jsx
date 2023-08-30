@@ -2,6 +2,7 @@
 
 import React, { useRef, useEffect, useState } from 'react'
 import { GrPlayFill, GrPause } from 'react-icons/gr'
+import './AudioPlayer.css'
 
 const AudioPlayer = ({ src }) => {
   const [playing, setPlaying] = useState(true)
@@ -26,10 +27,10 @@ const AudioPlayer = ({ src }) => {
   }
 
   return (
-    <div>
+    <>
       <audio ref={audioRef} src={src} />
-      <button onClick={handleClick}>{playing ? <GrPause /> : <GrPlayFill />} </button>
-    </div>
+      <button id='audio-player' onClick={handleClick}>{playing ? <GrPause /> : <GrPlayFill />} </button>
+    </>
   )
 }
 
