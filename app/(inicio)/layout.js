@@ -6,7 +6,9 @@ export default function LayoutInicio ({ children }) {
   const musicaInicio = '/audio/home.mp3'
   const audio = useRef(null)
   useEffect(() => {
-    audio.current.play()
+    const reproducirMusicaInicio = () => audio.current.play()
+    window.addEventListener('click', reproducirMusicaInicio)
+    return () => window.removeEventListener('click', reproducirMusicaInicio)
   }, [])
 
   return (
