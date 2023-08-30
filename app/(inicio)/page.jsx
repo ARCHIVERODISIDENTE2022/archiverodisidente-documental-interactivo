@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <section className='column-section'>
       <div id='home-animated-logo'>
-        <Image priority={true} className='logo' src={logo} alt='Archivero icono' />
+        <Image priority className='logo' src={logo} alt='Archivero icono' />
         <h1 id='welcome'>REGISTROS 2021 - 2022</h1>
         <p id='subWelcome'>
           ¿CÓMO IMAGINAS QUE SERÁ CONTADA TU HISTORIA EN EL FUTURO?
